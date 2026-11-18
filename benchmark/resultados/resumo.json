@@ -1,0 +1,199 @@
+{
+  "base": {
+    "palavras": 337,
+    "pontes_calibracao": 12,
+    "pontes_teste": 36,
+    "pares_calibracao": 72,
+    "pares_teste": 218,
+    "pares_comuns_calibracao": 72,
+    "pares_comuns_teste": 218,
+    "notas_teste_pares_comuns": {
+      "0": 37,
+      "1": 61,
+      "2": 34,
+      "3": 86
+    }
+  },
+  "modelos": {
+    "word2vec-300d": {
+      "dimensoes": 300,
+      "bytes_arquivos": 1124738967,
+      "palavras_com_vetor": 337,
+      "pares_teste_com_vetor": 218,
+      "spearman_teste": 0.6769609280219716,
+      "spearman_teste_sem_nota_zero": 0.5876394826533582,
+      "notebook": {
+        "limiar": 0.4,
+        "vp": 33,
+        "fp": 1,
+        "fn": 87,
+        "vn": 97,
+        "precisao": 0.9705882352941176,
+        "revocacao": 0.275,
+        "taxa_falsos_positivos": 0.01020408163265306,
+        "f1": 0.42857142857142855,
+        "pontes_referencia_validas": 1,
+        "vitorias_simuladas": 2,
+        "vitorias_com_outro_caminho": 2
+      },
+      "calibrado": {
+        "limiar": 0.16283462196588516,
+        "vp": 104,
+        "fp": 30,
+        "fn": 16,
+        "vn": 68,
+        "precisao": 0.7761194029850746,
+        "revocacao": 0.8666666666666667,
+        "taxa_falsos_positivos": 0.30612244897959184,
+        "f1": 0.8188976377952756,
+        "pontes_referencia_validas": 24,
+        "vitorias_simuladas": 33,
+        "vitorias_com_outro_caminho": 28
+      }
+    },
+    "word2vec-50d": {
+      "dimensoes": 50,
+      "bytes_arquivos": 195132959,
+      "palavras_com_vetor": 337,
+      "pares_teste_com_vetor": 218,
+      "spearman_teste": 0.5189562556343403,
+      "spearman_teste_sem_nota_zero": 0.40744864978005313,
+      "notebook": {
+        "limiar": 0.4,
+        "vp": 78,
+        "fp": 28,
+        "fn": 42,
+        "vn": 70,
+        "precisao": 0.7358490566037735,
+        "revocacao": 0.65,
+        "taxa_falsos_positivos": 0.2857142857142857,
+        "f1": 0.6902654867256637,
+        "pontes_referencia_validas": 12,
+        "vitorias_simuladas": 19,
+        "vitorias_com_outro_caminho": 16
+      },
+      "calibrado": {
+        "limiar": 0.43481670320034027,
+        "vp": 73,
+        "fp": 22,
+        "fn": 47,
+        "vn": 76,
+        "precisao": 0.7684210526315789,
+        "revocacao": 0.6083333333333333,
+        "taxa_falsos_positivos": 0.22448979591836735,
+        "f1": 0.6790697674418604,
+        "pontes_referencia_validas": 9,
+        "vitorias_simuladas": 17,
+        "vitorias_com_outro_caminho": 15
+      }
+    },
+    "fasttext-50d": {
+      "dimensoes": 50,
+      "bytes_arquivos": 195132997,
+      "palavras_com_vetor": 337,
+      "pares_teste_com_vetor": 218,
+      "spearman_teste": 0.7313169323723598,
+      "spearman_teste_sem_nota_zero": 0.6026508065360767,
+      "notebook": {
+        "limiar": 0.4,
+        "vp": 119,
+        "fp": 51,
+        "fn": 1,
+        "vn": 47,
+        "precisao": 0.7,
+        "revocacao": 0.9916666666666667,
+        "taxa_falsos_positivos": 0.5204081632653061,
+        "f1": 0.8206896551724138,
+        "pontes_referencia_validas": 35,
+        "vitorias_simuladas": 36,
+        "vitorias_com_outro_caminho": 32
+      },
+      "calibrado": {
+        "limiar": 0.5802609920501709,
+        "vp": 83,
+        "fp": 11,
+        "fn": 37,
+        "vn": 87,
+        "precisao": 0.8829787234042553,
+        "revocacao": 0.6916666666666667,
+        "taxa_falsos_positivos": 0.11224489795918367,
+        "f1": 0.7757009345794392,
+        "pontes_referencia_validas": 11,
+        "vitorias_simuladas": 20,
+        "vitorias_com_outro_caminho": 18
+      }
+    },
+    "glove-50d": {
+      "dimensoes": 50,
+      "bytes_arquivos": 195132998,
+      "palavras_com_vetor": 337,
+      "pares_teste_com_vetor": 218,
+      "spearman_teste": 0.7089776994556843,
+      "spearman_teste_sem_nota_zero": 0.5698753501083988,
+      "notebook": {
+        "limiar": 0.4,
+        "vp": 88,
+        "fp": 13,
+        "fn": 32,
+        "vn": 85,
+        "precisao": 0.8712871287128713,
+        "revocacao": 0.7333333333333333,
+        "taxa_falsos_positivos": 0.1326530612244898,
+        "f1": 0.7963800904977375,
+        "pontes_referencia_validas": 15,
+        "vitorias_simuladas": 26,
+        "vitorias_com_outro_caminho": 22
+      },
+      "calibrado": {
+        "limiar": 0.30913518369197845,
+        "vp": 105,
+        "fp": 26,
+        "fn": 15,
+        "vn": 72,
+        "precisao": 0.8015267175572519,
+        "revocacao": 0.875,
+        "taxa_falsos_positivos": 0.2653061224489796,
+        "f1": 0.8366533864541833,
+        "pontes_referencia_validas": 24,
+        "vitorias_simuladas": 31,
+        "vitorias_com_outro_caminho": 26
+      }
+    },
+    "minilm-multilingue-int8": {
+      "dimensoes": 384,
+      "bytes_arquivos": 127535388,
+      "palavras_com_vetor": 337,
+      "pares_teste_com_vetor": 218,
+      "spearman_teste": 0.34806075915914,
+      "spearman_teste_sem_nota_zero": 0.2675499245319218,
+      "notebook": {
+        "limiar": 0.4,
+        "vp": 104,
+        "fp": 62,
+        "fn": 16,
+        "vn": 36,
+        "precisao": 0.6265060240963856,
+        "revocacao": 0.8666666666666667,
+        "taxa_falsos_positivos": 0.6326530612244898,
+        "f1": 0.7272727272727273,
+        "pontes_referencia_validas": 23,
+        "vitorias_simuladas": 30,
+        "vitorias_com_outro_caminho": 27
+      },
+      "calibrado": {
+        "limiar": 0.5869460701942444,
+        "vp": 60,
+        "fp": 34,
+        "fn": 60,
+        "vn": 64,
+        "precisao": 0.6382978723404256,
+        "revocacao": 0.5,
+        "taxa_falsos_positivos": 0.3469387755102041,
+        "f1": 0.5607476635514018,
+        "pontes_referencia_validas": 8,
+        "vitorias_simuladas": 12,
+        "vitorias_com_outro_caminho": 9
+      }
+    }
+  }
+}

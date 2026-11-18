@@ -1,0 +1,198 @@
+{
+  "calibracao": [
+    {
+      "tema": "panificação", "caminho": ["trigo", "farinha", "massa", "pão"], "notas": [3, 2, 3],
+      "controles": [["trigo", "trigêmeo", 1], ["farinha", "bússola", 0], ["pão", "cometa", 0]]
+    },
+    {
+      "tema": "esportes de raquete", "caminho": ["badminton", "raquete", "tênis", "quadra"], "notas": [3, 3, 3],
+      "controles": [["raquete", "etiqueta", 1], ["badminton", "buzina", 0], ["quadra", "canela", 1]]
+    },
+    {
+      "tema": "geografia", "caminho": ["mapa", "fronteira", "país", "bandeira"], "notas": [2, 3, 2],
+      "controles": [["mapa", "mochila", 1], ["fronteira", "fronte", 1], ["bandeira", "iogurte", 0]]
+    },
+    {
+      "tema": "plantio", "caminho": ["semente", "germinação", "broto", "horta"], "notas": [3, 3, 2],
+      "controles": [["semente", "cimento", 1], ["horta", "hortelã", 2], ["broto", "alfândega", 0]]
+    },
+    {
+      "tema": "cozinha", "caminho": ["frigideira", "fritura", "batata", "purê"], "notas": [3, 2, 3],
+      "controles": [["batata", "barata", 1], ["purê", "pureza", 1], ["fritura", "cassetete", 0]]
+    },
+    {
+      "tema": "transporte aéreo", "caminho": ["aeroporto", "embarque", "passageiro", "bagagem"], "notas": [3, 3, 2],
+      "controles": [["embarque", "embargo", 1], ["passageiro", "passeata", 1], ["bagagem", "orvalho", 0]]
+    },
+    {
+      "tema": "cidadania", "caminho": ["eleição", "voto", "urna", "sigilo"], "notas": [3, 3, 2],
+      "controles": [["eleição", "elevação", 1], ["urna", "pinguim", 0], ["voto", "voltagem", 0]]
+    },
+    {
+      "tema": "exploração espacial", "caminho": ["astronauta", "foguete", "lançamento", "contagem"], "notas": [3, 3, 2],
+      "controles": [["astronauta", "astrólogo", 1], ["foguete", "folguedo", 1], ["contagem", "floreira", 0]]
+    },
+    {
+      "tema": "apoio emocional", "caminho": ["medo", "coragem", "confiança", "amizade"], "notas": [2, 2, 2],
+      "controles": [["medo", "medida", 1], ["confiança", "contramão", 0], ["amizade", "ferrugem", 0]]
+    },
+    {
+      "tema": "bordado", "caminho": ["agulha", "linha", "bordado", "enfeite"], "notas": [3, 3, 2],
+      "controles": [["agulha", "agulhada", 3], ["linha", "linhagem", 1], ["enfeite", "asfalto", 0]]
+    },
+    {
+      "tema": "fotografia", "caminho": ["fotógrafo", "câmera", "retrato", "moldura"], "notas": [3, 3, 2],
+      "controles": [["fotógrafo", "fotossíntese", 1], ["retrato", "relato", 1], ["moldura", "feijão", 0]]
+    },
+    {
+      "tema": "viagem de carro", "caminho": ["motorista", "carro", "estrada", "pedágio"], "notas": [3, 2, 3],
+      "controles": [["motorista", "motociclista", 2], ["carro", "caro", 1], ["pedágio", "sabonete", 0]]
+    }
+  ],
+  "teste": [
+    {
+      "tema": "fases da vida", "caminho": ["criança", "adulto", "idoso"], "notas": [3, 3],
+      "controles": [["criança", "criação", 1], ["adulto", "adubo", 0], ["idoso", "adolescente", 3]]
+    },
+    {
+      "tema": "separação e finanças", "caminho": ["amor", "casamento", "divórcio", "pensão", "dinheiro"], "notas": [2, 3, 2, 2],
+      "controles": [["amor", "rumor", 1], ["divórcio", "diversão", 1], ["dinheiro", "besouro", 0]]
+    },
+    {
+      "tema": "animais domésticos", "caminho": ["cachorro", "animal", "gato", "felino"], "notas": [3, 3, 3],
+      "controles": [["cachorro", "cão", 3], ["gato", "gasto", 1], ["felino", "trinco", 0]]
+    },
+    {
+      "tema": "ciclo da água", "caminho": ["oceano", "evaporação", "nuvem", "chuva", "enchente"], "notas": [2, 3, 3, 3],
+      "controles": [["chuva", "chupa", 1], ["enchente", "enteado", 1], ["oceano", "carimbo", 0]]
+    },
+    {
+      "tema": "inverno", "caminho": ["verão", "inverno", "frio", "casaco"], "notas": [3, 3, 3],
+      "controles": [["verão", "verbo", 1], ["inverno", "inferno", 1], ["casaco", "cartório", 0]]
+    },
+    {
+      "tema": "leitura e silêncio", "caminho": ["escritor", "livro", "biblioteca", "silêncio"], "notas": [3, 3, 2],
+      "controles": [["livro", "livre", 1], ["silêncio", "tranquilidade", 2], ["biblioteca", "parafuso", 0]]
+    },
+    {
+      "tema": "apresentação musical", "caminho": ["violão", "corda", "música", "show"], "notas": [3, 2, 2],
+      "controles": [["violão", "viola", 3], ["corda", "cor", 1], ["show", "repolho", 0]]
+    },
+    {
+      "tema": "cozinha e café", "caminho": ["café", "filtro", "coador", "pano"], "notas": [3, 3, 2],
+      "controles": [["filtro", "filhote", 1], ["pano", "panela", 1], ["café", "interruptor", 0]]
+    },
+    {
+      "tema": "prevenção em saúde", "caminho": ["vírus", "vacina", "imunidade", "proteção"], "notas": [3, 3, 2],
+      "controles": [["vírus", "virada", 1], ["vacina", "vaca", 1], ["imunidade", "calçada", 0]]
+    },
+    {
+      "tema": "medição do calor", "caminho": ["sol", "calor", "temperatura", "termômetro"], "notas": [3, 3, 3],
+      "controles": [["sol", "solidão", 1], ["temperatura", "temperamento", 1], ["termômetro", "sanfona", 0]]
+    },
+    {
+      "tema": "navegação costeira", "caminho": ["navio", "porto", "farol", "luz"], "notas": [3, 2, 3],
+      "controles": [["navio", "navalha", 1], ["porto", "portão", 1], ["luz", "macarrão", 0]]
+    },
+    {
+      "tema": "pagamentos e consumo", "caminho": ["banco", "cartão", "compra", "loja"], "notas": [2, 2, 3],
+      "controles": [["banco", "branco", 1], ["banco", "assento", 3], ["loja", "centopeia", 0]]
+    },
+    {
+      "tema": "projeção de filme", "caminho": ["cinema", "filme", "projetor", "tela"], "notas": [3, 2, 3],
+      "controles": [["cinema", "cinemática", 1], ["tela", "telha", 1], ["projetor", "lentilha", 0]]
+    },
+    {
+      "tema": "fotebol e celebração", "caminho": ["futebol", "gol", "torcida", "festa"], "notas": [3, 2, 2],
+      "controles": [["futebol", "futuro", 1], ["gol", "gola", 1], ["torcida", "compasso", 0]]
+    },
+    {
+      "tema": "educação formal", "caminho": ["professor", "aula", "prova", "nota"], "notas": [3, 2, 3],
+      "controles": [["professor", "catraca", 1], ["aula", "jaula", 1], ["nota", "vassoura", 0]]
+    },
+    {
+      "tema": "tecelagem e vestuário", "caminho": ["algodão", "tecido", "camisa", "botão"], "notas": [3, 3, 2],
+      "controles": [["algodão", "algarismo", 1], ["tecido", "papelão", 1], ["botão", "gengibre", 0]]
+    },
+    {
+      "tema": "tratamento dentário", "caminho": ["dentista", "dente", "cárie", "dor"], "notas": [3, 3, 2],
+      "controles": [["dentista", "dentadura", 3], ["cárie", "carícia", 1], ["dor", "octógono", 0]]
+    },
+    {
+      "tema": "transporte ferroviário", "caminho": ["trem", "trilho", "ferro", "metal"], "notas": [3, 2, 3],
+      "controles": [["trem", "tremor", 1], ["trilho", "trincheira", 1], ["metal", "borboleta", 0]]
+    },
+    {
+      "tema": "criação de abelhas", "caminho": ["abelha", "colmeia", "mel", "doce"], "notas": [3, 3, 3],
+      "controles": [["abelha", "vespa", 3], ["colmeia", "coluna", 1], ["doce", "capacete", 0]]
+    },
+    {
+      "tema": "móveis e madeira", "caminho": ["árvore", "madeira", "marceneiro", "mesa"], "notas": [3, 3, 2],
+      "controles": [["madeira", "madrinha", 1], ["mesa", "mesada", 1], ["marceneiro", "gelatina", 0]]
+    },
+    {
+      "tema": "astronomia observacional", "caminho": ["planeta", "universo", "estrela", "telescópio"], "notas": [3, 3, 3],
+      "controles": [["planeta", "planilha", 1], ["telescópio", "telefone", 1], ["universo", "ralador", 0]]
+    },
+    {
+      "tema": "paisagem vulcânica", "caminho": ["vulcão", "lava", "rocha", "montanha"], "notas": [3, 3, 2],
+      "controles": [["vulcão", "vulto", 1], ["lava", "lavanda", 1], ["montanha", "refrigerante", 0]]
+    },
+    {
+      "tema": "comércio de peixe", "caminho": ["anzol", "pesca", "peixe", "mercado"], "notas": [3, 3, 2],
+      "controles": [["pesca", "pescaria", 3], ["peixe", "queixo", 1], ["mercado", "ribanceira", 0]]
+    },
+    {
+      "tema": "solidariedade", "caminho": ["empatia", "solidariedade", "doação", "sangue"], "notas": [3, 2, 2],
+      "controles": [["empatia", "empate", 1], ["doação", "adoção", 1], ["sangue", "grampeador", 0]]
+    },
+    {
+      "tema": "preparo de compostagem", "caminho": ["casca", "resíduo", "compostagem", "adubo", "solo"], "notas": [2, 3, 3, 3],
+      "controles": [["casca", "cascata", 1], ["adubo", "adultério", 1], ["solo", "zíper", 0]]
+    },
+    {
+      "tema": "sinalização e travessia", "caminho": ["semáforo", "trânsito", "pedestre", "faixa"], "notas": [3, 3, 3],
+      "controles": [["semáforo", "metáfora", 1], ["pedestre", "pedestal", 1], ["trânsito", "abacate", 0]]
+    },
+    {
+      "tema": "cultura de rua brasileira", "caminho": ["capoeira", "berimbau", "roda", "dança"], "notas": [3, 3, 2],
+      "controles": [["capoeira", "capô", 1], ["roda", "rodo", 1], ["berimbau", "cloro", 0]]
+    },
+    {
+      "tema": "gírias e economia", "caminho": ["grana", "troco", "moeda", "cofre"], "notas": [2, 3, 2],
+      "controles": [["grana", "grama", 1], ["moeda", "moenda", 1], ["cofre", "baleia", 0]]
+    },
+    {
+      "tema": "período de repouso", "caminho": ["noite", "sono", "sonho", "pesadelo"], "notas": [3, 3, 3],
+      "controles": [["sono", "sino", 1], ["pesadelo", "pesado", 1], ["noite", "açafrão", 0]]
+    },
+    {
+      "tema": "aviso de incêndio", "caminho": ["fumaça", "fogo", "bombeiro", "sirene"], "notas": [3, 3, 2],
+      "controles": [["fumaça", "fumaçar", 3], ["fogo", "jogo", 1], ["bombeiro", "porcelana", 0]]
+    },
+    {
+      "tema": "tecnologia doméstica", "caminho": ["teclado", "computador", "internet", "senha"], "notas": [3, 2, 2],
+      "controles": [["teclado", "telhado", 1], ["senha", "resenha", 1], ["computador", "cogumelo", 0]]
+    },
+    {
+      "tema": "lugar de moradia", "caminho": ["quarto", "casa", "bairro", "cidade"], "notas": [3, 2, 3],
+      "controles": [["quarto", "quarteto", 1], ["bairro", "barreira", 1], ["cidade", "pilha", 0]]
+    },
+    {
+      "tema": "argila e artesanato", "caminho": ["barro", "cerâmica", "vaso", "flor"], "notas": [3, 3, 3],
+      "controles": [["cerâmica", "cera", 1], ["vaso", "vazio", 1], ["flor", "serrote", 0]]
+    },
+    {
+      "tema": "alimentação e acidez", "caminho": ["laranja", "fruta", "limão", "azedo"], "notas": [3, 3, 3],
+      "controles": [["laranja", "tangerina", 3], ["limão", "limo", 1], ["azedo", "peneira", 0]]
+    },
+    {
+      "tema": "ensino superior e pesquisa", "caminho": ["universidade", "diploma", "formatura", "cerimônia"], "notas": [3, 3, 3],
+      "controles": [["universidade", "universal", 1], ["diploma", "diplomacia", 1], ["cerimônia", "milho", 0]]
+    },
+    {
+      "tema": "recreação ao ar livre", "caminho": ["pipa", "vento", "brisa", "praia"], "notas": [3, 3, 2],
+      "controles": [["pipa", "pipeta", 1], ["vento", "veludo", 0], ["praia", "dobradiça", 0]]
+    }
+  ]
+}

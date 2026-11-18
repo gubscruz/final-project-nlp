@@ -1,0 +1,37 @@
+[
+  {
+    "id": "word2vec-300d",
+    "repositorio": "nilc-nlp/word2vec-skip-gram-300d",
+    "revisao": "6a0c2e7204cf769c46bc37d1f7dd0ad824602ff2",
+    "tipo": "estatico",
+    "arquivos": ["vocab.txt", "embeddings.safetensors"]
+  },
+  {
+    "id": "word2vec-50d",
+    "repositorio": "nilc-nlp/word2vec-skip-gram-50d",
+    "revisao": "01c5d69466a4fc67df7efc3e451ba2936f308389",
+    "tipo": "estatico",
+    "arquivos": ["vocab.txt", "embeddings.safetensors"]
+  },
+  {
+    "id": "fasttext-50d",
+    "repositorio": "nilc-nlp/fasttext-skip-gram-50d",
+    "revisao": "80fa14e493474959cf905a31dc614142fc4425dd",
+    "tipo": "estatico",
+    "arquivos": ["vocab.txt", "embeddings.safetensors"]
+  },
+  {
+    "id": "glove-50d",
+    "repositorio": "nilc-nlp/glove-50d",
+    "revisao": "9296f6537f6b0a24d449a2677c21c18c2c0c3bdd",
+    "tipo": "estatico",
+    "arquivos": ["vocab.txt", "embeddings.safetensors"]
+  },
+  {
+    "id": "minilm-multilingue-int8",
+    "repositorio": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "revisao": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "tipo": "onnx",
+    "arquivos": ["tokenizer.json", "onnx/model_quint8_avx2.onnx"]
+  }
+]
