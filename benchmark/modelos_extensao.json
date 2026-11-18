@@ -1,0 +1,23 @@
+[
+  {
+    "id": "fasttext-100d",
+    "repositorio": "nilc-nlp/fasttext-skip-gram-100d",
+    "revisao": "204dc5397b8728081d398e4ab784280b533d7528",
+    "tipo": "estatico",
+    "arquivos": ["vocab.txt", "embeddings.safetensors"]
+  },
+  {
+    "id": "fasttext-300d",
+    "repositorio": "nilc-nlp/fasttext-skip-gram-300d",
+    "revisao": "f2e5fc83ef62599b084d54e34695e6c2e1c9dfde",
+    "tipo": "estatico",
+    "arquivos": ["vocab.txt", "embeddings.safetensors"]
+  },
+  {
+    "id": "glove-100d",
+    "repositorio": "nilc-nlp/glove-100d",
+    "revisao": "4b9adabf3fec33a74ab40d9841a52993f0bea62d",
+    "tipo": "estatico",
+    "arquivos": ["vocab.txt", "embeddings.safetensors"]
+  }
+]

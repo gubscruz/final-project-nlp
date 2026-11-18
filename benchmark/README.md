@@ -1,5 +1,7 @@
 # Comparação de embeddings para o jogo de palavras
 
+A [rodada adicional](EXTENSAO.md) testou versões maiores, uma combinação de modelos e uma regra de calibração com teto de falsos positivos em 24 pontes inéditas.
+
 Para o protótipo diário, a escolha é o **FastText Skip-gram 50D do NILC**, com limiar inicial de cosseno de **0,5803**. O FastText obteve o maior Spearman na base, **ρ = 0,731**, e o menor percentual de falsos positivos entre os cinco modelos com limiares calibrados, **11 de 98 pares**. Ele teve 20 vitórias em 36 desafios simulados. Para usar esse limiar, cada desafio diário precisa ter uma sequência de palpites que vença na simulação.
 
 O **GloVe 50D** ficou próximo no Spearman, com 0,709, e teve mais vitórias com o limiar calibrado, 31 de 36, ao aceitar 26 de 98 pares abaixo da nota mínima. Para o jogo diário, a escolha dá prioridade à ordenação semântica e a rejeitar ligações fracas. A curadoria do desafio permite lidar com a menor taxa de vitória do FastText.

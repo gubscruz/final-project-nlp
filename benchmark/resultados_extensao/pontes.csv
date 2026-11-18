@@ -1,0 +1,973 @@
+﻿modelo,divisao,cenario,tema,referencia,cossenos_referencia,referencia_valida,caminho_no_jogo,venceu
+word2vec-300d,calibracao,notebook,panificação,trigo → farinha → massa → pão,0.668458 | 0.314925 | 0.172427,False,trigo → farinha → pão,True
+word2vec-300d,calibracao,notebook,esportes de raquete,badminton → raquete → tênis → quadra,0.340995 | 0.435324 | 0.356618,False,,False
+word2vec-300d,calibracao,notebook,geografia,mapa → fronteira → país → bandeira,0.031037 | 0.062056 | 0.001739,False,,False
+word2vec-300d,calibracao,notebook,plantio,semente → germinação → broto → horta,0.439358 | 0.346300 | 0.057375,False,,False
+word2vec-300d,calibracao,notebook,cozinha,frigideira → fritura → batata → purê,0.602288 | 0.581854 | 0.680433,True,frigideira → fritura → purê,True
+word2vec-300d,calibracao,notebook,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.481869 | 0.323470 | 0.364888,False,,False
+word2vec-300d,calibracao,notebook,cidadania,eleição → voto → urna → sigilo,0.385072 | 0.256212 | 0.055926,False,,False
+word2vec-300d,calibracao,notebook,exploração espacial,astronauta → foguete → lançamento → contagem,0.331348 | 0.289491 | 0.168191,False,,False
+word2vec-300d,calibracao,notebook,apoio emocional,medo → coragem → confiança → amizade,0.494969 | 0.475787 | 0.354708,False,,False
+word2vec-300d,calibracao,notebook,bordado,agulha → linha → bordado → enfeite,0.265972 | 0.060558 | 0.505022,False,,False
+word2vec-300d,calibracao,notebook,fotografia,fotógrafo → câmera → retrato → moldura,0.204810 | 0.095195 | 0.228079,False,,False
+word2vec-300d,calibracao,notebook,viagem de carro,motorista → carro → estrada → pedágio,0.677417 | 0.248469 | 0.409046,False,,False
+word2vec-300d,confirmacao,notebook,criação de ovelhas,lã → ovelha → pastor → rebanho → campo,0.334634 | 0.141391 | 0.283090 | 0.142549,False,,False
+word2vec-300d,confirmacao,notebook,preparo de pizza,tomate → molho → pizza → forno,0.735688 | 0.536420 | 0.389762,False,tomate → molho → forno,True
+word2vec-300d,confirmacao,notebook,equitação,cavalo → rédea → cavaleiro → sela,0.338305 | 0.109285 | 0.228082,False,,False
+word2vec-300d,confirmacao,notebook,controle de horário,prazo → atraso → relógio → ponteiro,0.218015 | 0.151235 | 0.452728,False,,False
+word2vec-300d,confirmacao,notebook,respiração,asma → respiração → pulmão → oxigênio,0.384340 | 0.351373 | 0.307130,False,,False
+word2vec-300d,confirmacao,notebook,pintura de paredes,tinta → pincel → parede → reboco,0.544774 | 0.369791 | 0.542691,False,tinta → pincel → reboco,True
+word2vec-300d,confirmacao,notebook,segurança pública,guarda → polícia → crime → prisão,0.451736 | 0.203232 | 0.338219,False,,False
+word2vec-300d,confirmacao,notebook,partida no estádio,gramado → estádio → arquibancada → ingresso,0.570852 | 0.317868 | 0.335554,False,,False
+word2vec-300d,confirmacao,notebook,tempestade,relâmpago → trovão → tempestade → granizo,0.459138 | 0.301816 | 0.509919,False,,False
+word2vec-300d,confirmacao,notebook,publicidade impressa,cartaz → publicidade → anúncio → jornal,0.155785 | 0.178960 | 0.357735,False,,False
+word2vec-300d,confirmacao,notebook,higiene pessoal,sabão → espuma → banho → toalha,0.616176 | 0.420020 | 0.387445,False,sabão → espuma → toalha,True
+word2vec-300d,confirmacao,notebook,paisagem desértica,areia → duna → deserto → oásis,0.412685 | 0.252638 | 0.620791,False,,False
+word2vec-300d,confirmacao,notebook,derivados de petróleo,petróleo → gasolina → combustível → combustão,0.429035 | 0.696851 | 0.599584,True,petróleo → gasolina → combustão,True
+word2vec-300d,confirmacao,notebook,espetáculo de balé,balé → sapatilha → palco → plateia,0.269425 | 0.153879 | 0.438579,False,balé → palco → plateia,True
+word2vec-300d,confirmacao,notebook,anatomia do polvo,polvo → tentáculo → ventosa → sucção,0.419620 | 0.119607 | 0.226446,False,,False
+word2vec-300d,confirmacao,notebook,obra de construção,arquiteto → projeto → construção → andaime,0.320618 | 0.235495 | 0.287221,False,,False
+word2vec-300d,confirmacao,notebook,canto em grupo,microfone → voz → canto → coral,0.424079 | 0.221413 | 0.444160,False,,False
+word2vec-300d,confirmacao,notebook,laticínios,manteiga → leite → queijo → coalho,0.570187 | 0.608644 | 0.721108,True,manteiga → leite → coalho,True
+word2vec-300d,confirmacao,notebook,estofamento,sofá → estofado → couro → curtume,0.462335 | 0.627406 | 0.279164,False,,False
+word2vec-300d,confirmacao,notebook,mãos e impressão digital,esmalte → unha → dedo → impressão,0.367610 | 0.486744 | 0.110341,False,,False
+word2vec-300d,confirmacao,notebook,trabalho remunerado,currículo → emprego → salário → renda,0.179388 | 0.339436 | 0.421062,False,,False
+word2vec-300d,confirmacao,notebook,degelo,geleira → gelo → degelo → aquecimento,0.361715 | 0.292426 | 0.420377,False,,False
+word2vec-300d,confirmacao,notebook,prescrição médica,médico → consulta → receita → remédio,0.185321 | 0.178376 | 0.162970,False,,False
+word2vec-300d,confirmacao,notebook,instrumento de sopro e ar,flauta → sopro → ar → oxidação,0.454501 | 0.260601 | 0.231177,False,,False
+word2vec-300d,calibracao,calibrado,panificação,trigo → farinha → massa → pão,0.668458 | 0.314925 | 0.172427,True,trigo → farinha → pão,True
+word2vec-300d,calibracao,calibrado,esportes de raquete,badminton → raquete → tênis → quadra,0.340995 | 0.435324 | 0.356618,True,badminton → raquete → quadra,True
+word2vec-300d,calibracao,calibrado,geografia,mapa → fronteira → país → bandeira,0.031037 | 0.062056 | 0.001739,False,,False
+word2vec-300d,calibracao,calibrado,plantio,semente → germinação → broto → horta,0.439358 | 0.346300 | 0.057375,False,,False
+word2vec-300d,calibracao,calibrado,cozinha,frigideira → fritura → batata → purê,0.602288 | 0.581854 | 0.680433,True,frigideira → fritura → purê,True
+word2vec-300d,calibracao,calibrado,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.481869 | 0.323470 | 0.364888,True,aeroporto → embarque → bagagem,True
+word2vec-300d,calibracao,calibrado,cidadania,eleição → voto → urna → sigilo,0.385072 | 0.256212 | 0.055926,False,,False
+word2vec-300d,calibracao,calibrado,exploração espacial,astronauta → foguete → lançamento → contagem,0.331348 | 0.289491 | 0.168191,True,astronauta → foguete → lançamento → contagem,True
+word2vec-300d,calibracao,calibrado,apoio emocional,medo → coragem → confiança → amizade,0.494969 | 0.475787 | 0.354708,True,medo → coragem → amizade,True
+word2vec-300d,calibracao,calibrado,bordado,agulha → linha → bordado → enfeite,0.265972 | 0.060558 | 0.505022,False,agulha → bordado → enfeite,True
+word2vec-300d,calibracao,calibrado,fotografia,fotógrafo → câmera → retrato → moldura,0.204810 | 0.095195 | 0.228079,False,fotógrafo → câmera → moldura,True
+word2vec-300d,calibracao,calibrado,viagem de carro,motorista → carro → estrada → pedágio,0.677417 | 0.248469 | 0.409046,True,motorista → carro → pedágio,True
+word2vec-300d,confirmacao,calibrado,criação de ovelhas,lã → ovelha → pastor → rebanho → campo,0.334634 | 0.141391 | 0.283090 | 0.142549,False,,False
+word2vec-300d,confirmacao,calibrado,preparo de pizza,tomate → molho → pizza → forno,0.735688 | 0.536420 | 0.389762,True,tomate → molho → forno,True
+word2vec-300d,confirmacao,calibrado,equitação,cavalo → rédea → cavaleiro → sela,0.338305 | 0.109285 | 0.228082,False,cavalo → rédea → sela,True
+word2vec-300d,confirmacao,calibrado,controle de horário,prazo → atraso → relógio → ponteiro,0.218015 | 0.151235 | 0.452728,False,,False
+word2vec-300d,confirmacao,calibrado,respiração,asma → respiração → pulmão → oxigênio,0.384340 | 0.351373 | 0.307130,True,asma → respiração → oxigênio,True
+word2vec-300d,confirmacao,calibrado,pintura de paredes,tinta → pincel → parede → reboco,0.544774 | 0.369791 | 0.542691,True,tinta → pincel → reboco,True
+word2vec-300d,confirmacao,calibrado,segurança pública,guarda → polícia → crime → prisão,0.451736 | 0.203232 | 0.338219,True,guarda → polícia → prisão,True
+word2vec-300d,confirmacao,calibrado,partida no estádio,gramado → estádio → arquibancada → ingresso,0.570852 | 0.317868 | 0.335554,True,gramado → estádio → ingresso,True
+word2vec-300d,confirmacao,calibrado,tempestade,relâmpago → trovão → tempestade → granizo,0.459138 | 0.301816 | 0.509919,True,relâmpago → trovão → granizo,True
+word2vec-300d,confirmacao,calibrado,publicidade impressa,cartaz → publicidade → anúncio → jornal,0.155785 | 0.178960 | 0.357735,False,cartaz → anúncio → jornal,True
+word2vec-300d,confirmacao,calibrado,higiene pessoal,sabão → espuma → banho → toalha,0.616176 | 0.420020 | 0.387445,True,sabão → espuma → toalha,True
+word2vec-300d,confirmacao,calibrado,paisagem desértica,areia → duna → deserto → oásis,0.412685 | 0.252638 | 0.620791,True,areia → duna → oásis,True
+word2vec-300d,confirmacao,calibrado,derivados de petróleo,petróleo → gasolina → combustível → combustão,0.429035 | 0.696851 | 0.599584,True,petróleo → gasolina → combustão,True
+word2vec-300d,confirmacao,calibrado,espetáculo de balé,balé → sapatilha → palco → plateia,0.269425 | 0.153879 | 0.438579,False,balé → sapatilha → plateia,True
+word2vec-300d,confirmacao,calibrado,anatomia do polvo,polvo → tentáculo → ventosa → sucção,0.419620 | 0.119607 | 0.226446,False,polvo → tentáculo → sucção,True
+word2vec-300d,confirmacao,calibrado,obra de construção,arquiteto → projeto → construção → andaime,0.320618 | 0.235495 | 0.287221,True,arquiteto → projeto → construção → andaime,True
+word2vec-300d,confirmacao,calibrado,canto em grupo,microfone → voz → canto → coral,0.424079 | 0.221413 | 0.444160,True,microfone → voz → coral,True
+word2vec-300d,confirmacao,calibrado,laticínios,manteiga → leite → queijo → coalho,0.570187 | 0.608644 | 0.721108,True,manteiga → leite → coalho,True
+word2vec-300d,confirmacao,calibrado,estofamento,sofá → estofado → couro → curtume,0.462335 | 0.627406 | 0.279164,True,sofá → estofado → curtume,True
+word2vec-300d,confirmacao,calibrado,mãos e impressão digital,esmalte → unha → dedo → impressão,0.367610 | 0.486744 | 0.110341,False,esmalte → unha → impressão,True
+word2vec-300d,confirmacao,calibrado,trabalho remunerado,currículo → emprego → salário → renda,0.179388 | 0.339436 | 0.421062,True,currículo → emprego → renda,True
+word2vec-300d,confirmacao,calibrado,degelo,geleira → gelo → degelo → aquecimento,0.361715 | 0.292426 | 0.420377,True,geleira → degelo → aquecimento,True
+word2vec-300d,confirmacao,calibrado,prescrição médica,médico → consulta → receita → remédio,0.185321 | 0.178376 | 0.162970,True,médico → consulta → receita → remédio,True
+word2vec-300d,confirmacao,calibrado,instrumento de sopro e ar,flauta → sopro → ar → oxidação,0.454501 | 0.260601 | 0.231177,True,flauta → sopro → ar → oxidação,True
+word2vec-300d,calibracao,teto_falsos_positivos,panificação,trigo → farinha → massa → pão,0.668458 | 0.314925 | 0.172427,False,trigo → farinha → pão,True
+word2vec-300d,calibracao,teto_falsos_positivos,esportes de raquete,badminton → raquete → tênis → quadra,0.340995 | 0.435324 | 0.356618,True,badminton → raquete → quadra,True
+word2vec-300d,calibracao,teto_falsos_positivos,geografia,mapa → fronteira → país → bandeira,0.031037 | 0.062056 | 0.001739,False,,False
+word2vec-300d,calibracao,teto_falsos_positivos,plantio,semente → germinação → broto → horta,0.439358 | 0.346300 | 0.057375,False,,False
+word2vec-300d,calibracao,teto_falsos_positivos,cozinha,frigideira → fritura → batata → purê,0.602288 | 0.581854 | 0.680433,True,frigideira → fritura → purê,True
+word2vec-300d,calibracao,teto_falsos_positivos,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.481869 | 0.323470 | 0.364888,True,aeroporto → embarque → bagagem,True
+word2vec-300d,calibracao,teto_falsos_positivos,cidadania,eleição → voto → urna → sigilo,0.385072 | 0.256212 | 0.055926,False,,False
+word2vec-300d,calibracao,teto_falsos_positivos,exploração espacial,astronauta → foguete → lançamento → contagem,0.331348 | 0.289491 | 0.168191,False,,False
+word2vec-300d,calibracao,teto_falsos_positivos,apoio emocional,medo → coragem → confiança → amizade,0.494969 | 0.475787 | 0.354708,True,medo → coragem → amizade,True
+word2vec-300d,calibracao,teto_falsos_positivos,bordado,agulha → linha → bordado → enfeite,0.265972 | 0.060558 | 0.505022,False,agulha → bordado → enfeite,True
+word2vec-300d,calibracao,teto_falsos_positivos,fotografia,fotógrafo → câmera → retrato → moldura,0.204810 | 0.095195 | 0.228079,False,,False
+word2vec-300d,calibracao,teto_falsos_positivos,viagem de carro,motorista → carro → estrada → pedágio,0.677417 | 0.248469 | 0.409046,False,motorista → carro → pedágio,True
+word2vec-300d,confirmacao,teto_falsos_positivos,criação de ovelhas,lã → ovelha → pastor → rebanho → campo,0.334634 | 0.141391 | 0.283090 | 0.142549,False,,False
+word2vec-300d,confirmacao,teto_falsos_positivos,preparo de pizza,tomate → molho → pizza → forno,0.735688 | 0.536420 | 0.389762,True,tomate → molho → forno,True
+word2vec-300d,confirmacao,teto_falsos_positivos,equitação,cavalo → rédea → cavaleiro → sela,0.338305 | 0.109285 | 0.228082,False,cavalo → rédea → sela,True
+word2vec-300d,confirmacao,teto_falsos_positivos,controle de horário,prazo → atraso → relógio → ponteiro,0.218015 | 0.151235 | 0.452728,False,,False
+word2vec-300d,confirmacao,teto_falsos_positivos,respiração,asma → respiração → pulmão → oxigênio,0.384340 | 0.351373 | 0.307130,True,asma → respiração → oxigênio,True
+word2vec-300d,confirmacao,teto_falsos_positivos,pintura de paredes,tinta → pincel → parede → reboco,0.544774 | 0.369791 | 0.542691,True,tinta → pincel → reboco,True
+word2vec-300d,confirmacao,teto_falsos_positivos,segurança pública,guarda → polícia → crime → prisão,0.451736 | 0.203232 | 0.338219,False,,False
+word2vec-300d,confirmacao,teto_falsos_positivos,partida no estádio,gramado → estádio → arquibancada → ingresso,0.570852 | 0.317868 | 0.335554,True,gramado → arquibancada → ingresso,True
+word2vec-300d,confirmacao,teto_falsos_positivos,tempestade,relâmpago → trovão → tempestade → granizo,0.459138 | 0.301816 | 0.509919,True,relâmpago → trovão → granizo,True
+word2vec-300d,confirmacao,teto_falsos_positivos,publicidade impressa,cartaz → publicidade → anúncio → jornal,0.155785 | 0.178960 | 0.357735,False,,False
+word2vec-300d,confirmacao,teto_falsos_positivos,higiene pessoal,sabão → espuma → banho → toalha,0.616176 | 0.420020 | 0.387445,True,sabão → espuma → toalha,True
+word2vec-300d,confirmacao,teto_falsos_positivos,paisagem desértica,areia → duna → deserto → oásis,0.412685 | 0.252638 | 0.620791,False,areia → duna → oásis,True
+word2vec-300d,confirmacao,teto_falsos_positivos,derivados de petróleo,petróleo → gasolina → combustível → combustão,0.429035 | 0.696851 | 0.599584,True,petróleo → gasolina → combustão,True
+word2vec-300d,confirmacao,teto_falsos_positivos,espetáculo de balé,balé → sapatilha → palco → plateia,0.269425 | 0.153879 | 0.438579,False,balé → sapatilha → plateia,True
+word2vec-300d,confirmacao,teto_falsos_positivos,anatomia do polvo,polvo → tentáculo → ventosa → sucção,0.419620 | 0.119607 | 0.226446,False,polvo → tentáculo → sucção,True
+word2vec-300d,confirmacao,teto_falsos_positivos,obra de construção,arquiteto → projeto → construção → andaime,0.320618 | 0.235495 | 0.287221,False,,False
+word2vec-300d,confirmacao,teto_falsos_positivos,canto em grupo,microfone → voz → canto → coral,0.424079 | 0.221413 | 0.444160,False,microfone → canto → coral,True
+word2vec-300d,confirmacao,teto_falsos_positivos,laticínios,manteiga → leite → queijo → coalho,0.570187 | 0.608644 | 0.721108,True,manteiga → leite → coalho,True
+word2vec-300d,confirmacao,teto_falsos_positivos,estofamento,sofá → estofado → couro → curtume,0.462335 | 0.627406 | 0.279164,True,sofá → estofado → curtume,True
+word2vec-300d,confirmacao,teto_falsos_positivos,mãos e impressão digital,esmalte → unha → dedo → impressão,0.367610 | 0.486744 | 0.110341,False,,False
+word2vec-300d,confirmacao,teto_falsos_positivos,trabalho remunerado,currículo → emprego → salário → renda,0.179388 | 0.339436 | 0.421062,False,,False
+word2vec-300d,confirmacao,teto_falsos_positivos,degelo,geleira → gelo → degelo → aquecimento,0.361715 | 0.292426 | 0.420377,True,geleira → degelo → aquecimento,True
+word2vec-300d,confirmacao,teto_falsos_positivos,prescrição médica,médico → consulta → receita → remédio,0.185321 | 0.178376 | 0.162970,False,,False
+word2vec-300d,confirmacao,teto_falsos_positivos,instrumento de sopro e ar,flauta → sopro → ar → oxidação,0.454501 | 0.260601 | 0.231177,False,,False
+word2vec-50d,calibracao,notebook,panificação,trigo → farinha → massa → pão,0.879677 | 0.446739 | 0.194006,False,trigo → farinha → pão,True
+word2vec-50d,calibracao,notebook,esportes de raquete,badminton → raquete → tênis → quadra,0.274250 | 0.448882 | 0.475922,False,badminton → tênis → quadra,True
+word2vec-50d,calibracao,notebook,geografia,mapa → fronteira → país → bandeira,0.115030 | 0.245162 | 0.142998,False,,False
+word2vec-50d,calibracao,notebook,plantio,semente → germinação → broto → horta,0.599282 | 0.491324 | 0.094943,False,,False
+word2vec-50d,calibracao,notebook,cozinha,frigideira → fritura → batata → purê,0.794856 | 0.803926 | 0.780987,True,frigideira → fritura → purê,True
+word2vec-50d,calibracao,notebook,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.636906 | 0.563684 | 0.502788,True,aeroporto → embarque → bagagem,True
+word2vec-50d,calibracao,notebook,cidadania,eleição → voto → urna → sigilo,0.491152 | 0.310856 | 0.182405,False,eleição → voto → sigilo,True
+word2vec-50d,calibracao,notebook,exploração espacial,astronauta → foguete → lançamento → contagem,0.528731 | 0.555089 | 0.269525,False,,False
+word2vec-50d,calibracao,notebook,apoio emocional,medo → coragem → confiança → amizade,0.710478 | 0.726909 | 0.463610,True,medo → coragem → amizade,True
+word2vec-50d,calibracao,notebook,bordado,agulha → linha → bordado → enfeite,0.590387 | 0.191226 | 0.773998,False,agulha → bordado → enfeite,True
+word2vec-50d,calibracao,notebook,fotografia,fotógrafo → câmera → retrato → moldura,0.187455 | 0.124016 | 0.220984,False,,False
+word2vec-50d,calibracao,notebook,viagem de carro,motorista → carro → estrada → pedágio,0.848222 | 0.383824 | 0.472237,False,motorista → carro → pedágio,True
+word2vec-50d,confirmacao,notebook,criação de ovelhas,lã → ovelha → pastor → rebanho → campo,0.709542 | 0.154432 | 0.260570 | 0.228776,False,,False
+word2vec-50d,confirmacao,notebook,preparo de pizza,tomate → molho → pizza → forno,0.832251 | 0.632479 | 0.440172,True,tomate → molho → forno,True
+word2vec-50d,confirmacao,notebook,equitação,cavalo → rédea → cavaleiro → sela,0.493854 | 0.128655 | 0.439147,False,cavalo → rédea → sela,True
+word2vec-50d,confirmacao,notebook,controle de horário,prazo → atraso → relógio → ponteiro,0.591147 | 0.170432 | 0.761046,False,,False
+word2vec-50d,confirmacao,notebook,respiração,asma → respiração → pulmão → oxigênio,0.679148 | 0.521810 | 0.632719,True,asma → respiração → oxigênio,True
+word2vec-50d,confirmacao,notebook,pintura de paredes,tinta → pincel → parede → reboco,0.705445 | 0.532842 | 0.683487,True,tinta → pincel → reboco,True
+word2vec-50d,confirmacao,notebook,segurança pública,guarda → polícia → crime → prisão,0.694054 | 0.417489 | 0.501938,True,guarda → polícia → prisão,True
+word2vec-50d,confirmacao,notebook,partida no estádio,gramado → estádio → arquibancada → ingresso,0.774573 | 0.341597 | 0.345027,False,,False
+word2vec-50d,confirmacao,notebook,tempestade,relâmpago → trovão → tempestade → granizo,0.547994 | 0.245731 | 0.708246,False,relâmpago → tempestade → granizo,True
+word2vec-50d,confirmacao,notebook,publicidade impressa,cartaz → publicidade → anúncio → jornal,0.153773 | 0.247126 | 0.500329,False,,False
+word2vec-50d,confirmacao,notebook,higiene pessoal,sabão → espuma → banho → toalha,0.835889 | 0.650719 | 0.625415,True,sabão → espuma → toalha,True
+word2vec-50d,confirmacao,notebook,paisagem desértica,areia → duna → deserto → oásis,0.569004 | 0.455342 | 0.833881,True,areia → duna → oásis,True
+word2vec-50d,confirmacao,notebook,derivados de petróleo,petróleo → gasolina → combustível → combustão,0.661553 | 0.811073 | 0.848340,True,petróleo → gasolina → combustão,True
+word2vec-50d,confirmacao,notebook,espetáculo de balé,balé → sapatilha → palco → plateia,0.380739 | 0.262356 | 0.460108,False,balé → palco → plateia,True
+word2vec-50d,confirmacao,notebook,anatomia do polvo,polvo → tentáculo → ventosa → sucção,0.616728 | 0.385810 | 0.471537,False,polvo → tentáculo → sucção,True
+word2vec-50d,confirmacao,notebook,obra de construção,arquiteto → projeto → construção → andaime,0.455293 | 0.304702 | 0.400691,False,,False
+word2vec-50d,confirmacao,notebook,canto em grupo,microfone → voz → canto → coral,0.397281 | 0.239798 | 0.677657,False,microfone → canto → coral,True
+word2vec-50d,confirmacao,notebook,laticínios,manteiga → leite → queijo → coalho,0.774572 | 0.791598 | 0.877838,True,manteiga → leite → coalho,True
+word2vec-50d,confirmacao,notebook,estofamento,sofá → estofado → couro → curtume,0.705273 | 0.815443 | 0.371707,False,sofá → estofado → curtume,True
+word2vec-50d,confirmacao,notebook,mãos e impressão digital,esmalte → unha → dedo → impressão,0.669336 | 0.546597 | 0.135137,False,esmalte → unha → impressão,True
+word2vec-50d,confirmacao,notebook,trabalho remunerado,currículo → emprego → salário → renda,0.429001 | 0.527332 | 0.607261,True,currículo → emprego → renda,True
+word2vec-50d,confirmacao,notebook,degelo,geleira → gelo → degelo → aquecimento,0.336647 | 0.447902 | 0.713887,False,geleira → degelo → aquecimento,True
+word2vec-50d,confirmacao,notebook,prescrição médica,médico → consulta → receita → remédio,0.169018 | 0.306106 | 0.215839,False,,False
+word2vec-50d,confirmacao,notebook,instrumento de sopro e ar,flauta → sopro → ar → oxidação,0.630705 | 0.500197 | 0.439077,True,flauta → sopro → ar → oxidação,True
+word2vec-50d,calibracao,calibrado,panificação,trigo → farinha → massa → pão,0.879677 | 0.446739 | 0.194006,False,trigo → farinha → pão,True
+word2vec-50d,calibracao,calibrado,esportes de raquete,badminton → raquete → tênis → quadra,0.274250 | 0.448882 | 0.475922,False,badminton → tênis → quadra,True
+word2vec-50d,calibracao,calibrado,geografia,mapa → fronteira → país → bandeira,0.115030 | 0.245162 | 0.142998,False,,False
+word2vec-50d,calibracao,calibrado,plantio,semente → germinação → broto → horta,0.599282 | 0.491324 | 0.094943,False,,False
+word2vec-50d,calibracao,calibrado,cozinha,frigideira → fritura → batata → purê,0.794856 | 0.803926 | 0.780987,True,frigideira → fritura → purê,True
+word2vec-50d,calibracao,calibrado,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.636906 | 0.563684 | 0.502788,True,aeroporto → embarque → bagagem,True
+word2vec-50d,calibracao,calibrado,cidadania,eleição → voto → urna → sigilo,0.491152 | 0.310856 | 0.182405,False,eleição → voto → sigilo,True
+word2vec-50d,calibracao,calibrado,exploração espacial,astronauta → foguete → lançamento → contagem,0.528731 | 0.555089 | 0.269525,False,,False
+word2vec-50d,calibracao,calibrado,apoio emocional,medo → coragem → confiança → amizade,0.710478 | 0.726909 | 0.463610,True,medo → coragem → amizade,True
+word2vec-50d,calibracao,calibrado,bordado,agulha → linha → bordado → enfeite,0.590387 | 0.191226 | 0.773998,False,agulha → bordado → enfeite,True
+word2vec-50d,calibracao,calibrado,fotografia,fotógrafo → câmera → retrato → moldura,0.187455 | 0.124016 | 0.220984,False,,False
+word2vec-50d,calibracao,calibrado,viagem de carro,motorista → carro → estrada → pedágio,0.848222 | 0.383824 | 0.472237,False,motorista → carro → pedágio,True
+word2vec-50d,confirmacao,calibrado,criação de ovelhas,lã → ovelha → pastor → rebanho → campo,0.709542 | 0.154432 | 0.260570 | 0.228776,False,,False
+word2vec-50d,confirmacao,calibrado,preparo de pizza,tomate → molho → pizza → forno,0.832251 | 0.632479 | 0.440172,True,tomate → molho → forno,True
+word2vec-50d,confirmacao,calibrado,equitação,cavalo → rédea → cavaleiro → sela,0.493854 | 0.128655 | 0.439147,False,cavalo → rédea → sela,True
+word2vec-50d,confirmacao,calibrado,controle de horário,prazo → atraso → relógio → ponteiro,0.591147 | 0.170432 | 0.761046,False,,False
+word2vec-50d,confirmacao,calibrado,respiração,asma → respiração → pulmão → oxigênio,0.679148 | 0.521810 | 0.632719,True,asma → respiração → oxigênio,True
+word2vec-50d,confirmacao,calibrado,pintura de paredes,tinta → pincel → parede → reboco,0.705445 | 0.532842 | 0.683487,True,tinta → pincel → reboco,True
+word2vec-50d,confirmacao,calibrado,segurança pública,guarda → polícia → crime → prisão,0.694054 | 0.417489 | 0.501938,False,guarda → polícia → prisão,True
+word2vec-50d,confirmacao,calibrado,partida no estádio,gramado → estádio → arquibancada → ingresso,0.774573 | 0.341597 | 0.345027,False,,False
+word2vec-50d,confirmacao,calibrado,tempestade,relâmpago → trovão → tempestade → granizo,0.547994 | 0.245731 | 0.708246,False,relâmpago → tempestade → granizo,True
+word2vec-50d,confirmacao,calibrado,publicidade impressa,cartaz → publicidade → anúncio → jornal,0.153773 | 0.247126 | 0.500329,False,,False
+word2vec-50d,confirmacao,calibrado,higiene pessoal,sabão → espuma → banho → toalha,0.835889 | 0.650719 | 0.625415,True,sabão → espuma → toalha,True
+word2vec-50d,confirmacao,calibrado,paisagem desértica,areia → duna → deserto → oásis,0.569004 | 0.455342 | 0.833881,True,areia → duna → oásis,True
+word2vec-50d,confirmacao,calibrado,derivados de petróleo,petróleo → gasolina → combustível → combustão,0.661553 | 0.811073 | 0.848340,True,petróleo → gasolina → combustão,True
+word2vec-50d,confirmacao,calibrado,espetáculo de balé,balé → sapatilha → palco → plateia,0.380739 | 0.262356 | 0.460108,False,balé → palco → plateia,True
+word2vec-50d,confirmacao,calibrado,anatomia do polvo,polvo → tentáculo → ventosa → sucção,0.616728 | 0.385810 | 0.471537,False,polvo → tentáculo → sucção,True
+word2vec-50d,confirmacao,calibrado,obra de construção,arquiteto → projeto → construção → andaime,0.455293 | 0.304702 | 0.400691,False,,False
+word2vec-50d,confirmacao,calibrado,canto em grupo,microfone → voz → canto → coral,0.397281 | 0.239798 | 0.677657,False,microfone → canto → coral,True
+word2vec-50d,confirmacao,calibrado,laticínios,manteiga → leite → queijo → coalho,0.774572 | 0.791598 | 0.877838,True,manteiga → leite → coalho,True
+word2vec-50d,confirmacao,calibrado,estofamento,sofá → estofado → couro → curtume,0.705273 | 0.815443 | 0.371707,False,,False
+word2vec-50d,confirmacao,calibrado,mãos e impressão digital,esmalte → unha → dedo → impressão,0.669336 | 0.546597 | 0.135137,False,,False
+word2vec-50d,confirmacao,calibrado,trabalho remunerado,currículo → emprego → salário → renda,0.429001 | 0.527332 | 0.607261,False,currículo → salário → renda,True
+word2vec-50d,confirmacao,calibrado,degelo,geleira → gelo → degelo → aquecimento,0.336647 | 0.447902 | 0.713887,False,geleira → degelo → aquecimento,True
+word2vec-50d,confirmacao,calibrado,prescrição médica,médico → consulta → receita → remédio,0.169018 | 0.306106 | 0.215839,False,,False
+word2vec-50d,confirmacao,calibrado,instrumento de sopro e ar,flauta → sopro → ar → oxidação,0.630705 | 0.500197 | 0.439077,True,flauta → sopro → ar → oxidação,True
+word2vec-50d,calibracao,teto_falsos_positivos,panificação,trigo → farinha → massa → pão,0.879677 | 0.446739 | 0.194006,False,trigo → farinha → pão,True
+word2vec-50d,calibracao,teto_falsos_positivos,esportes de raquete,badminton → raquete → tênis → quadra,0.274250 | 0.448882 | 0.475922,False,,False
+word2vec-50d,calibracao,teto_falsos_positivos,geografia,mapa → fronteira → país → bandeira,0.115030 | 0.245162 | 0.142998,False,,False
+word2vec-50d,calibracao,teto_falsos_positivos,plantio,semente → germinação → broto → horta,0.599282 | 0.491324 | 0.094943,False,,False
+word2vec-50d,calibracao,teto_falsos_positivos,cozinha,frigideira → fritura → batata → purê,0.794856 | 0.803926 | 0.780987,True,frigideira → fritura → purê,True
+word2vec-50d,calibracao,teto_falsos_positivos,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.636906 | 0.563684 | 0.502788,False,aeroporto → embarque → bagagem,True
+word2vec-50d,calibracao,teto_falsos_positivos,cidadania,eleição → voto → urna → sigilo,0.491152 | 0.310856 | 0.182405,False,,False
+word2vec-50d,calibracao,teto_falsos_positivos,exploração espacial,astronauta → foguete → lançamento → contagem,0.528731 | 0.555089 | 0.269525,False,,False
+word2vec-50d,calibracao,teto_falsos_positivos,apoio emocional,medo → coragem → confiança → amizade,0.710478 | 0.726909 | 0.463610,False,medo → coragem → amizade,True
+word2vec-50d,calibracao,teto_falsos_positivos,bordado,agulha → linha → bordado → enfeite,0.590387 | 0.191226 | 0.773998,False,agulha → bordado → enfeite,True
+word2vec-50d,calibracao,teto_falsos_positivos,fotografia,fotógrafo → câmera → retrato → moldura,0.187455 | 0.124016 | 0.220984,False,,False
+word2vec-50d,calibracao,teto_falsos_positivos,viagem de carro,motorista → carro → estrada → pedágio,0.848222 | 0.383824 | 0.472237,False,,False
+word2vec-50d,confirmacao,teto_falsos_positivos,criação de ovelhas,lã → ovelha → pastor → rebanho → campo,0.709542 | 0.154432 | 0.260570 | 0.228776,False,,False
+word2vec-50d,confirmacao,teto_falsos_positivos,preparo de pizza,tomate → molho → pizza → forno,0.832251 | 0.632479 | 0.440172,False,tomate → molho → forno,True
+word2vec-50d,confirmacao,teto_falsos_positivos,equitação,cavalo → rédea → cavaleiro → sela,0.493854 | 0.128655 | 0.439147,False,,False
+word2vec-50d,confirmacao,teto_falsos_positivos,controle de horário,prazo → atraso → relógio → ponteiro,0.591147 | 0.170432 | 0.761046,False,,False
+word2vec-50d,confirmacao,teto_falsos_positivos,respiração,asma → respiração → pulmão → oxigênio,0.679148 | 0.521810 | 0.632719,True,asma → respiração → oxigênio,True
+word2vec-50d,confirmacao,teto_falsos_positivos,pintura de paredes,tinta → pincel → parede → reboco,0.705445 | 0.532842 | 0.683487,True,tinta → pincel → reboco,True
+word2vec-50d,confirmacao,teto_falsos_positivos,segurança pública,guarda → polícia → crime → prisão,0.694054 | 0.417489 | 0.501938,False,guarda → polícia → prisão,True
+word2vec-50d,confirmacao,teto_falsos_positivos,partida no estádio,gramado → estádio → arquibancada → ingresso,0.774573 | 0.341597 | 0.345027,False,,False
+word2vec-50d,confirmacao,teto_falsos_positivos,tempestade,relâmpago → trovão → tempestade → granizo,0.547994 | 0.245731 | 0.708246,False,,False
+word2vec-50d,confirmacao,teto_falsos_positivos,publicidade impressa,cartaz → publicidade → anúncio → jornal,0.153773 | 0.247126 | 0.500329,False,,False
+word2vec-50d,confirmacao,teto_falsos_positivos,higiene pessoal,sabão → espuma → banho → toalha,0.835889 | 0.650719 | 0.625415,True,sabão → espuma → toalha,True
+word2vec-50d,confirmacao,teto_falsos_positivos,paisagem desértica,areia → duna → deserto → oásis,0.569004 | 0.455342 | 0.833881,False,,False
+word2vec-50d,confirmacao,teto_falsos_positivos,derivados de petróleo,petróleo → gasolina → combustível → combustão,0.661553 | 0.811073 | 0.848340,True,petróleo → gasolina → combustão,True
+word2vec-50d,confirmacao,teto_falsos_positivos,espetáculo de balé,balé → sapatilha → palco → plateia,0.380739 | 0.262356 | 0.460108,False,,False
+word2vec-50d,confirmacao,teto_falsos_positivos,anatomia do polvo,polvo → tentáculo → ventosa → sucção,0.616728 | 0.385810 | 0.471537,False,,False
+word2vec-50d,confirmacao,teto_falsos_positivos,obra de construção,arquiteto → projeto → construção → andaime,0.455293 | 0.304702 | 0.400691,False,,False
+word2vec-50d,confirmacao,teto_falsos_positivos,canto em grupo,microfone → voz → canto → coral,0.397281 | 0.239798 | 0.677657,False,microfone → canto → coral,True
+word2vec-50d,confirmacao,teto_falsos_positivos,laticínios,manteiga → leite → queijo → coalho,0.774572 | 0.791598 | 0.877838,True,manteiga → leite → coalho,True
+word2vec-50d,confirmacao,teto_falsos_positivos,estofamento,sofá → estofado → couro → curtume,0.705273 | 0.815443 | 0.371707,False,,False
+word2vec-50d,confirmacao,teto_falsos_positivos,mãos e impressão digital,esmalte → unha → dedo → impressão,0.669336 | 0.546597 | 0.135137,False,,False
+word2vec-50d,confirmacao,teto_falsos_positivos,trabalho remunerado,currículo → emprego → salário → renda,0.429001 | 0.527332 | 0.607261,False,,False
+word2vec-50d,confirmacao,teto_falsos_positivos,degelo,geleira → gelo → degelo → aquecimento,0.336647 | 0.447902 | 0.713887,False,,False
+word2vec-50d,confirmacao,teto_falsos_positivos,prescrição médica,médico → consulta → receita → remédio,0.169018 | 0.306106 | 0.215839,False,,False
+word2vec-50d,confirmacao,teto_falsos_positivos,instrumento de sopro e ar,flauta → sopro → ar → oxidação,0.630705 | 0.500197 | 0.439077,False,,False
+fasttext-50d,calibracao,notebook,panificação,trigo → farinha → massa → pão,0.925326 | 0.618978 | 0.608932,True,trigo → farinha → pão,True
+fasttext-50d,calibracao,notebook,esportes de raquete,badminton → raquete → tênis → quadra,0.601638 | 0.779253 | 0.773184,True,badminton → raquete → quadra,True
+fasttext-50d,calibracao,notebook,geografia,mapa → fronteira → país → bandeira,0.508821 | 0.569119 | 0.418654,True,mapa → fronteira → bandeira,True
+fasttext-50d,calibracao,notebook,plantio,semente → germinação → broto → horta,0.774004 | 0.654720 | 0.558129,True,semente → broto → horta,True
+fasttext-50d,calibracao,notebook,cozinha,frigideira → fritura → batata → purê,0.815136 | 0.774842 | 0.883830,True,frigideira → fritura → purê,True
+fasttext-50d,calibracao,notebook,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.803701 | 0.697127 | 0.709929,True,aeroporto → embarque → bagagem,True
+fasttext-50d,calibracao,notebook,cidadania,eleição → voto → urna → sigilo,0.764273 | 0.588253 | 0.299983,False,eleição → voto → sigilo,True
+fasttext-50d,calibracao,notebook,exploração espacial,astronauta → foguete → lançamento → contagem,0.745640 | 0.696107 | 0.482667,True,astronauta → foguete → lançamento → contagem,True
+fasttext-50d,calibracao,notebook,apoio emocional,medo → coragem → confiança → amizade,0.769054 | 0.779090 | 0.658410,True,medo → coragem → amizade,True
+fasttext-50d,calibracao,notebook,bordado,agulha → linha → bordado → enfeite,0.584084 | 0.466147 | 0.854470,True,agulha → bordado → enfeite,True
+fasttext-50d,calibracao,notebook,fotografia,fotógrafo → câmera → retrato → moldura,0.536985 | 0.456947 | 0.597964,True,fotógrafo → câmera → moldura,True
+fasttext-50d,calibracao,notebook,viagem de carro,motorista → carro → estrada → pedágio,0.855201 | 0.690798 | 0.679810,True,motorista → carro → pedágio,True
+fasttext-50d,confirmacao,notebook,criação de ovelhas,lã → ovelha → pastor → rebanho → campo,0.712059 | 0.473209 | 0.590856 | 0.398999,False,lã → ovelha → pastor → campo,True
+fasttext-50d,confirmacao,notebook,preparo de pizza,tomate → molho → pizza → forno,0.875731 | 0.779105 | 0.694148,True,tomate → molho → forno,True
+fasttext-50d,confirmacao,notebook,equitação,cavalo → rédea → cavaleiro → sela,0.683211 | 0.581631 | 0.633851,True,cavalo → rédea → sela,True
+fasttext-50d,confirmacao,notebook,controle de horário,prazo → atraso → relógio → ponteiro,0.538642 | 0.425455 | 0.750225,True,prazo → atraso → relógio → ponteiro,True
+fasttext-50d,confirmacao,notebook,respiração,asma → respiração → pulmão → oxigênio,0.614647 | 0.611855 | 0.654723,True,asma → respiração → oxigênio,True
+fasttext-50d,confirmacao,notebook,pintura de paredes,tinta → pincel → parede → reboco,0.859412 | 0.698651 | 0.766096,True,tinta → pincel → reboco,True
+fasttext-50d,confirmacao,notebook,segurança pública,guarda → polícia → crime → prisão,0.766410 | 0.672760 | 0.710395,True,guarda → polícia → prisão,True
+fasttext-50d,confirmacao,notebook,partida no estádio,gramado → estádio → arquibancada → ingresso,0.695186 | 0.683897 | 0.516613,True,gramado → estádio → ingresso,True
+fasttext-50d,confirmacao,notebook,tempestade,relâmpago → trovão → tempestade → granizo,0.776692 | 0.674599 | 0.756065,True,relâmpago → trovão → granizo,True
+fasttext-50d,confirmacao,notebook,publicidade impressa,cartaz → publicidade → anúncio → jornal,0.420363 | 0.485465 | 0.627713,True,cartaz → publicidade → jornal,True
+fasttext-50d,confirmacao,notebook,higiene pessoal,sabão → espuma → banho → toalha,0.868067 | 0.749082 | 0.784438,True,sabão → espuma → toalha,True
+fasttext-50d,confirmacao,notebook,paisagem desértica,areia → duna → deserto → oásis,0.680750 | 0.699161 | 0.816192,True,areia → duna → oásis,True
+fasttext-50d,confirmacao,notebook,derivados de petróleo,petróleo → gasolina → combustível → combustão,0.599524 | 0.819618 | 0.852336,True,petróleo → gasolina → combustão,True
+fasttext-50d,confirmacao,notebook,espetáculo de balé,balé → sapatilha → palco → plateia,0.674766 | 0.581022 | 0.829313,True,balé → sapatilha → plateia,True
+fasttext-50d,confirmacao,notebook,anatomia do polvo,polvo → tentáculo → ventosa → sucção,0.701705 | 0.450526 | 0.565091,True,polvo → tentáculo → sucção,True
+fasttext-50d,confirmacao,notebook,obra de construção,arquiteto → projeto → construção → andaime,0.608009 | 0.671895 | 0.616916,True,arquiteto → projeto → andaime,True
+fasttext-50d,confirmacao,notebook,canto em grupo,microfone → voz → canto → coral,0.758120 | 0.604900 | 0.771726,True,microfone → voz → coral,True
+fasttext-50d,confirmacao,notebook,laticínios,manteiga → leite → queijo → coalho,0.790659 | 0.784049 | 0.838589,True,manteiga → leite → coalho,True
+fasttext-50d,confirmacao,notebook,estofamento,sofá → estofado → couro → curtume,0.727728 | 0.836727 | 0.531395,True,sofá → estofado → curtume,True
+fasttext-50d,confirmacao,notebook,mãos e impressão digital,esmalte → unha → dedo → impressão,0.767836 | 0.819448 | 0.593780,True,esmalte → unha → impressão,True
+fasttext-50d,confirmacao,notebook,trabalho remunerado,currículo → emprego → salário → renda,0.552670 | 0.685558 | 0.801185,True,currículo → emprego → renda,True
+fasttext-50d,confirmacao,notebook,degelo,geleira → gelo → degelo → aquecimento,0.736675 | 0.663437 | 0.659736,True,geleira → gelo → aquecimento,True
+fasttext-50d,confirmacao,notebook,prescrição médica,médico → consulta → receita → remédio,0.584603 | 0.369631 | 0.574728,False,médico → consulta → remédio,True
+fasttext-50d,confirmacao,notebook,instrumento de sopro e ar,flauta → sopro → ar → oxidação,0.790736 | 0.659138 | 0.501941,True,flauta → sopro → oxidação,True
+fasttext-50d,calibracao,calibrado,panificação,trigo → farinha → massa → pão,0.925326 | 0.618978 | 0.608932,True,trigo → farinha → pão,True
+fasttext-50d,calibracao,calibrado,esportes de raquete,badminton → raquete → tênis → quadra,0.601638 | 0.779253 | 0.773184,True,badminton → raquete → quadra,True
+fasttext-50d,calibracao,calibrado,geografia,mapa → fronteira → país → bandeira,0.508821 | 0.569119 | 0.418654,False,,False
+fasttext-50d,calibracao,calibrado,plantio,semente → germinação → broto → horta,0.774004 | 0.654720 | 0.558129,False,,False
+fasttext-50d,calibracao,calibrado,cozinha,frigideira → fritura → batata → purê,0.815136 | 0.774842 | 0.883830,True,frigideira → fritura → purê,True
+fasttext-50d,calibracao,calibrado,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.803701 | 0.697127 | 0.709929,True,aeroporto → embarque → bagagem,True
+fasttext-50d,calibracao,calibrado,cidadania,eleição → voto → urna → sigilo,0.764273 | 0.588253 | 0.299983,False,,False
+fasttext-50d,calibracao,calibrado,exploração espacial,astronauta → foguete → lançamento → contagem,0.745640 | 0.696107 | 0.482667,False,,False
+fasttext-50d,calibracao,calibrado,apoio emocional,medo → coragem → confiança → amizade,0.769054 | 0.779090 | 0.658410,True,medo → coragem → amizade,True
+fasttext-50d,calibracao,calibrado,bordado,agulha → linha → bordado → enfeite,0.584084 | 0.466147 | 0.854470,False,agulha → bordado → enfeite,True
+fasttext-50d,calibracao,calibrado,fotografia,fotógrafo → câmera → retrato → moldura,0.536985 | 0.456947 | 0.597964,False,fotógrafo → retrato → moldura,True
+fasttext-50d,calibracao,calibrado,viagem de carro,motorista → carro → estrada → pedágio,0.855201 | 0.690798 | 0.679810,True,motorista → carro → pedágio,True
+fasttext-50d,confirmacao,calibrado,criação de ovelhas,lã → ovelha → pastor → rebanho → campo,0.712059 | 0.473209 | 0.590856 | 0.398999,False,,False
+fasttext-50d,confirmacao,calibrado,preparo de pizza,tomate → molho → pizza → forno,0.875731 | 0.779105 | 0.694148,True,tomate → molho → forno,True
+fasttext-50d,confirmacao,calibrado,equitação,cavalo → rédea → cavaleiro → sela,0.683211 | 0.581631 | 0.633851,True,cavalo → rédea → sela,True
+fasttext-50d,confirmacao,calibrado,controle de horário,prazo → atraso → relógio → ponteiro,0.538642 | 0.425455 | 0.750225,False,,False
+fasttext-50d,confirmacao,calibrado,respiração,asma → respiração → pulmão → oxigênio,0.614647 | 0.611855 | 0.654723,True,asma → respiração → oxigênio,True
+fasttext-50d,confirmacao,calibrado,pintura de paredes,tinta → pincel → parede → reboco,0.859412 | 0.698651 | 0.766096,True,tinta → pincel → reboco,True
+fasttext-50d,confirmacao,calibrado,segurança pública,guarda → polícia → crime → prisão,0.766410 | 0.672760 | 0.710395,True,guarda → polícia → prisão,True
+fasttext-50d,confirmacao,calibrado,partida no estádio,gramado → estádio → arquibancada → ingresso,0.695186 | 0.683897 | 0.516613,False,,False
+fasttext-50d,confirmacao,calibrado,tempestade,relâmpago → trovão → tempestade → granizo,0.776692 | 0.674599 | 0.756065,True,relâmpago → tempestade → granizo,True
+fasttext-50d,confirmacao,calibrado,publicidade impressa,cartaz → publicidade → anúncio → jornal,0.420363 | 0.485465 | 0.627713,False,cartaz → anúncio → jornal,True
+fasttext-50d,confirmacao,calibrado,higiene pessoal,sabão → espuma → banho → toalha,0.868067 | 0.749082 | 0.784438,True,sabão → espuma → toalha,True
+fasttext-50d,confirmacao,calibrado,paisagem desértica,areia → duna → deserto → oásis,0.680750 | 0.699161 | 0.816192,True,areia → duna → oásis,True
+fasttext-50d,confirmacao,calibrado,derivados de petróleo,petróleo → gasolina → combustível → combustão,0.599524 | 0.819618 | 0.852336,True,petróleo → gasolina → combustão,True
+fasttext-50d,confirmacao,calibrado,espetáculo de balé,balé → sapatilha → palco → plateia,0.674766 | 0.581022 | 0.829313,True,balé → palco → plateia,True
+fasttext-50d,confirmacao,calibrado,anatomia do polvo,polvo → tentáculo → ventosa → sucção,0.701705 | 0.450526 | 0.565091,False,polvo → tentáculo → sucção,True
+fasttext-50d,confirmacao,calibrado,obra de construção,arquiteto → projeto → construção → andaime,0.608009 | 0.671895 | 0.616916,True,arquiteto → projeto → construção → andaime,True
+fasttext-50d,confirmacao,calibrado,canto em grupo,microfone → voz → canto → coral,0.758120 | 0.604900 | 0.771726,True,microfone → voz → canto → coral,True
+fasttext-50d,confirmacao,calibrado,laticínios,manteiga → leite → queijo → coalho,0.790659 | 0.784049 | 0.838589,True,manteiga → leite → coalho,True
+fasttext-50d,confirmacao,calibrado,estofamento,sofá → estofado → couro → curtume,0.727728 | 0.836727 | 0.531395,False,sofá → estofado → curtume,True
+fasttext-50d,confirmacao,calibrado,mãos e impressão digital,esmalte → unha → dedo → impressão,0.767836 | 0.819448 | 0.593780,True,esmalte → unha → impressão,True
+fasttext-50d,confirmacao,calibrado,trabalho remunerado,currículo → emprego → salário → renda,0.552670 | 0.685558 | 0.801185,False,,False
+fasttext-50d,confirmacao,calibrado,degelo,geleira → gelo → degelo → aquecimento,0.736675 | 0.663437 | 0.659736,True,geleira → gelo → aquecimento,True
+fasttext-50d,confirmacao,calibrado,prescrição médica,médico → consulta → receita → remédio,0.584603 | 0.369631 | 0.574728,False,,False
+fasttext-50d,confirmacao,calibrado,instrumento de sopro e ar,flauta → sopro → ar → oxidação,0.790736 | 0.659138 | 0.501941,False,,False
+fasttext-50d,calibracao,teto_falsos_positivos,panificação,trigo → farinha → massa → pão,0.925326 | 0.618978 | 0.608932,True,trigo → farinha → pão,True
+fasttext-50d,calibracao,teto_falsos_positivos,esportes de raquete,badminton → raquete → tênis → quadra,0.601638 | 0.779253 | 0.773184,True,badminton → raquete → quadra,True
+fasttext-50d,calibracao,teto_falsos_positivos,geografia,mapa → fronteira → país → bandeira,0.508821 | 0.569119 | 0.418654,False,,False
+fasttext-50d,calibracao,teto_falsos_positivos,plantio,semente → germinação → broto → horta,0.774004 | 0.654720 | 0.558129,False,,False
+fasttext-50d,calibracao,teto_falsos_positivos,cozinha,frigideira → fritura → batata → purê,0.815136 | 0.774842 | 0.883830,True,frigideira → fritura → purê,True
+fasttext-50d,calibracao,teto_falsos_positivos,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.803701 | 0.697127 | 0.709929,True,aeroporto → embarque → bagagem,True
+fasttext-50d,calibracao,teto_falsos_positivos,cidadania,eleição → voto → urna → sigilo,0.764273 | 0.588253 | 0.299983,False,,False
+fasttext-50d,calibracao,teto_falsos_positivos,exploração espacial,astronauta → foguete → lançamento → contagem,0.745640 | 0.696107 | 0.482667,False,,False
+fasttext-50d,calibracao,teto_falsos_positivos,apoio emocional,medo → coragem → confiança → amizade,0.769054 | 0.779090 | 0.658410,True,medo → coragem → amizade,True
+fasttext-50d,calibracao,teto_falsos_positivos,bordado,agulha → linha → bordado → enfeite,0.584084 | 0.466147 | 0.854470,False,agulha → bordado → enfeite,True
+fasttext-50d,calibracao,teto_falsos_positivos,fotografia,fotógrafo → câmera → retrato → moldura,0.536985 | 0.456947 | 0.597964,False,fotógrafo → retrato → moldura,True
+fasttext-50d,calibracao,teto_falsos_positivos,viagem de carro,motorista → carro → estrada → pedágio,0.855201 | 0.690798 | 0.679810,True,motorista → carro → pedágio,True
+fasttext-50d,confirmacao,teto_falsos_positivos,criação de ovelhas,lã → ovelha → pastor → rebanho → campo,0.712059 | 0.473209 | 0.590856 | 0.398999,False,,False
+fasttext-50d,confirmacao,teto_falsos_positivos,preparo de pizza,tomate → molho → pizza → forno,0.875731 | 0.779105 | 0.694148,True,tomate → molho → forno,True
+fasttext-50d,confirmacao,teto_falsos_positivos,equitação,cavalo → rédea → cavaleiro → sela,0.683211 | 0.581631 | 0.633851,True,cavalo → rédea → sela,True
+fasttext-50d,confirmacao,teto_falsos_positivos,controle de horário,prazo → atraso → relógio → ponteiro,0.538642 | 0.425455 | 0.750225,False,,False
+fasttext-50d,confirmacao,teto_falsos_positivos,respiração,asma → respiração → pulmão → oxigênio,0.614647 | 0.611855 | 0.654723,True,asma → respiração → oxigênio,True
+fasttext-50d,confirmacao,teto_falsos_positivos,pintura de paredes,tinta → pincel → parede → reboco,0.859412 | 0.698651 | 0.766096,True,tinta → pincel → reboco,True
+fasttext-50d,confirmacao,teto_falsos_positivos,segurança pública,guarda → polícia → crime → prisão,0.766410 | 0.672760 | 0.710395,True,guarda → polícia → prisão,True
+fasttext-50d,confirmacao,teto_falsos_positivos,partida no estádio,gramado → estádio → arquibancada → ingresso,0.695186 | 0.683897 | 0.516613,False,,False
+fasttext-50d,confirmacao,teto_falsos_positivos,tempestade,relâmpago → trovão → tempestade → granizo,0.776692 | 0.674599 | 0.756065,True,relâmpago → tempestade → granizo,True
+fasttext-50d,confirmacao,teto_falsos_positivos,publicidade impressa,cartaz → publicidade → anúncio → jornal,0.420363 | 0.485465 | 0.627713,False,cartaz → anúncio → jornal,True
+fasttext-50d,confirmacao,teto_falsos_positivos,higiene pessoal,sabão → espuma → banho → toalha,0.868067 | 0.749082 | 0.784438,True,sabão → espuma → toalha,True
+fasttext-50d,confirmacao,teto_falsos_positivos,paisagem desértica,areia → duna → deserto → oásis,0.680750 | 0.699161 | 0.816192,True,areia → duna → oásis,True
+fasttext-50d,confirmacao,teto_falsos_positivos,derivados de petróleo,petróleo → gasolina → combustível → combustão,0.599524 | 0.819618 | 0.852336,True,petróleo → gasolina → combustão,True
+fasttext-50d,confirmacao,teto_falsos_positivos,espetáculo de balé,balé → sapatilha → palco → plateia,0.674766 | 0.581022 | 0.829313,True,balé → palco → plateia,True
+fasttext-50d,confirmacao,teto_falsos_positivos,anatomia do polvo,polvo → tentáculo → ventosa → sucção,0.701705 | 0.450526 | 0.565091,False,polvo → tentáculo → sucção,True
+fasttext-50d,confirmacao,teto_falsos_positivos,obra de construção,arquiteto → projeto → construção → andaime,0.608009 | 0.671895 | 0.616916,True,arquiteto → projeto → construção → andaime,True
+fasttext-50d,confirmacao,teto_falsos_positivos,canto em grupo,microfone → voz → canto → coral,0.758120 | 0.604900 | 0.771726,True,microfone → voz → canto → coral,True
+fasttext-50d,confirmacao,teto_falsos_positivos,laticínios,manteiga → leite → queijo → coalho,0.790659 | 0.784049 | 0.838589,True,manteiga → leite → coalho,True
+fasttext-50d,confirmacao,teto_falsos_positivos,estofamento,sofá → estofado → couro → curtume,0.727728 | 0.836727 | 0.531395,False,sofá → estofado → curtume,True
+fasttext-50d,confirmacao,teto_falsos_positivos,mãos e impressão digital,esmalte → unha → dedo → impressão,0.767836 | 0.819448 | 0.593780,True,esmalte → unha → impressão,True
+fasttext-50d,confirmacao,teto_falsos_positivos,trabalho remunerado,currículo → emprego → salário → renda,0.552670 | 0.685558 | 0.801185,False,,False
+fasttext-50d,confirmacao,teto_falsos_positivos,degelo,geleira → gelo → degelo → aquecimento,0.736675 | 0.663437 | 0.659736,True,geleira → gelo → aquecimento,True
+fasttext-50d,confirmacao,teto_falsos_positivos,prescrição médica,médico → consulta → receita → remédio,0.584603 | 0.369631 | 0.574728,False,,False
+fasttext-50d,confirmacao,teto_falsos_positivos,instrumento de sopro e ar,flauta → sopro → ar → oxidação,0.790736 | 0.659138 | 0.501941,False,,False
+glove-50d,calibracao,notebook,panificação,trigo → farinha → massa → pão,0.840164 | 0.483173 | 0.410319,True,trigo → farinha → pão,True
+glove-50d,calibracao,notebook,esportes de raquete,badminton → raquete → tênis → quadra,0.471310 | 0.541849 | 0.679477,True,badminton → raquete → quadra,True
+glove-50d,calibracao,notebook,geografia,mapa → fronteira → país → bandeira,0.385321 | 0.534328 | 0.502550,False,mapa → país → fronteira → bandeira,True
+glove-50d,calibracao,notebook,plantio,semente → germinação → broto → horta,0.544342 | 0.305640 | 0.085281,False,,False
+glove-50d,calibracao,notebook,cozinha,frigideira → fritura → batata → purê,0.586721 | 0.464756 | 0.695978,True,frigideira → fritura → purê,True
+glove-50d,calibracao,notebook,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.711405 | 0.559470 | 0.541465,True,aeroporto → embarque → bagagem,True
+glove-50d,calibracao,notebook,cidadania,eleição → voto → urna → sigilo,0.810435 | 0.440148 | 0.314658,False,,False
+glove-50d,calibracao,notebook,exploração espacial,astronauta → foguete → lançamento → contagem,0.465044 | 0.531001 | 0.445180,True,astronauta → foguete → lançamento → contagem,True
+glove-50d,calibracao,notebook,apoio emocional,medo → coragem → confiança → amizade,0.636350 | 0.709204 | 0.552589,True,medo → coragem → amizade,True
+glove-50d,calibracao,notebook,bordado,agulha → linha → bordado → enfeite,0.340875 | 0.034482 | 0.666076,False,agulha → bordado → enfeite,True
+glove-50d,calibracao,notebook,fotografia,fotógrafo → câmera → retrato → moldura,0.350062 | 0.309154 | 0.413318,False,fotógrafo → retrato → moldura,True
+glove-50d,calibracao,notebook,viagem de carro,motorista → carro → estrada → pedágio,0.831288 | 0.642905 | 0.445667,True,motorista → carro → estrada → pedágio,True
+glove-50d,confirmacao,notebook,criação de ovelhas,lã → ovelha → pastor → rebanho → campo,0.585314 | 0.132272 | 0.311780 | 0.176370,False,,False
+glove-50d,confirmacao,notebook,preparo de pizza,tomate → molho → pizza → forno,0.786542 | 0.610327 | 0.513180,True,tomate → molho → forno,True
+glove-50d,confirmacao,notebook,equitação,cavalo → rédea → cavaleiro → sela,0.416436 | 0.264748 | 0.272851,False,cavalo → rédea → sela,True
+glove-50d,confirmacao,notebook,controle de horário,prazo → atraso → relógio → ponteiro,0.737474 | 0.271486 | 0.420340,False,,False
+glove-50d,confirmacao,notebook,respiração,asma → respiração → pulmão → oxigênio,0.428454 | 0.413077 | 0.447050,True,asma → respiração → oxigênio,True
+glove-50d,confirmacao,notebook,pintura de paredes,tinta → pincel → parede → reboco,0.569345 | 0.326979 | 0.564065,False,tinta → pincel → reboco,True
+glove-50d,confirmacao,notebook,segurança pública,guarda → polícia → crime → prisão,0.764249 | 0.707081 | 0.775183,True,guarda → polícia → prisão,True
+glove-50d,confirmacao,notebook,partida no estádio,gramado → estádio → arquibancada → ingresso,0.727525 | 0.463655 | 0.523846,True,gramado → arquibancada → ingresso,True
+glove-50d,confirmacao,notebook,tempestade,relâmpago → trovão → tempestade → granizo,0.606689 | 0.451426 | 0.637761,True,relâmpago → tempestade → granizo,True
+glove-50d,confirmacao,notebook,publicidade impressa,cartaz → publicidade → anúncio → jornal,0.325169 | 0.434781 | 0.653076,False,cartaz → anúncio → jornal,True
+glove-50d,confirmacao,notebook,higiene pessoal,sabão → espuma → banho → toalha,0.781960 | 0.640190 | 0.601857,True,sabão → espuma → toalha,True
+glove-50d,confirmacao,notebook,paisagem desértica,areia → duna → deserto → oásis,0.369199 | 0.246999 | 0.737540,False,areia → deserto → oásis,True
+glove-50d,confirmacao,notebook,derivados de petróleo,petróleo → gasolina → combustível → combustão,0.617947 | 0.814821 | 0.779137,True,petróleo → gasolina → combustão,True
+glove-50d,confirmacao,notebook,espetáculo de balé,balé → sapatilha → palco → plateia,0.369754 | 0.071444 | 0.617907,False,,False
+glove-50d,confirmacao,notebook,anatomia do polvo,polvo → tentáculo → ventosa → sucção,0.601118 | 0.154056 | 0.288599,False,,False
+glove-50d,confirmacao,notebook,obra de construção,arquiteto → projeto → construção → andaime,0.459514 | 0.674893 | 0.226853,False,,False
+glove-50d,confirmacao,notebook,canto em grupo,microfone → voz → canto → coral,0.548007 | 0.624771 | 0.655050,True,microfone → voz → coral,True
+glove-50d,confirmacao,notebook,laticínios,manteiga → leite → queijo → coalho,0.678786 | 0.597077 | 0.552174,True,manteiga → queijo → coalho,True
+glove-50d,confirmacao,notebook,estofamento,sofá → estofado → couro → curtume,0.436445 | 0.414921 | 0.339973,False,sofá → estofado → curtume,True
+glove-50d,confirmacao,notebook,mãos e impressão digital,esmalte → unha → dedo → impressão,0.616036 | 0.534654 | 0.387775,False,,False
+glove-50d,confirmacao,notebook,trabalho remunerado,currículo → emprego → salário → renda,0.408782 | 0.524067 | 0.757648,True,currículo → emprego → renda,True
+glove-50d,confirmacao,notebook,degelo,geleira → gelo → degelo → aquecimento,0.364621 | 0.488595 | 0.487923,False,,False
+glove-50d,confirmacao,notebook,prescrição médica,médico → consulta → receita → remédio,0.491123 | 0.446846 | 0.366868,False,,False
+glove-50d,confirmacao,notebook,instrumento de sopro e ar,flauta → sopro → ar → oxidação,0.653807 | 0.531668 | 0.376333,False,,False
+glove-50d,calibracao,calibrado,panificação,trigo → farinha → massa → pão,0.840164 | 0.483173 | 0.410319,True,trigo → farinha → pão,True
+glove-50d,calibracao,calibrado,esportes de raquete,badminton → raquete → tênis → quadra,0.471310 | 0.541849 | 0.679477,True,badminton → raquete → quadra,True
+glove-50d,calibracao,calibrado,geografia,mapa → fronteira → país → bandeira,0.385321 | 0.534328 | 0.502550,True,mapa → fronteira → bandeira,True
+glove-50d,calibracao,calibrado,plantio,semente → germinação → broto → horta,0.544342 | 0.305640 | 0.085281,False,,False
+glove-50d,calibracao,calibrado,cozinha,frigideira → fritura → batata → purê,0.586721 | 0.464756 | 0.695978,True,frigideira → fritura → purê,True
+glove-50d,calibracao,calibrado,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.711405 | 0.559470 | 0.541465,True,aeroporto → embarque → bagagem,True
+glove-50d,calibracao,calibrado,cidadania,eleição → voto → urna → sigilo,0.810435 | 0.440148 | 0.314658,True,eleição → voto → sigilo,True
+glove-50d,calibracao,calibrado,exploração espacial,astronauta → foguete → lançamento → contagem,0.465044 | 0.531001 | 0.445180,True,astronauta → foguete → lançamento → contagem,True
+glove-50d,calibracao,calibrado,apoio emocional,medo → coragem → confiança → amizade,0.636350 | 0.709204 | 0.552589,True,medo → coragem → amizade,True
+glove-50d,calibracao,calibrado,bordado,agulha → linha → bordado → enfeite,0.340875 | 0.034482 | 0.666076,False,agulha → bordado → enfeite,True
+glove-50d,calibracao,calibrado,fotografia,fotógrafo → câmera → retrato → moldura,0.350062 | 0.309154 | 0.413318,True,fotógrafo → câmera → moldura,True
+glove-50d,calibracao,calibrado,viagem de carro,motorista → carro → estrada → pedágio,0.831288 | 0.642905 | 0.445667,True,motorista → carro → pedágio,True
+glove-50d,confirmacao,calibrado,criação de ovelhas,lã → ovelha → pastor → rebanho → campo,0.585314 | 0.132272 | 0.311780 | 0.176370,False,lã → ovelha → rebanho → pastor → campo,True
+glove-50d,confirmacao,calibrado,preparo de pizza,tomate → molho → pizza → forno,0.786542 | 0.610327 | 0.513180,True,tomate → molho → forno,True
+glove-50d,confirmacao,calibrado,equitação,cavalo → rédea → cavaleiro → sela,0.416436 | 0.264748 | 0.272851,False,cavalo → rédea → sela,True
+glove-50d,confirmacao,calibrado,controle de horário,prazo → atraso → relógio → ponteiro,0.737474 | 0.271486 | 0.420340,False,,False
+glove-50d,confirmacao,calibrado,respiração,asma → respiração → pulmão → oxigênio,0.428454 | 0.413077 | 0.447050,True,asma → respiração → oxigênio,True
+glove-50d,confirmacao,calibrado,pintura de paredes,tinta → pincel → parede → reboco,0.569345 | 0.326979 | 0.564065,True,tinta → pincel → reboco,True
+glove-50d,confirmacao,calibrado,segurança pública,guarda → polícia → crime → prisão,0.764249 | 0.707081 | 0.775183,True,guarda → polícia → prisão,True
+glove-50d,confirmacao,calibrado,partida no estádio,gramado → estádio → arquibancada → ingresso,0.727525 | 0.463655 | 0.523846,True,gramado → estádio → ingresso,True
+glove-50d,confirmacao,calibrado,tempestade,relâmpago → trovão → tempestade → granizo,0.606689 | 0.451426 | 0.637761,True,relâmpago → trovão → granizo,True
+glove-50d,confirmacao,calibrado,publicidade impressa,cartaz → publicidade → anúncio → jornal,0.325169 | 0.434781 | 0.653076,True,cartaz → publicidade → jornal,True
+glove-50d,confirmacao,calibrado,higiene pessoal,sabão → espuma → banho → toalha,0.781960 | 0.640190 | 0.601857,True,sabão → espuma → toalha,True
+glove-50d,confirmacao,calibrado,paisagem desértica,areia → duna → deserto → oásis,0.369199 | 0.246999 | 0.737540,False,areia → deserto → oásis,True
+glove-50d,confirmacao,calibrado,derivados de petróleo,petróleo → gasolina → combustível → combustão,0.617947 | 0.814821 | 0.779137,True,petróleo → gasolina → combustão,True
+glove-50d,confirmacao,calibrado,espetáculo de balé,balé → sapatilha → palco → plateia,0.369754 | 0.071444 | 0.617907,False,balé → palco → plateia,True
+glove-50d,confirmacao,calibrado,anatomia do polvo,polvo → tentáculo → ventosa → sucção,0.601118 | 0.154056 | 0.288599,False,polvo → tentáculo → sucção,True
+glove-50d,confirmacao,calibrado,obra de construção,arquiteto → projeto → construção → andaime,0.459514 | 0.674893 | 0.226853,False,,False
+glove-50d,confirmacao,calibrado,canto em grupo,microfone → voz → canto → coral,0.548007 | 0.624771 | 0.655050,True,microfone → voz → coral,True
+glove-50d,confirmacao,calibrado,laticínios,manteiga → leite → queijo → coalho,0.678786 | 0.597077 | 0.552174,True,manteiga → leite → coalho,True
+glove-50d,confirmacao,calibrado,estofamento,sofá → estofado → couro → curtume,0.436445 | 0.414921 | 0.339973,True,sofá → estofado → curtume,True
+glove-50d,confirmacao,calibrado,mãos e impressão digital,esmalte → unha → dedo → impressão,0.616036 | 0.534654 | 0.387775,True,esmalte → unha → dedo → impressão,True
+glove-50d,confirmacao,calibrado,trabalho remunerado,currículo → emprego → salário → renda,0.408782 | 0.524067 | 0.757648,True,currículo → emprego → renda,True
+glove-50d,confirmacao,calibrado,degelo,geleira → gelo → degelo → aquecimento,0.364621 | 0.488595 | 0.487923,True,geleira → gelo → aquecimento,True
+glove-50d,confirmacao,calibrado,prescrição médica,médico → consulta → receita → remédio,0.491123 | 0.446846 | 0.366868,True,médico → consulta → receita → remédio,True
+glove-50d,confirmacao,calibrado,instrumento de sopro e ar,flauta → sopro → ar → oxidação,0.653807 | 0.531668 | 0.376333,True,flauta → sopro → oxidação,True
+glove-50d,calibracao,teto_falsos_positivos,panificação,trigo → farinha → massa → pão,0.840164 | 0.483173 | 0.410319,False,trigo → farinha → pão,True
+glove-50d,calibracao,teto_falsos_positivos,esportes de raquete,badminton → raquete → tênis → quadra,0.471310 | 0.541849 | 0.679477,True,badminton → tênis → quadra,True
+glove-50d,calibracao,teto_falsos_positivos,geografia,mapa → fronteira → país → bandeira,0.385321 | 0.534328 | 0.502550,False,mapa → país → fronteira → bandeira,True
+glove-50d,calibracao,teto_falsos_positivos,plantio,semente → germinação → broto → horta,0.544342 | 0.305640 | 0.085281,False,,False
+glove-50d,calibracao,teto_falsos_positivos,cozinha,frigideira → fritura → batata → purê,0.586721 | 0.464756 | 0.695978,True,frigideira → fritura → batata → purê,True
+glove-50d,calibracao,teto_falsos_positivos,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.711405 | 0.559470 | 0.541465,True,aeroporto → embarque → bagagem,True
+glove-50d,calibracao,teto_falsos_positivos,cidadania,eleição → voto → urna → sigilo,0.810435 | 0.440148 | 0.314658,False,,False
+glove-50d,calibracao,teto_falsos_positivos,exploração espacial,astronauta → foguete → lançamento → contagem,0.465044 | 0.531001 | 0.445180,False,,False
+glove-50d,calibracao,teto_falsos_positivos,apoio emocional,medo → coragem → confiança → amizade,0.636350 | 0.709204 | 0.552589,True,medo → coragem → amizade,True
+glove-50d,calibracao,teto_falsos_positivos,bordado,agulha → linha → bordado → enfeite,0.340875 | 0.034482 | 0.666076,False,agulha → bordado → enfeite,True
+glove-50d,calibracao,teto_falsos_positivos,fotografia,fotógrafo → câmera → retrato → moldura,0.350062 | 0.309154 | 0.413318,False,,False
+glove-50d,calibracao,teto_falsos_positivos,viagem de carro,motorista → carro → estrada → pedágio,0.831288 | 0.642905 | 0.445667,False,,False
+glove-50d,confirmacao,teto_falsos_positivos,criação de ovelhas,lã → ovelha → pastor → rebanho → campo,0.585314 | 0.132272 | 0.311780 | 0.176370,False,,False
+glove-50d,confirmacao,teto_falsos_positivos,preparo de pizza,tomate → molho → pizza → forno,0.786542 | 0.610327 | 0.513180,True,tomate → molho → forno,True
+glove-50d,confirmacao,teto_falsos_positivos,equitação,cavalo → rédea → cavaleiro → sela,0.416436 | 0.264748 | 0.272851,False,,False
+glove-50d,confirmacao,teto_falsos_positivos,controle de horário,prazo → atraso → relógio → ponteiro,0.737474 | 0.271486 | 0.420340,False,,False
+glove-50d,confirmacao,teto_falsos_positivos,respiração,asma → respiração → pulmão → oxigênio,0.428454 | 0.413077 | 0.447050,False,,False
+glove-50d,confirmacao,teto_falsos_positivos,pintura de paredes,tinta → pincel → parede → reboco,0.569345 | 0.326979 | 0.564065,False,tinta → pincel → reboco,True
+glove-50d,confirmacao,teto_falsos_positivos,segurança pública,guarda → polícia → crime → prisão,0.764249 | 0.707081 | 0.775183,True,guarda → polícia → prisão,True
+glove-50d,confirmacao,teto_falsos_positivos,partida no estádio,gramado → estádio → arquibancada → ingresso,0.727525 | 0.463655 | 0.523846,True,gramado → arquibancada → ingresso,True
+glove-50d,confirmacao,teto_falsos_positivos,tempestade,relâmpago → trovão → tempestade → granizo,0.606689 | 0.451426 | 0.637761,False,relâmpago → tempestade → granizo,True
+glove-50d,confirmacao,teto_falsos_positivos,publicidade impressa,cartaz → publicidade → anúncio → jornal,0.325169 | 0.434781 | 0.653076,False,cartaz → anúncio → jornal,True
+glove-50d,confirmacao,teto_falsos_positivos,higiene pessoal,sabão → espuma → banho → toalha,0.781960 | 0.640190 | 0.601857,True,sabão → espuma → toalha,True
+glove-50d,confirmacao,teto_falsos_positivos,paisagem desértica,areia → duna → deserto → oásis,0.369199 | 0.246999 | 0.737540,False,areia → deserto → oásis,True
+glove-50d,confirmacao,teto_falsos_positivos,derivados de petróleo,petróleo → gasolina → combustível → combustão,0.617947 | 0.814821 | 0.779137,True,petróleo → gasolina → combustão,True
+glove-50d,confirmacao,teto_falsos_positivos,espetáculo de balé,balé → sapatilha → palco → plateia,0.369754 | 0.071444 | 0.617907,False,,False
+glove-50d,confirmacao,teto_falsos_positivos,anatomia do polvo,polvo → tentáculo → ventosa → sucção,0.601118 | 0.154056 | 0.288599,False,,False
+glove-50d,confirmacao,teto_falsos_positivos,obra de construção,arquiteto → projeto → construção → andaime,0.459514 | 0.674893 | 0.226853,False,,False
+glove-50d,confirmacao,teto_falsos_positivos,canto em grupo,microfone → voz → canto → coral,0.548007 | 0.624771 | 0.655050,True,microfone → voz → canto → coral,True
+glove-50d,confirmacao,teto_falsos_positivos,laticínios,manteiga → leite → queijo → coalho,0.678786 | 0.597077 | 0.552174,True,manteiga → queijo → coalho,True
+glove-50d,confirmacao,teto_falsos_positivos,estofamento,sofá → estofado → couro → curtume,0.436445 | 0.414921 | 0.339973,False,,False
+glove-50d,confirmacao,teto_falsos_positivos,mãos e impressão digital,esmalte → unha → dedo → impressão,0.616036 | 0.534654 | 0.387775,False,,False
+glove-50d,confirmacao,teto_falsos_positivos,trabalho remunerado,currículo → emprego → salário → renda,0.408782 | 0.524067 | 0.757648,False,,False
+glove-50d,confirmacao,teto_falsos_positivos,degelo,geleira → gelo → degelo → aquecimento,0.364621 | 0.488595 | 0.487923,False,,False
+glove-50d,confirmacao,teto_falsos_positivos,prescrição médica,médico → consulta → receita → remédio,0.491123 | 0.446846 | 0.366868,False,,False
+glove-50d,confirmacao,teto_falsos_positivos,instrumento de sopro e ar,flauta → sopro → ar → oxidação,0.653807 | 0.531668 | 0.376333,False,,False
+minilm-multilingue-int8,calibracao,notebook,panificação,trigo → farinha → massa → pão,0.629534 | 0.529040 | 0.368345,False,trigo → farinha → pão,True
+minilm-multilingue-int8,calibracao,notebook,esportes de raquete,badminton → raquete → tênis → quadra,0.718823 | 0.834132 | 0.398436,False,badminton → raquete → quadra,True
+minilm-multilingue-int8,calibracao,notebook,geografia,mapa → fronteira → país → bandeira,0.477482 | 0.616889 | 0.498972,True,mapa → fronteira → bandeira,True
+minilm-multilingue-int8,calibracao,notebook,plantio,semente → germinação → broto → horta,0.839564 | 0.429706 | 0.625800,True,semente → germinação → horta,True
+minilm-multilingue-int8,calibracao,notebook,cozinha,frigideira → fritura → batata → purê,0.546834 | 0.656655 | 0.249523,False,frigideira → fritura → purê,True
+minilm-multilingue-int8,calibracao,notebook,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.684896 | 0.662784 | 0.474577,True,aeroporto → embarque → bagagem,True
+minilm-multilingue-int8,calibracao,notebook,cidadania,eleição → voto → urna → sigilo,0.892413 | 0.506052 | 0.743638,True,eleição → voto → urna → sigilo,True
+minilm-multilingue-int8,calibracao,notebook,exploração espacial,astronauta → foguete → lançamento → contagem,0.411256 | 0.707778 | 0.647546,True,astronauta → foguete → contagem,True
+minilm-multilingue-int8,calibracao,notebook,apoio emocional,medo → coragem → confiança → amizade,0.590000 | 0.602715 | 0.435406,True,medo → coragem → confiança → amizade,True
+minilm-multilingue-int8,calibracao,notebook,bordado,agulha → linha → bordado → enfeite,0.605437 | 0.663655 | 0.765313,True,agulha → linha → enfeite,True
+minilm-multilingue-int8,calibracao,notebook,fotografia,fotógrafo → câmera → retrato → moldura,0.932977 | 0.780664 | 0.508521,True,fotógrafo → retrato → moldura,True
+minilm-multilingue-int8,calibracao,notebook,viagem de carro,motorista → carro → estrada → pedágio,0.759537 | 0.710005 | 0.671235,True,motorista → carro → pedágio,True
+minilm-multilingue-int8,confirmacao,notebook,criação de ovelhas,lã → ovelha → pastor → rebanho → campo,0.517645 | 0.362784 | 0.362744 | 0.489336,False,lã → ovelha → campo,True
+minilm-multilingue-int8,confirmacao,notebook,preparo de pizza,tomate → molho → pizza → forno,0.399315 | 0.401970 | 0.371824,False,,False
+minilm-multilingue-int8,confirmacao,notebook,equitação,cavalo → rédea → cavaleiro → sela,0.304712 | 0.616645 | 0.661157,False,cavalo → cavaleiro → sela,True
+minilm-multilingue-int8,confirmacao,notebook,controle de horário,prazo → atraso → relógio → ponteiro,0.837836 | 0.517127 | 0.355315,False,prazo → atraso → ponteiro,True
+minilm-multilingue-int8,confirmacao,notebook,respiração,asma → respiração → pulmão → oxigênio,0.462202 | 0.767729 | 0.496120,True,asma → respiração → oxigênio,True
+minilm-multilingue-int8,confirmacao,notebook,pintura de paredes,tinta → pincel → parede → reboco,0.531438 | 0.431998 | 0.396534,False,tinta → pincel → reboco,True
+minilm-multilingue-int8,confirmacao,notebook,segurança pública,guarda → polícia → crime → prisão,0.479346 | 0.695622 | 0.737079,True,guarda → polícia → prisão,True
+minilm-multilingue-int8,confirmacao,notebook,partida no estádio,gramado → estádio → arquibancada → ingresso,0.462062 | 0.396412 | 0.566887,False,gramado → estádio → ingresso,True
+minilm-multilingue-int8,confirmacao,notebook,tempestade,relâmpago → trovão → tempestade → granizo,0.838658 | 0.694086 | 0.444737,True,relâmpago → trovão → granizo,True
+minilm-multilingue-int8,confirmacao,notebook,publicidade impressa,cartaz → publicidade → anúncio → jornal,0.746446 | 0.800812 | 0.790742,True,cartaz → publicidade → jornal,True
+minilm-multilingue-int8,confirmacao,notebook,higiene pessoal,sabão → espuma → banho → toalha,0.632987 | 0.646341 | 0.481959,True,sabão → espuma → toalha,True
+minilm-multilingue-int8,confirmacao,notebook,paisagem desértica,areia → duna → deserto → oásis,0.381489 | 0.655640 | 0.515608,False,,False
+minilm-multilingue-int8,confirmacao,notebook,derivados de petróleo,petróleo → gasolina → combustível → combustão,0.712868 | 0.910256 | 0.883134,True,petróleo → gasolina → combustão,True
+minilm-multilingue-int8,confirmacao,notebook,espetáculo de balé,balé → sapatilha → palco → plateia,0.759586 | 0.582302 | 0.649303,True,balé → sapatilha → plateia,True
+minilm-multilingue-int8,confirmacao,notebook,anatomia do polvo,polvo → tentáculo → ventosa → sucção,0.733740 | 0.711620 | 0.820060,True,polvo → tentáculo → sucção,True
+minilm-multilingue-int8,confirmacao,notebook,obra de construção,arquiteto → projeto → construção → andaime,0.608030 | 0.721102 | 0.377241,False,arquiteto → projeto → andaime,True
+minilm-multilingue-int8,confirmacao,notebook,canto em grupo,microfone → voz → canto → coral,0.683607 | 0.918036 | 0.329662,False,,False
+minilm-multilingue-int8,confirmacao,notebook,laticínios,manteiga → leite → queijo → coalho,0.713027 | 0.573824 | 0.483029,True,manteiga → leite → coalho,True
+minilm-multilingue-int8,confirmacao,notebook,estofamento,sofá → estofado → couro → curtume,0.663192 | 0.757846 | 0.788134,True,sofá → estofado → curtume,True
+minilm-multilingue-int8,confirmacao,notebook,mãos e impressão digital,esmalte → unha → dedo → impressão,0.499360 | 0.554323 | 0.515440,True,esmalte → unha → impressão,True
+minilm-multilingue-int8,confirmacao,notebook,trabalho remunerado,currículo → emprego → salário → renda,0.563872 | 0.680025 | 0.456250,True,currículo → emprego → renda,True
+minilm-multilingue-int8,confirmacao,notebook,degelo,geleira → gelo → degelo → aquecimento,0.456885 | 0.470369 | 0.472098,True,geleira → gelo → aquecimento,True
+minilm-multilingue-int8,confirmacao,notebook,prescrição médica,médico → consulta → receita → remédio,0.704416 | 0.567703 | 0.715931,True,médico → consulta → remédio,True
+minilm-multilingue-int8,confirmacao,notebook,instrumento de sopro e ar,flauta → sopro → ar → oxidação,0.436226 | 0.618523 | 0.437784,True,flauta → sopro → ar → oxidação,True
+minilm-multilingue-int8,calibracao,calibrado,panificação,trigo → farinha → massa → pão,0.629534 | 0.529040 | 0.368345,False,trigo → farinha → pão,True
+minilm-multilingue-int8,calibracao,calibrado,esportes de raquete,badminton → raquete → tênis → quadra,0.718823 | 0.834132 | 0.398436,False,,False
+minilm-multilingue-int8,calibracao,calibrado,geografia,mapa → fronteira → país → bandeira,0.477482 | 0.616889 | 0.498972,False,,False
+minilm-multilingue-int8,calibracao,calibrado,plantio,semente → germinação → broto → horta,0.839564 | 0.429706 | 0.625800,False,semente → germinação → horta,True
+minilm-multilingue-int8,calibracao,calibrado,cozinha,frigideira → fritura → batata → purê,0.546834 | 0.656655 | 0.249523,False,,False
+minilm-multilingue-int8,calibracao,calibrado,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.684896 | 0.662784 | 0.474577,False,,False
+minilm-multilingue-int8,calibracao,calibrado,cidadania,eleição → voto → urna → sigilo,0.892413 | 0.506052 | 0.743638,False,,False
+minilm-multilingue-int8,calibracao,calibrado,exploração espacial,astronauta → foguete → lançamento → contagem,0.411256 | 0.707778 | 0.647546,False,,False
+minilm-multilingue-int8,calibracao,calibrado,apoio emocional,medo → coragem → confiança → amizade,0.590000 | 0.602715 | 0.435406,False,,False
+minilm-multilingue-int8,calibracao,calibrado,bordado,agulha → linha → bordado → enfeite,0.605437 | 0.663655 | 0.765313,True,agulha → linha → enfeite,True
+minilm-multilingue-int8,calibracao,calibrado,fotografia,fotógrafo → câmera → retrato → moldura,0.932977 | 0.780664 | 0.508521,False,,False
+minilm-multilingue-int8,calibracao,calibrado,viagem de carro,motorista → carro → estrada → pedágio,0.759537 | 0.710005 | 0.671235,True,motorista → carro → pedágio,True
+minilm-multilingue-int8,confirmacao,calibrado,criação de ovelhas,lã → ovelha → pastor → rebanho → campo,0.517645 | 0.362784 | 0.362744 | 0.489336,False,,False
+minilm-multilingue-int8,confirmacao,calibrado,preparo de pizza,tomate → molho → pizza → forno,0.399315 | 0.401970 | 0.371824,False,,False
+minilm-multilingue-int8,confirmacao,calibrado,equitação,cavalo → rédea → cavaleiro → sela,0.304712 | 0.616645 | 0.661157,False,,False
+minilm-multilingue-int8,confirmacao,calibrado,controle de horário,prazo → atraso → relógio → ponteiro,0.837836 | 0.517127 | 0.355315,False,prazo → atraso → ponteiro,True
+minilm-multilingue-int8,confirmacao,calibrado,respiração,asma → respiração → pulmão → oxigênio,0.462202 | 0.767729 | 0.496120,False,asma → pulmão → respiração → oxigênio,True
+minilm-multilingue-int8,confirmacao,calibrado,pintura de paredes,tinta → pincel → parede → reboco,0.531438 | 0.431998 | 0.396534,False,,False
+minilm-multilingue-int8,confirmacao,calibrado,segurança pública,guarda → polícia → crime → prisão,0.479346 | 0.695622 | 0.737079,False,,False
+minilm-multilingue-int8,confirmacao,calibrado,partida no estádio,gramado → estádio → arquibancada → ingresso,0.462062 | 0.396412 | 0.566887,False,,False
+minilm-multilingue-int8,confirmacao,calibrado,tempestade,relâmpago → trovão → tempestade → granizo,0.838658 | 0.694086 | 0.444737,False,,False
+minilm-multilingue-int8,confirmacao,calibrado,publicidade impressa,cartaz → publicidade → anúncio → jornal,0.746446 | 0.800812 | 0.790742,True,cartaz → publicidade → jornal,True
+minilm-multilingue-int8,confirmacao,calibrado,higiene pessoal,sabão → espuma → banho → toalha,0.632987 | 0.646341 | 0.481959,False,,False
+minilm-multilingue-int8,confirmacao,calibrado,paisagem desértica,areia → duna → deserto → oásis,0.381489 | 0.655640 | 0.515608,False,,False
+minilm-multilingue-int8,confirmacao,calibrado,derivados de petróleo,petróleo → gasolina → combustível → combustão,0.712868 | 0.910256 | 0.883134,True,petróleo → gasolina → combustão,True
+minilm-multilingue-int8,confirmacao,calibrado,espetáculo de balé,balé → sapatilha → palco → plateia,0.759586 | 0.582302 | 0.649303,False,balé → palco → plateia,True
+minilm-multilingue-int8,confirmacao,calibrado,anatomia do polvo,polvo → tentáculo → ventosa → sucção,0.733740 | 0.711620 | 0.820060,True,polvo → tentáculo → sucção,True
+minilm-multilingue-int8,confirmacao,calibrado,obra de construção,arquiteto → projeto → construção → andaime,0.608030 | 0.721102 | 0.377241,False,arquiteto → projeto → andaime,True
+minilm-multilingue-int8,confirmacao,calibrado,canto em grupo,microfone → voz → canto → coral,0.683607 | 0.918036 | 0.329662,False,,False
+minilm-multilingue-int8,confirmacao,calibrado,laticínios,manteiga → leite → queijo → coalho,0.713027 | 0.573824 | 0.483029,False,manteiga → leite → coalho,True
+minilm-multilingue-int8,confirmacao,calibrado,estofamento,sofá → estofado → couro → curtume,0.663192 | 0.757846 | 0.788134,True,sofá → estofado → curtume,True
+minilm-multilingue-int8,confirmacao,calibrado,mãos e impressão digital,esmalte → unha → dedo → impressão,0.499360 | 0.554323 | 0.515440,False,,False
+minilm-multilingue-int8,confirmacao,calibrado,trabalho remunerado,currículo → emprego → salário → renda,0.563872 | 0.680025 | 0.456250,False,,False
+minilm-multilingue-int8,confirmacao,calibrado,degelo,geleira → gelo → degelo → aquecimento,0.456885 | 0.470369 | 0.472098,False,,False
+minilm-multilingue-int8,confirmacao,calibrado,prescrição médica,médico → consulta → receita → remédio,0.704416 | 0.567703 | 0.715931,False,médico → consulta → remédio,True
+minilm-multilingue-int8,confirmacao,calibrado,instrumento de sopro e ar,flauta → sopro → ar → oxidação,0.436226 | 0.618523 | 0.437784,False,,False
+minilm-multilingue-int8,calibracao,teto_falsos_positivos,panificação,trigo → farinha → massa → pão,0.629534 | 0.529040 | 0.368345,False,,False
+minilm-multilingue-int8,calibracao,teto_falsos_positivos,esportes de raquete,badminton → raquete → tênis → quadra,0.718823 | 0.834132 | 0.398436,False,,False
+minilm-multilingue-int8,calibracao,teto_falsos_positivos,geografia,mapa → fronteira → país → bandeira,0.477482 | 0.616889 | 0.498972,False,,False
+minilm-multilingue-int8,calibracao,teto_falsos_positivos,plantio,semente → germinação → broto → horta,0.839564 | 0.429706 | 0.625800,False,,False
+minilm-multilingue-int8,calibracao,teto_falsos_positivos,cozinha,frigideira → fritura → batata → purê,0.546834 | 0.656655 | 0.249523,False,,False
+minilm-multilingue-int8,calibracao,teto_falsos_positivos,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.684896 | 0.662784 | 0.474577,False,,False
+minilm-multilingue-int8,calibracao,teto_falsos_positivos,cidadania,eleição → voto → urna → sigilo,0.892413 | 0.506052 | 0.743638,False,,False
+minilm-multilingue-int8,calibracao,teto_falsos_positivos,exploração espacial,astronauta → foguete → lançamento → contagem,0.411256 | 0.707778 | 0.647546,False,,False
+minilm-multilingue-int8,calibracao,teto_falsos_positivos,apoio emocional,medo → coragem → confiança → amizade,0.590000 | 0.602715 | 0.435406,False,,False
+minilm-multilingue-int8,calibracao,teto_falsos_positivos,bordado,agulha → linha → bordado → enfeite,0.605437 | 0.663655 | 0.765313,False,agulha → bordado → enfeite,True
+minilm-multilingue-int8,calibracao,teto_falsos_positivos,fotografia,fotógrafo → câmera → retrato → moldura,0.932977 | 0.780664 | 0.508521,False,,False
+minilm-multilingue-int8,calibracao,teto_falsos_positivos,viagem de carro,motorista → carro → estrada → pedágio,0.759537 | 0.710005 | 0.671235,False,,False
+minilm-multilingue-int8,confirmacao,teto_falsos_positivos,criação de ovelhas,lã → ovelha → pastor → rebanho → campo,0.517645 | 0.362784 | 0.362744 | 0.489336,False,,False
+minilm-multilingue-int8,confirmacao,teto_falsos_positivos,preparo de pizza,tomate → molho → pizza → forno,0.399315 | 0.401970 | 0.371824,False,,False
+minilm-multilingue-int8,confirmacao,teto_falsos_positivos,equitação,cavalo → rédea → cavaleiro → sela,0.304712 | 0.616645 | 0.661157,False,,False
+minilm-multilingue-int8,confirmacao,teto_falsos_positivos,controle de horário,prazo → atraso → relógio → ponteiro,0.837836 | 0.517127 | 0.355315,False,,False
+minilm-multilingue-int8,confirmacao,teto_falsos_positivos,respiração,asma → respiração → pulmão → oxigênio,0.462202 | 0.767729 | 0.496120,False,,False
+minilm-multilingue-int8,confirmacao,teto_falsos_positivos,pintura de paredes,tinta → pincel → parede → reboco,0.531438 | 0.431998 | 0.396534,False,,False
+minilm-multilingue-int8,confirmacao,teto_falsos_positivos,segurança pública,guarda → polícia → crime → prisão,0.479346 | 0.695622 | 0.737079,False,,False
+minilm-multilingue-int8,confirmacao,teto_falsos_positivos,partida no estádio,gramado → estádio → arquibancada → ingresso,0.462062 | 0.396412 | 0.566887,False,,False
+minilm-multilingue-int8,confirmacao,teto_falsos_positivos,tempestade,relâmpago → trovão → tempestade → granizo,0.838658 | 0.694086 | 0.444737,False,,False
+minilm-multilingue-int8,confirmacao,teto_falsos_positivos,publicidade impressa,cartaz → publicidade → anúncio → jornal,0.746446 | 0.800812 | 0.790742,True,cartaz → publicidade → anúncio → jornal,True
+minilm-multilingue-int8,confirmacao,teto_falsos_positivos,higiene pessoal,sabão → espuma → banho → toalha,0.632987 | 0.646341 | 0.481959,False,,False
+minilm-multilingue-int8,confirmacao,teto_falsos_positivos,paisagem desértica,areia → duna → deserto → oásis,0.381489 | 0.655640 | 0.515608,False,,False
+minilm-multilingue-int8,confirmacao,teto_falsos_positivos,derivados de petróleo,petróleo → gasolina → combustível → combustão,0.712868 | 0.910256 | 0.883134,False,,False
+minilm-multilingue-int8,confirmacao,teto_falsos_positivos,espetáculo de balé,balé → sapatilha → palco → plateia,0.759586 | 0.582302 | 0.649303,False,,False
+minilm-multilingue-int8,confirmacao,teto_falsos_positivos,anatomia do polvo,polvo → tentáculo → ventosa → sucção,0.733740 | 0.711620 | 0.820060,False,polvo → ventosa → sucção,True
+minilm-multilingue-int8,confirmacao,teto_falsos_positivos,obra de construção,arquiteto → projeto → construção → andaime,0.608030 | 0.721102 | 0.377241,False,,False
+minilm-multilingue-int8,confirmacao,teto_falsos_positivos,canto em grupo,microfone → voz → canto → coral,0.683607 | 0.918036 | 0.329662,False,,False
+minilm-multilingue-int8,confirmacao,teto_falsos_positivos,laticínios,manteiga → leite → queijo → coalho,0.713027 | 0.573824 | 0.483029,False,,False
+minilm-multilingue-int8,confirmacao,teto_falsos_positivos,estofamento,sofá → estofado → couro → curtume,0.663192 | 0.757846 | 0.788134,False,,False
+minilm-multilingue-int8,confirmacao,teto_falsos_positivos,mãos e impressão digital,esmalte → unha → dedo → impressão,0.499360 | 0.554323 | 0.515440,False,,False
+minilm-multilingue-int8,confirmacao,teto_falsos_positivos,trabalho remunerado,currículo → emprego → salário → renda,0.563872 | 0.680025 | 0.456250,False,,False
+minilm-multilingue-int8,confirmacao,teto_falsos_positivos,degelo,geleira → gelo → degelo → aquecimento,0.456885 | 0.470369 | 0.472098,False,,False
+minilm-multilingue-int8,confirmacao,teto_falsos_positivos,prescrição médica,médico → consulta → receita → remédio,0.704416 | 0.567703 | 0.715931,False,,False
+minilm-multilingue-int8,confirmacao,teto_falsos_positivos,instrumento de sopro e ar,flauta → sopro → ar → oxidação,0.436226 | 0.618523 | 0.437784,False,,False
+fasttext-100d,calibracao,notebook,panificação,trigo → farinha → massa → pão,0.848720 | 0.570265 | 0.554871,True,trigo → farinha → pão,True
+fasttext-100d,calibracao,notebook,esportes de raquete,badminton → raquete → tênis → quadra,0.565312 | 0.738980 | 0.704826,True,badminton → raquete → quadra,True
+fasttext-100d,calibracao,notebook,geografia,mapa → fronteira → país → bandeira,0.485219 | 0.464917 | 0.401500,True,mapa → fronteira → bandeira,True
+fasttext-100d,calibracao,notebook,plantio,semente → germinação → broto → horta,0.759476 | 0.631462 | 0.499990,True,semente → germinação → horta,True
+fasttext-100d,calibracao,notebook,cozinha,frigideira → fritura → batata → purê,0.735668 | 0.723718 | 0.812542,True,frigideira → fritura → purê,True
+fasttext-100d,calibracao,notebook,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.714061 | 0.648194 | 0.632345,True,aeroporto → embarque → bagagem,True
+fasttext-100d,calibracao,notebook,cidadania,eleição → voto → urna → sigilo,0.706438 | 0.572092 | 0.302487,False,,False
+fasttext-100d,calibracao,notebook,exploração espacial,astronauta → foguete → lançamento → contagem,0.680257 | 0.644426 | 0.463432,True,astronauta → foguete → lançamento → contagem,True
+fasttext-100d,calibracao,notebook,apoio emocional,medo → coragem → confiança → amizade,0.731212 | 0.760355 | 0.606240,True,medo → coragem → amizade,True
+fasttext-100d,calibracao,notebook,bordado,agulha → linha → bordado → enfeite,0.568021 | 0.427078 | 0.783584,True,agulha → bordado → enfeite,True
+fasttext-100d,calibracao,notebook,fotografia,fotógrafo → câmera → retrato → moldura,0.504551 | 0.433961 | 0.558942,True,fotógrafo → câmera → moldura,True
+fasttext-100d,calibracao,notebook,viagem de carro,motorista → carro → estrada → pedágio,0.786826 | 0.678604 | 0.637516,True,motorista → carro → pedágio,True
+fasttext-100d,confirmacao,notebook,criação de ovelhas,lã → ovelha → pastor → rebanho → campo,0.650564 | 0.492930 | 0.655152 | 0.412692,True,lã → ovelha → pastor → campo,True
+fasttext-100d,confirmacao,notebook,preparo de pizza,tomate → molho → pizza → forno,0.814342 | 0.694094 | 0.631100,True,tomate → molho → forno,True
+fasttext-100d,confirmacao,notebook,equitação,cavalo → rédea → cavaleiro → sela,0.636717 | 0.452587 | 0.563128,True,cavalo → rédea → sela,True
+fasttext-100d,confirmacao,notebook,controle de horário,prazo → atraso → relógio → ponteiro,0.498093 | 0.455316 | 0.670641,True,prazo → atraso → relógio → ponteiro,True
+fasttext-100d,confirmacao,notebook,respiração,asma → respiração → pulmão → oxigênio,0.531250 | 0.549078 | 0.596849,True,asma → respiração → oxigênio,True
+fasttext-100d,confirmacao,notebook,pintura de paredes,tinta → pincel → parede → reboco,0.809712 | 0.633514 | 0.705031,True,tinta → pincel → reboco,True
+fasttext-100d,confirmacao,notebook,segurança pública,guarda → polícia → crime → prisão,0.691131 | 0.593012 | 0.644865,True,guarda → polícia → prisão,True
+fasttext-100d,confirmacao,notebook,partida no estádio,gramado → estádio → arquibancada → ingresso,0.611465 | 0.631717 | 0.447922,True,gramado → arquibancada → ingresso,True
+fasttext-100d,confirmacao,notebook,tempestade,relâmpago → trovão → tempestade → granizo,0.734857 | 0.618364 | 0.706474,True,relâmpago → trovão → granizo,True
+fasttext-100d,confirmacao,notebook,publicidade impressa,cartaz → publicidade → anúncio → jornal,0.355845 | 0.377635 | 0.552269,False,cartaz → anúncio → jornal,True
+fasttext-100d,confirmacao,notebook,higiene pessoal,sabão → espuma → banho → toalha,0.795554 | 0.683015 | 0.685510,True,sabão → espuma → toalha,True
+fasttext-100d,confirmacao,notebook,paisagem desértica,areia → duna → deserto → oásis,0.656367 | 0.673383 | 0.760886,True,areia → duna → oásis,True
+fasttext-100d,confirmacao,notebook,derivados de petróleo,petróleo → gasolina → combustível → combustão,0.598221 | 0.833771 | 0.812990,True,petróleo → gasolina → combustão,True
+fasttext-100d,confirmacao,notebook,espetáculo de balé,balé → sapatilha → palco → plateia,0.569261 | 0.464812 | 0.758734,True,balé → sapatilha → plateia,True
+fasttext-100d,confirmacao,notebook,anatomia do polvo,polvo → tentáculo → ventosa → sucção,0.685437 | 0.440286 | 0.495918,True,polvo → tentáculo → sucção,True
+fasttext-100d,confirmacao,notebook,obra de construção,arquiteto → projeto → construção → andaime,0.556020 | 0.580736 | 0.522930,True,arquiteto → projeto → construção → andaime,True
+fasttext-100d,confirmacao,notebook,canto em grupo,microfone → voz → canto → coral,0.645843 | 0.601338 | 0.730763,True,microfone → voz → coral,True
+fasttext-100d,confirmacao,notebook,laticínios,manteiga → leite → queijo → coalho,0.749555 | 0.736724 | 0.800114,True,manteiga → leite → coalho,True
+fasttext-100d,confirmacao,notebook,estofamento,sofá → estofado → couro → curtume,0.688728 | 0.779178 | 0.503252,True,sofá → estofado → curtume,True
+fasttext-100d,confirmacao,notebook,mãos e impressão digital,esmalte → unha → dedo → impressão,0.676299 | 0.748665 | 0.559779,True,esmalte → unha → impressão,True
+fasttext-100d,confirmacao,notebook,trabalho remunerado,currículo → emprego → salário → renda,0.481323 | 0.658915 | 0.690006,True,currículo → emprego → renda,True
+fasttext-100d,confirmacao,notebook,degelo,geleira → gelo → degelo → aquecimento,0.733039 | 0.591913 | 0.617852,True,geleira → gelo → aquecimento,True
+fasttext-100d,confirmacao,notebook,prescrição médica,médico → consulta → receita → remédio,0.507401 | 0.411820 | 0.543660,True,médico → consulta → receita → remédio,True
+fasttext-100d,confirmacao,notebook,instrumento de sopro e ar,flauta → sopro → ar → oxidação,0.742077 | 0.603255 | 0.454186,True,flauta → sopro → oxidação,True
+fasttext-100d,calibracao,calibrado,panificação,trigo → farinha → massa → pão,0.848720 | 0.570265 | 0.554871,True,trigo → farinha → pão,True
+fasttext-100d,calibracao,calibrado,esportes de raquete,badminton → raquete → tênis → quadra,0.565312 | 0.738980 | 0.704826,True,badminton → raquete → quadra,True
+fasttext-100d,calibracao,calibrado,geografia,mapa → fronteira → país → bandeira,0.485219 | 0.464917 | 0.401500,False,mapa → fronteira → bandeira,True
+fasttext-100d,calibracao,calibrado,plantio,semente → germinação → broto → horta,0.759476 | 0.631462 | 0.499990,True,semente → broto → horta,True
+fasttext-100d,calibracao,calibrado,cozinha,frigideira → fritura → batata → purê,0.735668 | 0.723718 | 0.812542,True,frigideira → fritura → purê,True
+fasttext-100d,calibracao,calibrado,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.714061 | 0.648194 | 0.632345,True,aeroporto → embarque → bagagem,True
+fasttext-100d,calibracao,calibrado,cidadania,eleição → voto → urna → sigilo,0.706438 | 0.572092 | 0.302487,False,,False
+fasttext-100d,calibracao,calibrado,exploração espacial,astronauta → foguete → lançamento → contagem,0.680257 | 0.644426 | 0.463432,True,astronauta → foguete → lançamento → contagem,True
+fasttext-100d,calibracao,calibrado,apoio emocional,medo → coragem → confiança → amizade,0.731212 | 0.760355 | 0.606240,True,medo → coragem → amizade,True
+fasttext-100d,calibracao,calibrado,bordado,agulha → linha → bordado → enfeite,0.568021 | 0.427078 | 0.783584,False,agulha → bordado → enfeite,True
+fasttext-100d,calibracao,calibrado,fotografia,fotógrafo → câmera → retrato → moldura,0.504551 | 0.433961 | 0.558942,False,fotógrafo → câmera → moldura,True
+fasttext-100d,calibracao,calibrado,viagem de carro,motorista → carro → estrada → pedágio,0.786826 | 0.678604 | 0.637516,True,motorista → carro → pedágio,True
+fasttext-100d,confirmacao,calibrado,criação de ovelhas,lã → ovelha → pastor → rebanho → campo,0.650564 | 0.492930 | 0.655152 | 0.412692,False,,False
+fasttext-100d,confirmacao,calibrado,preparo de pizza,tomate → molho → pizza → forno,0.814342 | 0.694094 | 0.631100,True,tomate → molho → forno,True
+fasttext-100d,confirmacao,calibrado,equitação,cavalo → rédea → cavaleiro → sela,0.636717 | 0.452587 | 0.563128,False,cavalo → rédea → sela,True
+fasttext-100d,confirmacao,calibrado,controle de horário,prazo → atraso → relógio → ponteiro,0.498093 | 0.455316 | 0.670641,False,,False
+fasttext-100d,confirmacao,calibrado,respiração,asma → respiração → pulmão → oxigênio,0.531250 | 0.549078 | 0.596849,True,asma → respiração → oxigênio,True
+fasttext-100d,confirmacao,calibrado,pintura de paredes,tinta → pincel → parede → reboco,0.809712 | 0.633514 | 0.705031,True,tinta → pincel → reboco,True
+fasttext-100d,confirmacao,calibrado,segurança pública,guarda → polícia → crime → prisão,0.691131 | 0.593012 | 0.644865,True,guarda → polícia → prisão,True
+fasttext-100d,confirmacao,calibrado,partida no estádio,gramado → estádio → arquibancada → ingresso,0.611465 | 0.631717 | 0.447922,False,,False
+fasttext-100d,confirmacao,calibrado,tempestade,relâmpago → trovão → tempestade → granizo,0.734857 | 0.618364 | 0.706474,True,relâmpago → trovão → granizo,True
+fasttext-100d,confirmacao,calibrado,publicidade impressa,cartaz → publicidade → anúncio → jornal,0.355845 | 0.377635 | 0.552269,False,cartaz → anúncio → jornal,True
+fasttext-100d,confirmacao,calibrado,higiene pessoal,sabão → espuma → banho → toalha,0.795554 | 0.683015 | 0.685510,True,sabão → espuma → toalha,True
+fasttext-100d,confirmacao,calibrado,paisagem desértica,areia → duna → deserto → oásis,0.656367 | 0.673383 | 0.760886,True,areia → duna → oásis,True
+fasttext-100d,confirmacao,calibrado,derivados de petróleo,petróleo → gasolina → combustível → combustão,0.598221 | 0.833771 | 0.812990,True,petróleo → gasolina → combustão,True
+fasttext-100d,confirmacao,calibrado,espetáculo de balé,balé → sapatilha → palco → plateia,0.569261 | 0.464812 | 0.758734,True,balé → palco → plateia,True
+fasttext-100d,confirmacao,calibrado,anatomia do polvo,polvo → tentáculo → ventosa → sucção,0.685437 | 0.440286 | 0.495918,False,polvo → tentáculo → sucção,True
+fasttext-100d,confirmacao,calibrado,obra de construção,arquiteto → projeto → construção → andaime,0.556020 | 0.580736 | 0.522930,True,arquiteto → projeto → construção → andaime,True
+fasttext-100d,confirmacao,calibrado,canto em grupo,microfone → voz → canto → coral,0.645843 | 0.601338 | 0.730763,True,microfone → voz → coral,True
+fasttext-100d,confirmacao,calibrado,laticínios,manteiga → leite → queijo → coalho,0.749555 | 0.736724 | 0.800114,True,manteiga → leite → coalho,True
+fasttext-100d,confirmacao,calibrado,estofamento,sofá → estofado → couro → curtume,0.688728 | 0.779178 | 0.503252,True,sofá → estofado → curtume,True
+fasttext-100d,confirmacao,calibrado,mãos e impressão digital,esmalte → unha → dedo → impressão,0.676299 | 0.748665 | 0.559779,True,esmalte → unha → impressão,True
+fasttext-100d,confirmacao,calibrado,trabalho remunerado,currículo → emprego → salário → renda,0.481323 | 0.658915 | 0.690006,True,currículo → emprego → renda,True
+fasttext-100d,confirmacao,calibrado,degelo,geleira → gelo → degelo → aquecimento,0.733039 | 0.591913 | 0.617852,True,geleira → gelo → aquecimento,True
+fasttext-100d,confirmacao,calibrado,prescrição médica,médico → consulta → receita → remédio,0.507401 | 0.411820 | 0.543660,False,,False
+fasttext-100d,confirmacao,calibrado,instrumento de sopro e ar,flauta → sopro → ar → oxidação,0.742077 | 0.603255 | 0.454186,False,,False
+fasttext-100d,calibracao,teto_falsos_positivos,panificação,trigo → farinha → massa → pão,0.848720 | 0.570265 | 0.554871,False,trigo → farinha → pão,True
+fasttext-100d,calibracao,teto_falsos_positivos,esportes de raquete,badminton → raquete → tênis → quadra,0.565312 | 0.738980 | 0.704826,True,badminton → raquete → quadra,True
+fasttext-100d,calibracao,teto_falsos_positivos,geografia,mapa → fronteira → país → bandeira,0.485219 | 0.464917 | 0.401500,False,,False
+fasttext-100d,calibracao,teto_falsos_positivos,plantio,semente → germinação → broto → horta,0.759476 | 0.631462 | 0.499990,False,,False
+fasttext-100d,calibracao,teto_falsos_positivos,cozinha,frigideira → fritura → batata → purê,0.735668 | 0.723718 | 0.812542,True,frigideira → fritura → purê,True
+fasttext-100d,calibracao,teto_falsos_positivos,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.714061 | 0.648194 | 0.632345,True,aeroporto → embarque → bagagem,True
+fasttext-100d,calibracao,teto_falsos_positivos,cidadania,eleição → voto → urna → sigilo,0.706438 | 0.572092 | 0.302487,False,,False
+fasttext-100d,calibracao,teto_falsos_positivos,exploração espacial,astronauta → foguete → lançamento → contagem,0.680257 | 0.644426 | 0.463432,False,,False
+fasttext-100d,calibracao,teto_falsos_positivos,apoio emocional,medo → coragem → confiança → amizade,0.731212 | 0.760355 | 0.606240,True,medo → coragem → amizade,True
+fasttext-100d,calibracao,teto_falsos_positivos,bordado,agulha → linha → bordado → enfeite,0.568021 | 0.427078 | 0.783584,False,,False
+fasttext-100d,calibracao,teto_falsos_positivos,fotografia,fotógrafo → câmera → retrato → moldura,0.504551 | 0.433961 | 0.558942,False,fotógrafo → retrato → moldura,True
+fasttext-100d,calibracao,teto_falsos_positivos,viagem de carro,motorista → carro → estrada → pedágio,0.786826 | 0.678604 | 0.637516,True,motorista → carro → estrada → pedágio,True
+fasttext-100d,confirmacao,teto_falsos_positivos,criação de ovelhas,lã → ovelha → pastor → rebanho → campo,0.650564 | 0.492930 | 0.655152 | 0.412692,False,,False
+fasttext-100d,confirmacao,teto_falsos_positivos,preparo de pizza,tomate → molho → pizza → forno,0.814342 | 0.694094 | 0.631100,True,tomate → molho → forno,True
+fasttext-100d,confirmacao,teto_falsos_positivos,equitação,cavalo → rédea → cavaleiro → sela,0.636717 | 0.452587 | 0.563128,False,cavalo → cavaleiro → sela,True
+fasttext-100d,confirmacao,teto_falsos_positivos,controle de horário,prazo → atraso → relógio → ponteiro,0.498093 | 0.455316 | 0.670641,False,,False
+fasttext-100d,confirmacao,teto_falsos_positivos,respiração,asma → respiração → pulmão → oxigênio,0.531250 | 0.549078 | 0.596849,False,asma → pulmão → oxigênio,True
+fasttext-100d,confirmacao,teto_falsos_positivos,pintura de paredes,tinta → pincel → parede → reboco,0.809712 | 0.633514 | 0.705031,True,tinta → pincel → reboco,True
+fasttext-100d,confirmacao,teto_falsos_positivos,segurança pública,guarda → polícia → crime → prisão,0.691131 | 0.593012 | 0.644865,True,guarda → polícia → prisão,True
+fasttext-100d,confirmacao,teto_falsos_positivos,partida no estádio,gramado → estádio → arquibancada → ingresso,0.611465 | 0.631717 | 0.447922,False,,False
+fasttext-100d,confirmacao,teto_falsos_positivos,tempestade,relâmpago → trovão → tempestade → granizo,0.734857 | 0.618364 | 0.706474,True,relâmpago → tempestade → granizo,True
+fasttext-100d,confirmacao,teto_falsos_positivos,publicidade impressa,cartaz → publicidade → anúncio → jornal,0.355845 | 0.377635 | 0.552269,False,,False
+fasttext-100d,confirmacao,teto_falsos_positivos,higiene pessoal,sabão → espuma → banho → toalha,0.795554 | 0.683015 | 0.685510,True,sabão → espuma → toalha,True
+fasttext-100d,confirmacao,teto_falsos_positivos,paisagem desértica,areia → duna → deserto → oásis,0.656367 | 0.673383 | 0.760886,True,areia → deserto → oásis,True
+fasttext-100d,confirmacao,teto_falsos_positivos,derivados de petróleo,petróleo → gasolina → combustível → combustão,0.598221 | 0.833771 | 0.812990,True,petróleo → gasolina → combustão,True
+fasttext-100d,confirmacao,teto_falsos_positivos,espetáculo de balé,balé → sapatilha → palco → plateia,0.569261 | 0.464812 | 0.758734,False,,False
+fasttext-100d,confirmacao,teto_falsos_positivos,anatomia do polvo,polvo → tentáculo → ventosa → sucção,0.685437 | 0.440286 | 0.495918,False,,False
+fasttext-100d,confirmacao,teto_falsos_positivos,obra de construção,arquiteto → projeto → construção → andaime,0.556020 | 0.580736 | 0.522930,False,,False
+fasttext-100d,confirmacao,teto_falsos_positivos,canto em grupo,microfone → voz → canto → coral,0.645843 | 0.601338 | 0.730763,True,microfone → voz → canto → coral,True
+fasttext-100d,confirmacao,teto_falsos_positivos,laticínios,manteiga → leite → queijo → coalho,0.749555 | 0.736724 | 0.800114,True,manteiga → leite → coalho,True
+fasttext-100d,confirmacao,teto_falsos_positivos,estofamento,sofá → estofado → couro → curtume,0.688728 | 0.779178 | 0.503252,False,,False
+fasttext-100d,confirmacao,teto_falsos_positivos,mãos e impressão digital,esmalte → unha → dedo → impressão,0.676299 | 0.748665 | 0.559779,True,esmalte → unha → impressão,True
+fasttext-100d,confirmacao,teto_falsos_positivos,trabalho remunerado,currículo → emprego → salário → renda,0.481323 | 0.658915 | 0.690006,False,,False
+fasttext-100d,confirmacao,teto_falsos_positivos,degelo,geleira → gelo → degelo → aquecimento,0.733039 | 0.591913 | 0.617852,True,geleira → degelo → aquecimento,True
+fasttext-100d,confirmacao,teto_falsos_positivos,prescrição médica,médico → consulta → receita → remédio,0.507401 | 0.411820 | 0.543660,False,,False
+fasttext-100d,confirmacao,teto_falsos_positivos,instrumento de sopro e ar,flauta → sopro → ar → oxidação,0.742077 | 0.603255 | 0.454186,False,,False
+fasttext-300d,calibracao,notebook,panificação,trigo → farinha → massa → pão,0.715971 | 0.475810 | 0.463725,True,trigo → farinha → pão,True
+fasttext-300d,calibracao,notebook,esportes de raquete,badminton → raquete → tênis → quadra,0.484800 | 0.632728 | 0.568980,True,badminton → raquete → quadra,True
+fasttext-300d,calibracao,notebook,geografia,mapa → fronteira → país → bandeira,0.300897 | 0.349171 | 0.251869,False,,False
+fasttext-300d,calibracao,notebook,plantio,semente → germinação → broto → horta,0.688710 | 0.490955 | 0.375968,False,,False
+fasttext-300d,calibracao,notebook,cozinha,frigideira → fritura → batata → purê,0.605194 | 0.542719 | 0.664578,True,frigideira → fritura → purê,True
+fasttext-300d,calibracao,notebook,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.588694 | 0.523725 | 0.510698,True,aeroporto → embarque → bagagem,True
+fasttext-300d,calibracao,notebook,cidadania,eleição → voto → urna → sigilo,0.598554 | 0.468270 | 0.230806,False,,False
+fasttext-300d,calibracao,notebook,exploração espacial,astronauta → foguete → lançamento → contagem,0.551074 | 0.502914 | 0.324506,False,,False
+fasttext-300d,calibracao,notebook,apoio emocional,medo → coragem → confiança → amizade,0.563000 | 0.476007 | 0.490527,True,medo → coragem → amizade,True
+fasttext-300d,calibracao,notebook,bordado,agulha → linha → bordado → enfeite,0.349060 | 0.270623 | 0.599757,False,agulha → bordado → enfeite,True
+fasttext-300d,calibracao,notebook,fotografia,fotógrafo → câmera → retrato → moldura,0.466881 | 0.324366 | 0.422720,False,fotógrafo → câmera → moldura,True
+fasttext-300d,calibracao,notebook,viagem de carro,motorista → carro → estrada → pedágio,0.684344 | 0.537531 | 0.484054,True,motorista → carro → estrada → pedágio,True
+fasttext-300d,confirmacao,notebook,criação de ovelhas,lã → ovelha → pastor → rebanho → campo,0.494799 | 0.388683 | 0.553749 | 0.279311,False,,False
+fasttext-300d,confirmacao,notebook,preparo de pizza,tomate → molho → pizza → forno,0.685891 | 0.580192 | 0.498995,True,tomate → molho → forno,True
+fasttext-300d,confirmacao,notebook,equitação,cavalo → rédea → cavaleiro → sela,0.439943 | 0.271812 | 0.348042,False,,False
+fasttext-300d,confirmacao,notebook,controle de horário,prazo → atraso → relógio → ponteiro,0.348297 | 0.322503 | 0.570479,False,,False
+fasttext-300d,confirmacao,notebook,respiração,asma → respiração → pulmão → oxigênio,0.445492 | 0.464070 | 0.457475,True,asma → respiração → oxigênio,True
+fasttext-300d,confirmacao,notebook,pintura de paredes,tinta → pincel → parede → reboco,0.653844 | 0.462038 | 0.557889,True,tinta → pincel → reboco,True
+fasttext-300d,confirmacao,notebook,segurança pública,guarda → polícia → crime → prisão,0.566969 | 0.452700 | 0.492639,True,guarda → polícia → prisão,True
+fasttext-300d,confirmacao,notebook,partida no estádio,gramado → estádio → arquibancada → ingresso,0.532343 | 0.574725 | 0.412089,True,gramado → estádio → arquibancada → ingresso,True
+fasttext-300d,confirmacao,notebook,tempestade,relâmpago → trovão → tempestade → granizo,0.595329 | 0.506176 | 0.580521,True,relâmpago → trovão → granizo,True
+fasttext-300d,confirmacao,notebook,publicidade impressa,cartaz → publicidade → anúncio → jornal,0.295255 | 0.342898 | 0.428712,False,cartaz → anúncio → jornal,True
+fasttext-300d,confirmacao,notebook,higiene pessoal,sabão → espuma → banho → toalha,0.605501 | 0.481936 | 0.553366,True,sabão → espuma → toalha,True
+fasttext-300d,confirmacao,notebook,paisagem desértica,areia → duna → deserto → oásis,0.546322 | 0.473322 | 0.633778,True,areia → deserto → oásis,True
+fasttext-300d,confirmacao,notebook,derivados de petróleo,petróleo → gasolina → combustível → combustão,0.511580 | 0.764729 | 0.705504,True,petróleo → gasolina → combustão,True
+fasttext-300d,confirmacao,notebook,espetáculo de balé,balé → sapatilha → palco → plateia,0.474865 | 0.322502 | 0.602638,False,,False
+fasttext-300d,confirmacao,notebook,anatomia do polvo,polvo → tentáculo → ventosa → sucção,0.573425 | 0.362582 | 0.395528,False,polvo → tentáculo → sucção,True
+fasttext-300d,confirmacao,notebook,obra de construção,arquiteto → projeto → construção → andaime,0.492133 | 0.507649 | 0.383885,False,,False
+fasttext-300d,confirmacao,notebook,canto em grupo,microfone → voz → canto → coral,0.537877 | 0.395985 | 0.575165,False,,False
+fasttext-300d,confirmacao,notebook,laticínios,manteiga → leite → queijo → coalho,0.631668 | 0.621279 | 0.691569,True,manteiga → leite → coalho,True
+fasttext-300d,confirmacao,notebook,estofamento,sofá → estofado → couro → curtume,0.586066 | 0.606977 | 0.419495,True,sofá → estofado → couro → curtume,True
+fasttext-300d,confirmacao,notebook,mãos e impressão digital,esmalte → unha → dedo → impressão,0.539123 | 0.632609 | 0.388807,False,,False
+fasttext-300d,confirmacao,notebook,trabalho remunerado,currículo → emprego → salário → renda,0.303076 | 0.503446 | 0.511855,False,,False
+fasttext-300d,confirmacao,notebook,degelo,geleira → gelo → degelo → aquecimento,0.651095 | 0.543492 | 0.480047,True,geleira → gelo → aquecimento,True
+fasttext-300d,confirmacao,notebook,prescrição médica,médico → consulta → receita → remédio,0.378823 | 0.292957 | 0.389231,False,,False
+fasttext-300d,confirmacao,notebook,instrumento de sopro e ar,flauta → sopro → ar → oxidação,0.636980 | 0.447753 | 0.349566,False,,False
+fasttext-300d,calibracao,calibrado,panificação,trigo → farinha → massa → pão,0.715971 | 0.475810 | 0.463725,True,trigo → farinha → pão,True
+fasttext-300d,calibracao,calibrado,esportes de raquete,badminton → raquete → tênis → quadra,0.484800 | 0.632728 | 0.568980,True,badminton → raquete → quadra,True
+fasttext-300d,calibracao,calibrado,geografia,mapa → fronteira → país → bandeira,0.300897 | 0.349171 | 0.251869,False,,False
+fasttext-300d,calibracao,calibrado,plantio,semente → germinação → broto → horta,0.688710 | 0.490955 | 0.375968,False,,False
+fasttext-300d,calibracao,calibrado,cozinha,frigideira → fritura → batata → purê,0.605194 | 0.542719 | 0.664578,True,frigideira → fritura → purê,True
+fasttext-300d,calibracao,calibrado,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.588694 | 0.523725 | 0.510698,True,aeroporto → embarque → bagagem,True
+fasttext-300d,calibracao,calibrado,cidadania,eleição → voto → urna → sigilo,0.598554 | 0.468270 | 0.230806,False,,False
+fasttext-300d,calibracao,calibrado,exploração espacial,astronauta → foguete → lançamento → contagem,0.551074 | 0.502914 | 0.324506,False,,False
+fasttext-300d,calibracao,calibrado,apoio emocional,medo → coragem → confiança → amizade,0.563000 | 0.476007 | 0.490527,True,medo → coragem → confiança → amizade,True
+fasttext-300d,calibracao,calibrado,bordado,agulha → linha → bordado → enfeite,0.349060 | 0.270623 | 0.599757,False,,False
+fasttext-300d,calibracao,calibrado,fotografia,fotógrafo → câmera → retrato → moldura,0.466881 | 0.324366 | 0.422720,False,,False
+fasttext-300d,calibracao,calibrado,viagem de carro,motorista → carro → estrada → pedágio,0.684344 | 0.537531 | 0.484054,True,motorista → carro → estrada → pedágio,True
+fasttext-300d,confirmacao,calibrado,criação de ovelhas,lã → ovelha → pastor → rebanho → campo,0.494799 | 0.388683 | 0.553749 | 0.279311,False,,False
+fasttext-300d,confirmacao,calibrado,preparo de pizza,tomate → molho → pizza → forno,0.685891 | 0.580192 | 0.498995,True,tomate → molho → forno,True
+fasttext-300d,confirmacao,calibrado,equitação,cavalo → rédea → cavaleiro → sela,0.439943 | 0.271812 | 0.348042,False,,False
+fasttext-300d,confirmacao,calibrado,controle de horário,prazo → atraso → relógio → ponteiro,0.348297 | 0.322503 | 0.570479,False,,False
+fasttext-300d,confirmacao,calibrado,respiração,asma → respiração → pulmão → oxigênio,0.445492 | 0.464070 | 0.457475,False,asma → pulmão → respiração → oxigênio,True
+fasttext-300d,confirmacao,calibrado,pintura de paredes,tinta → pincel → parede → reboco,0.653844 | 0.462038 | 0.557889,True,tinta → pincel → reboco,True
+fasttext-300d,confirmacao,calibrado,segurança pública,guarda → polícia → crime → prisão,0.566969 | 0.452700 | 0.492639,False,guarda → polícia → prisão,True
+fasttext-300d,confirmacao,calibrado,partida no estádio,gramado → estádio → arquibancada → ingresso,0.532343 | 0.574725 | 0.412089,False,,False
+fasttext-300d,confirmacao,calibrado,tempestade,relâmpago → trovão → tempestade → granizo,0.595329 | 0.506176 | 0.580521,True,relâmpago → trovão → tempestade → granizo,True
+fasttext-300d,confirmacao,calibrado,publicidade impressa,cartaz → publicidade → anúncio → jornal,0.295255 | 0.342898 | 0.428712,False,,False
+fasttext-300d,confirmacao,calibrado,higiene pessoal,sabão → espuma → banho → toalha,0.605501 | 0.481936 | 0.553366,True,sabão → espuma → toalha,True
+fasttext-300d,confirmacao,calibrado,paisagem desértica,areia → duna → deserto → oásis,0.546322 | 0.473322 | 0.633778,True,areia → deserto → oásis,True
+fasttext-300d,confirmacao,calibrado,derivados de petróleo,petróleo → gasolina → combustível → combustão,0.511580 | 0.764729 | 0.705504,True,petróleo → gasolina → combustão,True
+fasttext-300d,confirmacao,calibrado,espetáculo de balé,balé → sapatilha → palco → plateia,0.474865 | 0.322502 | 0.602638,False,,False
+fasttext-300d,confirmacao,calibrado,anatomia do polvo,polvo → tentáculo → ventosa → sucção,0.573425 | 0.362582 | 0.395528,False,,False
+fasttext-300d,confirmacao,calibrado,obra de construção,arquiteto → projeto → construção → andaime,0.492133 | 0.507649 | 0.383885,False,,False
+fasttext-300d,confirmacao,calibrado,canto em grupo,microfone → voz → canto → coral,0.537877 | 0.395985 | 0.575165,False,,False
+fasttext-300d,confirmacao,calibrado,laticínios,manteiga → leite → queijo → coalho,0.631668 | 0.621279 | 0.691569,True,manteiga → leite → coalho,True
+fasttext-300d,confirmacao,calibrado,estofamento,sofá → estofado → couro → curtume,0.586066 | 0.606977 | 0.419495,False,,False
+fasttext-300d,confirmacao,calibrado,mãos e impressão digital,esmalte → unha → dedo → impressão,0.539123 | 0.632609 | 0.388807,False,,False
+fasttext-300d,confirmacao,calibrado,trabalho remunerado,currículo → emprego → salário → renda,0.303076 | 0.503446 | 0.511855,False,,False
+fasttext-300d,confirmacao,calibrado,degelo,geleira → gelo → degelo → aquecimento,0.651095 | 0.543492 | 0.480047,True,geleira → gelo → degelo → aquecimento,True
+fasttext-300d,confirmacao,calibrado,prescrição médica,médico → consulta → receita → remédio,0.378823 | 0.292957 | 0.389231,False,,False
+fasttext-300d,confirmacao,calibrado,instrumento de sopro e ar,flauta → sopro → ar → oxidação,0.636980 | 0.447753 | 0.349566,False,,False
+fasttext-300d,calibracao,teto_falsos_positivos,panificação,trigo → farinha → massa → pão,0.715971 | 0.475810 | 0.463725,True,trigo → farinha → pão,True
+fasttext-300d,calibracao,teto_falsos_positivos,esportes de raquete,badminton → raquete → tênis → quadra,0.484800 | 0.632728 | 0.568980,True,badminton → raquete → quadra,True
+fasttext-300d,calibracao,teto_falsos_positivos,geografia,mapa → fronteira → país → bandeira,0.300897 | 0.349171 | 0.251869,False,,False
+fasttext-300d,calibracao,teto_falsos_positivos,plantio,semente → germinação → broto → horta,0.688710 | 0.490955 | 0.375968,False,,False
+fasttext-300d,calibracao,teto_falsos_positivos,cozinha,frigideira → fritura → batata → purê,0.605194 | 0.542719 | 0.664578,True,frigideira → fritura → purê,True
+fasttext-300d,calibracao,teto_falsos_positivos,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.588694 | 0.523725 | 0.510698,True,aeroporto → embarque → bagagem,True
+fasttext-300d,calibracao,teto_falsos_positivos,cidadania,eleição → voto → urna → sigilo,0.598554 | 0.468270 | 0.230806,False,,False
+fasttext-300d,calibracao,teto_falsos_positivos,exploração espacial,astronauta → foguete → lançamento → contagem,0.551074 | 0.502914 | 0.324506,False,,False
+fasttext-300d,calibracao,teto_falsos_positivos,apoio emocional,medo → coragem → confiança → amizade,0.563000 | 0.476007 | 0.490527,True,medo → coragem → amizade,True
+fasttext-300d,calibracao,teto_falsos_positivos,bordado,agulha → linha → bordado → enfeite,0.349060 | 0.270623 | 0.599757,False,,False
+fasttext-300d,calibracao,teto_falsos_positivos,fotografia,fotógrafo → câmera → retrato → moldura,0.466881 | 0.324366 | 0.422720,False,fotógrafo → câmera → moldura,True
+fasttext-300d,calibracao,teto_falsos_positivos,viagem de carro,motorista → carro → estrada → pedágio,0.684344 | 0.537531 | 0.484054,True,motorista → carro → estrada → pedágio,True
+fasttext-300d,confirmacao,teto_falsos_positivos,criação de ovelhas,lã → ovelha → pastor → rebanho → campo,0.494799 | 0.388683 | 0.553749 | 0.279311,False,,False
+fasttext-300d,confirmacao,teto_falsos_positivos,preparo de pizza,tomate → molho → pizza → forno,0.685891 | 0.580192 | 0.498995,True,tomate → molho → forno,True
+fasttext-300d,confirmacao,teto_falsos_positivos,equitação,cavalo → rédea → cavaleiro → sela,0.439943 | 0.271812 | 0.348042,False,,False
+fasttext-300d,confirmacao,teto_falsos_positivos,controle de horário,prazo → atraso → relógio → ponteiro,0.348297 | 0.322503 | 0.570479,False,,False
+fasttext-300d,confirmacao,teto_falsos_positivos,respiração,asma → respiração → pulmão → oxigênio,0.445492 | 0.464070 | 0.457475,True,asma → respiração → oxigênio,True
+fasttext-300d,confirmacao,teto_falsos_positivos,pintura de paredes,tinta → pincel → parede → reboco,0.653844 | 0.462038 | 0.557889,True,tinta → pincel → reboco,True
+fasttext-300d,confirmacao,teto_falsos_positivos,segurança pública,guarda → polícia → crime → prisão,0.566969 | 0.452700 | 0.492639,True,guarda → polícia → prisão,True
+fasttext-300d,confirmacao,teto_falsos_positivos,partida no estádio,gramado → estádio → arquibancada → ingresso,0.532343 | 0.574725 | 0.412089,False,,False
+fasttext-300d,confirmacao,teto_falsos_positivos,tempestade,relâmpago → trovão → tempestade → granizo,0.595329 | 0.506176 | 0.580521,True,relâmpago → trovão → tempestade → granizo,True
+fasttext-300d,confirmacao,teto_falsos_positivos,publicidade impressa,cartaz → publicidade → anúncio → jornal,0.295255 | 0.342898 | 0.428712,False,cartaz → anúncio → jornal,True
+fasttext-300d,confirmacao,teto_falsos_positivos,higiene pessoal,sabão → espuma → banho → toalha,0.605501 | 0.481936 | 0.553366,True,sabão → espuma → toalha,True
+fasttext-300d,confirmacao,teto_falsos_positivos,paisagem desértica,areia → duna → deserto → oásis,0.546322 | 0.473322 | 0.633778,True,areia → deserto → oásis,True
+fasttext-300d,confirmacao,teto_falsos_positivos,derivados de petróleo,petróleo → gasolina → combustível → combustão,0.511580 | 0.764729 | 0.705504,True,petróleo → gasolina → combustão,True
+fasttext-300d,confirmacao,teto_falsos_positivos,espetáculo de balé,balé → sapatilha → palco → plateia,0.474865 | 0.322502 | 0.602638,False,,False
+fasttext-300d,confirmacao,teto_falsos_positivos,anatomia do polvo,polvo → tentáculo → ventosa → sucção,0.573425 | 0.362582 | 0.395528,False,polvo → tentáculo → sucção,True
+fasttext-300d,confirmacao,teto_falsos_positivos,obra de construção,arquiteto → projeto → construção → andaime,0.492133 | 0.507649 | 0.383885,False,,False
+fasttext-300d,confirmacao,teto_falsos_positivos,canto em grupo,microfone → voz → canto → coral,0.537877 | 0.395985 | 0.575165,False,,False
+fasttext-300d,confirmacao,teto_falsos_positivos,laticínios,manteiga → leite → queijo → coalho,0.631668 | 0.621279 | 0.691569,True,manteiga → leite → coalho,True
+fasttext-300d,confirmacao,teto_falsos_positivos,estofamento,sofá → estofado → couro → curtume,0.586066 | 0.606977 | 0.419495,True,sofá → estofado → couro → curtume,True
+fasttext-300d,confirmacao,teto_falsos_positivos,mãos e impressão digital,esmalte → unha → dedo → impressão,0.539123 | 0.632609 | 0.388807,False,,False
+fasttext-300d,confirmacao,teto_falsos_positivos,trabalho remunerado,currículo → emprego → salário → renda,0.303076 | 0.503446 | 0.511855,False,,False
+fasttext-300d,confirmacao,teto_falsos_positivos,degelo,geleira → gelo → degelo → aquecimento,0.651095 | 0.543492 | 0.480047,True,geleira → gelo → aquecimento,True
+fasttext-300d,confirmacao,teto_falsos_positivos,prescrição médica,médico → consulta → receita → remédio,0.378823 | 0.292957 | 0.389231,False,,False
+fasttext-300d,confirmacao,teto_falsos_positivos,instrumento de sopro e ar,flauta → sopro → ar → oxidação,0.636980 | 0.447753 | 0.349566,False,,False
+glove-100d,calibracao,notebook,panificação,trigo → farinha → massa → pão,0.717607 | 0.465836 | 0.363123,False,trigo → farinha → pão,True
+glove-100d,calibracao,notebook,esportes de raquete,badminton → raquete → tênis → quadra,0.374896 | 0.450647 | 0.605890,False,badminton → tênis → quadra,True
+glove-100d,calibracao,notebook,geografia,mapa → fronteira → país → bandeira,0.366515 | 0.431517 | 0.422566,False,mapa → país → bandeira,True
+glove-100d,calibracao,notebook,plantio,semente → germinação → broto → horta,0.428175 | 0.244257 | 0.095527,False,,False
+glove-100d,calibracao,notebook,cozinha,frigideira → fritura → batata → purê,0.468130 | 0.351146 | 0.624243,False,,False
+glove-100d,calibracao,notebook,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.597131 | 0.526698 | 0.473805,True,aeroporto → embarque → bagagem,True
+glove-100d,calibracao,notebook,cidadania,eleição → voto → urna → sigilo,0.727509 | 0.409185 | 0.220166,False,,False
+glove-100d,calibracao,notebook,exploração espacial,astronauta → foguete → lançamento → contagem,0.379067 | 0.517834 | 0.316990,False,,False
+glove-100d,calibracao,notebook,apoio emocional,medo → coragem → confiança → amizade,0.575765 | 0.661306 | 0.446316,True,medo → coragem → amizade,True
+glove-100d,calibracao,notebook,bordado,agulha → linha → bordado → enfeite,0.245897 | -0.000133 | 0.433982,False,,False
+glove-100d,calibracao,notebook,fotografia,fotógrafo → câmera → retrato → moldura,0.339246 | 0.287092 | 0.344648,False,,False
+glove-100d,calibracao,notebook,viagem de carro,motorista → carro → estrada → pedágio,0.799163 | 0.572215 | 0.372311,False,,False
+glove-100d,confirmacao,notebook,criação de ovelhas,lã → ovelha → pastor → rebanho → campo,0.494575 | 0.196296 | 0.371803 | 0.155177,False,,False
+glove-100d,confirmacao,notebook,preparo de pizza,tomate → molho → pizza → forno,0.670686 | 0.505801 | 0.472347,True,tomate → molho → forno,True
+glove-100d,confirmacao,notebook,equitação,cavalo → rédea → cavaleiro → sela,0.356127 | 0.174930 | 0.192624,False,,False
+glove-100d,confirmacao,notebook,controle de horário,prazo → atraso → relógio → ponteiro,0.624630 | 0.217862 | 0.423536,False,,False
+glove-100d,confirmacao,notebook,respiração,asma → respiração → pulmão → oxigênio,0.333330 | 0.352553 | 0.345626,False,,False
+glove-100d,confirmacao,notebook,pintura de paredes,tinta → pincel → parede → reboco,0.532735 | 0.235089 | 0.459464,False,tinta → parede → reboco,True
+glove-100d,confirmacao,notebook,segurança pública,guarda → polícia → crime → prisão,0.714216 | 0.676460 | 0.668202,True,guarda → polícia → prisão,True
+glove-100d,confirmacao,notebook,partida no estádio,gramado → estádio → arquibancada → ingresso,0.665352 | 0.433434 | 0.419543,True,gramado → arquibancada → ingresso,True
+glove-100d,confirmacao,notebook,tempestade,relâmpago → trovão → tempestade → granizo,0.473727 | 0.377002 | 0.563138,False,,False
+glove-100d,confirmacao,notebook,publicidade impressa,cartaz → publicidade → anúncio → jornal,0.272748 | 0.399305 | 0.531517,False,cartaz → anúncio → jornal,True
+glove-100d,confirmacao,notebook,higiene pessoal,sabão → espuma → banho → toalha,0.641375 | 0.577327 | 0.542522,True,sabão → espuma → toalha,True
+glove-100d,confirmacao,notebook,paisagem desértica,areia → duna → deserto → oásis,0.340291 | 0.239939 | 0.593542,False,areia → deserto → oásis,True
+glove-100d,confirmacao,notebook,derivados de petróleo,petróleo → gasolina → combustível → combustão,0.571271 | 0.773479 | 0.675863,True,petróleo → gasolina → combustão,True
+glove-100d,confirmacao,notebook,espetáculo de balé,balé → sapatilha → palco → plateia,0.270357 | 0.058417 | 0.606716,False,,False
+glove-100d,confirmacao,notebook,anatomia do polvo,polvo → tentáculo → ventosa → sucção,0.479342 | 0.033697 | 0.114252,False,,False
+glove-100d,confirmacao,notebook,obra de construção,arquiteto → projeto → construção → andaime,0.398787 | 0.610963 | 0.242000,False,,False
+glove-100d,confirmacao,notebook,canto em grupo,microfone → voz → canto → coral,0.477488 | 0.520319 | 0.557169,True,microfone → voz → canto → coral,True
+glove-100d,confirmacao,notebook,laticínios,manteiga → leite → queijo → coalho,0.600685 | 0.552641 | 0.547322,True,manteiga → queijo → coalho,True
+glove-100d,confirmacao,notebook,estofamento,sofá → estofado → couro → curtume,0.388659 | 0.367402 | 0.240687,False,,False
+glove-100d,confirmacao,notebook,mãos e impressão digital,esmalte → unha → dedo → impressão,0.419779 | 0.490138 | 0.299866,False,,False
+glove-100d,confirmacao,notebook,trabalho remunerado,currículo → emprego → salário → renda,0.318485 | 0.518363 | 0.646772,False,,False
+glove-100d,confirmacao,notebook,degelo,geleira → gelo → degelo → aquecimento,0.383693 | 0.382102 | 0.411802,False,,False
+glove-100d,confirmacao,notebook,prescrição médica,médico → consulta → receita → remédio,0.443723 | 0.345651 | 0.344739,False,,False
+glove-100d,confirmacao,notebook,instrumento de sopro e ar,flauta → sopro → ar → oxidação,0.600969 | 0.426723 | 0.247664,False,,False
+glove-100d,calibracao,calibrado,panificação,trigo → farinha → massa → pão,0.717607 | 0.465836 | 0.363123,True,trigo → farinha → pão,True
+glove-100d,calibracao,calibrado,esportes de raquete,badminton → raquete → tênis → quadra,0.374896 | 0.450647 | 0.605890,True,badminton → raquete → quadra,True
+glove-100d,calibracao,calibrado,geografia,mapa → fronteira → país → bandeira,0.366515 | 0.431517 | 0.422566,True,mapa → fronteira → bandeira,True
+glove-100d,calibracao,calibrado,plantio,semente → germinação → broto → horta,0.428175 | 0.244257 | 0.095527,False,,False
+glove-100d,calibracao,calibrado,cozinha,frigideira → fritura → batata → purê,0.468130 | 0.351146 | 0.624243,True,frigideira → batata → purê,True
+glove-100d,calibracao,calibrado,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.597131 | 0.526698 | 0.473805,True,aeroporto → embarque → bagagem,True
+glove-100d,calibracao,calibrado,cidadania,eleição → voto → urna → sigilo,0.727509 | 0.409185 | 0.220166,False,,False
+glove-100d,calibracao,calibrado,exploração espacial,astronauta → foguete → lançamento → contagem,0.379067 | 0.517834 | 0.316990,False,,False
+glove-100d,calibracao,calibrado,apoio emocional,medo → coragem → confiança → amizade,0.575765 | 0.661306 | 0.446316,True,medo → coragem → amizade,True
+glove-100d,calibracao,calibrado,bordado,agulha → linha → bordado → enfeite,0.245897 | -0.000133 | 0.433982,False,agulha → bordado → enfeite,True
+glove-100d,calibracao,calibrado,fotografia,fotógrafo → câmera → retrato → moldura,0.339246 | 0.287092 | 0.344648,False,fotógrafo → câmera → moldura,True
+glove-100d,calibracao,calibrado,viagem de carro,motorista → carro → estrada → pedágio,0.799163 | 0.572215 | 0.372311,True,motorista → carro → estrada → pedágio,True
+glove-100d,confirmacao,calibrado,criação de ovelhas,lã → ovelha → pastor → rebanho → campo,0.494575 | 0.196296 | 0.371803 | 0.155177,False,,False
+glove-100d,confirmacao,calibrado,preparo de pizza,tomate → molho → pizza → forno,0.670686 | 0.505801 | 0.472347,True,tomate → molho → forno,True
+glove-100d,confirmacao,calibrado,equitação,cavalo → rédea → cavaleiro → sela,0.356127 | 0.174930 | 0.192624,False,cavalo → rédea → sela,True
+glove-100d,confirmacao,calibrado,controle de horário,prazo → atraso → relógio → ponteiro,0.624630 | 0.217862 | 0.423536,False,,False
+glove-100d,confirmacao,calibrado,respiração,asma → respiração → pulmão → oxigênio,0.333330 | 0.352553 | 0.345626,False,asma → pulmão → respiração → oxigênio,True
+glove-100d,confirmacao,calibrado,pintura de paredes,tinta → pincel → parede → reboco,0.532735 | 0.235089 | 0.459464,False,tinta → pincel → reboco,True
+glove-100d,confirmacao,calibrado,segurança pública,guarda → polícia → crime → prisão,0.714216 | 0.676460 | 0.668202,True,guarda → polícia → prisão,True
+glove-100d,confirmacao,calibrado,partida no estádio,gramado → estádio → arquibancada → ingresso,0.665352 | 0.433434 | 0.419543,True,gramado → arquibancada → ingresso,True
+glove-100d,confirmacao,calibrado,tempestade,relâmpago → trovão → tempestade → granizo,0.473727 | 0.377002 | 0.563138,True,relâmpago → trovão → tempestade → granizo,True
+glove-100d,confirmacao,calibrado,publicidade impressa,cartaz → publicidade → anúncio → jornal,0.272748 | 0.399305 | 0.531517,False,cartaz → anúncio → jornal,True
+glove-100d,confirmacao,calibrado,higiene pessoal,sabão → espuma → banho → toalha,0.641375 | 0.577327 | 0.542522,True,sabão → espuma → toalha,True
+glove-100d,confirmacao,calibrado,paisagem desértica,areia → duna → deserto → oásis,0.340291 | 0.239939 | 0.593542,False,areia → deserto → oásis,True
+glove-100d,confirmacao,calibrado,derivados de petróleo,petróleo → gasolina → combustível → combustão,0.571271 | 0.773479 | 0.675863,True,petróleo → gasolina → combustão,True
+glove-100d,confirmacao,calibrado,espetáculo de balé,balé → sapatilha → palco → plateia,0.270357 | 0.058417 | 0.606716,False,balé → palco → plateia,True
+glove-100d,confirmacao,calibrado,anatomia do polvo,polvo → tentáculo → ventosa → sucção,0.479342 | 0.033697 | 0.114252,False,,False
+glove-100d,confirmacao,calibrado,obra de construção,arquiteto → projeto → construção → andaime,0.398787 | 0.610963 | 0.242000,False,,False
+glove-100d,confirmacao,calibrado,canto em grupo,microfone → voz → canto → coral,0.477488 | 0.520319 | 0.557169,True,microfone → voz → canto → coral,True
+glove-100d,confirmacao,calibrado,laticínios,manteiga → leite → queijo → coalho,0.600685 | 0.552641 | 0.547322,True,manteiga → queijo → coalho,True
+glove-100d,confirmacao,calibrado,estofamento,sofá → estofado → couro → curtume,0.388659 | 0.367402 | 0.240687,False,,False
+glove-100d,confirmacao,calibrado,mãos e impressão digital,esmalte → unha → dedo → impressão,0.419779 | 0.490138 | 0.299866,False,,False
+glove-100d,confirmacao,calibrado,trabalho remunerado,currículo → emprego → salário → renda,0.318485 | 0.518363 | 0.646772,False,,False
+glove-100d,confirmacao,calibrado,degelo,geleira → gelo → degelo → aquecimento,0.383693 | 0.382102 | 0.411802,True,geleira → gelo → aquecimento,True
+glove-100d,confirmacao,calibrado,prescrição médica,médico → consulta → receita → remédio,0.443723 | 0.345651 | 0.344739,True,médico → consulta → receita → remédio,True
+glove-100d,confirmacao,calibrado,instrumento de sopro e ar,flauta → sopro → ar → oxidação,0.600969 | 0.426723 | 0.247664,False,,False
+glove-100d,calibracao,teto_falsos_positivos,panificação,trigo → farinha → massa → pão,0.717607 | 0.465836 | 0.363123,False,trigo → farinha → pão,True
+glove-100d,calibracao,teto_falsos_positivos,esportes de raquete,badminton → raquete → tênis → quadra,0.374896 | 0.450647 | 0.605890,True,badminton → raquete → quadra,True
+glove-100d,calibracao,teto_falsos_positivos,geografia,mapa → fronteira → país → bandeira,0.366515 | 0.431517 | 0.422566,False,mapa → país → bandeira,True
+glove-100d,calibracao,teto_falsos_positivos,plantio,semente → germinação → broto → horta,0.428175 | 0.244257 | 0.095527,False,,False
+glove-100d,calibracao,teto_falsos_positivos,cozinha,frigideira → fritura → batata → purê,0.468130 | 0.351146 | 0.624243,False,,False
+glove-100d,calibracao,teto_falsos_positivos,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.597131 | 0.526698 | 0.473805,True,aeroporto → embarque → bagagem,True
+glove-100d,calibracao,teto_falsos_positivos,cidadania,eleição → voto → urna → sigilo,0.727509 | 0.409185 | 0.220166,False,,False
+glove-100d,calibracao,teto_falsos_positivos,exploração espacial,astronauta → foguete → lançamento → contagem,0.379067 | 0.517834 | 0.316990,False,,False
+glove-100d,calibracao,teto_falsos_positivos,apoio emocional,medo → coragem → confiança → amizade,0.575765 | 0.661306 | 0.446316,True,medo → coragem → amizade,True
+glove-100d,calibracao,teto_falsos_positivos,bordado,agulha → linha → bordado → enfeite,0.245897 | -0.000133 | 0.433982,False,,False
+glove-100d,calibracao,teto_falsos_positivos,fotografia,fotógrafo → câmera → retrato → moldura,0.339246 | 0.287092 | 0.344648,False,,False
+glove-100d,calibracao,teto_falsos_positivos,viagem de carro,motorista → carro → estrada → pedágio,0.799163 | 0.572215 | 0.372311,True,motorista → carro → estrada → pedágio,True
+glove-100d,confirmacao,teto_falsos_positivos,criação de ovelhas,lã → ovelha → pastor → rebanho → campo,0.494575 | 0.196296 | 0.371803 | 0.155177,False,,False
+glove-100d,confirmacao,teto_falsos_positivos,preparo de pizza,tomate → molho → pizza → forno,0.670686 | 0.505801 | 0.472347,True,tomate → molho → forno,True
+glove-100d,confirmacao,teto_falsos_positivos,equitação,cavalo → rédea → cavaleiro → sela,0.356127 | 0.174930 | 0.192624,False,,False
+glove-100d,confirmacao,teto_falsos_positivos,controle de horário,prazo → atraso → relógio → ponteiro,0.624630 | 0.217862 | 0.423536,False,,False
+glove-100d,confirmacao,teto_falsos_positivos,respiração,asma → respiração → pulmão → oxigênio,0.333330 | 0.352553 | 0.345626,False,,False
+glove-100d,confirmacao,teto_falsos_positivos,pintura de paredes,tinta → pincel → parede → reboco,0.532735 | 0.235089 | 0.459464,False,tinta → parede → reboco,True
+glove-100d,confirmacao,teto_falsos_positivos,segurança pública,guarda → polícia → crime → prisão,0.714216 | 0.676460 | 0.668202,True,guarda → polícia → prisão,True
+glove-100d,confirmacao,teto_falsos_positivos,partida no estádio,gramado → estádio → arquibancada → ingresso,0.665352 | 0.433434 | 0.419543,True,gramado → arquibancada → ingresso,True
+glove-100d,confirmacao,teto_falsos_positivos,tempestade,relâmpago → trovão → tempestade → granizo,0.473727 | 0.377002 | 0.563138,True,relâmpago → trovão → tempestade → granizo,True
+glove-100d,confirmacao,teto_falsos_positivos,publicidade impressa,cartaz → publicidade → anúncio → jornal,0.272748 | 0.399305 | 0.531517,False,cartaz → anúncio → jornal,True
+glove-100d,confirmacao,teto_falsos_positivos,higiene pessoal,sabão → espuma → banho → toalha,0.641375 | 0.577327 | 0.542522,True,sabão → espuma → toalha,True
+glove-100d,confirmacao,teto_falsos_positivos,paisagem desértica,areia → duna → deserto → oásis,0.340291 | 0.239939 | 0.593542,False,areia → deserto → oásis,True
+glove-100d,confirmacao,teto_falsos_positivos,derivados de petróleo,petróleo → gasolina → combustível → combustão,0.571271 | 0.773479 | 0.675863,True,petróleo → gasolina → combustão,True
+glove-100d,confirmacao,teto_falsos_positivos,espetáculo de balé,balé → sapatilha → palco → plateia,0.270357 | 0.058417 | 0.606716,False,,False
+glove-100d,confirmacao,teto_falsos_positivos,anatomia do polvo,polvo → tentáculo → ventosa → sucção,0.479342 | 0.033697 | 0.114252,False,,False
+glove-100d,confirmacao,teto_falsos_positivos,obra de construção,arquiteto → projeto → construção → andaime,0.398787 | 0.610963 | 0.242000,False,,False
+glove-100d,confirmacao,teto_falsos_positivos,canto em grupo,microfone → voz → canto → coral,0.477488 | 0.520319 | 0.557169,True,microfone → voz → canto → coral,True
+glove-100d,confirmacao,teto_falsos_positivos,laticínios,manteiga → leite → queijo → coalho,0.600685 | 0.552641 | 0.547322,True,manteiga → queijo → coalho,True
+glove-100d,confirmacao,teto_falsos_positivos,estofamento,sofá → estofado → couro → curtume,0.388659 | 0.367402 | 0.240687,False,,False
+glove-100d,confirmacao,teto_falsos_positivos,mãos e impressão digital,esmalte → unha → dedo → impressão,0.419779 | 0.490138 | 0.299866,False,,False
+glove-100d,confirmacao,teto_falsos_positivos,trabalho remunerado,currículo → emprego → salário → renda,0.318485 | 0.518363 | 0.646772,False,,False
+glove-100d,confirmacao,teto_falsos_positivos,degelo,geleira → gelo → degelo → aquecimento,0.383693 | 0.382102 | 0.411802,True,geleira → gelo → aquecimento,True
+glove-100d,confirmacao,teto_falsos_positivos,prescrição médica,médico → consulta → receita → remédio,0.443723 | 0.345651 | 0.344739,False,,False
+glove-100d,confirmacao,teto_falsos_positivos,instrumento de sopro e ar,flauta → sopro → ar → oxidação,0.600969 | 0.426723 | 0.247664,False,,False
+fasttext-50d-e-glove-50d,calibracao,notebook,panificação,trigo → farinha → massa → pão,0.882745 | 0.551076 | 0.509625,True,trigo → farinha → pão,True
+fasttext-50d-e-glove-50d,calibracao,notebook,esportes de raquete,badminton → raquete → tênis → quadra,0.536474 | 0.660551 | 0.726330,True,badminton → raquete → quadra,True
+fasttext-50d-e-glove-50d,calibracao,notebook,geografia,mapa → fronteira → país → bandeira,0.447071 | 0.551723 | 0.460602,True,mapa → fronteira → bandeira,True
+fasttext-50d-e-glove-50d,calibracao,notebook,plantio,semente → germinação → broto → horta,0.659173 | 0.480180 | 0.321705,False,,False
+fasttext-50d-e-glove-50d,calibracao,notebook,cozinha,frigideira → fritura → batata → purê,0.700928 | 0.619799 | 0.789904,True,frigideira → fritura → purê,True
+fasttext-50d-e-glove-50d,calibracao,notebook,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.757553 | 0.628299 | 0.625697,True,aeroporto → embarque → bagagem,True
+fasttext-50d-e-glove-50d,calibracao,notebook,cidadania,eleição → voto → urna → sigilo,0.787354 | 0.514201 | 0.307321,False,eleição → voto → sigilo,True
+fasttext-50d-e-glove-50d,calibracao,notebook,exploração espacial,astronauta → foguete → lançamento → contagem,0.605342 | 0.613554 | 0.463924,True,astronauta → foguete → lançamento → contagem,True
+fasttext-50d-e-glove-50d,calibracao,notebook,apoio emocional,medo → coragem → confiança → amizade,0.702702 | 0.744147 | 0.605499,True,medo → coragem → amizade,True
+fasttext-50d-e-glove-50d,calibracao,notebook,bordado,agulha → linha → bordado → enfeite,0.462480 | 0.250315 | 0.760273,False,agulha → bordado → enfeite,True
+fasttext-50d-e-glove-50d,calibracao,notebook,fotografia,fotógrafo → câmera → retrato → moldura,0.443524 | 0.383051 | 0.505641,False,fotógrafo → câmera → moldura,True
+fasttext-50d-e-glove-50d,calibracao,notebook,viagem de carro,motorista → carro → estrada → pedágio,0.843244 | 0.666851 | 0.562739,True,motorista → carro → pedágio,True
+fasttext-50d-e-glove-50d,confirmacao,notebook,criação de ovelhas,lã → ovelha → pastor → rebanho → campo,0.648686 | 0.302741 | 0.451318 | 0.287685,False,lã → ovelha → rebanho → pastor → campo,True
+fasttext-50d-e-glove-50d,confirmacao,notebook,preparo de pizza,tomate → molho → pizza → forno,0.831137 | 0.694716 | 0.603664,True,tomate → molho → forno,True
+fasttext-50d-e-glove-50d,confirmacao,notebook,equitação,cavalo → rédea → cavaleiro → sela,0.549823 | 0.423190 | 0.453351,True,cavalo → rédea → sela,True
+fasttext-50d-e-glove-50d,confirmacao,notebook,controle de horário,prazo → atraso → relógio → ponteiro,0.638058 | 0.348471 | 0.585282,False,,False
+fasttext-50d-e-glove-50d,confirmacao,notebook,respiração,asma → respiração → pulmão → oxigênio,0.521550 | 0.512466 | 0.550887,True,asma → respiração → oxigênio,True
+fasttext-50d-e-glove-50d,confirmacao,notebook,pintura de paredes,tinta → pincel → parede → reboco,0.714379 | 0.512815 | 0.665081,True,tinta → pincel → reboco,True
+fasttext-50d-e-glove-50d,confirmacao,notebook,segurança pública,guarda → polícia → crime → prisão,0.765330 | 0.689921 | 0.742789,True,guarda → polícia → prisão,True
+fasttext-50d-e-glove-50d,confirmacao,notebook,partida no estádio,gramado → estádio → arquibancada → ingresso,0.711356 | 0.573776 | 0.520229,True,gramado → arquibancada → ingresso,True
+fasttext-50d-e-glove-50d,confirmacao,notebook,tempestade,relâmpago → trovão → tempestade → granizo,0.691690 | 0.563012 | 0.696913,True,relâmpago → trovão → granizo,True
+fasttext-50d-e-glove-50d,confirmacao,notebook,publicidade impressa,cartaz → publicidade → anúncio → jornal,0.372766 | 0.460123 | 0.640395,False,cartaz → anúncio → jornal,True
+fasttext-50d-e-glove-50d,confirmacao,notebook,higiene pessoal,sabão → espuma → banho → toalha,0.825013 | 0.694636 | 0.693147,True,sabão → espuma → toalha,True
+fasttext-50d-e-glove-50d,confirmacao,notebook,paisagem desértica,areia → duna → deserto → oásis,0.524975 | 0.473080 | 0.776866,True,areia → duna → oásis,True
+fasttext-50d-e-glove-50d,confirmacao,notebook,derivados de petróleo,petróleo → gasolina → combustível → combustão,0.608736 | 0.817220 | 0.815737,True,petróleo → gasolina → combustão,True
+fasttext-50d-e-glove-50d,confirmacao,notebook,espetáculo de balé,balé → sapatilha → palco → plateia,0.522260 | 0.326233 | 0.723610,False,balé → palco → plateia,True
+fasttext-50d-e-glove-50d,confirmacao,notebook,anatomia do polvo,polvo → tentáculo → ventosa → sucção,0.651411 | 0.302291 | 0.426845,False,polvo → tentáculo → sucção,True
+fasttext-50d-e-glove-50d,confirmacao,notebook,obra de construção,arquiteto → projeto → construção → andaime,0.533762 | 0.673394 | 0.421885,True,arquiteto → projeto → construção → andaime,True
+fasttext-50d-e-glove-50d,confirmacao,notebook,canto em grupo,microfone → voz → canto → coral,0.653064 | 0.614836 | 0.713388,True,microfone → voz → coral,True
+fasttext-50d-e-glove-50d,confirmacao,notebook,laticínios,manteiga → leite → queijo → coalho,0.734723 | 0.690563 | 0.695382,True,manteiga → leite → coalho,True
+fasttext-50d-e-glove-50d,confirmacao,notebook,estofamento,sofá → estofado → couro → curtume,0.582086 | 0.625824 | 0.435684,True,sofá → estofado → curtume,True
+fasttext-50d-e-glove-50d,confirmacao,notebook,mãos e impressão digital,esmalte → unha → dedo → impressão,0.691936 | 0.677051 | 0.490777,True,esmalte → unha → dedo → impressão,True
+fasttext-50d-e-glove-50d,confirmacao,notebook,trabalho remunerado,currículo → emprego → salário → renda,0.480726 | 0.604813 | 0.779416,True,currículo → emprego → renda,True
+fasttext-50d-e-glove-50d,confirmacao,notebook,degelo,geleira → gelo → degelo → aquecimento,0.550648 | 0.576016 | 0.573829,True,geleira → gelo → aquecimento,True
+fasttext-50d-e-glove-50d,confirmacao,notebook,prescrição médica,médico → consulta → receita → remédio,0.537863 | 0.408239 | 0.470798,True,médico → consulta → receita → remédio,True
+fasttext-50d-e-glove-50d,confirmacao,notebook,instrumento de sopro e ar,flauta → sopro → ar → oxidação,0.722272 | 0.595403 | 0.439137,True,flauta → sopro → oxidação,True
+fasttext-50d-e-glove-50d,calibracao,calibrado,panificação,trigo → farinha → massa → pão,0.882745 | 0.551076 | 0.509625,True,trigo → farinha → pão,True
+fasttext-50d-e-glove-50d,calibracao,calibrado,esportes de raquete,badminton → raquete → tênis → quadra,0.536474 | 0.660551 | 0.726330,True,badminton → raquete → quadra,True
+fasttext-50d-e-glove-50d,calibracao,calibrado,geografia,mapa → fronteira → país → bandeira,0.447071 | 0.551723 | 0.460602,True,mapa → fronteira → bandeira,True
+fasttext-50d-e-glove-50d,calibracao,calibrado,plantio,semente → germinação → broto → horta,0.659173 | 0.480180 | 0.321705,False,,False
+fasttext-50d-e-glove-50d,calibracao,calibrado,cozinha,frigideira → fritura → batata → purê,0.700928 | 0.619799 | 0.789904,True,frigideira → fritura → purê,True
+fasttext-50d-e-glove-50d,calibracao,calibrado,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.757553 | 0.628299 | 0.625697,True,aeroporto → embarque → bagagem,True
+fasttext-50d-e-glove-50d,calibracao,calibrado,cidadania,eleição → voto → urna → sigilo,0.787354 | 0.514201 | 0.307321,False,,False
+fasttext-50d-e-glove-50d,calibracao,calibrado,exploração espacial,astronauta → foguete → lançamento → contagem,0.605342 | 0.613554 | 0.463924,True,astronauta → foguete → lançamento → contagem,True
+fasttext-50d-e-glove-50d,calibracao,calibrado,apoio emocional,medo → coragem → confiança → amizade,0.702702 | 0.744147 | 0.605499,True,medo → coragem → amizade,True
+fasttext-50d-e-glove-50d,calibracao,calibrado,bordado,agulha → linha → bordado → enfeite,0.462480 | 0.250315 | 0.760273,False,agulha → bordado → enfeite,True
+fasttext-50d-e-glove-50d,calibracao,calibrado,fotografia,fotógrafo → câmera → retrato → moldura,0.443524 | 0.383051 | 0.505641,False,fotógrafo → câmera → moldura,True
+fasttext-50d-e-glove-50d,calibracao,calibrado,viagem de carro,motorista → carro → estrada → pedágio,0.843244 | 0.666851 | 0.562739,True,motorista → carro → pedágio,True
+fasttext-50d-e-glove-50d,confirmacao,calibrado,criação de ovelhas,lã → ovelha → pastor → rebanho → campo,0.648686 | 0.302741 | 0.451318 | 0.287685,False,,False
+fasttext-50d-e-glove-50d,confirmacao,calibrado,preparo de pizza,tomate → molho → pizza → forno,0.831137 | 0.694716 | 0.603664,True,tomate → molho → forno,True
+fasttext-50d-e-glove-50d,confirmacao,calibrado,equitação,cavalo → rédea → cavaleiro → sela,0.549823 | 0.423190 | 0.453351,False,cavalo → rédea → sela,True
+fasttext-50d-e-glove-50d,confirmacao,calibrado,controle de horário,prazo → atraso → relógio → ponteiro,0.638058 | 0.348471 | 0.585282,False,,False
+fasttext-50d-e-glove-50d,confirmacao,calibrado,respiração,asma → respiração → pulmão → oxigênio,0.521550 | 0.512466 | 0.550887,True,asma → respiração → oxigênio,True
+fasttext-50d-e-glove-50d,confirmacao,calibrado,pintura de paredes,tinta → pincel → parede → reboco,0.714379 | 0.512815 | 0.665081,True,tinta → pincel → reboco,True
+fasttext-50d-e-glove-50d,confirmacao,calibrado,segurança pública,guarda → polícia → crime → prisão,0.765330 | 0.689921 | 0.742789,True,guarda → polícia → prisão,True
+fasttext-50d-e-glove-50d,confirmacao,calibrado,partida no estádio,gramado → estádio → arquibancada → ingresso,0.711356 | 0.573776 | 0.520229,True,gramado → arquibancada → ingresso,True
+fasttext-50d-e-glove-50d,confirmacao,calibrado,tempestade,relâmpago → trovão → tempestade → granizo,0.691690 | 0.563012 | 0.696913,True,relâmpago → tempestade → granizo,True
+fasttext-50d-e-glove-50d,confirmacao,calibrado,publicidade impressa,cartaz → publicidade → anúncio → jornal,0.372766 | 0.460123 | 0.640395,False,cartaz → anúncio → jornal,True
+fasttext-50d-e-glove-50d,confirmacao,calibrado,higiene pessoal,sabão → espuma → banho → toalha,0.825013 | 0.694636 | 0.693147,True,sabão → espuma → toalha,True
+fasttext-50d-e-glove-50d,confirmacao,calibrado,paisagem desértica,areia → duna → deserto → oásis,0.524975 | 0.473080 | 0.776866,True,areia → duna → oásis,True
+fasttext-50d-e-glove-50d,confirmacao,calibrado,derivados de petróleo,petróleo → gasolina → combustível → combustão,0.608736 | 0.817220 | 0.815737,True,petróleo → gasolina → combustão,True
+fasttext-50d-e-glove-50d,confirmacao,calibrado,espetáculo de balé,balé → sapatilha → palco → plateia,0.522260 | 0.326233 | 0.723610,False,balé → palco → plateia,True
+fasttext-50d-e-glove-50d,confirmacao,calibrado,anatomia do polvo,polvo → tentáculo → ventosa → sucção,0.651411 | 0.302291 | 0.426845,False,polvo → tentáculo → sucção,True
+fasttext-50d-e-glove-50d,confirmacao,calibrado,obra de construção,arquiteto → projeto → construção → andaime,0.533762 | 0.673394 | 0.421885,False,,False
+fasttext-50d-e-glove-50d,confirmacao,calibrado,canto em grupo,microfone → voz → canto → coral,0.653064 | 0.614836 | 0.713388,True,microfone → voz → coral,True
+fasttext-50d-e-glove-50d,confirmacao,calibrado,laticínios,manteiga → leite → queijo → coalho,0.734723 | 0.690563 | 0.695382,True,manteiga → leite → coalho,True
+fasttext-50d-e-glove-50d,confirmacao,calibrado,estofamento,sofá → estofado → couro → curtume,0.582086 | 0.625824 | 0.435684,False,sofá → estofado → curtume,True
+fasttext-50d-e-glove-50d,confirmacao,calibrado,mãos e impressão digital,esmalte → unha → dedo → impressão,0.691936 | 0.677051 | 0.490777,True,esmalte → unha → dedo → impressão,True
+fasttext-50d-e-glove-50d,confirmacao,calibrado,trabalho remunerado,currículo → emprego → salário → renda,0.480726 | 0.604813 | 0.779416,True,currículo → emprego → renda,True
+fasttext-50d-e-glove-50d,confirmacao,calibrado,degelo,geleira → gelo → degelo → aquecimento,0.550648 | 0.576016 | 0.573829,True,geleira → gelo → aquecimento,True
+fasttext-50d-e-glove-50d,confirmacao,calibrado,prescrição médica,médico → consulta → receita → remédio,0.537863 | 0.408239 | 0.470798,False,,False
+fasttext-50d-e-glove-50d,confirmacao,calibrado,instrumento de sopro e ar,flauta → sopro → ar → oxidação,0.722272 | 0.595403 | 0.439137,False,flauta → sopro → oxidação,True
+fasttext-50d-e-glove-50d,calibracao,teto_falsos_positivos,panificação,trigo → farinha → massa → pão,0.882745 | 0.551076 | 0.509625,False,trigo → farinha → pão,True
+fasttext-50d-e-glove-50d,calibracao,teto_falsos_positivos,esportes de raquete,badminton → raquete → tênis → quadra,0.536474 | 0.660551 | 0.726330,True,badminton → raquete → quadra,True
+fasttext-50d-e-glove-50d,calibracao,teto_falsos_positivos,geografia,mapa → fronteira → país → bandeira,0.447071 | 0.551723 | 0.460602,False,,False
+fasttext-50d-e-glove-50d,calibracao,teto_falsos_positivos,plantio,semente → germinação → broto → horta,0.659173 | 0.480180 | 0.321705,False,,False
+fasttext-50d-e-glove-50d,calibracao,teto_falsos_positivos,cozinha,frigideira → fritura → batata → purê,0.700928 | 0.619799 | 0.789904,True,frigideira → fritura → purê,True
+fasttext-50d-e-glove-50d,calibracao,teto_falsos_positivos,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.757553 | 0.628299 | 0.625697,True,aeroporto → embarque → bagagem,True
+fasttext-50d-e-glove-50d,calibracao,teto_falsos_positivos,cidadania,eleição → voto → urna → sigilo,0.787354 | 0.514201 | 0.307321,False,,False
+fasttext-50d-e-glove-50d,calibracao,teto_falsos_positivos,exploração espacial,astronauta → foguete → lançamento → contagem,0.605342 | 0.613554 | 0.463924,False,,False
+fasttext-50d-e-glove-50d,calibracao,teto_falsos_positivos,apoio emocional,medo → coragem → confiança → amizade,0.702702 | 0.744147 | 0.605499,True,medo → coragem → amizade,True
+fasttext-50d-e-glove-50d,calibracao,teto_falsos_positivos,bordado,agulha → linha → bordado → enfeite,0.462480 | 0.250315 | 0.760273,False,agulha → bordado → enfeite,True
+fasttext-50d-e-glove-50d,calibracao,teto_falsos_positivos,fotografia,fotógrafo → câmera → retrato → moldura,0.443524 | 0.383051 | 0.505641,False,,False
+fasttext-50d-e-glove-50d,calibracao,teto_falsos_positivos,viagem de carro,motorista → carro → estrada → pedágio,0.843244 | 0.666851 | 0.562739,True,motorista → carro → estrada → pedágio,True
+fasttext-50d-e-glove-50d,confirmacao,teto_falsos_positivos,criação de ovelhas,lã → ovelha → pastor → rebanho → campo,0.648686 | 0.302741 | 0.451318 | 0.287685,False,,False
+fasttext-50d-e-glove-50d,confirmacao,teto_falsos_positivos,preparo de pizza,tomate → molho → pizza → forno,0.831137 | 0.694716 | 0.603664,True,tomate → molho → forno,True
+fasttext-50d-e-glove-50d,confirmacao,teto_falsos_positivos,equitação,cavalo → rédea → cavaleiro → sela,0.549823 | 0.423190 | 0.453351,False,cavalo → rédea → sela,True
+fasttext-50d-e-glove-50d,confirmacao,teto_falsos_positivos,controle de horário,prazo → atraso → relógio → ponteiro,0.638058 | 0.348471 | 0.585282,False,,False
+fasttext-50d-e-glove-50d,confirmacao,teto_falsos_positivos,respiração,asma → respiração → pulmão → oxigênio,0.521550 | 0.512466 | 0.550887,False,asma → pulmão → oxigênio,True
+fasttext-50d-e-glove-50d,confirmacao,teto_falsos_positivos,pintura de paredes,tinta → pincel → parede → reboco,0.714379 | 0.512815 | 0.665081,False,tinta → pincel → reboco,True
+fasttext-50d-e-glove-50d,confirmacao,teto_falsos_positivos,segurança pública,guarda → polícia → crime → prisão,0.765330 | 0.689921 | 0.742789,True,guarda → polícia → prisão,True
+fasttext-50d-e-glove-50d,confirmacao,teto_falsos_positivos,partida no estádio,gramado → estádio → arquibancada → ingresso,0.711356 | 0.573776 | 0.520229,False,,False
+fasttext-50d-e-glove-50d,confirmacao,teto_falsos_positivos,tempestade,relâmpago → trovão → tempestade → granizo,0.691690 | 0.563012 | 0.696913,True,relâmpago → tempestade → granizo,True
+fasttext-50d-e-glove-50d,confirmacao,teto_falsos_positivos,publicidade impressa,cartaz → publicidade → anúncio → jornal,0.372766 | 0.460123 | 0.640395,False,cartaz → anúncio → jornal,True
+fasttext-50d-e-glove-50d,confirmacao,teto_falsos_positivos,higiene pessoal,sabão → espuma → banho → toalha,0.825013 | 0.694636 | 0.693147,True,sabão → espuma → toalha,True
+fasttext-50d-e-glove-50d,confirmacao,teto_falsos_positivos,paisagem desértica,areia → duna → deserto → oásis,0.524975 | 0.473080 | 0.776866,False,areia → deserto → oásis,True
+fasttext-50d-e-glove-50d,confirmacao,teto_falsos_positivos,derivados de petróleo,petróleo → gasolina → combustível → combustão,0.608736 | 0.817220 | 0.815737,True,petróleo → gasolina → combustão,True
+fasttext-50d-e-glove-50d,confirmacao,teto_falsos_positivos,espetáculo de balé,balé → sapatilha → palco → plateia,0.522260 | 0.326233 | 0.723610,False,,False
+fasttext-50d-e-glove-50d,confirmacao,teto_falsos_positivos,anatomia do polvo,polvo → tentáculo → ventosa → sucção,0.651411 | 0.302291 | 0.426845,False,,False
+fasttext-50d-e-glove-50d,confirmacao,teto_falsos_positivos,obra de construção,arquiteto → projeto → construção → andaime,0.533762 | 0.673394 | 0.421885,False,,False
+fasttext-50d-e-glove-50d,confirmacao,teto_falsos_positivos,canto em grupo,microfone → voz → canto → coral,0.653064 | 0.614836 | 0.713388,True,microfone → voz → canto → coral,True
+fasttext-50d-e-glove-50d,confirmacao,teto_falsos_positivos,laticínios,manteiga → leite → queijo → coalho,0.734723 | 0.690563 | 0.695382,True,manteiga → leite → coalho,True
+fasttext-50d-e-glove-50d,confirmacao,teto_falsos_positivos,estofamento,sofá → estofado → couro → curtume,0.582086 | 0.625824 | 0.435684,False,,False
+fasttext-50d-e-glove-50d,confirmacao,teto_falsos_positivos,mãos e impressão digital,esmalte → unha → dedo → impressão,0.691936 | 0.677051 | 0.490777,False,,False
+fasttext-50d-e-glove-50d,confirmacao,teto_falsos_positivos,trabalho remunerado,currículo → emprego → salário → renda,0.480726 | 0.604813 | 0.779416,False,,False
+fasttext-50d-e-glove-50d,confirmacao,teto_falsos_positivos,degelo,geleira → gelo → degelo → aquecimento,0.550648 | 0.576016 | 0.573829,True,geleira → gelo → aquecimento,True
+fasttext-50d-e-glove-50d,confirmacao,teto_falsos_positivos,prescrição médica,médico → consulta → receita → remédio,0.537863 | 0.408239 | 0.470798,False,,False
+fasttext-50d-e-glove-50d,confirmacao,teto_falsos_positivos,instrumento de sopro e ar,flauta → sopro → ar → oxidação,0.722272 | 0.595403 | 0.439137,False,,False

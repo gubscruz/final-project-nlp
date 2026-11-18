@@ -1,4 +1,5 @@
 import json
+from argparse import ArgumentParser
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from urllib.request import urlopen
@@ -7,6 +8,13 @@ from urllib.request import urlopen
 DIRETORIO = Path(__file__).resolve().parent
 MODELOS = json.loads((DIRETORIO / "modelos.json").read_text(encoding="utf-8"))
 CACHE = DIRETORIO / "downloads"
+
+
+def carregar_modelos(extensao):
+    if not extensao:
+        return MODELOS
+    extras = json.loads((DIRETORIO / "modelos_extensao.json").read_text(encoding="utf-8"))
+    return [*MODELOS, *extras]
 
 
 def pasta_modelo(modelo):
@@ -38,7 +46,10 @@ def baixar(modelo):
 
 
 if __name__ == "__main__":
+    parser = ArgumentParser(description="Baixa as revisões dos modelos usados no benchmark.")
+    parser.add_argument("--extensao", action="store_true", help="Inclui as variantes da rodada adicional.")
+    args = parser.parse_args()
     with ThreadPoolExecutor(max_workers=3) as executor:
-        tarefas = [executor.submit(baixar, modelo) for modelo in MODELOS]
+        tarefas = [executor.submit(baixar, modelo) for modelo in carregar_modelos(args.extensao)]
         for tarefa in tarefas:
             tarefa.result()
