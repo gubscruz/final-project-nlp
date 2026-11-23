@@ -1,0 +1,30 @@
+Travessia
+
+Vetores de palavras
+NILC Portuguese Word Embeddings, FastText Skip-Gram 50D.
+Nathan Hartmann, Erick Fonseca, Christopher Shulby, Marcos Treviso,
+Jessica Rodrigues e Sandra Aluísio.
+Origem: https://huggingface.co/nilc-nlp/fasttext-skip-gram-50d
+Artigo: https://arxiv.org/abs/1708.06025
+Licença: Creative Commons Atribuição 4.0 Internacional.
+https://creativecommons.org/licenses/by/4.0/
+
+Os arquivos em data/ contêm um recorte dos vetores originais. Foram
+selecionadas palavras frequentes e palavras do benchmark. Cada vetor
+foi normalizado e exportado como float32 por preparar_modelo.py.
+
+Fontes
+Pixelify Sans, Bricolage Grotesque e DM Sans, distribuídas sob a SIL Open Font License 1.1.
+Os avisos correspondentes estão na pasta assets/.
+
+Arte do tabuleiro
+assets/travessia-dia.webp. Ilustração original em pixel art gerada com o ImageGen integrado.
+
+Prompt
+Create a single original panoramic pixel-art background for the game board of Travessia, a cheerful casual Brazilian daily word game. Actual retro handheld 16-bit pixel art, with a clearly visible uniform chunky pixel grid, sharp hard-alias stair-step edges, deliberate pixel clusters, and a limited palette. Composition around 3:1, edge-to-edge. Friendly sunny countryside in daytime: two grassy brown earthen hill terraces on the far left and far right, connected visually by facing ends of little tan walking trails, with a quiet open grassy valley between them. Background pale sky blue with two or three chunky ivory clouds and layered mint and sage hills. A tiny wooden signpost and a couple small yellow flowers on the left, one chunky fruit tree with warm red pixels on the right. Keep the central third mostly smooth sky and softly-colored distant meadow so HUD elements that will be added in HTML can read clearly. Keep big reserve space across the midline, friendly spring greens and golden butter-yellow, soft warm earthy accents, cheerful, light and playful. Scene framing as a nostalgic side-scrolling adventure environment, unique illustration. No sea, river, lake or boats, no real or drawn bridge, no characters, no words, no letters, no logos, no gradients, no blurred edges, no border, no interface elements.
+
+Versão anterior do tabuleiro
+assets/travessia.webp. Ilustração noturna original gerada com o ImageGen integrado.
+
+Prompt da versão anterior
+Create a single original background artwork (not a website mockup) for the wide game board of a daily Portuguese word-connection game named Travessia. Stylized concept art, extremely wide panoramic composition around 3:1. An elevated aerial view along a winding tidal river through steep, dark coastal cliffs at blue hour. On the left a charcoal teal rocky bank with finely etched topographic striations and a few sparse pine silhouettes; on the right a distant slate ridge with tiny warm amber shore lights. The calm turquoise river opens into a very broad, dark, uncluttered central channel occupying the middle of the composition horizontally, receding toward misty layered mountains in the distance. Modern low-key digital matte painting with photographic depth, restrained ink-like detail and visible texture in the land, subtle teal glow on the water and dusky haze toward the top. Rich near-black navy, dark petrol blue, smoky sea green, a few understated warm amber highlights. This will sit behind light interface text, so keep contrast soft in the middle row while making the coastline readable. Give the feeling of crossing between two banks at night. No actual bridge, no boats, no people, no stars dominating, no text or letters, no logos, no frame, no UI, no icons, no graph or dashed lines. Edge-to-edge landscape with no borders, evocative but minimal and spacious.
