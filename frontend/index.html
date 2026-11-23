@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf8ea">
+  <meta name="description" content="Ligue palavras e descubra pontes no modo Infinito ou no desafio diário de Travessia.">
+  <title>Travessia • O jogo de ligar palavras</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'%3E%3Crect x='1' y='1' width='34' height='34' rx='4' fill='%23d5ee99' stroke='%237c9d59' stroke-width='2'/%3E%3Cpath d='M7 22h22M11 11v15m14-15v15M11 14h3v3h8v-3h3' fill='none' stroke='%23296042' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./estilos.css">
+  <script type="module" src="./interface.mjs"></script>
+</head>
+<body>
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-bridge" viewBox="0 0 24 24"><path d="M2 16h20M6 6v14m12-14v14M6 9h3v3h6V9h3"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 16v-4m0-4h.01"/></symbol>
+    <symbol id="i-stats" viewBox="0 0 24 24"><path d="M5 19v-5m7 5V5m7 14V9"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="4" y="6" width="16" height="14" rx="3"/><path d="M8 4v4m8-4v4M4 11h16"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-steps" viewBox="0 0 24 24"><path d="M3 17h5v-5h5V7h8"/><circle cx="3" cy="17" r="1"/><circle cx="21" cy="7" r="1"/></symbol>
+    <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6m-5 3h4M8.5 15.5a6 6 0 1 1 7 0c-.4.3-.5.5-.5 1.5H9c0-1-.1-1.2-.5-1.5Z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M15 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h2"/></symbol>
+    <symbol id="i-infinito" viewBox="0 0 24 24"><path d="M12 12c-1.8-2.2-3-4-5.2-4a4 4 0 0 0 0 8c2.2 0 3.4-1.8 5.2-4s3-4 5.2-4a4 4 0 0 1 0 8c-2.2 0-3.4-1.8-5.2-4Z"/></symbol>
+  </svg>
+
+  <header class="site-header">
+    <div class="site-width header-row">
+      <div class="brand" aria-label="Travessia">
+        <span class="brand-mark"><svg class="icon" aria-hidden="true"><use href="#i-bridge"/></svg></span>
+        <span>travessia<span class="brand-period">.</span></span>
+      </div>
+      <nav aria-label="Sobre o jogo">
+        <button class="button button-quiet" type="button" data-dialog="ajuda" aria-label="Como jogar"><svg class="icon" aria-hidden="true"><use href="#i-info"/></svg><span class="help-label">Como jogar</span></button>
+        <button class="button button-square" type="button" data-dialog="estatisticas" aria-label="Estatísticas" title="Estatísticas"><svg class="icon" aria-hidden="true"><use href="#i-stats"/></svg></button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="game-width">
+    <div class="intro">
+      <div class="mode-picker" role="group" aria-label="Modo de jogo">
+        <button class="button" type="button" data-modo="infinito" aria-pressed="true" disabled><svg class="icon" aria-hidden="true"><use href="#i-infinito"/></svg> Infinito</button>
+        <button class="button" type="button" data-modo="diario" aria-pressed="false" disabled><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg> Diário</button>
+      </div>
+      <h1>Bora atravessar?</h1>
+      <p class="subtitle">Ligue os dois lados com palavras que combinam.</p>
+      <p class="edition"><span id="numero-desafio">Modo Infinito</span><span class="edition-dot" id="separador-data" aria-hidden="true" hidden></span><time id="data-desafio" hidden></time></p>
+    </div>
+
+    <section class="board" id="tabuleiro" aria-label="Tabuleiro da travessia">
+      <img class="board-art" src="./assets/travessia-dia.webp" width="2172" height="724" alt="" fetchpriority="high">
+      <div class="crossing">
+        <div class="bank bank-start">
+          <span class="bank-label">Saída</span>
+          <span class="bank-word"><span class="bank-word-text" id="palavra-inicio">—</span></span>
+        </div>
+        <div class="span" aria-hidden="true">
+          <span class="span-mid"><svg class="icon" aria-hidden="true"><use href="#i-bridge"/></svg></span>
+        </div>
+        <div class="bank bank-end">
+          <span class="bank-label">Chegada</span>
+          <span class="bank-word"><span class="bank-word-text" id="palavra-fim">—</span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="controls" aria-label="Palpites">
+      <form class="guess-form" id="formulario">
+        <label class="visually-hidden" for="palpite">Seu palpite</label>
+        <input class="guess-input" id="palpite" type="text" placeholder="Sua palavra…" autocomplete="off" autocapitalize="none" spellcheck="false" maxlength="48" aria-describedby="retorno" disabled required>
+        <button class="button button-primary" type="submit" id="conectar" aria-label="Mandar palpite" disabled>Mandar <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+      </form>
+      <p class="feedback" id="retorno" role="status"></p>
+      <div class="win" id="vitoria" hidden>
+        <span class="win-mark"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span>
+        <div><h2 tabindex="-1">Deu ponte!</h2><p id="resumo-vitoria"></p></div>
+        <button class="button button-primary" type="button" id="compartilhar"><svg class="icon" aria-hidden="true"><use href="#i-copy"/></svg> Copiar resultado</button>
+      </div>
+      <div class="control-meta">
+        <div class="guess-count"><svg class="icon" aria-hidden="true"><use href="#i-steps"/></svg><span id="total-tentativas">0 palpites</span></div>
+        <div class="control-actions">
+          <button class="button button-hint" id="alternar-dica" type="button" aria-expanded="false" aria-controls="dica" disabled><svg class="icon" aria-hidden="true"><use href="#i-bulb"/></svg><span>Ver dica</span></button>
+          <button class="button button-quiet" id="nova-ponte" type="button" disabled>Nova ponte <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </div>
+      </div>
+      <p class="hint" id="dica" hidden></p>
+      <details class="connections" id="conexoes" open hidden>
+        <summary id="total-conexoes">Conexões</summary>
+        <ol class="trail" id="caminho-atual" aria-label="Palavras da ponte"></ol>
+        <ul class="link-list" id="lista-conexoes" aria-label="Todas as conexões aceitas"></ul>
+      </details>
+      <details class="history" id="historico" hidden>
+        <summary>Histórico de palpites</summary>
+        <ol id="lista-tentativas"></ol>
+      </details>
+      <noscript><p>Ative o JavaScript para jogar Travessia.</p></noscript>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="rodape-diario" hidden>
+    <div class="site-width footer-row">
+      <p>O desafio muda à meia-noite no horário de Brasília.</p>
+      <p class="next-day" title="O desafio muda à meia-noite no horário de Brasília"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg> Próxima ponte em <span id="cronometro">--:--:--</span></p>
+    </div>
+  </footer>
+
+  <dialog id="ajuda" aria-labelledby="titulo-ajuda">
+    <form method="dialog"><button class="button button-square dialog-close" aria-label="Fechar como jogar"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button></form>
+    <h2 id="titulo-ajuda">Como jogar</h2>
+    <p>Mande uma palavra que combine com uma das pontas ou com outra palavra que você já colocou na ponte.</p>
+    <div class="example" aria-label="Exemplo de ponte">
+      <span>Criança</span><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg><span>Adulto</span><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg><span>Idoso</span>
+    </div>
+    <p>Um palpite que liga os dois lados fecha a ponte. Em quantos palpites você consegue atravessar?</p>
+    <p>No modo Infinito, pode continuar ligando palavras após atravessar ou pedir uma nova ponte a qualquer hora.</p>
+    <small>Similaridade calculada com vetores de FastText do NILC. <a href="./CREDITOS.txt" target="_blank" rel="noopener">Créditos e licenças</a></small>
+  </dialog>
+
+  <dialog id="estatisticas" aria-labelledby="titulo-estatisticas">
+    <form method="dialog"><button class="button button-square dialog-close" aria-label="Fechar estatísticas"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button></form>
+    <h2 id="titulo-estatisticas">Suas estatísticas</h2>
+    <p>Seu progresso no modo Diário neste navegador.</p>
+    <dl class="stat-grid">
+      <div><dt>Desafios jogados</dt><dd id="jogadas">0</dd></div>
+      <div><dt>Pontes concluídas</dt><dd id="concluidas">0</dd></div>
+      <div><dt>Melhor resultado</dt><dd id="melhor">—</dd></div>
+    </dl>
+  </dialog>
+
+  <dialog id="resultado" aria-labelledby="titulo-resultado">
+    <form method="dialog"><button class="button button-square dialog-close" aria-label="Fechar resultado"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button></form>
+    <h2 id="titulo-resultado">Seu resultado</h2>
+    <p>Selecione e copie para compartilhar.</p>
+    <textarea id="texto-resultado" aria-labelledby="titulo-resultado" rows="4" readonly></textarea>
+  </dialog>
+</body>
+</html>

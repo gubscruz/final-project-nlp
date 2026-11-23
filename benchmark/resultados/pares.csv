@@ -1,0 +1,1451 @@
+﻿modelo,divisao,tema,origem,palavra_a,palavra_b,nota,cosseno,par_comum,aceito_notebook,aceito_calibrado
+word2vec-300d,calibracao,panificação,ponte,trigo,farinha,3,0.66845739,True,True,True
+word2vec-300d,calibracao,panificação,ponte,farinha,massa,2,0.31492466,True,False,True
+word2vec-300d,calibracao,panificação,ponte,massa,pão,3,0.17242663,True,False,True
+word2vec-300d,calibracao,panificação,extra,trigo,trigêmeo,1,0.05097643,True,False,False
+word2vec-300d,calibracao,panificação,extra,farinha,bússola,0,0.08813554,True,False,False
+word2vec-300d,calibracao,panificação,extra,pão,cometa,0,0.00634668,True,False,False
+word2vec-300d,calibracao,esportes de raquete,ponte,badminton,raquete,3,0.34099519,True,False,True
+word2vec-300d,calibracao,esportes de raquete,ponte,raquete,tênis,3,0.43532407,True,True,True
+word2vec-300d,calibracao,esportes de raquete,ponte,tênis,quadra,3,0.35661787,True,False,True
+word2vec-300d,calibracao,esportes de raquete,extra,raquete,etiqueta,1,0.25588658,True,False,True
+word2vec-300d,calibracao,esportes de raquete,extra,badminton,buzina,0,0.05451245,True,False,False
+word2vec-300d,calibracao,esportes de raquete,extra,quadra,canela,1,0.14037631,True,False,False
+word2vec-300d,calibracao,geografia,ponte,mapa,fronteira,2,0.03103719,True,False,False
+word2vec-300d,calibracao,geografia,ponte,fronteira,país,3,0.06205585,True,False,False
+word2vec-300d,calibracao,geografia,ponte,país,bandeira,2,0.00173945,True,False,False
+word2vec-300d,calibracao,geografia,extra,mapa,mochila,1,0.03068583,True,False,False
+word2vec-300d,calibracao,geografia,extra,fronteira,fronte,1,0.15355746,True,False,False
+word2vec-300d,calibracao,geografia,extra,bandeira,iogurte,0,-0.03657901,True,False,False
+word2vec-300d,calibracao,plantio,ponte,semente,germinação,3,0.43935823,True,True,True
+word2vec-300d,calibracao,plantio,ponte,germinação,broto,3,0.34629950,True,False,True
+word2vec-300d,calibracao,plantio,ponte,broto,horta,2,0.05737513,True,False,False
+word2vec-300d,calibracao,plantio,extra,semente,cimento,1,0.25556681,True,False,True
+word2vec-300d,calibracao,plantio,extra,horta,hortelã,2,0.14698517,True,False,False
+word2vec-300d,calibracao,plantio,extra,broto,alfândega,0,0.02404980,True,False,False
+word2vec-300d,calibracao,cozinha,ponte,frigideira,fritura,3,0.60228813,True,True,True
+word2vec-300d,calibracao,cozinha,ponte,fritura,batata,2,0.58185434,True,True,True
+word2vec-300d,calibracao,cozinha,ponte,batata,purê,3,0.68043363,True,True,True
+word2vec-300d,calibracao,cozinha,extra,batata,barata,1,0.12710857,True,False,False
+word2vec-300d,calibracao,cozinha,extra,purê,pureza,1,0.10556047,True,False,False
+word2vec-300d,calibracao,cozinha,extra,fritura,cassetete,0,0.13687260,True,False,False
+word2vec-300d,calibracao,transporte aéreo,ponte,aeroporto,embarque,3,0.48186940,True,True,True
+word2vec-300d,calibracao,transporte aéreo,ponte,embarque,passageiro,3,0.32346994,True,False,True
+word2vec-300d,calibracao,transporte aéreo,ponte,passageiro,bagagem,2,0.36488807,True,False,True
+word2vec-300d,calibracao,transporte aéreo,extra,embarque,embargo,1,0.04832334,True,False,False
+word2vec-300d,calibracao,transporte aéreo,extra,passageiro,passeata,1,0.07234193,True,False,False
+word2vec-300d,calibracao,transporte aéreo,extra,bagagem,orvalho,0,0.05144034,True,False,False
+word2vec-300d,calibracao,cidadania,ponte,eleição,voto,3,0.38507196,True,False,True
+word2vec-300d,calibracao,cidadania,ponte,voto,urna,3,0.25621167,True,False,True
+word2vec-300d,calibracao,cidadania,ponte,urna,sigilo,2,0.05592550,True,False,False
+word2vec-300d,calibracao,cidadania,extra,eleição,elevação,1,0.15627061,True,False,False
+word2vec-300d,calibracao,cidadania,extra,urna,pinguim,0,-0.00092974,True,False,False
+word2vec-300d,calibracao,cidadania,extra,voto,voltagem,0,-0.03240512,True,False,False
+word2vec-300d,calibracao,exploração espacial,ponte,astronauta,foguete,3,0.33134794,True,False,True
+word2vec-300d,calibracao,exploração espacial,ponte,foguete,lançamento,3,0.28949076,True,False,True
+word2vec-300d,calibracao,exploração espacial,ponte,lançamento,contagem,2,0.16819121,True,False,True
+word2vec-300d,calibracao,exploração espacial,extra,astronauta,astrólogo,1,0.29587236,True,False,True
+word2vec-300d,calibracao,exploração espacial,extra,foguete,folguedo,1,0.13942191,True,False,False
+word2vec-300d,calibracao,exploração espacial,extra,contagem,floreira,0,0.15747803,True,False,False
+word2vec-300d,calibracao,apoio emocional,ponte,medo,coragem,2,0.49496868,True,True,True
+word2vec-300d,calibracao,apoio emocional,ponte,coragem,confiança,2,0.47578722,True,True,True
+word2vec-300d,calibracao,apoio emocional,ponte,confiança,amizade,2,0.35470784,True,False,True
+word2vec-300d,calibracao,apoio emocional,extra,medo,medida,1,-0.06680588,True,False,False
+word2vec-300d,calibracao,apoio emocional,extra,confiança,contramão,0,0.07302411,True,False,False
+word2vec-300d,calibracao,apoio emocional,extra,amizade,ferrugem,0,0.03311314,True,False,False
+word2vec-300d,calibracao,bordado,ponte,agulha,linha,3,0.26597199,True,False,True
+word2vec-300d,calibracao,bordado,ponte,linha,bordado,3,0.06055767,True,False,False
+word2vec-300d,calibracao,bordado,ponte,bordado,enfeite,2,0.50502247,True,True,True
+word2vec-300d,calibracao,bordado,extra,agulha,agulhada,3,0.41296560,True,True,True
+word2vec-300d,calibracao,bordado,extra,linha,linhagem,1,0.29796037,True,False,True
+word2vec-300d,calibracao,bordado,extra,enfeite,asfalto,0,0.25474238,True,False,True
+word2vec-300d,calibracao,fotografia,ponte,fotógrafo,câmera,3,0.20481019,True,False,True
+word2vec-300d,calibracao,fotografia,ponte,câmera,retrato,3,0.09519503,True,False,False
+word2vec-300d,calibracao,fotografia,ponte,retrato,moldura,2,0.22807887,True,False,True
+word2vec-300d,calibracao,fotografia,extra,fotógrafo,fotossíntese,1,-0.05034332,True,False,False
+word2vec-300d,calibracao,fotografia,extra,retrato,relato,1,0.44091311,True,True,True
+word2vec-300d,calibracao,fotografia,extra,moldura,feijão,0,0.08318678,True,False,False
+word2vec-300d,calibracao,viagem de carro,ponte,motorista,carro,3,0.67741752,True,True,True
+word2vec-300d,calibracao,viagem de carro,ponte,carro,estrada,2,0.24846916,True,False,True
+word2vec-300d,calibracao,viagem de carro,ponte,estrada,pedágio,3,0.40904632,True,True,True
+word2vec-300d,calibracao,viagem de carro,extra,motorista,motociclista,2,0.73857015,True,True,True
+word2vec-300d,calibracao,viagem de carro,extra,carro,caro,1,0.18028632,True,False,True
+word2vec-300d,calibracao,viagem de carro,extra,pedágio,sabonete,0,0.02507275,True,False,False
+word2vec-300d,teste,fases da vida,ponte,criança,adulto,3,0.38021395,True,False,True
+word2vec-300d,teste,fases da vida,ponte,adulto,idoso,3,0.42956689,True,True,True
+word2vec-300d,teste,fases da vida,extra,criança,criação,1,0.05314771,True,False,False
+word2vec-300d,teste,fases da vida,extra,adulto,adubo,0,0.10879613,True,False,False
+word2vec-300d,teste,fases da vida,extra,idoso,adolescente,3,0.67993623,True,True,True
+word2vec-300d,teste,separação e finanças,ponte,amor,casamento,2,0.39171350,True,False,True
+word2vec-300d,teste,separação e finanças,ponte,casamento,divórcio,3,0.68918842,True,True,True
+word2vec-300d,teste,separação e finanças,ponte,divórcio,pensão,2,0.19034047,True,False,True
+word2vec-300d,teste,separação e finanças,ponte,pensão,dinheiro,2,0.23895046,True,False,True
+word2vec-300d,teste,separação e finanças,extra,amor,rumor,1,0.23849097,True,False,True
+word2vec-300d,teste,separação e finanças,extra,divórcio,diversão,1,-0.04203044,True,False,False
+word2vec-300d,teste,separação e finanças,extra,dinheiro,besouro,0,0.03300543,True,False,False
+word2vec-300d,teste,animais domésticos,ponte,cachorro,animal,3,0.38714272,True,False,True
+word2vec-300d,teste,animais domésticos,ponte,animal,gato,3,0.31681827,True,False,True
+word2vec-300d,teste,animais domésticos,ponte,gato,felino,3,0.52330470,True,True,True
+word2vec-300d,teste,animais domésticos,extra,cachorro,cão,3,0.75435996,True,True,True
+word2vec-300d,teste,animais domésticos,extra,gato,gasto,1,0.03054420,True,False,False
+word2vec-300d,teste,animais domésticos,extra,felino,trinco,0,0.22427520,True,False,True
+word2vec-300d,teste,ciclo da água,ponte,oceano,evaporação,2,0.23343906,True,False,True
+word2vec-300d,teste,ciclo da água,ponte,evaporação,nuvem,3,0.35925758,True,False,True
+word2vec-300d,teste,ciclo da água,ponte,nuvem,chuva,3,0.37453625,True,False,True
+word2vec-300d,teste,ciclo da água,ponte,chuva,enchente,3,0.54258168,True,True,True
+word2vec-300d,teste,ciclo da água,extra,chuva,chupa,1,0.05185392,True,False,False
+word2vec-300d,teste,ciclo da água,extra,enchente,enteado,1,-0.07354897,True,False,False
+word2vec-300d,teste,ciclo da água,extra,oceano,carimbo,0,-0.00362031,True,False,False
+word2vec-300d,teste,inverno,ponte,verão,inverno,3,0.80549133,True,True,True
+word2vec-300d,teste,inverno,ponte,inverno,frio,3,0.44675848,True,True,True
+word2vec-300d,teste,inverno,ponte,frio,casaco,3,0.16741250,True,False,True
+word2vec-300d,teste,inverno,extra,verão,verbo,1,-0.00699509,True,False,False
+word2vec-300d,teste,inverno,extra,inverno,inferno,1,0.12538135,True,False,False
+word2vec-300d,teste,inverno,extra,casaco,cartório,0,0.10470036,True,False,False
+word2vec-300d,teste,leitura e silêncio,ponte,escritor,livro,3,0.36205539,True,False,True
+word2vec-300d,teste,leitura e silêncio,ponte,livro,biblioteca,3,0.19092241,True,False,True
+word2vec-300d,teste,leitura e silêncio,ponte,biblioteca,silêncio,2,-0.02657324,True,False,False
+word2vec-300d,teste,leitura e silêncio,extra,livro,livre,1,0.05413175,True,False,False
+word2vec-300d,teste,leitura e silêncio,extra,silêncio,tranquilidade,2,0.22253567,True,False,True
+word2vec-300d,teste,leitura e silêncio,extra,biblioteca,parafuso,0,0.02005723,True,False,False
+word2vec-300d,teste,apresentação musical,ponte,violão,corda,3,0.35757843,True,False,True
+word2vec-300d,teste,apresentação musical,ponte,corda,música,2,0.20635529,True,False,True
+word2vec-300d,teste,apresentação musical,ponte,música,show,2,0.33896759,True,False,True
+word2vec-300d,teste,apresentação musical,extra,violão,viola,3,0.56934983,True,True,True
+word2vec-300d,teste,apresentação musical,extra,corda,cor,1,0.20216705,True,False,True
+word2vec-300d,teste,apresentação musical,extra,show,repolho,0,0.08929991,True,False,False
+word2vec-300d,teste,cozinha e café,ponte,café,filtro,3,0.14508940,True,False,False
+word2vec-300d,teste,cozinha e café,ponte,filtro,coador,3,0.44222206,True,True,True
+word2vec-300d,teste,cozinha e café,ponte,coador,pano,2,0.47892839,True,True,True
+word2vec-300d,teste,cozinha e café,extra,filtro,filhote,1,0.21173239,True,False,True
+word2vec-300d,teste,cozinha e café,extra,pano,panela,1,0.31783605,True,False,True
+word2vec-300d,teste,cozinha e café,extra,café,interruptor,0,0.09487349,True,False,False
+word2vec-300d,teste,prevenção em saúde,ponte,vírus,vacina,3,0.59568602,True,True,True
+word2vec-300d,teste,prevenção em saúde,ponte,vacina,imunidade,3,0.24516998,True,False,True
+word2vec-300d,teste,prevenção em saúde,ponte,imunidade,proteção,2,0.29907730,True,False,True
+word2vec-300d,teste,prevenção em saúde,extra,vírus,virada,1,-0.00996774,True,False,False
+word2vec-300d,teste,prevenção em saúde,extra,vacina,vaca,1,0.16785693,True,False,True
+word2vec-300d,teste,prevenção em saúde,extra,imunidade,calçada,0,0.05009506,True,False,False
+word2vec-300d,teste,medição do calor,ponte,sol,calor,3,0.39420828,True,False,True
+word2vec-300d,teste,medição do calor,ponte,calor,temperatura,3,0.48255455,True,True,True
+word2vec-300d,teste,medição do calor,ponte,temperatura,termômetro,3,0.33368248,True,False,True
+word2vec-300d,teste,medição do calor,extra,sol,solidão,1,0.19501550,True,False,True
+word2vec-300d,teste,medição do calor,extra,temperatura,temperamento,1,0.09518395,True,False,False
+word2vec-300d,teste,medição do calor,extra,termômetro,sanfona,0,0.04714538,True,False,False
+word2vec-300d,teste,navegação costeira,ponte,navio,porto,3,0.24438575,True,False,True
+word2vec-300d,teste,navegação costeira,ponte,porto,farol,2,0.19918045,True,False,True
+word2vec-300d,teste,navegação costeira,ponte,farol,luz,3,0.31247833,True,False,True
+word2vec-300d,teste,navegação costeira,extra,navio,navalha,1,0.05330760,True,False,False
+word2vec-300d,teste,navegação costeira,extra,porto,portão,1,0.06442909,True,False,False
+word2vec-300d,teste,navegação costeira,extra,luz,macarrão,0,-0.06198631,True,False,False
+word2vec-300d,teste,pagamentos e consumo,ponte,banco,cartão,2,0.19390596,True,False,True
+word2vec-300d,teste,pagamentos e consumo,ponte,cartão,compra,2,0.19410862,True,False,True
+word2vec-300d,teste,pagamentos e consumo,ponte,compra,loja,3,0.27649593,True,False,True
+word2vec-300d,teste,pagamentos e consumo,extra,banco,branco,1,-0.02793964,True,False,False
+word2vec-300d,teste,pagamentos e consumo,extra,banco,assento,3,0.13059467,True,False,False
+word2vec-300d,teste,pagamentos e consumo,extra,loja,centopeia,0,0.16627614,True,False,True
+word2vec-300d,teste,projeção de filme,ponte,cinema,filme,3,0.56450427,True,True,True
+word2vec-300d,teste,projeção de filme,ponte,filme,projetor,2,0.25356531,True,False,True
+word2vec-300d,teste,projeção de filme,ponte,projetor,tela,3,0.47084194,True,True,True
+word2vec-300d,teste,projeção de filme,extra,cinema,cinemática,1,0.11342945,True,False,False
+word2vec-300d,teste,projeção de filme,extra,tela,telha,1,0.22109868,True,False,True
+word2vec-300d,teste,projeção de filme,extra,projetor,lentilha,0,0.07450375,True,False,False
+word2vec-300d,teste,fotebol e celebração,ponte,futebol,gol,3,0.14997342,True,False,False
+word2vec-300d,teste,fotebol e celebração,ponte,gol,torcida,2,0.28958461,True,False,True
+word2vec-300d,teste,fotebol e celebração,ponte,torcida,festa,2,0.31290784,True,False,True
+word2vec-300d,teste,fotebol e celebração,extra,futebol,futuro,1,0.12120009,True,False,False
+word2vec-300d,teste,fotebol e celebração,extra,gol,gola,1,0.07117539,True,False,False
+word2vec-300d,teste,fotebol e celebração,extra,torcida,compasso,0,0.04043198,True,False,False
+word2vec-300d,teste,educação formal,ponte,professor,aula,3,0.25179383,True,False,True
+word2vec-300d,teste,educação formal,ponte,aula,prova,2,0.15259326,True,False,False
+word2vec-300d,teste,educação formal,ponte,prova,nota,3,0.05586282,True,False,False
+word2vec-300d,teste,educação formal,extra,professor,catraca,1,0.05218233,True,False,False
+word2vec-300d,teste,educação formal,extra,aula,jaula,1,0.14298321,True,False,False
+word2vec-300d,teste,educação formal,extra,nota,vassoura,0,-0.00416006,True,False,False
+word2vec-300d,teste,tecelagem e vestuário,ponte,algodão,tecido,3,0.41773325,True,True,True
+word2vec-300d,teste,tecelagem e vestuário,ponte,tecido,camisa,3,0.08257905,True,False,False
+word2vec-300d,teste,tecelagem e vestuário,ponte,camisa,botão,2,0.13710888,True,False,False
+word2vec-300d,teste,tecelagem e vestuário,extra,algodão,algarismo,1,0.07576291,True,False,False
+word2vec-300d,teste,tecelagem e vestuário,extra,tecido,papelão,1,0.34374225,True,False,True
+word2vec-300d,teste,tecelagem e vestuário,extra,botão,gengibre,0,0.06063113,True,False,False
+word2vec-300d,teste,tratamento dentário,ponte,dentista,dente,3,0.18419042,True,False,True
+word2vec-300d,teste,tratamento dentário,ponte,dente,cárie,3,0.25336659,True,False,True
+word2vec-300d,teste,tratamento dentário,ponte,cárie,dor,2,0.42359743,True,True,True
+word2vec-300d,teste,tratamento dentário,extra,dentista,dentadura,3,0.16303876,True,False,True
+word2vec-300d,teste,tratamento dentário,extra,cárie,carícia,1,0.25649318,True,False,True
+word2vec-300d,teste,tratamento dentário,extra,dor,octógono,0,0.03288779,True,False,False
+word2vec-300d,teste,transporte ferroviário,ponte,trem,trilho,3,0.53768998,True,True,True
+word2vec-300d,teste,transporte ferroviário,ponte,trilho,ferro,2,0.35061765,True,False,True
+word2vec-300d,teste,transporte ferroviário,ponte,ferro,metal,3,0.23736930,True,False,True
+word2vec-300d,teste,transporte ferroviário,extra,trem,tremor,1,0.16768192,True,False,True
+word2vec-300d,teste,transporte ferroviário,extra,trilho,trincheira,1,0.33158508,True,False,True
+word2vec-300d,teste,transporte ferroviário,extra,metal,borboleta,0,0.10144521,True,False,False
+word2vec-300d,teste,criação de abelhas,ponte,abelha,colmeia,3,0.35863864,True,False,True
+word2vec-300d,teste,criação de abelhas,ponte,colmeia,mel,3,0.22148432,True,False,True
+word2vec-300d,teste,criação de abelhas,ponte,mel,doce,3,0.33786058,True,False,True
+word2vec-300d,teste,criação de abelhas,extra,abelha,vespa,3,0.42143670,True,True,True
+word2vec-300d,teste,criação de abelhas,extra,colmeia,coluna,1,0.09743441,True,False,False
+word2vec-300d,teste,criação de abelhas,extra,doce,capacete,0,-0.07031646,True,False,False
+word2vec-300d,teste,móveis e madeira,ponte,árvore,madeira,3,0.32240710,True,False,True
+word2vec-300d,teste,móveis e madeira,ponte,madeira,marceneiro,3,0.15496334,True,False,False
+word2vec-300d,teste,móveis e madeira,ponte,marceneiro,mesa,2,0.00621711,True,False,False
+word2vec-300d,teste,móveis e madeira,extra,madeira,madrinha,1,0.07973702,True,False,False
+word2vec-300d,teste,móveis e madeira,extra,mesa,mesada,1,0.13310650,True,False,False
+word2vec-300d,teste,móveis e madeira,extra,marceneiro,gelatina,0,0.02929301,True,False,False
+word2vec-300d,teste,astronomia observacional,ponte,planeta,universo,3,0.47103602,True,True,True
+word2vec-300d,teste,astronomia observacional,ponte,universo,estrela,3,0.14045864,True,False,False
+word2vec-300d,teste,astronomia observacional,ponte,estrela,telescópio,3,0.18440875,True,False,True
+word2vec-300d,teste,astronomia observacional,extra,planeta,planilha,1,-0.05792331,True,False,False
+word2vec-300d,teste,astronomia observacional,extra,telescópio,telefone,1,0.16740884,True,False,True
+word2vec-300d,teste,astronomia observacional,extra,universo,ralador,0,0.05711597,True,False,False
+word2vec-300d,teste,paisagem vulcânica,ponte,vulcão,lava,3,0.22645800,True,False,True
+word2vec-300d,teste,paisagem vulcânica,ponte,lava,rocha,3,0.15565313,True,False,False
+word2vec-300d,teste,paisagem vulcânica,ponte,rocha,montanha,2,0.19096667,True,False,True
+word2vec-300d,teste,paisagem vulcânica,extra,vulcão,vulto,1,0.19863273,True,False,True
+word2vec-300d,teste,paisagem vulcânica,extra,lava,lavanda,1,0.10277032,True,False,False
+word2vec-300d,teste,paisagem vulcânica,extra,montanha,refrigerante,0,-0.05364468,True,False,False
+word2vec-300d,teste,comércio de peixe,ponte,anzol,pesca,3,0.28249174,True,False,True
+word2vec-300d,teste,comércio de peixe,ponte,pesca,peixe,3,0.24998882,True,False,True
+word2vec-300d,teste,comércio de peixe,ponte,peixe,mercado,2,0.12167858,True,False,False
+word2vec-300d,teste,comércio de peixe,extra,pesca,pescaria,3,0.59140635,True,True,True
+word2vec-300d,teste,comércio de peixe,extra,peixe,queixo,1,0.12531099,True,False,False
+word2vec-300d,teste,comércio de peixe,extra,mercado,ribanceira,0,-0.01603276,True,False,False
+word2vec-300d,teste,solidariedade,ponte,empatia,solidariedade,3,0.40274718,True,True,True
+word2vec-300d,teste,solidariedade,ponte,solidariedade,doação,2,0.21873333,True,False,True
+word2vec-300d,teste,solidariedade,ponte,doação,sangue,2,0.30325860,True,False,True
+word2vec-300d,teste,solidariedade,extra,empatia,empate,1,0.03205181,True,False,False
+word2vec-300d,teste,solidariedade,extra,doação,adoção,1,0.32917053,True,False,True
+word2vec-300d,teste,solidariedade,extra,sangue,grampeador,0,0.24758829,True,False,True
+word2vec-300d,teste,preparo de compostagem,ponte,casca,resíduo,2,0.23147735,True,False,True
+word2vec-300d,teste,preparo de compostagem,ponte,resíduo,compostagem,3,0.40943846,True,True,True
+word2vec-300d,teste,preparo de compostagem,ponte,compostagem,adubo,3,0.37676045,True,False,True
+word2vec-300d,teste,preparo de compostagem,ponte,adubo,solo,3,0.30959034,True,False,True
+word2vec-300d,teste,preparo de compostagem,extra,casca,cascata,1,0.23755908,True,False,True
+word2vec-300d,teste,preparo de compostagem,extra,adubo,adultério,1,-0.03079670,True,False,False
+word2vec-300d,teste,preparo de compostagem,extra,solo,zíper,0,0.07769078,True,False,False
+word2vec-300d,teste,sinalização e travessia,ponte,semáforo,trânsito,3,0.37127313,True,False,True
+word2vec-300d,teste,sinalização e travessia,ponte,trânsito,pedestre,3,0.37573886,True,False,True
+word2vec-300d,teste,sinalização e travessia,ponte,pedestre,faixa,3,0.37023315,True,False,True
+word2vec-300d,teste,sinalização e travessia,extra,semáforo,metáfora,1,-0.01141845,True,False,False
+word2vec-300d,teste,sinalização e travessia,extra,pedestre,pedestal,1,0.20319322,True,False,True
+word2vec-300d,teste,sinalização e travessia,extra,trânsito,abacate,0,0.03185440,True,False,False
+word2vec-300d,teste,cultura de rua brasileira,ponte,capoeira,berimbau,3,0.23779337,True,False,True
+word2vec-300d,teste,cultura de rua brasileira,ponte,berimbau,roda,3,0.31061521,True,False,True
+word2vec-300d,teste,cultura de rua brasileira,ponte,roda,dança,2,0.37029216,True,False,True
+word2vec-300d,teste,cultura de rua brasileira,extra,capoeira,capô,1,0.00746205,True,False,False
+word2vec-300d,teste,cultura de rua brasileira,extra,roda,rodo,1,0.16402774,True,False,True
+word2vec-300d,teste,cultura de rua brasileira,extra,berimbau,cloro,0,0.10287453,True,False,False
+word2vec-300d,teste,gírias e economia,ponte,grana,troco,2,0.38287938,True,False,True
+word2vec-300d,teste,gírias e economia,ponte,troco,moeda,3,0.18748198,True,False,True
+word2vec-300d,teste,gírias e economia,ponte,moeda,cofre,2,0.12477906,True,False,False
+word2vec-300d,teste,gírias e economia,extra,grana,grama,1,0.17677458,True,False,True
+word2vec-300d,teste,gírias e economia,extra,moeda,moenda,1,0.02523042,True,False,False
+word2vec-300d,teste,gírias e economia,extra,cofre,baleia,0,0.13569552,True,False,False
+word2vec-300d,teste,período de repouso,ponte,noite,sono,3,0.17939350,True,False,True
+word2vec-300d,teste,período de repouso,ponte,sono,sonho,3,0.20419419,True,False,True
+word2vec-300d,teste,período de repouso,ponte,sonho,pesadelo,3,0.58027399,True,True,True
+word2vec-300d,teste,período de repouso,extra,sono,sino,1,0.19111103,True,False,True
+word2vec-300d,teste,período de repouso,extra,pesadelo,pesado,1,0.14888786,True,False,False
+word2vec-300d,teste,período de repouso,extra,noite,açafrão,0,0.02911027,True,False,False
+word2vec-300d,teste,aviso de incêndio,ponte,fumaça,fogo,3,0.50573373,True,True,True
+word2vec-300d,teste,aviso de incêndio,ponte,fogo,bombeiro,3,0.19062425,True,False,True
+word2vec-300d,teste,aviso de incêndio,ponte,bombeiro,sirene,2,0.11624947,True,False,False
+word2vec-300d,teste,aviso de incêndio,extra,fumaça,fumaçar,3,0.27420112,True,False,True
+word2vec-300d,teste,aviso de incêndio,extra,fogo,jogo,1,0.15752962,True,False,False
+word2vec-300d,teste,aviso de incêndio,extra,bombeiro,porcelana,0,0.08249959,True,False,False
+word2vec-300d,teste,tecnologia doméstica,ponte,teclado,computador,3,0.54414630,True,True,True
+word2vec-300d,teste,tecnologia doméstica,ponte,computador,internet,2,0.45207420,True,True,True
+word2vec-300d,teste,tecnologia doméstica,ponte,internet,senha,2,0.34551620,True,False,True
+word2vec-300d,teste,tecnologia doméstica,extra,teclado,telhado,1,0.22318129,True,False,True
+word2vec-300d,teste,tecnologia doméstica,extra,senha,resenha,1,0.06418645,True,False,False
+word2vec-300d,teste,tecnologia doméstica,extra,computador,cogumelo,0,0.09741951,True,False,False
+word2vec-300d,teste,lugar de moradia,ponte,quarto,casa,3,0.16982137,True,False,True
+word2vec-300d,teste,lugar de moradia,ponte,casa,bairro,2,0.26425043,True,False,True
+word2vec-300d,teste,lugar de moradia,ponte,bairro,cidade,3,0.45942444,True,True,True
+word2vec-300d,teste,lugar de moradia,extra,quarto,quarteto,1,0.10292395,True,False,False
+word2vec-300d,teste,lugar de moradia,extra,bairro,barreira,1,0.07453400,True,False,False
+word2vec-300d,teste,lugar de moradia,extra,cidade,pilha,0,0.12490311,True,False,False
+word2vec-300d,teste,argila e artesanato,ponte,barro,cerâmica,3,0.58380711,True,True,True
+word2vec-300d,teste,argila e artesanato,ponte,cerâmica,vaso,3,0.29972944,True,False,True
+word2vec-300d,teste,argila e artesanato,ponte,vaso,flor,3,0.17994338,True,False,True
+word2vec-300d,teste,argila e artesanato,extra,cerâmica,cera,1,0.51056284,True,True,True
+word2vec-300d,teste,argila e artesanato,extra,vaso,vazio,1,0.32349899,True,False,True
+word2vec-300d,teste,argila e artesanato,extra,flor,serrote,0,0.27312219,True,False,True
+word2vec-300d,teste,alimentação e acidez,ponte,laranja,fruta,3,0.51868558,True,True,True
+word2vec-300d,teste,alimentação e acidez,ponte,fruta,limão,3,0.66094023,True,True,True
+word2vec-300d,teste,alimentação e acidez,ponte,limão,azedo,3,0.64258778,True,True,True
+word2vec-300d,teste,alimentação e acidez,extra,laranja,tangerina,3,0.58096904,True,True,True
+word2vec-300d,teste,alimentação e acidez,extra,limão,limo,1,0.35708994,True,False,True
+word2vec-300d,teste,alimentação e acidez,extra,azedo,peneira,0,0.17193599,True,False,True
+word2vec-300d,teste,ensino superior e pesquisa,ponte,universidade,diploma,3,0.27110839,True,False,True
+word2vec-300d,teste,ensino superior e pesquisa,ponte,diploma,formatura,3,0.15048847,True,False,False
+word2vec-300d,teste,ensino superior e pesquisa,ponte,formatura,cerimônia,3,0.36294410,True,False,True
+word2vec-300d,teste,ensino superior e pesquisa,extra,universidade,universal,1,0.07449245,True,False,False
+word2vec-300d,teste,ensino superior e pesquisa,extra,diploma,diplomacia,1,0.00795760,True,False,False
+word2vec-300d,teste,ensino superior e pesquisa,extra,cerimônia,milho,0,-0.02248190,True,False,False
+word2vec-300d,teste,recreação ao ar livre,ponte,pipa,vento,3,0.25704390,True,False,True
+word2vec-300d,teste,recreação ao ar livre,ponte,vento,brisa,3,0.37409103,True,False,True
+word2vec-300d,teste,recreação ao ar livre,ponte,brisa,praia,2,0.23714274,True,False,True
+word2vec-300d,teste,recreação ao ar livre,extra,pipa,pipeta,1,0.30955598,True,False,True
+word2vec-300d,teste,recreação ao ar livre,extra,vento,veludo,0,0.14577352,True,False,False
+word2vec-300d,teste,recreação ao ar livre,extra,praia,dobradiça,0,0.18131019,True,False,True
+word2vec-50d,calibracao,panificação,ponte,trigo,farinha,3,0.87967706,True,True,True
+word2vec-50d,calibracao,panificação,ponte,farinha,massa,2,0.44673872,True,True,True
+word2vec-50d,calibracao,panificação,ponte,massa,pão,3,0.19400619,True,False,False
+word2vec-50d,calibracao,panificação,extra,trigo,trigêmeo,1,0.26335451,True,False,False
+word2vec-50d,calibracao,panificação,extra,farinha,bússola,0,0.20975885,True,False,False
+word2vec-50d,calibracao,panificação,extra,pão,cometa,0,0.02251664,True,False,False
+word2vec-50d,calibracao,esportes de raquete,ponte,badminton,raquete,3,0.27425000,True,False,False
+word2vec-50d,calibracao,esportes de raquete,ponte,raquete,tênis,3,0.44888195,True,True,True
+word2vec-50d,calibracao,esportes de raquete,ponte,tênis,quadra,3,0.47592169,True,True,True
+word2vec-50d,calibracao,esportes de raquete,extra,raquete,etiqueta,1,0.51289636,True,True,True
+word2vec-50d,calibracao,esportes de raquete,extra,badminton,buzina,0,0.05587888,True,False,False
+word2vec-50d,calibracao,esportes de raquete,extra,quadra,canela,1,0.29246947,True,False,False
+word2vec-50d,calibracao,geografia,ponte,mapa,fronteira,2,0.11502973,True,False,False
+word2vec-50d,calibracao,geografia,ponte,fronteira,país,3,0.24516186,True,False,False
+word2vec-50d,calibracao,geografia,ponte,país,bandeira,2,0.14299816,True,False,False
+word2vec-50d,calibracao,geografia,extra,mapa,mochila,1,0.03264107,True,False,False
+word2vec-50d,calibracao,geografia,extra,fronteira,fronte,1,0.37769458,True,False,False
+word2vec-50d,calibracao,geografia,extra,bandeira,iogurte,0,0.17348656,True,False,False
+word2vec-50d,calibracao,plantio,ponte,semente,germinação,3,0.59928226,True,True,True
+word2vec-50d,calibracao,plantio,ponte,germinação,broto,3,0.49132445,True,True,True
+word2vec-50d,calibracao,plantio,ponte,broto,horta,2,0.09494274,True,False,False
+word2vec-50d,calibracao,plantio,extra,semente,cimento,1,0.61802578,True,True,True
+word2vec-50d,calibracao,plantio,extra,horta,hortelã,2,0.25190225,True,False,False
+word2vec-50d,calibracao,plantio,extra,broto,alfândega,0,-0.02271787,True,False,False
+word2vec-50d,calibracao,cozinha,ponte,frigideira,fritura,3,0.79485583,True,True,True
+word2vec-50d,calibracao,cozinha,ponte,fritura,batata,2,0.80392617,True,True,True
+word2vec-50d,calibracao,cozinha,ponte,batata,purê,3,0.78098750,True,True,True
+word2vec-50d,calibracao,cozinha,extra,batata,barata,1,0.35725701,True,False,False
+word2vec-50d,calibracao,cozinha,extra,purê,pureza,1,0.35579720,True,False,False
+word2vec-50d,calibracao,cozinha,extra,fritura,cassetete,0,0.33870992,True,False,False
+word2vec-50d,calibracao,transporte aéreo,ponte,aeroporto,embarque,3,0.63690603,True,True,True
+word2vec-50d,calibracao,transporte aéreo,ponte,embarque,passageiro,3,0.56368399,True,True,True
+word2vec-50d,calibracao,transporte aéreo,ponte,passageiro,bagagem,2,0.50278848,True,True,True
+word2vec-50d,calibracao,transporte aéreo,extra,embarque,embargo,1,0.22952905,True,False,False
+word2vec-50d,calibracao,transporte aéreo,extra,passageiro,passeata,1,0.14409353,True,False,False
+word2vec-50d,calibracao,transporte aéreo,extra,bagagem,orvalho,0,0.18218611,True,False,False
+word2vec-50d,calibracao,cidadania,ponte,eleição,voto,3,0.49115187,True,True,True
+word2vec-50d,calibracao,cidadania,ponte,voto,urna,3,0.31085646,True,False,False
+word2vec-50d,calibracao,cidadania,ponte,urna,sigilo,2,0.18240467,True,False,False
+word2vec-50d,calibracao,cidadania,extra,eleição,elevação,1,0.36079237,True,False,False
+word2vec-50d,calibracao,cidadania,extra,urna,pinguim,0,0.05529554,True,False,False
+word2vec-50d,calibracao,cidadania,extra,voto,voltagem,0,-0.09844377,True,False,False
+word2vec-50d,calibracao,exploração espacial,ponte,astronauta,foguete,3,0.52873105,True,True,True
+word2vec-50d,calibracao,exploração espacial,ponte,foguete,lançamento,3,0.55508912,True,True,True
+word2vec-50d,calibracao,exploração espacial,ponte,lançamento,contagem,2,0.26952550,True,False,False
+word2vec-50d,calibracao,exploração espacial,extra,astronauta,astrólogo,1,0.53724694,True,True,True
+word2vec-50d,calibracao,exploração espacial,extra,foguete,folguedo,1,0.20998195,True,False,False
+word2vec-50d,calibracao,exploração espacial,extra,contagem,floreira,0,0.42289469,True,True,False
+word2vec-50d,calibracao,apoio emocional,ponte,medo,coragem,2,0.71047765,True,True,True
+word2vec-50d,calibracao,apoio emocional,ponte,coragem,confiança,2,0.72690946,True,True,True
+word2vec-50d,calibracao,apoio emocional,ponte,confiança,amizade,2,0.46361008,True,True,True
+word2vec-50d,calibracao,apoio emocional,extra,medo,medida,1,-0.05272418,True,False,False
+word2vec-50d,calibracao,apoio emocional,extra,confiança,contramão,0,0.25460583,True,False,False
+word2vec-50d,calibracao,apoio emocional,extra,amizade,ferrugem,0,0.16600403,True,False,False
+word2vec-50d,calibracao,bordado,ponte,agulha,linha,3,0.59038705,True,True,True
+word2vec-50d,calibracao,bordado,ponte,linha,bordado,3,0.19122593,True,False,False
+word2vec-50d,calibracao,bordado,ponte,bordado,enfeite,2,0.77399772,True,True,True
+word2vec-50d,calibracao,bordado,extra,agulha,agulhada,3,0.61213428,True,True,True
+word2vec-50d,calibracao,bordado,extra,linha,linhagem,1,0.31199321,True,False,False
+word2vec-50d,calibracao,bordado,extra,enfeite,asfalto,0,0.47711116,True,True,True
+word2vec-50d,calibracao,fotografia,ponte,fotógrafo,câmera,3,0.18745506,True,False,False
+word2vec-50d,calibracao,fotografia,ponte,câmera,retrato,3,0.12401599,True,False,False
+word2vec-50d,calibracao,fotografia,ponte,retrato,moldura,2,0.22098430,True,False,False
+word2vec-50d,calibracao,fotografia,extra,fotógrafo,fotossíntese,1,-0.10446820,True,False,False
+word2vec-50d,calibracao,fotografia,extra,retrato,relato,1,0.76390809,True,True,True
+word2vec-50d,calibracao,fotografia,extra,moldura,feijão,0,0.19905438,True,False,False
+word2vec-50d,calibracao,viagem de carro,ponte,motorista,carro,3,0.84822154,True,True,True
+word2vec-50d,calibracao,viagem de carro,ponte,carro,estrada,2,0.38382402,True,False,False
+word2vec-50d,calibracao,viagem de carro,ponte,estrada,pedágio,3,0.47223651,True,True,True
+word2vec-50d,calibracao,viagem de carro,extra,motorista,motociclista,2,0.84655201,True,True,True
+word2vec-50d,calibracao,viagem de carro,extra,carro,caro,1,0.28465793,True,False,False
+word2vec-50d,calibracao,viagem de carro,extra,pedágio,sabonete,0,0.17189144,True,False,False
+word2vec-50d,teste,fases da vida,ponte,criança,adulto,3,0.50642198,True,True,True
+word2vec-50d,teste,fases da vida,ponte,adulto,idoso,3,0.57483757,True,True,True
+word2vec-50d,teste,fases da vida,extra,criança,criação,1,0.26955894,True,False,False
+word2vec-50d,teste,fases da vida,extra,adulto,adubo,0,0.37805307,True,False,False
+word2vec-50d,teste,fases da vida,extra,idoso,adolescente,3,0.83311301,True,True,True
+word2vec-50d,teste,separação e finanças,ponte,amor,casamento,2,0.57820988,True,True,True
+word2vec-50d,teste,separação e finanças,ponte,casamento,divórcio,3,0.81528527,True,True,True
+word2vec-50d,teste,separação e finanças,ponte,divórcio,pensão,2,0.28581089,True,False,False
+word2vec-50d,teste,separação e finanças,ponte,pensão,dinheiro,2,0.45994359,True,True,True
+word2vec-50d,teste,separação e finanças,extra,amor,rumor,1,0.53372538,True,True,True
+word2vec-50d,teste,separação e finanças,extra,divórcio,diversão,1,-0.06661524,True,False,False
+word2vec-50d,teste,separação e finanças,extra,dinheiro,besouro,0,0.15184413,True,False,False
+word2vec-50d,teste,animais domésticos,ponte,cachorro,animal,3,0.44792116,True,True,True
+word2vec-50d,teste,animais domésticos,ponte,animal,gato,3,0.47475407,True,True,True
+word2vec-50d,teste,animais domésticos,ponte,gato,felino,3,0.81474650,True,True,True
+word2vec-50d,teste,animais domésticos,extra,cachorro,cão,3,0.91327155,True,True,True
+word2vec-50d,teste,animais domésticos,extra,gato,gasto,1,0.06035545,True,False,False
+word2vec-50d,teste,animais domésticos,extra,felino,trinco,0,0.40345228,True,True,False
+word2vec-50d,teste,ciclo da água,ponte,oceano,evaporação,2,0.43304741,True,True,False
+word2vec-50d,teste,ciclo da água,ponte,evaporação,nuvem,3,0.61204118,True,True,True
+word2vec-50d,teste,ciclo da água,ponte,nuvem,chuva,3,0.59239334,True,True,True
+word2vec-50d,teste,ciclo da água,ponte,chuva,enchente,3,0.78434062,True,True,True
+word2vec-50d,teste,ciclo da água,extra,chuva,chupa,1,0.20138234,True,False,False
+word2vec-50d,teste,ciclo da água,extra,enchente,enteado,1,-0.06605651,True,False,False
+word2vec-50d,teste,ciclo da água,extra,oceano,carimbo,0,-0.01614465,True,False,False
+word2vec-50d,teste,inverno,ponte,verão,inverno,3,0.83569741,True,True,True
+word2vec-50d,teste,inverno,ponte,inverno,frio,3,0.59756714,True,True,True
+word2vec-50d,teste,inverno,ponte,frio,casaco,3,0.41401121,True,True,False
+word2vec-50d,teste,inverno,extra,verão,verbo,1,0.03993437,True,False,False
+word2vec-50d,teste,inverno,extra,inverno,inferno,1,0.26224035,True,False,False
+word2vec-50d,teste,inverno,extra,casaco,cartório,0,0.33409148,True,False,False
+word2vec-50d,teste,leitura e silêncio,ponte,escritor,livro,3,0.57507008,True,True,True
+word2vec-50d,teste,leitura e silêncio,ponte,livro,biblioteca,3,0.24586155,True,False,False
+word2vec-50d,teste,leitura e silêncio,ponte,biblioteca,silêncio,2,-0.11531645,True,False,False
+word2vec-50d,teste,leitura e silêncio,extra,livro,livre,1,-0.17864563,True,False,False
+word2vec-50d,teste,leitura e silêncio,extra,silêncio,tranquilidade,2,0.32140362,True,False,False
+word2vec-50d,teste,leitura e silêncio,extra,biblioteca,parafuso,0,0.00492980,True,False,False
+word2vec-50d,teste,apresentação musical,ponte,violão,corda,3,0.43168151,True,True,False
+word2vec-50d,teste,apresentação musical,ponte,corda,música,2,0.32475927,True,False,False
+word2vec-50d,teste,apresentação musical,ponte,música,show,2,0.56369293,True,True,True
+word2vec-50d,teste,apresentação musical,extra,violão,viola,3,0.66861379,True,True,True
+word2vec-50d,teste,apresentação musical,extra,corda,cor,1,0.76082307,True,True,True
+word2vec-50d,teste,apresentação musical,extra,show,repolho,0,0.16773534,True,False,False
+word2vec-50d,teste,cozinha e café,ponte,café,filtro,3,0.26782683,True,False,False
+word2vec-50d,teste,cozinha e café,ponte,filtro,coador,3,0.62908322,True,True,True
+word2vec-50d,teste,cozinha e café,ponte,coador,pano,2,0.68661147,True,True,True
+word2vec-50d,teste,cozinha e café,extra,filtro,filhote,1,0.43609005,True,True,True
+word2vec-50d,teste,cozinha e café,extra,pano,panela,1,0.58230716,True,True,True
+word2vec-50d,teste,cozinha e café,extra,café,interruptor,0,0.23177750,True,False,False
+word2vec-50d,teste,prevenção em saúde,ponte,vírus,vacina,3,0.70435238,True,True,True
+word2vec-50d,teste,prevenção em saúde,ponte,vacina,imunidade,3,0.50536197,True,True,True
+word2vec-50d,teste,prevenção em saúde,ponte,imunidade,proteção,2,0.52215672,True,True,True
+word2vec-50d,teste,prevenção em saúde,extra,vírus,virada,1,-0.11180427,True,False,False
+word2vec-50d,teste,prevenção em saúde,extra,vacina,vaca,1,0.38657114,True,False,False
+word2vec-50d,teste,prevenção em saúde,extra,imunidade,calçada,0,-0.01124807,True,False,False
+word2vec-50d,teste,medição do calor,ponte,sol,calor,3,0.54763335,True,True,True
+word2vec-50d,teste,medição do calor,ponte,calor,temperatura,3,0.69615632,True,True,True
+word2vec-50d,teste,medição do calor,ponte,temperatura,termômetro,3,0.45565882,True,True,True
+word2vec-50d,teste,medição do calor,extra,sol,solidão,1,0.40490457,True,True,False
+word2vec-50d,teste,medição do calor,extra,temperatura,temperamento,1,0.16191337,True,False,False
+word2vec-50d,teste,medição do calor,extra,termômetro,sanfona,0,0.01004160,True,False,False
+word2vec-50d,teste,navegação costeira,ponte,navio,porto,3,0.37045380,True,False,False
+word2vec-50d,teste,navegação costeira,ponte,porto,farol,2,0.52806640,True,True,True
+word2vec-50d,teste,navegação costeira,ponte,farol,luz,3,0.47896162,True,True,True
+word2vec-50d,teste,navegação costeira,extra,navio,navalha,1,0.28316766,True,False,False
+word2vec-50d,teste,navegação costeira,extra,porto,portão,1,0.48013437,True,True,True
+word2vec-50d,teste,navegação costeira,extra,luz,macarrão,0,-0.05229381,True,False,False
+word2vec-50d,teste,pagamentos e consumo,ponte,banco,cartão,2,0.37646648,True,False,False
+word2vec-50d,teste,pagamentos e consumo,ponte,cartão,compra,2,0.56287652,True,True,True
+word2vec-50d,teste,pagamentos e consumo,ponte,compra,loja,3,0.57386547,True,True,True
+word2vec-50d,teste,pagamentos e consumo,extra,banco,branco,1,0.11953473,True,False,False
+word2vec-50d,teste,pagamentos e consumo,extra,banco,assento,3,0.19589521,True,False,False
+word2vec-50d,teste,pagamentos e consumo,extra,loja,centopeia,0,0.26885819,True,False,False
+word2vec-50d,teste,projeção de filme,ponte,cinema,filme,3,0.67202151,True,True,True
+word2vec-50d,teste,projeção de filme,ponte,filme,projetor,2,0.38258383,True,False,False
+word2vec-50d,teste,projeção de filme,ponte,projetor,tela,3,0.65184194,True,True,True
+word2vec-50d,teste,projeção de filme,extra,cinema,cinemática,1,0.09526686,True,False,False
+word2vec-50d,teste,projeção de filme,extra,tela,telha,1,0.45534730,True,True,True
+word2vec-50d,teste,projeção de filme,extra,projetor,lentilha,0,0.22556694,True,False,False
+word2vec-50d,teste,fotebol e celebração,ponte,futebol,gol,3,0.36902767,True,False,False
+word2vec-50d,teste,fotebol e celebração,ponte,gol,torcida,2,0.52399373,True,True,True
+word2vec-50d,teste,fotebol e celebração,ponte,torcida,festa,2,0.44664112,True,True,True
+word2vec-50d,teste,fotebol e celebração,extra,futebol,futuro,1,0.10435481,True,False,False
+word2vec-50d,teste,fotebol e celebração,extra,gol,gola,1,0.15378924,True,False,False
+word2vec-50d,teste,fotebol e celebração,extra,torcida,compasso,0,0.05859683,True,False,False
+word2vec-50d,teste,educação formal,ponte,professor,aula,3,0.29442331,True,False,False
+word2vec-50d,teste,educação formal,ponte,aula,prova,2,0.14703710,True,False,False
+word2vec-50d,teste,educação formal,ponte,prova,nota,3,0.13396351,True,False,False
+word2vec-50d,teste,educação formal,extra,professor,catraca,1,-0.00446595,True,False,False
+word2vec-50d,teste,educação formal,extra,aula,jaula,1,0.21622261,True,False,False
+word2vec-50d,teste,educação formal,extra,nota,vassoura,0,0.08978411,True,False,False
+word2vec-50d,teste,tecelagem e vestuário,ponte,algodão,tecido,3,0.60499358,True,True,True
+word2vec-50d,teste,tecelagem e vestuário,ponte,tecido,camisa,3,0.06215899,True,False,False
+word2vec-50d,teste,tecelagem e vestuário,ponte,camisa,botão,2,0.32486582,True,False,False
+word2vec-50d,teste,tecelagem e vestuário,extra,algodão,algarismo,1,0.15720439,True,False,False
+word2vec-50d,teste,tecelagem e vestuário,extra,tecido,papelão,1,0.51298356,True,True,True
+word2vec-50d,teste,tecelagem e vestuário,extra,botão,gengibre,0,0.18585157,True,False,False
+word2vec-50d,teste,tratamento dentário,ponte,dentista,dente,3,0.25969204,True,False,False
+word2vec-50d,teste,tratamento dentário,ponte,dente,cárie,3,0.43837464,True,True,True
+word2vec-50d,teste,tratamento dentário,ponte,cárie,dor,2,0.74222231,True,True,True
+word2vec-50d,teste,tratamento dentário,extra,dentista,dentadura,3,0.22371426,True,False,False
+word2vec-50d,teste,tratamento dentário,extra,cárie,carícia,1,0.39978048,True,False,False
+word2vec-50d,teste,tratamento dentário,extra,dor,octógono,0,0.21318915,True,False,False
+word2vec-50d,teste,transporte ferroviário,ponte,trem,trilho,3,0.77065456,True,True,True
+word2vec-50d,teste,transporte ferroviário,ponte,trilho,ferro,2,0.44023433,True,True,True
+word2vec-50d,teste,transporte ferroviário,ponte,ferro,metal,3,0.50091076,True,True,True
+word2vec-50d,teste,transporte ferroviário,extra,trem,tremor,1,0.42838305,True,True,False
+word2vec-50d,teste,transporte ferroviário,extra,trilho,trincheira,1,0.53423023,True,True,True
+word2vec-50d,teste,transporte ferroviário,extra,metal,borboleta,0,0.22047816,True,False,False
+word2vec-50d,teste,criação de abelhas,ponte,abelha,colmeia,3,0.80294555,True,True,True
+word2vec-50d,teste,criação de abelhas,ponte,colmeia,mel,3,0.56502193,True,True,True
+word2vec-50d,teste,criação de abelhas,ponte,mel,doce,3,0.61939245,True,True,True
+word2vec-50d,teste,criação de abelhas,extra,abelha,vespa,3,0.63372290,True,True,True
+word2vec-50d,teste,criação de abelhas,extra,colmeia,coluna,1,0.31058571,True,False,False
+word2vec-50d,teste,criação de abelhas,extra,doce,capacete,0,0.15761912,True,False,False
+word2vec-50d,teste,móveis e madeira,ponte,árvore,madeira,3,0.59252250,True,True,True
+word2vec-50d,teste,móveis e madeira,ponte,madeira,marceneiro,3,0.18352489,True,False,False
+word2vec-50d,teste,móveis e madeira,ponte,marceneiro,mesa,2,0.09148832,True,False,False
+word2vec-50d,teste,móveis e madeira,extra,madeira,madrinha,1,0.14507623,True,False,False
+word2vec-50d,teste,móveis e madeira,extra,mesa,mesada,1,0.40647835,True,True,False
+word2vec-50d,teste,móveis e madeira,extra,marceneiro,gelatina,0,0.06456332,True,False,False
+word2vec-50d,teste,astronomia observacional,ponte,planeta,universo,3,0.72787923,True,True,True
+word2vec-50d,teste,astronomia observacional,ponte,universo,estrela,3,0.27907059,True,False,False
+word2vec-50d,teste,astronomia observacional,ponte,estrela,telescópio,3,0.39799723,True,False,False
+word2vec-50d,teste,astronomia observacional,extra,planeta,planilha,1,-0.06036771,True,False,False
+word2vec-50d,teste,astronomia observacional,extra,telescópio,telefone,1,0.32685229,True,False,False
+word2vec-50d,teste,astronomia observacional,extra,universo,ralador,0,0.17867292,True,False,False
+word2vec-50d,teste,paisagem vulcânica,ponte,vulcão,lava,3,0.11137486,True,False,False
+word2vec-50d,teste,paisagem vulcânica,ponte,lava,rocha,3,0.30010295,True,False,False
+word2vec-50d,teste,paisagem vulcânica,ponte,rocha,montanha,2,0.19927685,True,False,False
+word2vec-50d,teste,paisagem vulcânica,extra,vulcão,vulto,1,0.46318108,True,True,True
+word2vec-50d,teste,paisagem vulcânica,extra,lava,lavanda,1,0.00499312,True,False,False
+word2vec-50d,teste,paisagem vulcânica,extra,montanha,refrigerante,0,0.25369880,True,False,False
+word2vec-50d,teste,comércio de peixe,ponte,anzol,pesca,3,0.16106322,True,False,False
+word2vec-50d,teste,comércio de peixe,ponte,pesca,peixe,3,0.29231408,True,False,False
+word2vec-50d,teste,comércio de peixe,ponte,peixe,mercado,2,0.03555860,True,False,False
+word2vec-50d,teste,comércio de peixe,extra,pesca,pescaria,3,0.68172389,True,True,True
+word2vec-50d,teste,comércio de peixe,extra,peixe,queixo,1,0.04202418,True,False,False
+word2vec-50d,teste,comércio de peixe,extra,mercado,ribanceira,0,-0.01373205,True,False,False
+word2vec-50d,teste,solidariedade,ponte,empatia,solidariedade,3,0.58610231,True,True,True
+word2vec-50d,teste,solidariedade,ponte,solidariedade,doação,2,0.29129198,True,False,False
+word2vec-50d,teste,solidariedade,ponte,doação,sangue,2,0.38442728,True,False,False
+word2vec-50d,teste,solidariedade,extra,empatia,empate,1,0.07364606,True,False,False
+word2vec-50d,teste,solidariedade,extra,doação,adoção,1,0.58037889,True,True,True
+word2vec-50d,teste,solidariedade,extra,sangue,grampeador,0,0.43320674,True,True,False
+word2vec-50d,teste,preparo de compostagem,ponte,casca,resíduo,2,0.57097918,True,True,True
+word2vec-50d,teste,preparo de compostagem,ponte,resíduo,compostagem,3,0.59973276,True,True,True
+word2vec-50d,teste,preparo de compostagem,ponte,compostagem,adubo,3,0.63651443,True,True,True
+word2vec-50d,teste,preparo de compostagem,ponte,adubo,solo,3,0.48509109,True,True,True
+word2vec-50d,teste,preparo de compostagem,extra,casca,cascata,1,0.67852247,True,True,True
+word2vec-50d,teste,preparo de compostagem,extra,adubo,adultério,1,0.09826551,True,False,False
+word2vec-50d,teste,preparo de compostagem,extra,solo,zíper,0,0.28434777,True,False,False
+word2vec-50d,teste,sinalização e travessia,ponte,semáforo,trânsito,3,0.63425732,True,True,True
+word2vec-50d,teste,sinalização e travessia,ponte,trânsito,pedestre,3,0.61641681,True,True,True
+word2vec-50d,teste,sinalização e travessia,ponte,pedestre,faixa,3,0.27543780,True,False,False
+word2vec-50d,teste,sinalização e travessia,extra,semáforo,metáfora,1,-0.04088545,True,False,False
+word2vec-50d,teste,sinalização e travessia,extra,pedestre,pedestal,1,0.50444382,True,True,True
+word2vec-50d,teste,sinalização e travessia,extra,trânsito,abacate,0,0.06314145,True,False,False
+word2vec-50d,teste,cultura de rua brasileira,ponte,capoeira,berimbau,3,0.39537221,True,False,False
+word2vec-50d,teste,cultura de rua brasileira,ponte,berimbau,roda,3,0.43702275,True,True,True
+word2vec-50d,teste,cultura de rua brasileira,ponte,roda,dança,2,0.53977484,True,True,True
+word2vec-50d,teste,cultura de rua brasileira,extra,capoeira,capô,1,-0.09649049,True,False,False
+word2vec-50d,teste,cultura de rua brasileira,extra,roda,rodo,1,0.51664782,True,True,True
+word2vec-50d,teste,cultura de rua brasileira,extra,berimbau,cloro,0,0.28482041,True,False,False
+word2vec-50d,teste,gírias e economia,ponte,grana,troco,2,0.53279853,True,True,True
+word2vec-50d,teste,gírias e economia,ponte,troco,moeda,3,0.33466506,True,False,False
+word2vec-50d,teste,gírias e economia,ponte,moeda,cofre,2,0.15571265,True,False,False
+word2vec-50d,teste,gírias e economia,extra,grana,grama,1,0.46259293,True,True,True
+word2vec-50d,teste,gírias e economia,extra,moeda,moenda,1,0.13009986,True,False,False
+word2vec-50d,teste,gírias e economia,extra,cofre,baleia,0,0.21012330,True,False,False
+word2vec-50d,teste,período de repouso,ponte,noite,sono,3,0.16740426,True,False,False
+word2vec-50d,teste,período de repouso,ponte,sono,sonho,3,0.39141381,True,False,False
+word2vec-50d,teste,período de repouso,ponte,sonho,pesadelo,3,0.81206691,True,True,True
+word2vec-50d,teste,período de repouso,extra,sono,sino,1,0.30244035,True,False,False
+word2vec-50d,teste,período de repouso,extra,pesadelo,pesado,1,0.46110085,True,True,True
+word2vec-50d,teste,período de repouso,extra,noite,açafrão,0,0.03823118,True,False,False
+word2vec-50d,teste,aviso de incêndio,ponte,fumaça,fogo,3,0.68940777,True,True,True
+word2vec-50d,teste,aviso de incêndio,ponte,fogo,bombeiro,3,0.46584335,True,True,True
+word2vec-50d,teste,aviso de incêndio,ponte,bombeiro,sirene,2,0.31971952,True,False,False
+word2vec-50d,teste,aviso de incêndio,extra,fumaça,fumaçar,3,0.47901088,True,True,True
+word2vec-50d,teste,aviso de incêndio,extra,fogo,jogo,1,0.26568273,True,False,False
+word2vec-50d,teste,aviso de incêndio,extra,bombeiro,porcelana,0,0.09652259,True,False,False
+word2vec-50d,teste,tecnologia doméstica,ponte,teclado,computador,3,0.72440922,True,True,True
+word2vec-50d,teste,tecnologia doméstica,ponte,computador,internet,2,0.66026014,True,True,True
+word2vec-50d,teste,tecnologia doméstica,ponte,internet,senha,2,0.69894093,True,True,True
+word2vec-50d,teste,tecnologia doméstica,extra,teclado,telhado,1,0.39566508,True,False,False
+word2vec-50d,teste,tecnologia doméstica,extra,senha,resenha,1,0.25339311,True,False,False
+word2vec-50d,teste,tecnologia doméstica,extra,computador,cogumelo,0,0.31774157,True,False,False
+word2vec-50d,teste,lugar de moradia,ponte,quarto,casa,3,0.23498341,True,False,False
+word2vec-50d,teste,lugar de moradia,ponte,casa,bairro,2,0.29982492,True,False,False
+word2vec-50d,teste,lugar de moradia,ponte,bairro,cidade,3,0.61345178,True,True,True
+word2vec-50d,teste,lugar de moradia,extra,quarto,quarteto,1,0.42049110,True,True,False
+word2vec-50d,teste,lugar de moradia,extra,bairro,barreira,1,0.14396304,True,False,False
+word2vec-50d,teste,lugar de moradia,extra,cidade,pilha,0,0.20277543,True,False,False
+word2vec-50d,teste,argila e artesanato,ponte,barro,cerâmica,3,0.78411829,True,True,True
+word2vec-50d,teste,argila e artesanato,ponte,cerâmica,vaso,3,0.41415527,True,True,False
+word2vec-50d,teste,argila e artesanato,ponte,vaso,flor,3,0.26640546,True,False,False
+word2vec-50d,teste,argila e artesanato,extra,cerâmica,cera,1,0.79688114,True,True,True
+word2vec-50d,teste,argila e artesanato,extra,vaso,vazio,1,0.64627546,True,True,True
+word2vec-50d,teste,argila e artesanato,extra,flor,serrote,0,0.44328946,True,True,True
+word2vec-50d,teste,alimentação e acidez,ponte,laranja,fruta,3,0.72273743,True,True,True
+word2vec-50d,teste,alimentação e acidez,ponte,fruta,limão,3,0.75896049,True,True,True
+word2vec-50d,teste,alimentação e acidez,ponte,limão,azedo,3,0.80592328,True,True,True
+word2vec-50d,teste,alimentação e acidez,extra,laranja,tangerina,3,0.75717139,True,True,True
+word2vec-50d,teste,alimentação e acidez,extra,limão,limo,1,0.75231791,True,True,True
+word2vec-50d,teste,alimentação e acidez,extra,azedo,peneira,0,0.49414206,True,True,True
+word2vec-50d,teste,ensino superior e pesquisa,ponte,universidade,diploma,3,0.35831702,True,False,False
+word2vec-50d,teste,ensino superior e pesquisa,ponte,diploma,formatura,3,0.25824633,True,False,False
+word2vec-50d,teste,ensino superior e pesquisa,ponte,formatura,cerimônia,3,0.68087053,True,True,True
+word2vec-50d,teste,ensino superior e pesquisa,extra,universidade,universal,1,0.23325764,True,False,False
+word2vec-50d,teste,ensino superior e pesquisa,extra,diploma,diplomacia,1,0.17134185,True,False,False
+word2vec-50d,teste,ensino superior e pesquisa,extra,cerimônia,milho,0,0.02591274,True,False,False
+word2vec-50d,teste,recreação ao ar livre,ponte,pipa,vento,3,0.42439553,True,True,False
+word2vec-50d,teste,recreação ao ar livre,ponte,vento,brisa,3,0.44657606,True,True,True
+word2vec-50d,teste,recreação ao ar livre,ponte,brisa,praia,2,0.45714274,True,True,True
+word2vec-50d,teste,recreação ao ar livre,extra,pipa,pipeta,1,0.55602479,True,True,True
+word2vec-50d,teste,recreação ao ar livre,extra,vento,veludo,0,0.46010298,True,True,True
+word2vec-50d,teste,recreação ao ar livre,extra,praia,dobradiça,0,0.31045976,True,False,False
+fasttext-50d,calibracao,panificação,ponte,trigo,farinha,3,0.92532587,True,True,True
+fasttext-50d,calibracao,panificação,ponte,farinha,massa,2,0.61897844,True,True,True
+fasttext-50d,calibracao,panificação,ponte,massa,pão,3,0.60893214,True,True,True
+fasttext-50d,calibracao,panificação,extra,trigo,trigêmeo,1,0.22623761,True,False,False
+fasttext-50d,calibracao,panificação,extra,farinha,bússola,0,0.31518853,True,False,False
+fasttext-50d,calibracao,panificação,extra,pão,cometa,0,0.32541481,True,False,False
+fasttext-50d,calibracao,esportes de raquete,ponte,badminton,raquete,3,0.60163796,True,True,True
+fasttext-50d,calibracao,esportes de raquete,ponte,raquete,tênis,3,0.77925301,True,True,True
+fasttext-50d,calibracao,esportes de raquete,ponte,tênis,quadra,3,0.77318352,True,True,True
+fasttext-50d,calibracao,esportes de raquete,extra,raquete,etiqueta,1,0.57256490,True,True,False
+fasttext-50d,calibracao,esportes de raquete,extra,badminton,buzina,0,0.31015122,True,False,False
+fasttext-50d,calibracao,esportes de raquete,extra,quadra,canela,1,0.54094929,True,True,False
+fasttext-50d,calibracao,geografia,ponte,mapa,fronteira,2,0.50882059,True,True,False
+fasttext-50d,calibracao,geografia,ponte,fronteira,país,3,0.56911862,True,True,False
+fasttext-50d,calibracao,geografia,ponte,país,bandeira,2,0.41865441,True,True,False
+fasttext-50d,calibracao,geografia,extra,mapa,mochila,1,0.49517787,True,True,False
+fasttext-50d,calibracao,geografia,extra,fronteira,fronte,1,0.51805836,True,True,False
+fasttext-50d,calibracao,geografia,extra,bandeira,iogurte,0,0.26219428,True,False,False
+fasttext-50d,calibracao,plantio,ponte,semente,germinação,3,0.77400392,True,True,True
+fasttext-50d,calibracao,plantio,ponte,germinação,broto,3,0.65472037,True,True,True
+fasttext-50d,calibracao,plantio,ponte,broto,horta,2,0.55812925,True,True,False
+fasttext-50d,calibracao,plantio,extra,semente,cimento,1,0.57643759,True,True,False
+fasttext-50d,calibracao,plantio,extra,horta,hortelã,2,0.58958417,True,True,True
+fasttext-50d,calibracao,plantio,extra,broto,alfândega,0,0.17698991,True,False,False
+fasttext-50d,calibracao,cozinha,ponte,frigideira,fritura,3,0.81513554,True,True,True
+fasttext-50d,calibracao,cozinha,ponte,fritura,batata,2,0.77484208,True,True,True
+fasttext-50d,calibracao,cozinha,ponte,batata,purê,3,0.88382959,True,True,True
+fasttext-50d,calibracao,cozinha,extra,batata,barata,1,0.61447316,True,True,True
+fasttext-50d,calibracao,cozinha,extra,purê,pureza,1,0.38999489,True,False,False
+fasttext-50d,calibracao,cozinha,extra,fritura,cassetete,0,0.48488766,True,True,False
+fasttext-50d,calibracao,transporte aéreo,ponte,aeroporto,embarque,3,0.80370075,True,True,True
+fasttext-50d,calibracao,transporte aéreo,ponte,embarque,passageiro,3,0.69712752,True,True,True
+fasttext-50d,calibracao,transporte aéreo,ponte,passageiro,bagagem,2,0.70992857,True,True,True
+fasttext-50d,calibracao,transporte aéreo,extra,embarque,embargo,1,0.44653484,True,True,False
+fasttext-50d,calibracao,transporte aéreo,extra,passageiro,passeata,1,0.40730914,True,True,False
+fasttext-50d,calibracao,transporte aéreo,extra,bagagem,orvalho,0,0.28883186,True,False,False
+fasttext-50d,calibracao,cidadania,ponte,eleição,voto,3,0.76427269,True,True,True
+fasttext-50d,calibracao,cidadania,ponte,voto,urna,3,0.58825320,True,True,True
+fasttext-50d,calibracao,cidadania,ponte,urna,sigilo,2,0.29998323,True,False,False
+fasttext-50d,calibracao,cidadania,extra,eleição,elevação,1,0.37746587,True,False,False
+fasttext-50d,calibracao,cidadania,extra,urna,pinguim,0,0.21405207,True,False,False
+fasttext-50d,calibracao,cidadania,extra,voto,voltagem,0,0.23621674,True,False,False
+fasttext-50d,calibracao,exploração espacial,ponte,astronauta,foguete,3,0.74564016,True,True,True
+fasttext-50d,calibracao,exploração espacial,ponte,foguete,lançamento,3,0.69610667,True,True,True
+fasttext-50d,calibracao,exploração espacial,ponte,lançamento,contagem,2,0.48266661,True,True,False
+fasttext-50d,calibracao,exploração espacial,extra,astronauta,astrólogo,1,0.55331987,True,True,False
+fasttext-50d,calibracao,exploração espacial,extra,foguete,folguedo,1,0.27069977,True,False,False
+fasttext-50d,calibracao,exploração espacial,extra,contagem,floreira,0,0.41613710,True,True,False
+fasttext-50d,calibracao,apoio emocional,ponte,medo,coragem,2,0.76905388,True,True,True
+fasttext-50d,calibracao,apoio emocional,ponte,coragem,confiança,2,0.77908999,True,True,True
+fasttext-50d,calibracao,apoio emocional,ponte,confiança,amizade,2,0.65840960,True,True,True
+fasttext-50d,calibracao,apoio emocional,extra,medo,medida,1,0.44558406,True,True,False
+fasttext-50d,calibracao,apoio emocional,extra,confiança,contramão,0,0.27226567,True,False,False
+fasttext-50d,calibracao,apoio emocional,extra,amizade,ferrugem,0,0.23115745,True,False,False
+fasttext-50d,calibracao,bordado,ponte,agulha,linha,3,0.58408439,True,True,True
+fasttext-50d,calibracao,bordado,ponte,linha,bordado,3,0.46614736,True,True,False
+fasttext-50d,calibracao,bordado,ponte,bordado,enfeite,2,0.85447025,True,True,True
+fasttext-50d,calibracao,bordado,extra,agulha,agulhada,3,0.80973488,True,True,True
+fasttext-50d,calibracao,bordado,extra,linha,linhagem,1,0.33541551,True,False,False
+fasttext-50d,calibracao,bordado,extra,enfeite,asfalto,0,0.50556141,True,True,False
+fasttext-50d,calibracao,fotografia,ponte,fotógrafo,câmera,3,0.53698540,True,True,False
+fasttext-50d,calibracao,fotografia,ponte,câmera,retrato,3,0.45694706,True,True,False
+fasttext-50d,calibracao,fotografia,ponte,retrato,moldura,2,0.59796357,True,True,True
+fasttext-50d,calibracao,fotografia,extra,fotógrafo,fotossíntese,1,0.13366257,True,False,False
+fasttext-50d,calibracao,fotografia,extra,retrato,relato,1,0.71278286,True,True,True
+fasttext-50d,calibracao,fotografia,extra,moldura,feijão,0,0.25329447,True,False,False
+fasttext-50d,calibracao,viagem de carro,ponte,motorista,carro,3,0.85520041,True,True,True
+fasttext-50d,calibracao,viagem de carro,ponte,carro,estrada,2,0.69079798,True,True,True
+fasttext-50d,calibracao,viagem de carro,ponte,estrada,pedágio,3,0.67981017,True,True,True
+fasttext-50d,calibracao,viagem de carro,extra,motorista,motociclista,2,0.84918165,True,True,True
+fasttext-50d,calibracao,viagem de carro,extra,carro,caro,1,0.63946009,True,True,True
+fasttext-50d,calibracao,viagem de carro,extra,pedágio,sabonete,0,0.30497113,True,False,False
+fasttext-50d,teste,fases da vida,ponte,criança,adulto,3,0.75686657,True,True,True
+fasttext-50d,teste,fases da vida,ponte,adulto,idoso,3,0.66283822,True,True,True
+fasttext-50d,teste,fases da vida,extra,criança,criação,1,0.34893468,True,False,False
+fasttext-50d,teste,fases da vida,extra,adulto,adubo,0,0.41141194,True,True,False
+fasttext-50d,teste,fases da vida,extra,idoso,adolescente,3,0.72913760,True,True,True
+fasttext-50d,teste,separação e finanças,ponte,amor,casamento,2,0.73577410,True,True,True
+fasttext-50d,teste,separação e finanças,ponte,casamento,divórcio,3,0.84998190,True,True,True
+fasttext-50d,teste,separação e finanças,ponte,divórcio,pensão,2,0.57642204,True,True,False
+fasttext-50d,teste,separação e finanças,ponte,pensão,dinheiro,2,0.58983415,True,True,True
+fasttext-50d,teste,separação e finanças,extra,amor,rumor,1,0.47282311,True,True,False
+fasttext-50d,teste,separação e finanças,extra,divórcio,diversão,1,0.39254519,True,False,False
+fasttext-50d,teste,separação e finanças,extra,dinheiro,besouro,0,0.39883599,True,False,False
+fasttext-50d,teste,animais domésticos,ponte,cachorro,animal,3,0.73814571,True,True,True
+fasttext-50d,teste,animais domésticos,ponte,animal,gato,3,0.77923375,True,True,True
+fasttext-50d,teste,animais domésticos,ponte,gato,felino,3,0.77445626,True,True,True
+fasttext-50d,teste,animais domésticos,extra,cachorro,cão,3,0.90029246,True,True,True
+fasttext-50d,teste,animais domésticos,extra,gato,gasto,1,0.45991626,True,True,False
+fasttext-50d,teste,animais domésticos,extra,felino,trinco,0,0.40764877,True,True,False
+fasttext-50d,teste,ciclo da água,ponte,oceano,evaporação,2,0.52568346,True,True,False
+fasttext-50d,teste,ciclo da água,ponte,evaporação,nuvem,3,0.59678411,True,True,True
+fasttext-50d,teste,ciclo da água,ponte,nuvem,chuva,3,0.62350935,True,True,True
+fasttext-50d,teste,ciclo da água,ponte,chuva,enchente,3,0.79241705,True,True,True
+fasttext-50d,teste,ciclo da água,extra,chuva,chupa,1,0.39177853,True,False,False
+fasttext-50d,teste,ciclo da água,extra,enchente,enteado,1,0.40360263,True,True,False
+fasttext-50d,teste,ciclo da água,extra,oceano,carimbo,0,0.18772390,True,False,False
+fasttext-50d,teste,inverno,ponte,verão,inverno,3,0.91529953,True,True,True
+fasttext-50d,teste,inverno,ponte,inverno,frio,3,0.69023204,True,True,True
+fasttext-50d,teste,inverno,ponte,frio,casaco,3,0.64107734,True,True,True
+fasttext-50d,teste,inverno,extra,verão,verbo,1,0.20353128,True,False,False
+fasttext-50d,teste,inverno,extra,inverno,inferno,1,0.47886711,True,True,False
+fasttext-50d,teste,inverno,extra,casaco,cartório,0,0.45038268,True,True,False
+fasttext-50d,teste,leitura e silêncio,ponte,escritor,livro,3,0.75313437,True,True,True
+fasttext-50d,teste,leitura e silêncio,ponte,livro,biblioteca,3,0.63940042,True,True,True
+fasttext-50d,teste,leitura e silêncio,ponte,biblioteca,silêncio,2,0.35442036,True,False,False
+fasttext-50d,teste,leitura e silêncio,extra,livro,livre,1,0.30901018,True,False,False
+fasttext-50d,teste,leitura e silêncio,extra,silêncio,tranquilidade,2,0.67229080,True,True,True
+fasttext-50d,teste,leitura e silêncio,extra,biblioteca,parafuso,0,0.27779958,True,False,False
+fasttext-50d,teste,apresentação musical,ponte,violão,corda,3,0.72330076,True,True,True
+fasttext-50d,teste,apresentação musical,ponte,corda,música,2,0.53775752,True,True,False
+fasttext-50d,teste,apresentação musical,ponte,música,show,2,0.64152545,True,True,True
+fasttext-50d,teste,apresentação musical,extra,violão,viola,3,0.61572802,True,True,True
+fasttext-50d,teste,apresentação musical,extra,corda,cor,1,0.62981069,True,True,True
+fasttext-50d,teste,apresentação musical,extra,show,repolho,0,0.38846046,True,False,False
+fasttext-50d,teste,cozinha e café,ponte,café,filtro,3,0.53486288,True,True,False
+fasttext-50d,teste,cozinha e café,ponte,filtro,coador,3,0.75405759,True,True,True
+fasttext-50d,teste,cozinha e café,ponte,coador,pano,2,0.70055723,True,True,True
+fasttext-50d,teste,cozinha e café,extra,filtro,filhote,1,0.38862690,True,False,False
+fasttext-50d,teste,cozinha e café,extra,pano,panela,1,0.73585558,True,True,True
+fasttext-50d,teste,cozinha e café,extra,café,interruptor,0,0.47330475,True,True,False
+fasttext-50d,teste,prevenção em saúde,ponte,vírus,vacina,3,0.79858452,True,True,True
+fasttext-50d,teste,prevenção em saúde,ponte,vacina,imunidade,3,0.50773335,True,True,False
+fasttext-50d,teste,prevenção em saúde,ponte,imunidade,proteção,2,0.55588752,True,True,False
+fasttext-50d,teste,prevenção em saúde,extra,vírus,virada,1,0.11203279,True,False,False
+fasttext-50d,teste,prevenção em saúde,extra,vacina,vaca,1,0.50760144,True,True,False
+fasttext-50d,teste,prevenção em saúde,extra,imunidade,calçada,0,0.15637031,True,False,False
+fasttext-50d,teste,medição do calor,ponte,sol,calor,3,0.75285923,True,True,True
+fasttext-50d,teste,medição do calor,ponte,calor,temperatura,3,0.79534644,True,True,True
+fasttext-50d,teste,medição do calor,ponte,temperatura,termômetro,3,0.69720644,True,True,True
+fasttext-50d,teste,medição do calor,extra,sol,solidão,1,0.62382060,True,True,True
+fasttext-50d,teste,medição do calor,extra,temperatura,temperamento,1,0.45578584,True,True,False
+fasttext-50d,teste,medição do calor,extra,termômetro,sanfona,0,0.35368541,True,False,False
+fasttext-50d,teste,navegação costeira,ponte,navio,porto,3,0.45474252,True,True,False
+fasttext-50d,teste,navegação costeira,ponte,porto,farol,2,0.52495086,True,True,False
+fasttext-50d,teste,navegação costeira,ponte,farol,luz,3,0.62033200,True,True,True
+fasttext-50d,teste,navegação costeira,extra,navio,navalha,1,0.44390467,True,True,False
+fasttext-50d,teste,navegação costeira,extra,porto,portão,1,0.42516488,True,True,False
+fasttext-50d,teste,navegação costeira,extra,luz,macarrão,0,0.30134314,True,False,False
+fasttext-50d,teste,pagamentos e consumo,ponte,banco,cartão,2,0.57471931,True,True,False
+fasttext-50d,teste,pagamentos e consumo,ponte,cartão,compra,2,0.56907344,True,True,False
+fasttext-50d,teste,pagamentos e consumo,ponte,compra,loja,3,0.62991500,True,True,True
+fasttext-50d,teste,pagamentos e consumo,extra,banco,branco,1,0.36769736,True,False,False
+fasttext-50d,teste,pagamentos e consumo,extra,banco,assento,3,0.48502216,True,True,False
+fasttext-50d,teste,pagamentos e consumo,extra,loja,centopeia,0,0.36509615,True,False,False
+fasttext-50d,teste,projeção de filme,ponte,cinema,filme,3,0.81921184,True,True,True
+fasttext-50d,teste,projeção de filme,ponte,filme,projetor,2,0.53198248,True,True,False
+fasttext-50d,teste,projeção de filme,ponte,projetor,tela,3,0.85387999,True,True,True
+fasttext-50d,teste,projeção de filme,extra,cinema,cinemática,1,0.51608777,True,True,False
+fasttext-50d,teste,projeção de filme,extra,tela,telha,1,0.51542896,True,True,False
+fasttext-50d,teste,projeção de filme,extra,projetor,lentilha,0,0.19784556,True,False,False
+fasttext-50d,teste,fotebol e celebração,ponte,futebol,gol,3,0.52754188,True,True,False
+fasttext-50d,teste,fotebol e celebração,ponte,gol,torcida,2,0.60435450,True,True,True
+fasttext-50d,teste,fotebol e celebração,ponte,torcida,festa,2,0.59369719,True,True,True
+fasttext-50d,teste,fotebol e celebração,extra,futebol,futuro,1,0.42451292,True,True,False
+fasttext-50d,teste,fotebol e celebração,extra,gol,gola,1,0.39918458,True,False,False
+fasttext-50d,teste,fotebol e celebração,extra,torcida,compasso,0,0.27189577,True,False,False
+fasttext-50d,teste,educação formal,ponte,professor,aula,3,0.68772680,True,True,True
+fasttext-50d,teste,educação formal,ponte,aula,prova,2,0.52745199,True,True,False
+fasttext-50d,teste,educação formal,ponte,prova,nota,3,0.47547755,True,True,False
+fasttext-50d,teste,educação formal,extra,professor,catraca,1,0.36778754,True,False,False
+fasttext-50d,teste,educação formal,extra,aula,jaula,1,0.48272723,True,True,False
+fasttext-50d,teste,educação formal,extra,nota,vassoura,0,0.38812047,True,False,False
+fasttext-50d,teste,tecelagem e vestuário,ponte,algodão,tecido,3,0.63391912,True,True,True
+fasttext-50d,teste,tecelagem e vestuário,ponte,tecido,camisa,3,0.44093496,True,True,False
+fasttext-50d,teste,tecelagem e vestuário,ponte,camisa,botão,2,0.59494489,True,True,True
+fasttext-50d,teste,tecelagem e vestuário,extra,algodão,algarismo,1,0.34569508,True,False,False
+fasttext-50d,teste,tecelagem e vestuário,extra,tecido,papelão,1,0.64757788,True,True,True
+fasttext-50d,teste,tecelagem e vestuário,extra,botão,gengibre,0,0.41940516,True,True,False
+fasttext-50d,teste,tratamento dentário,ponte,dentista,dente,3,0.62344468,True,True,True
+fasttext-50d,teste,tratamento dentário,ponte,dente,cárie,3,0.59850967,True,True,True
+fasttext-50d,teste,tratamento dentário,ponte,cárie,dor,2,0.67191207,True,True,True
+fasttext-50d,teste,tratamento dentário,extra,dentista,dentadura,3,0.68007070,True,True,True
+fasttext-50d,teste,tratamento dentário,extra,cárie,carícia,1,0.46164855,True,True,False
+fasttext-50d,teste,tratamento dentário,extra,dor,octógono,0,0.38709521,True,False,False
+fasttext-50d,teste,transporte ferroviário,ponte,trem,trilho,3,0.80190152,True,True,True
+fasttext-50d,teste,transporte ferroviário,ponte,trilho,ferro,2,0.59588313,True,True,True
+fasttext-50d,teste,transporte ferroviário,ponte,ferro,metal,3,0.51568592,True,True,False
+fasttext-50d,teste,transporte ferroviário,extra,trem,tremor,1,0.56975430,True,True,False
+fasttext-50d,teste,transporte ferroviário,extra,trilho,trincheira,1,0.77734578,True,True,True
+fasttext-50d,teste,transporte ferroviário,extra,metal,borboleta,0,0.36554551,True,False,False
+fasttext-50d,teste,criação de abelhas,ponte,abelha,colmeia,3,0.77278620,True,True,True
+fasttext-50d,teste,criação de abelhas,ponte,colmeia,mel,3,0.68197763,True,True,True
+fasttext-50d,teste,criação de abelhas,ponte,mel,doce,3,0.80314612,True,True,True
+fasttext-50d,teste,criação de abelhas,extra,abelha,vespa,3,0.81911719,True,True,True
+fasttext-50d,teste,criação de abelhas,extra,colmeia,coluna,1,0.43566737,True,True,False
+fasttext-50d,teste,criação de abelhas,extra,doce,capacete,0,0.38261947,True,False,False
+fasttext-50d,teste,móveis e madeira,ponte,árvore,madeira,3,0.57500750,True,True,False
+fasttext-50d,teste,móveis e madeira,ponte,madeira,marceneiro,3,0.48158267,True,True,False
+fasttext-50d,teste,móveis e madeira,ponte,marceneiro,mesa,2,0.50801831,True,True,False
+fasttext-50d,teste,móveis e madeira,extra,madeira,madrinha,1,0.36797756,True,False,False
+fasttext-50d,teste,móveis e madeira,extra,mesa,mesada,1,0.56437069,True,True,False
+fasttext-50d,teste,móveis e madeira,extra,marceneiro,gelatina,0,0.30173290,True,False,False
+fasttext-50d,teste,astronomia observacional,ponte,planeta,universo,3,0.80272675,True,True,True
+fasttext-50d,teste,astronomia observacional,ponte,universo,estrela,3,0.63948196,True,True,True
+fasttext-50d,teste,astronomia observacional,ponte,estrela,telescópio,3,0.53520960,True,True,False
+fasttext-50d,teste,astronomia observacional,extra,planeta,planilha,1,0.17556894,True,False,False
+fasttext-50d,teste,astronomia observacional,extra,telescópio,telefone,1,0.49895999,True,True,False
+fasttext-50d,teste,astronomia observacional,extra,universo,ralador,0,0.22955705,True,False,False
+fasttext-50d,teste,paisagem vulcânica,ponte,vulcão,lava,3,0.53586203,True,True,False
+fasttext-50d,teste,paisagem vulcânica,ponte,lava,rocha,3,0.58373719,True,True,True
+fasttext-50d,teste,paisagem vulcânica,ponte,rocha,montanha,2,0.41044700,True,True,False
+fasttext-50d,teste,paisagem vulcânica,extra,vulcão,vulto,1,0.48153144,True,True,False
+fasttext-50d,teste,paisagem vulcânica,extra,lava,lavanda,1,0.35157582,True,False,False
+fasttext-50d,teste,paisagem vulcânica,extra,montanha,refrigerante,0,0.36069927,True,False,False
+fasttext-50d,teste,comércio de peixe,ponte,anzol,pesca,3,0.67976373,True,True,True
+fasttext-50d,teste,comércio de peixe,ponte,pesca,peixe,3,0.66683394,True,True,True
+fasttext-50d,teste,comércio de peixe,ponte,peixe,mercado,2,0.43203288,True,True,False
+fasttext-50d,teste,comércio de peixe,extra,pesca,pescaria,3,0.80254000,True,True,True
+fasttext-50d,teste,comércio de peixe,extra,peixe,queixo,1,0.46627241,True,True,False
+fasttext-50d,teste,comércio de peixe,extra,mercado,ribanceira,0,0.37339574,True,False,False
+fasttext-50d,teste,solidariedade,ponte,empatia,solidariedade,3,0.64698619,True,True,True
+fasttext-50d,teste,solidariedade,ponte,solidariedade,doação,2,0.45020065,True,True,False
+fasttext-50d,teste,solidariedade,ponte,doação,sangue,2,0.52135670,True,True,False
+fasttext-50d,teste,solidariedade,extra,empatia,empate,1,0.39152089,True,False,False
+fasttext-50d,teste,solidariedade,extra,doação,adoção,1,0.56726193,True,True,False
+fasttext-50d,teste,solidariedade,extra,sangue,grampeador,0,0.50371104,True,True,False
+fasttext-50d,teste,preparo de compostagem,ponte,casca,resíduo,2,0.67522985,True,True,True
+fasttext-50d,teste,preparo de compostagem,ponte,resíduo,compostagem,3,0.74387568,True,True,True
+fasttext-50d,teste,preparo de compostagem,ponte,compostagem,adubo,3,0.71601415,True,True,True
+fasttext-50d,teste,preparo de compostagem,ponte,adubo,solo,3,0.51016867,True,True,False
+fasttext-50d,teste,preparo de compostagem,extra,casca,cascata,1,0.56800765,True,True,False
+fasttext-50d,teste,preparo de compostagem,extra,adubo,adultério,1,0.19539203,True,False,False
+fasttext-50d,teste,preparo de compostagem,extra,solo,zíper,0,0.27219445,True,False,False
+fasttext-50d,teste,sinalização e travessia,ponte,semáforo,trânsito,3,0.76695645,True,True,True
+fasttext-50d,teste,sinalização e travessia,ponte,trânsito,pedestre,3,0.69671732,True,True,True
+fasttext-50d,teste,sinalização e travessia,ponte,pedestre,faixa,3,0.47197944,True,True,False
+fasttext-50d,teste,sinalização e travessia,extra,semáforo,metáfora,1,0.43339181,True,True,False
+fasttext-50d,teste,sinalização e travessia,extra,pedestre,pedestal,1,0.55093324,True,True,False
+fasttext-50d,teste,sinalização e travessia,extra,trânsito,abacate,0,0.11868940,True,False,False
+fasttext-50d,teste,cultura de rua brasileira,ponte,capoeira,berimbau,3,0.59614027,True,True,True
+fasttext-50d,teste,cultura de rua brasileira,ponte,berimbau,roda,3,0.55804861,True,True,False
+fasttext-50d,teste,cultura de rua brasileira,ponte,roda,dança,2,0.71167517,True,True,True
+fasttext-50d,teste,cultura de rua brasileira,extra,capoeira,capô,1,0.19141029,True,False,False
+fasttext-50d,teste,cultura de rua brasileira,extra,roda,rodo,1,0.73631221,True,True,True
+fasttext-50d,teste,cultura de rua brasileira,extra,berimbau,cloro,0,0.25032014,True,False,False
+fasttext-50d,teste,gírias e economia,ponte,grana,troco,2,0.74837399,True,True,True
+fasttext-50d,teste,gírias e economia,ponte,troco,moeda,3,0.54616171,True,True,False
+fasttext-50d,teste,gírias e economia,ponte,moeda,cofre,2,0.51634204,True,True,False
+fasttext-50d,teste,gírias e economia,extra,grana,grama,1,0.60735798,True,True,True
+fasttext-50d,teste,gírias e economia,extra,moeda,moenda,1,0.30081591,True,False,False
+fasttext-50d,teste,gírias e economia,extra,cofre,baleia,0,0.46599665,True,True,False
+fasttext-50d,teste,período de repouso,ponte,noite,sono,3,0.65696174,True,True,True
+fasttext-50d,teste,período de repouso,ponte,sono,sonho,3,0.59643489,True,True,True
+fasttext-50d,teste,período de repouso,ponte,sonho,pesadelo,3,0.83982360,True,True,True
+fasttext-50d,teste,período de repouso,extra,sono,sino,1,0.56898451,True,True,False
+fasttext-50d,teste,período de repouso,extra,pesadelo,pesado,1,0.62767643,True,True,True
+fasttext-50d,teste,período de repouso,extra,noite,açafrão,0,0.33148575,True,False,False
+fasttext-50d,teste,aviso de incêndio,ponte,fumaça,fogo,3,0.77475512,True,True,True
+fasttext-50d,teste,aviso de incêndio,ponte,fogo,bombeiro,3,0.65715253,True,True,True
+fasttext-50d,teste,aviso de incêndio,ponte,bombeiro,sirene,2,0.55086470,True,True,False
+fasttext-50d,teste,aviso de incêndio,extra,fumaça,fumaçar,3,0.83653927,True,True,True
+fasttext-50d,teste,aviso de incêndio,extra,fogo,jogo,1,0.50723082,True,True,False
+fasttext-50d,teste,aviso de incêndio,extra,bombeiro,porcelana,0,0.37868968,True,False,False
+fasttext-50d,teste,tecnologia doméstica,ponte,teclado,computador,3,0.70314276,True,True,True
+fasttext-50d,teste,tecnologia doméstica,ponte,computador,internet,2,0.76882690,True,True,True
+fasttext-50d,teste,tecnologia doméstica,ponte,internet,senha,2,0.68272781,True,True,True
+fasttext-50d,teste,tecnologia doméstica,extra,teclado,telhado,1,0.51766974,True,True,False
+fasttext-50d,teste,tecnologia doméstica,extra,senha,resenha,1,0.44323954,True,True,False
+fasttext-50d,teste,tecnologia doméstica,extra,computador,cogumelo,0,0.34902343,True,False,False
+fasttext-50d,teste,lugar de moradia,ponte,quarto,casa,3,0.71926171,True,True,True
+fasttext-50d,teste,lugar de moradia,ponte,casa,bairro,2,0.59058464,True,True,True
+fasttext-50d,teste,lugar de moradia,ponte,bairro,cidade,3,0.76026368,True,True,True
+fasttext-50d,teste,lugar de moradia,extra,quarto,quarteto,1,0.47507560,True,True,False
+fasttext-50d,teste,lugar de moradia,extra,bairro,barreira,1,0.31681302,True,False,False
+fasttext-50d,teste,lugar de moradia,extra,cidade,pilha,0,0.35362151,True,False,False
+fasttext-50d,teste,argila e artesanato,ponte,barro,cerâmica,3,0.74420702,True,True,True
+fasttext-50d,teste,argila e artesanato,ponte,cerâmica,vaso,3,0.53270125,True,True,False
+fasttext-50d,teste,argila e artesanato,ponte,vaso,flor,3,0.51428044,True,True,False
+fasttext-50d,teste,argila e artesanato,extra,cerâmica,cera,1,0.69064850,True,True,True
+fasttext-50d,teste,argila e artesanato,extra,vaso,vazio,1,0.73668593,True,True,True
+fasttext-50d,teste,argila e artesanato,extra,flor,serrote,0,0.52994180,True,True,False
+fasttext-50d,teste,alimentação e acidez,ponte,laranja,fruta,3,0.73166609,True,True,True
+fasttext-50d,teste,alimentação e acidez,ponte,fruta,limão,3,0.85810173,True,True,True
+fasttext-50d,teste,alimentação e acidez,ponte,limão,azedo,3,0.81681973,True,True,True
+fasttext-50d,teste,alimentação e acidez,extra,laranja,tangerina,3,0.71866506,True,True,True
+fasttext-50d,teste,alimentação e acidez,extra,limão,limo,1,0.67835450,True,True,True
+fasttext-50d,teste,alimentação e acidez,extra,azedo,peneira,0,0.49578732,True,True,False
+fasttext-50d,teste,ensino superior e pesquisa,ponte,universidade,diploma,3,0.57376623,True,True,False
+fasttext-50d,teste,ensino superior e pesquisa,ponte,diploma,formatura,3,0.50776315,True,True,False
+fasttext-50d,teste,ensino superior e pesquisa,ponte,formatura,cerimônia,3,0.72312713,True,True,True
+fasttext-50d,teste,ensino superior e pesquisa,extra,universidade,universal,1,0.34390369,True,False,False
+fasttext-50d,teste,ensino superior e pesquisa,extra,diploma,diplomacia,1,0.34745955,True,False,False
+fasttext-50d,teste,ensino superior e pesquisa,extra,cerimônia,milho,0,0.20148958,True,False,False
+fasttext-50d,teste,recreação ao ar livre,ponte,pipa,vento,3,0.62638545,True,True,True
+fasttext-50d,teste,recreação ao ar livre,ponte,vento,brisa,3,0.75024104,True,True,True
+fasttext-50d,teste,recreação ao ar livre,ponte,brisa,praia,2,0.64500588,True,True,True
+fasttext-50d,teste,recreação ao ar livre,extra,pipa,pipeta,1,0.57015651,True,True,False
+fasttext-50d,teste,recreação ao ar livre,extra,vento,veludo,0,0.43227187,True,True,False
+fasttext-50d,teste,recreação ao ar livre,extra,praia,dobradiça,0,0.41296586,True,True,False
+glove-50d,calibracao,panificação,ponte,trigo,farinha,3,0.84016454,True,True,True
+glove-50d,calibracao,panificação,ponte,farinha,massa,2,0.48317271,True,True,True
+glove-50d,calibracao,panificação,ponte,massa,pão,3,0.41031879,True,True,True
+glove-50d,calibracao,panificação,extra,trigo,trigêmeo,1,-0.09620643,True,False,False
+glove-50d,calibracao,panificação,extra,farinha,bússola,0,-0.06456972,True,False,False
+glove-50d,calibracao,panificação,extra,pão,cometa,0,-0.11294623,True,False,False
+glove-50d,calibracao,esportes de raquete,ponte,badminton,raquete,3,0.47130969,True,True,True
+glove-50d,calibracao,esportes de raquete,ponte,raquete,tênis,3,0.54184878,True,True,True
+glove-50d,calibracao,esportes de raquete,ponte,tênis,quadra,3,0.67947727,True,True,True
+glove-50d,calibracao,esportes de raquete,extra,raquete,etiqueta,1,0.49227175,True,True,True
+glove-50d,calibracao,esportes de raquete,extra,badminton,buzina,0,0.15657030,True,False,False
+glove-50d,calibracao,esportes de raquete,extra,quadra,canela,1,0.13170977,True,False,False
+glove-50d,calibracao,geografia,ponte,mapa,fronteira,2,0.38532144,True,False,True
+glove-50d,calibracao,geografia,ponte,fronteira,país,3,0.53432804,True,True,True
+glove-50d,calibracao,geografia,ponte,país,bandeira,2,0.50255024,True,True,True
+glove-50d,calibracao,geografia,extra,mapa,mochila,1,0.16238755,True,False,False
+glove-50d,calibracao,geografia,extra,fronteira,fronte,1,0.27998713,True,False,False
+glove-50d,calibracao,geografia,extra,bandeira,iogurte,0,-0.04116382,True,False,False
+glove-50d,calibracao,plantio,ponte,semente,germinação,3,0.54434234,True,True,True
+glove-50d,calibracao,plantio,ponte,germinação,broto,3,0.30563954,True,False,False
+glove-50d,calibracao,plantio,ponte,broto,horta,2,0.08528079,True,False,False
+glove-50d,calibracao,plantio,extra,semente,cimento,1,0.30911607,True,False,False
+glove-50d,calibracao,plantio,extra,horta,hortelã,2,0.23630069,True,False,False
+glove-50d,calibracao,plantio,extra,broto,alfândega,0,-0.06127494,True,False,False
+glove-50d,calibracao,cozinha,ponte,frigideira,fritura,3,0.58672088,True,True,True
+glove-50d,calibracao,cozinha,ponte,fritura,batata,2,0.46475637,True,True,True
+glove-50d,calibracao,cozinha,ponte,batata,purê,3,0.69597745,True,True,True
+glove-50d,calibracao,cozinha,extra,batata,barata,1,0.50231946,True,True,True
+glove-50d,calibracao,cozinha,extra,purê,pureza,1,0.00078109,True,False,False
+glove-50d,calibracao,cozinha,extra,fritura,cassetete,0,0.22408310,True,False,False
+glove-50d,calibracao,transporte aéreo,ponte,aeroporto,embarque,3,0.71140516,True,True,True
+glove-50d,calibracao,transporte aéreo,ponte,embarque,passageiro,3,0.55946970,True,True,True
+glove-50d,calibracao,transporte aéreo,ponte,passageiro,bagagem,2,0.54146469,True,True,True
+glove-50d,calibracao,transporte aéreo,extra,embarque,embargo,1,0.27047151,True,False,False
+glove-50d,calibracao,transporte aéreo,extra,passageiro,passeata,1,0.16246639,True,False,False
+glove-50d,calibracao,transporte aéreo,extra,bagagem,orvalho,0,0.02843754,True,False,False
+glove-50d,calibracao,cidadania,ponte,eleição,voto,3,0.81043488,True,True,True
+glove-50d,calibracao,cidadania,ponte,voto,urna,3,0.44014817,True,True,True
+glove-50d,calibracao,cidadania,ponte,urna,sigilo,2,0.31465799,True,False,True
+glove-50d,calibracao,cidadania,extra,eleição,elevação,1,0.28838545,True,False,False
+glove-50d,calibracao,cidadania,extra,urna,pinguim,0,-0.04905176,True,False,False
+glove-50d,calibracao,cidadania,extra,voto,voltagem,0,0.13771160,True,False,False
+glove-50d,calibracao,exploração espacial,ponte,astronauta,foguete,3,0.46504390,True,True,True
+glove-50d,calibracao,exploração espacial,ponte,foguete,lançamento,3,0.53100061,True,True,True
+glove-50d,calibracao,exploração espacial,ponte,lançamento,contagem,2,0.44518045,True,True,True
+glove-50d,calibracao,exploração espacial,extra,astronauta,astrólogo,1,0.46211413,True,True,True
+glove-50d,calibracao,exploração espacial,extra,foguete,folguedo,1,-0.07242451,True,False,False
+glove-50d,calibracao,exploração espacial,extra,contagem,floreira,0,-0.06925027,True,False,False
+glove-50d,calibracao,apoio emocional,ponte,medo,coragem,2,0.63634974,True,True,True
+glove-50d,calibracao,apoio emocional,ponte,coragem,confiança,2,0.70920414,True,True,True
+glove-50d,calibracao,apoio emocional,ponte,confiança,amizade,2,0.55258864,True,True,True
+glove-50d,calibracao,apoio emocional,extra,medo,medida,1,0.38042298,True,False,True
+glove-50d,calibracao,apoio emocional,extra,confiança,contramão,0,0.03233217,True,False,False
+glove-50d,calibracao,apoio emocional,extra,amizade,ferrugem,0,0.01377755,True,False,False
+glove-50d,calibracao,bordado,ponte,agulha,linha,3,0.34087482,True,False,True
+glove-50d,calibracao,bordado,ponte,linha,bordado,3,0.03448215,True,False,False
+glove-50d,calibracao,bordado,ponte,bordado,enfeite,2,0.66607636,True,True,True
+glove-50d,calibracao,bordado,extra,agulha,agulhada,3,0.14798678,True,False,False
+glove-50d,calibracao,bordado,extra,linha,linhagem,1,0.20377955,True,False,False
+glove-50d,calibracao,bordado,extra,enfeite,asfalto,0,0.27495313,True,False,False
+glove-50d,calibracao,fotografia,ponte,fotógrafo,câmera,3,0.35006216,True,False,True
+glove-50d,calibracao,fotografia,ponte,câmera,retrato,3,0.30915430,True,False,True
+glove-50d,calibracao,fotografia,ponte,retrato,moldura,2,0.41331846,True,True,True
+glove-50d,calibracao,fotografia,extra,fotógrafo,fotossíntese,1,-0.25803688,True,False,False
+glove-50d,calibracao,fotografia,extra,retrato,relato,1,0.62818134,True,True,True
+glove-50d,calibracao,fotografia,extra,moldura,feijão,0,-0.01139224,True,False,False
+glove-50d,calibracao,viagem de carro,ponte,motorista,carro,3,0.83128822,True,True,True
+glove-50d,calibracao,viagem de carro,ponte,carro,estrada,2,0.64290458,True,True,True
+glove-50d,calibracao,viagem de carro,ponte,estrada,pedágio,3,0.44566685,True,True,True
+glove-50d,calibracao,viagem de carro,extra,motorista,motociclista,2,0.81387997,True,True,True
+glove-50d,calibracao,viagem de carro,extra,carro,caro,1,0.40733117,True,True,True
+glove-50d,calibracao,viagem de carro,extra,pedágio,sabonete,0,0.10641180,True,False,False
+glove-50d,teste,fases da vida,ponte,criança,adulto,3,0.61587846,True,True,True
+glove-50d,teste,fases da vida,ponte,adulto,idoso,3,0.55985022,True,True,True
+glove-50d,teste,fases da vida,extra,criança,criação,1,0.36325085,True,False,True
+glove-50d,teste,fases da vida,extra,adulto,adubo,0,0.21346059,True,False,False
+glove-50d,teste,fases da vida,extra,idoso,adolescente,3,0.75557959,True,True,True
+glove-50d,teste,separação e finanças,ponte,amor,casamento,2,0.64015335,True,True,True
+glove-50d,teste,separação e finanças,ponte,casamento,divórcio,3,0.83126634,True,True,True
+glove-50d,teste,separação e finanças,ponte,divórcio,pensão,2,0.49105483,True,True,True
+glove-50d,teste,separação e finanças,ponte,pensão,dinheiro,2,0.48406518,True,True,True
+glove-50d,teste,separação e finanças,extra,amor,rumor,1,0.38111448,True,False,True
+glove-50d,teste,separação e finanças,extra,divórcio,diversão,1,0.13836057,True,False,False
+glove-50d,teste,separação e finanças,extra,dinheiro,besouro,0,-0.08784407,True,False,False
+glove-50d,teste,animais domésticos,ponte,cachorro,animal,3,0.61684418,True,True,True
+glove-50d,teste,animais domésticos,ponte,animal,gato,3,0.60928547,True,True,True
+glove-50d,teste,animais domésticos,ponte,gato,felino,3,0.54914761,True,True,True
+glove-50d,teste,animais domésticos,extra,cachorro,cão,3,0.90227753,True,True,True
+glove-50d,teste,animais domésticos,extra,gato,gasto,1,0.17435282,True,False,False
+glove-50d,teste,animais domésticos,extra,felino,trinco,0,0.17511064,True,False,False
+glove-50d,teste,ciclo da água,ponte,oceano,evaporação,2,0.32493821,True,False,True
+glove-50d,teste,ciclo da água,ponte,evaporação,nuvem,3,0.44907087,True,True,True
+glove-50d,teste,ciclo da água,ponte,nuvem,chuva,3,0.52156740,True,True,True
+glove-50d,teste,ciclo da água,ponte,chuva,enchente,3,0.64545977,True,True,True
+glove-50d,teste,ciclo da água,extra,chuva,chupa,1,-0.11812364,True,False,False
+glove-50d,teste,ciclo da água,extra,enchente,enteado,1,-0.13119873,True,False,False
+glove-50d,teste,ciclo da água,extra,oceano,carimbo,0,-0.02638409,True,False,False
+glove-50d,teste,inverno,ponte,verão,inverno,3,0.92692953,True,True,True
+glove-50d,teste,inverno,ponte,inverno,frio,3,0.70347035,True,True,True
+glove-50d,teste,inverno,ponte,frio,casaco,3,0.40421993,True,True,True
+glove-50d,teste,inverno,extra,verão,verbo,1,-0.01648247,True,False,False
+glove-50d,teste,inverno,extra,inverno,inferno,1,0.31561440,True,False,True
+glove-50d,teste,inverno,extra,casaco,cartório,0,0.30527273,True,False,False
+glove-50d,teste,leitura e silêncio,ponte,escritor,livro,3,0.70967227,True,True,True
+glove-50d,teste,leitura e silêncio,ponte,livro,biblioteca,3,0.50523835,True,True,True
+glove-50d,teste,leitura e silêncio,ponte,biblioteca,silêncio,2,0.11831556,True,False,False
+glove-50d,teste,leitura e silêncio,extra,livro,livre,1,0.41889834,True,True,True
+glove-50d,teste,leitura e silêncio,extra,silêncio,tranquilidade,2,0.44612876,True,True,True
+glove-50d,teste,leitura e silêncio,extra,biblioteca,parafuso,0,-0.15468863,True,False,False
+glove-50d,teste,apresentação musical,ponte,violão,corda,3,0.54799944,True,True,True
+glove-50d,teste,apresentação musical,ponte,corda,música,2,0.35421059,True,False,True
+glove-50d,teste,apresentação musical,ponte,música,show,2,0.70276868,True,True,True
+glove-50d,teste,apresentação musical,extra,violão,viola,3,0.60492802,True,True,True
+glove-50d,teste,apresentação musical,extra,corda,cor,1,0.52933782,True,True,True
+glove-50d,teste,apresentação musical,extra,show,repolho,0,0.09066859,True,False,False
+glove-50d,teste,cozinha e café,ponte,café,filtro,3,0.26022571,True,False,False
+glove-50d,teste,cozinha e café,ponte,filtro,coador,3,0.36676663,True,False,True
+glove-50d,teste,cozinha e café,ponte,coador,pano,2,0.50171286,True,True,True
+glove-50d,teste,cozinha e café,extra,filtro,filhote,1,0.27540496,True,False,False
+glove-50d,teste,cozinha e café,extra,pano,panela,1,0.45295027,True,True,True
+glove-50d,teste,cozinha e café,extra,café,interruptor,0,0.11657281,True,False,False
+glove-50d,teste,prevenção em saúde,ponte,vírus,vacina,3,0.69734341,True,True,True
+glove-50d,teste,prevenção em saúde,ponte,vacina,imunidade,3,0.36673808,True,False,True
+glove-50d,teste,prevenção em saúde,ponte,imunidade,proteção,2,0.52571893,True,True,True
+glove-50d,teste,prevenção em saúde,extra,vírus,virada,1,0.00996783,True,False,False
+glove-50d,teste,prevenção em saúde,extra,vacina,vaca,1,0.27051839,True,False,False
+glove-50d,teste,prevenção em saúde,extra,imunidade,calçada,0,-0.01458831,True,False,False
+glove-50d,teste,medição do calor,ponte,sol,calor,3,0.71466148,True,True,True
+glove-50d,teste,medição do calor,ponte,calor,temperatura,3,0.81849253,True,True,True
+glove-50d,teste,medição do calor,ponte,temperatura,termômetro,3,0.51835781,True,True,True
+glove-50d,teste,medição do calor,extra,sol,solidão,1,0.48253179,True,True,True
+glove-50d,teste,medição do calor,extra,temperatura,temperamento,1,0.29929891,True,False,False
+glove-50d,teste,medição do calor,extra,termômetro,sanfona,0,0.10706336,True,False,False
+glove-50d,teste,navegação costeira,ponte,navio,porto,3,0.43597639,True,True,True
+glove-50d,teste,navegação costeira,ponte,porto,farol,2,0.41705415,True,True,True
+glove-50d,teste,navegação costeira,ponte,farol,luz,3,0.48642126,True,True,True
+glove-50d,teste,navegação costeira,extra,navio,navalha,1,0.01916562,True,False,False
+glove-50d,teste,navegação costeira,extra,porto,portão,1,0.32887575,True,False,True
+glove-50d,teste,navegação costeira,extra,luz,macarrão,0,-0.14426535,True,False,False
+glove-50d,teste,pagamentos e consumo,ponte,banco,cartão,2,0.53715599,True,True,True
+glove-50d,teste,pagamentos e consumo,ponte,cartão,compra,2,0.61938971,True,True,True
+glove-50d,teste,pagamentos e consumo,ponte,compra,loja,3,0.64312780,True,True,True
+glove-50d,teste,pagamentos e consumo,extra,banco,branco,1,0.40319514,True,True,True
+glove-50d,teste,pagamentos e consumo,extra,banco,assento,3,0.40349972,True,True,True
+glove-50d,teste,pagamentos e consumo,extra,loja,centopeia,0,-0.13651435,True,False,False
+glove-50d,teste,projeção de filme,ponte,cinema,filme,3,0.79113638,True,True,True
+glove-50d,teste,projeção de filme,ponte,filme,projetor,2,0.31398022,True,False,True
+glove-50d,teste,projeção de filme,ponte,projetor,tela,3,0.56477791,True,True,True
+glove-50d,teste,projeção de filme,extra,cinema,cinemática,1,-0.02537162,True,False,False
+glove-50d,teste,projeção de filme,extra,tela,telha,1,0.13665164,True,False,False
+glove-50d,teste,projeção de filme,extra,projetor,lentilha,0,0.02254130,True,False,False
+glove-50d,teste,fotebol e celebração,ponte,futebol,gol,3,0.52032071,True,True,True
+glove-50d,teste,fotebol e celebração,ponte,gol,torcida,2,0.61276060,True,True,True
+glove-50d,teste,fotebol e celebração,ponte,torcida,festa,2,0.57753074,True,True,True
+glove-50d,teste,fotebol e celebração,extra,futebol,futuro,1,0.48621815,True,True,True
+glove-50d,teste,fotebol e celebração,extra,gol,gola,1,0.16285925,True,False,False
+glove-50d,teste,fotebol e celebração,extra,torcida,compasso,0,0.10907575,True,False,False
+glove-50d,teste,educação formal,ponte,professor,aula,3,0.57226121,True,True,True
+glove-50d,teste,educação formal,ponte,aula,prova,2,0.44776678,True,True,True
+glove-50d,teste,educação formal,ponte,prova,nota,3,0.56418967,True,True,True
+glove-50d,teste,educação formal,extra,professor,catraca,1,-0.16278946,True,False,False
+glove-50d,teste,educação formal,extra,aula,jaula,1,0.14906144,True,False,False
+glove-50d,teste,educação formal,extra,nota,vassoura,0,-0.04951951,True,False,False
+glove-50d,teste,tecelagem e vestuário,ponte,algodão,tecido,3,0.56825662,True,True,True
+glove-50d,teste,tecelagem e vestuário,ponte,tecido,camisa,3,0.24051017,True,False,False
+glove-50d,teste,tecelagem e vestuário,ponte,camisa,botão,2,0.37119469,True,False,True
+glove-50d,teste,tecelagem e vestuário,extra,algodão,algarismo,1,-0.10296796,True,False,False
+glove-50d,teste,tecelagem e vestuário,extra,tecido,papelão,1,0.60676390,True,True,True
+glove-50d,teste,tecelagem e vestuário,extra,botão,gengibre,0,0.21762092,True,False,False
+glove-50d,teste,tratamento dentário,ponte,dentista,dente,3,0.26881003,True,False,False
+glove-50d,teste,tratamento dentário,ponte,dente,cárie,3,0.49650100,True,True,True
+glove-50d,teste,tratamento dentário,ponte,cárie,dor,2,0.39192247,True,False,True
+glove-50d,teste,tratamento dentário,extra,dentista,dentadura,3,0.14934941,True,False,False
+glove-50d,teste,tratamento dentário,extra,cárie,carícia,1,0.29875198,True,False,False
+glove-50d,teste,tratamento dentário,extra,dor,octógono,0,0.13376512,True,False,False
+glove-50d,teste,transporte ferroviário,ponte,trem,trilho,3,0.69737929,True,True,True
+glove-50d,teste,transporte ferroviário,ponte,trilho,ferro,2,0.21261087,True,False,False
+glove-50d,teste,transporte ferroviário,ponte,ferro,metal,3,0.55192733,True,True,True
+glove-50d,teste,transporte ferroviário,extra,trem,tremor,1,0.39060134,True,False,True
+glove-50d,teste,transporte ferroviário,extra,trilho,trincheira,1,0.39498758,True,False,True
+glove-50d,teste,transporte ferroviário,extra,metal,borboleta,0,0.15947475,True,False,False
+glove-50d,teste,criação de abelhas,ponte,abelha,colmeia,3,0.63600379,True,True,True
+glove-50d,teste,criação de abelhas,ponte,colmeia,mel,3,0.38540894,True,False,True
+glove-50d,teste,criação de abelhas,ponte,mel,doce,3,0.72881413,True,True,True
+glove-50d,teste,criação de abelhas,extra,abelha,vespa,3,0.74806905,True,True,True
+glove-50d,teste,criação de abelhas,extra,colmeia,coluna,1,0.13133784,True,False,False
+glove-50d,teste,criação de abelhas,extra,doce,capacete,0,0.10134524,True,False,False
+glove-50d,teste,móveis e madeira,ponte,árvore,madeira,3,0.60805738,True,True,True
+glove-50d,teste,móveis e madeira,ponte,madeira,marceneiro,3,0.01906460,True,False,False
+glove-50d,teste,móveis e madeira,ponte,marceneiro,mesa,2,-0.07212102,True,False,False
+glove-50d,teste,móveis e madeira,extra,madeira,madrinha,1,0.06314817,True,False,False
+glove-50d,teste,móveis e madeira,extra,mesa,mesada,1,0.16695090,True,False,False
+glove-50d,teste,móveis e madeira,extra,marceneiro,gelatina,0,-0.07753352,True,False,False
+glove-50d,teste,astronomia observacional,ponte,planeta,universo,3,0.76228267,True,True,True
+glove-50d,teste,astronomia observacional,ponte,universo,estrela,3,0.56076074,True,True,True
+glove-50d,teste,astronomia observacional,ponte,estrela,telescópio,3,0.32665119,True,False,True
+glove-50d,teste,astronomia observacional,extra,planeta,planilha,1,-0.15155718,True,False,False
+glove-50d,teste,astronomia observacional,extra,telescópio,telefone,1,0.27076235,True,False,False
+glove-50d,teste,astronomia observacional,extra,universo,ralador,0,-0.10966514,True,False,False
+glove-50d,teste,paisagem vulcânica,ponte,vulcão,lava,3,0.35952622,True,False,True
+glove-50d,teste,paisagem vulcânica,ponte,lava,rocha,3,0.54168552,True,True,True
+glove-50d,teste,paisagem vulcânica,ponte,rocha,montanha,2,0.35354534,True,False,True
+glove-50d,teste,paisagem vulcânica,extra,vulcão,vulto,1,0.20527790,True,False,False
+glove-50d,teste,paisagem vulcânica,extra,lava,lavanda,1,0.05380160,True,False,False
+glove-50d,teste,paisagem vulcânica,extra,montanha,refrigerante,0,-0.04625540,True,False,False
+glove-50d,teste,comércio de peixe,ponte,anzol,pesca,3,0.29637581,True,False,False
+glove-50d,teste,comércio de peixe,ponte,pesca,peixe,3,0.56741941,True,True,True
+glove-50d,teste,comércio de peixe,ponte,peixe,mercado,2,0.35991064,True,False,True
+glove-50d,teste,comércio de peixe,extra,pesca,pescaria,3,0.57486296,True,True,True
+glove-50d,teste,comércio de peixe,extra,peixe,queixo,1,0.18092816,True,False,False
+glove-50d,teste,comércio de peixe,extra,mercado,ribanceira,0,0.02422821,True,False,False
+glove-50d,teste,solidariedade,ponte,empatia,solidariedade,3,0.49321997,True,True,True
+glove-50d,teste,solidariedade,ponte,solidariedade,doação,2,0.34906173,True,False,True
+glove-50d,teste,solidariedade,ponte,doação,sangue,2,0.46605551,True,True,True
+glove-50d,teste,solidariedade,extra,empatia,empate,1,0.02843293,True,False,False
+glove-50d,teste,solidariedade,extra,doação,adoção,1,0.43298706,True,True,True
+glove-50d,teste,solidariedade,extra,sangue,grampeador,0,0.18346447,True,False,False
+glove-50d,teste,preparo de compostagem,ponte,casca,resíduo,2,0.39336991,True,False,True
+glove-50d,teste,preparo de compostagem,ponte,resíduo,compostagem,3,0.44894883,True,True,True
+glove-50d,teste,preparo de compostagem,ponte,compostagem,adubo,3,0.34859395,True,False,True
+glove-50d,teste,preparo de compostagem,ponte,adubo,solo,3,0.22134990,True,False,False
+glove-50d,teste,preparo de compostagem,extra,casca,cascata,1,0.39800614,True,False,True
+glove-50d,teste,preparo de compostagem,extra,adubo,adultério,1,-0.17937851,True,False,False
+glove-50d,teste,preparo de compostagem,extra,solo,zíper,0,-0.13208629,True,False,False
+glove-50d,teste,sinalização e travessia,ponte,semáforo,trânsito,3,0.56550658,True,True,True
+glove-50d,teste,sinalização e travessia,ponte,trânsito,pedestre,3,0.58473706,True,True,True
+glove-50d,teste,sinalização e travessia,ponte,pedestre,faixa,3,0.30594876,True,False,False
+glove-50d,teste,sinalização e travessia,extra,semáforo,metáfora,1,0.16857979,True,False,False
+glove-50d,teste,sinalização e travessia,extra,pedestre,pedestal,1,0.16913453,True,False,False
+glove-50d,teste,sinalização e travessia,extra,trânsito,abacate,0,-0.20508954,True,False,False
+glove-50d,teste,cultura de rua brasileira,ponte,capoeira,berimbau,3,0.49967074,True,True,True
+glove-50d,teste,cultura de rua brasileira,ponte,berimbau,roda,3,0.15572865,True,False,False
+glove-50d,teste,cultura de rua brasileira,ponte,roda,dança,2,0.57251722,True,True,True
+glove-50d,teste,cultura de rua brasileira,extra,capoeira,capô,1,-0.19016786,True,False,False
+glove-50d,teste,cultura de rua brasileira,extra,roda,rodo,1,0.25968614,True,False,False
+glove-50d,teste,cultura de rua brasileira,extra,berimbau,cloro,0,0.06822809,True,False,False
+glove-50d,teste,gírias e economia,ponte,grana,troco,2,0.62592739,True,True,True
+glove-50d,teste,gírias e economia,ponte,troco,moeda,3,0.41473550,True,True,True
+glove-50d,teste,gírias e economia,ponte,moeda,cofre,2,0.27837282,True,False,False
+glove-50d,teste,gírias e economia,extra,grana,grama,1,0.37019134,True,False,True
+glove-50d,teste,gírias e economia,extra,moeda,moenda,1,-0.04461451,True,False,False
+glove-50d,teste,gírias e economia,extra,cofre,baleia,0,0.11145554,True,False,False
+glove-50d,teste,período de repouso,ponte,noite,sono,3,0.45586002,True,True,True
+glove-50d,teste,período de repouso,ponte,sono,sonho,3,0.46646348,True,True,True
+glove-50d,teste,período de repouso,ponte,sonho,pesadelo,3,0.70348573,True,True,True
+glove-50d,teste,período de repouso,extra,sono,sino,1,0.30386657,True,False,False
+glove-50d,teste,período de repouso,extra,pesadelo,pesado,1,0.45284268,True,True,True
+glove-50d,teste,período de repouso,extra,noite,açafrão,0,-0.13943151,True,False,False
+glove-50d,teste,aviso de incêndio,ponte,fumaça,fogo,3,0.72767860,True,True,True
+glove-50d,teste,aviso de incêndio,ponte,fogo,bombeiro,3,0.37246358,True,False,True
+glove-50d,teste,aviso de incêndio,ponte,bombeiro,sirene,2,0.12963553,True,False,False
+glove-50d,teste,aviso de incêndio,extra,fumaça,fumaçar,3,0.02574708,True,False,False
+glove-50d,teste,aviso de incêndio,extra,fogo,jogo,1,0.37667570,True,False,True
+glove-50d,teste,aviso de incêndio,extra,bombeiro,porcelana,0,-0.06560601,True,False,False
+glove-50d,teste,tecnologia doméstica,ponte,teclado,computador,3,0.63178200,True,True,True
+glove-50d,teste,tecnologia doméstica,ponte,computador,internet,2,0.70773327,True,True,True
+glove-50d,teste,tecnologia doméstica,ponte,internet,senha,2,0.45226440,True,True,True
+glove-50d,teste,tecnologia doméstica,extra,teclado,telhado,1,0.39720386,True,False,True
+glove-50d,teste,tecnologia doméstica,extra,senha,resenha,1,0.15133230,True,False,False
+glove-50d,teste,tecnologia doméstica,extra,computador,cogumelo,0,0.19635509,True,False,False
+glove-50d,teste,lugar de moradia,ponte,quarto,casa,3,0.71073174,True,True,True
+glove-50d,teste,lugar de moradia,ponte,casa,bairro,2,0.63635033,True,True,True
+glove-50d,teste,lugar de moradia,ponte,bairro,cidade,3,0.76368099,True,True,True
+glove-50d,teste,lugar de moradia,extra,quarto,quarteto,1,0.39793715,True,False,True
+glove-50d,teste,lugar de moradia,extra,bairro,barreira,1,0.32660395,True,False,True
+glove-50d,teste,lugar de moradia,extra,cidade,pilha,0,0.03616255,True,False,False
+glove-50d,teste,argila e artesanato,ponte,barro,cerâmica,3,0.73776776,True,True,True
+glove-50d,teste,argila e artesanato,ponte,cerâmica,vaso,3,0.46773577,True,True,True
+glove-50d,teste,argila e artesanato,ponte,vaso,flor,3,0.42059255,True,True,True
+glove-50d,teste,argila e artesanato,extra,cerâmica,cera,1,0.59587103,True,True,True
+glove-50d,teste,argila e artesanato,extra,vaso,vazio,1,0.58190203,True,True,True
+glove-50d,teste,argila e artesanato,extra,flor,serrote,0,0.19030732,True,False,False
+glove-50d,teste,alimentação e acidez,ponte,laranja,fruta,3,0.66714656,True,True,True
+glove-50d,teste,alimentação e acidez,ponte,fruta,limão,3,0.71668130,True,True,True
+glove-50d,teste,alimentação e acidez,ponte,limão,azedo,3,0.70041114,True,True,True
+glove-50d,teste,alimentação e acidez,extra,laranja,tangerina,3,0.54812264,True,True,True
+glove-50d,teste,alimentação e acidez,extra,limão,limo,1,0.34637538,True,False,True
+glove-50d,teste,alimentação e acidez,extra,azedo,peneira,0,-0.05899499,True,False,False
+glove-50d,teste,ensino superior e pesquisa,ponte,universidade,diploma,3,0.53212237,True,True,True
+glove-50d,teste,ensino superior e pesquisa,ponte,diploma,formatura,3,0.40657315,True,True,True
+glove-50d,teste,ensino superior e pesquisa,ponte,formatura,cerimônia,3,0.65737021,True,True,True
+glove-50d,teste,ensino superior e pesquisa,extra,universidade,universal,1,0.41103372,True,True,True
+glove-50d,teste,ensino superior e pesquisa,extra,diploma,diplomacia,1,0.08854607,True,False,False
+glove-50d,teste,ensino superior e pesquisa,extra,cerimônia,milho,0,0.09358826,True,False,False
+glove-50d,teste,recreação ao ar livre,ponte,pipa,vento,3,0.34800145,True,False,True
+glove-50d,teste,recreação ao ar livre,ponte,vento,brisa,3,0.52082080,True,True,True
+glove-50d,teste,recreação ao ar livre,ponte,brisa,praia,2,0.42348534,True,True,True
+glove-50d,teste,recreação ao ar livre,extra,pipa,pipeta,1,0.43944737,True,True,True
+glove-50d,teste,recreação ao ar livre,extra,vento,veludo,0,0.19276248,True,False,False
+glove-50d,teste,recreação ao ar livre,extra,praia,dobradiça,0,0.07971433,True,False,False
+minilm-multilingue-int8,calibracao,panificação,ponte,trigo,farinha,3,0.62953365,True,True,True
+minilm-multilingue-int8,calibracao,panificação,ponte,farinha,massa,2,0.52903998,True,True,False
+minilm-multilingue-int8,calibracao,panificação,ponte,massa,pão,3,0.36834455,True,False,False
+minilm-multilingue-int8,calibracao,panificação,extra,trigo,trigêmeo,1,0.36350048,True,False,False
+minilm-multilingue-int8,calibracao,panificação,extra,farinha,bússola,0,0.58361930,True,True,False
+minilm-multilingue-int8,calibracao,panificação,extra,pão,cometa,0,0.17719144,True,False,False
+minilm-multilingue-int8,calibracao,esportes de raquete,ponte,badminton,raquete,3,0.71882278,True,True,True
+minilm-multilingue-int8,calibracao,esportes de raquete,ponte,raquete,tênis,3,0.83413202,True,True,True
+minilm-multilingue-int8,calibracao,esportes de raquete,ponte,tênis,quadra,3,0.39843604,True,False,False
+minilm-multilingue-int8,calibracao,esportes de raquete,extra,raquete,etiqueta,1,0.55273378,True,True,False
+minilm-multilingue-int8,calibracao,esportes de raquete,extra,badminton,buzina,0,0.32577482,True,False,False
+minilm-multilingue-int8,calibracao,esportes de raquete,extra,quadra,canela,1,0.53746533,True,True,False
+minilm-multilingue-int8,calibracao,geografia,ponte,mapa,fronteira,2,0.47748160,True,True,False
+minilm-multilingue-int8,calibracao,geografia,ponte,fronteira,país,3,0.61688948,True,True,True
+minilm-multilingue-int8,calibracao,geografia,ponte,país,bandeira,2,0.49897176,True,True,False
+minilm-multilingue-int8,calibracao,geografia,extra,mapa,mochila,1,0.38758427,True,False,False
+minilm-multilingue-int8,calibracao,geografia,extra,fronteira,fronte,1,0.56685960,True,True,False
+minilm-multilingue-int8,calibracao,geografia,extra,bandeira,iogurte,0,0.17493343,True,False,False
+minilm-multilingue-int8,calibracao,plantio,ponte,semente,germinação,3,0.83956420,True,True,True
+minilm-multilingue-int8,calibracao,plantio,ponte,germinação,broto,3,0.42970610,True,True,False
+minilm-multilingue-int8,calibracao,plantio,ponte,broto,horta,2,0.62580025,True,True,True
+minilm-multilingue-int8,calibracao,plantio,extra,semente,cimento,1,0.29409471,True,False,False
+minilm-multilingue-int8,calibracao,plantio,extra,horta,hortelã,2,0.67122430,True,True,True
+minilm-multilingue-int8,calibracao,plantio,extra,broto,alfândega,0,0.77327240,True,True,True
+minilm-multilingue-int8,calibracao,cozinha,ponte,frigideira,fritura,3,0.54683399,True,True,False
+minilm-multilingue-int8,calibracao,cozinha,ponte,fritura,batata,2,0.65665483,True,True,True
+minilm-multilingue-int8,calibracao,cozinha,ponte,batata,purê,3,0.24952339,True,False,False
+minilm-multilingue-int8,calibracao,cozinha,extra,batata,barata,1,0.42175722,True,True,False
+minilm-multilingue-int8,calibracao,cozinha,extra,purê,pureza,1,0.53985751,True,True,False
+minilm-multilingue-int8,calibracao,cozinha,extra,fritura,cassetete,0,0.30732414,True,False,False
+minilm-multilingue-int8,calibracao,transporte aéreo,ponte,aeroporto,embarque,3,0.68489611,True,True,True
+minilm-multilingue-int8,calibracao,transporte aéreo,ponte,embarque,passageiro,3,0.66278392,True,True,True
+minilm-multilingue-int8,calibracao,transporte aéreo,ponte,passageiro,bagagem,2,0.47457677,True,True,False
+minilm-multilingue-int8,calibracao,transporte aéreo,extra,embarque,embargo,1,0.48755127,True,True,False
+minilm-multilingue-int8,calibracao,transporte aéreo,extra,passageiro,passeata,1,0.91618288,True,True,True
+minilm-multilingue-int8,calibracao,transporte aéreo,extra,bagagem,orvalho,0,0.15688422,True,False,False
+minilm-multilingue-int8,calibracao,cidadania,ponte,eleição,voto,3,0.89241278,True,True,True
+minilm-multilingue-int8,calibracao,cidadania,ponte,voto,urna,3,0.50605237,True,True,False
+minilm-multilingue-int8,calibracao,cidadania,ponte,urna,sigilo,2,0.74363756,True,True,True
+minilm-multilingue-int8,calibracao,cidadania,extra,eleição,elevação,1,0.23601359,True,False,False
+minilm-multilingue-int8,calibracao,cidadania,extra,urna,pinguim,0,0.71745801,True,True,True
+minilm-multilingue-int8,calibracao,cidadania,extra,voto,voltagem,0,0.37004161,True,False,False
+minilm-multilingue-int8,calibracao,exploração espacial,ponte,astronauta,foguete,3,0.41125584,True,True,False
+minilm-multilingue-int8,calibracao,exploração espacial,ponte,foguete,lançamento,3,0.70777774,True,True,True
+minilm-multilingue-int8,calibracao,exploração espacial,ponte,lançamento,contagem,2,0.64754587,True,True,True
+minilm-multilingue-int8,calibracao,exploração espacial,extra,astronauta,astrólogo,1,0.52573615,True,True,False
+minilm-multilingue-int8,calibracao,exploração espacial,extra,foguete,folguedo,1,0.74852490,True,True,True
+minilm-multilingue-int8,calibracao,exploração espacial,extra,contagem,floreira,0,0.64755917,True,True,True
+minilm-multilingue-int8,calibracao,apoio emocional,ponte,medo,coragem,2,0.59000015,True,True,True
+minilm-multilingue-int8,calibracao,apoio emocional,ponte,coragem,confiança,2,0.60271513,True,True,True
+minilm-multilingue-int8,calibracao,apoio emocional,ponte,confiança,amizade,2,0.43540561,True,True,False
+minilm-multilingue-int8,calibracao,apoio emocional,extra,medo,medida,1,0.34635043,True,False,False
+minilm-multilingue-int8,calibracao,apoio emocional,extra,confiança,contramão,0,0.56408030,True,True,False
+minilm-multilingue-int8,calibracao,apoio emocional,extra,amizade,ferrugem,0,0.38986450,True,False,False
+minilm-multilingue-int8,calibracao,bordado,ponte,agulha,linha,3,0.60543674,True,True,True
+minilm-multilingue-int8,calibracao,bordado,ponte,linha,bordado,3,0.66365463,True,True,True
+minilm-multilingue-int8,calibracao,bordado,ponte,bordado,enfeite,2,0.76531291,True,True,True
+minilm-multilingue-int8,calibracao,bordado,extra,agulha,agulhada,3,0.91757667,True,True,True
+minilm-multilingue-int8,calibracao,bordado,extra,linha,linhagem,1,0.60765952,True,True,True
+minilm-multilingue-int8,calibracao,bordado,extra,enfeite,asfalto,0,0.34930846,True,False,False
+minilm-multilingue-int8,calibracao,fotografia,ponte,fotógrafo,câmera,3,0.93297726,True,True,True
+minilm-multilingue-int8,calibracao,fotografia,ponte,câmera,retrato,3,0.78066421,True,True,True
+minilm-multilingue-int8,calibracao,fotografia,ponte,retrato,moldura,2,0.50852132,True,True,False
+minilm-multilingue-int8,calibracao,fotografia,extra,fotógrafo,fotossíntese,1,0.58389199,True,True,False
+minilm-multilingue-int8,calibracao,fotografia,extra,retrato,relato,1,0.61822063,True,True,True
+minilm-multilingue-int8,calibracao,fotografia,extra,moldura,feijão,0,0.71105206,True,True,True
+minilm-multilingue-int8,calibracao,viagem de carro,ponte,motorista,carro,3,0.75953710,True,True,True
+minilm-multilingue-int8,calibracao,viagem de carro,ponte,carro,estrada,2,0.71000469,True,True,True
+minilm-multilingue-int8,calibracao,viagem de carro,ponte,estrada,pedágio,3,0.67123514,True,True,True
+minilm-multilingue-int8,calibracao,viagem de carro,extra,motorista,motociclista,2,0.57954466,True,True,False
+minilm-multilingue-int8,calibracao,viagem de carro,extra,carro,caro,1,0.57371765,True,True,False
+minilm-multilingue-int8,calibracao,viagem de carro,extra,pedágio,sabonete,0,0.44560447,True,True,False
+minilm-multilingue-int8,teste,fases da vida,ponte,criança,adulto,3,0.62579310,True,True,True
+minilm-multilingue-int8,teste,fases da vida,ponte,adulto,idoso,3,0.73609173,True,True,True
+minilm-multilingue-int8,teste,fases da vida,extra,criança,criação,1,0.56258172,True,True,False
+minilm-multilingue-int8,teste,fases da vida,extra,adulto,adubo,0,0.54699481,True,True,False
+minilm-multilingue-int8,teste,fases da vida,extra,idoso,adolescente,3,0.51175314,True,True,False
+minilm-multilingue-int8,teste,separação e finanças,ponte,amor,casamento,2,0.49111587,True,True,False
+minilm-multilingue-int8,teste,separação e finanças,ponte,casamento,divórcio,3,0.68713057,True,True,True
+minilm-multilingue-int8,teste,separação e finanças,ponte,divórcio,pensão,2,0.31087592,True,False,False
+minilm-multilingue-int8,teste,separação e finanças,ponte,pensão,dinheiro,2,0.55014873,True,True,False
+minilm-multilingue-int8,teste,separação e finanças,extra,amor,rumor,1,0.49098027,True,True,False
+minilm-multilingue-int8,teste,separação e finanças,extra,divórcio,diversão,1,0.12979336,True,False,False
+minilm-multilingue-int8,teste,separação e finanças,extra,dinheiro,besouro,0,0.26782590,True,False,False
+minilm-multilingue-int8,teste,animais domésticos,ponte,cachorro,animal,3,0.78957784,True,True,True
+minilm-multilingue-int8,teste,animais domésticos,ponte,animal,gato,3,0.47994608,True,True,False
+minilm-multilingue-int8,teste,animais domésticos,ponte,gato,felino,3,0.52239847,True,True,False
+minilm-multilingue-int8,teste,animais domésticos,extra,cachorro,cão,3,0.98265886,True,True,True
+minilm-multilingue-int8,teste,animais domésticos,extra,gato,gasto,1,0.29160973,True,False,False
+minilm-multilingue-int8,teste,animais domésticos,extra,felino,trinco,0,0.70869285,True,True,True
+minilm-multilingue-int8,teste,ciclo da água,ponte,oceano,evaporação,2,0.35903174,True,False,False
+minilm-multilingue-int8,teste,ciclo da água,ponte,evaporação,nuvem,3,0.48049873,True,True,False
+minilm-multilingue-int8,teste,ciclo da água,ponte,nuvem,chuva,3,0.56508762,True,True,False
+minilm-multilingue-int8,teste,ciclo da água,ponte,chuva,enchente,3,0.35006806,True,False,False
+minilm-multilingue-int8,teste,ciclo da água,extra,chuva,chupa,1,0.37897968,True,False,False
+minilm-multilingue-int8,teste,ciclo da água,extra,enchente,enteado,1,0.88987958,True,True,True
+minilm-multilingue-int8,teste,ciclo da água,extra,oceano,carimbo,0,0.36170590,True,False,False
+minilm-multilingue-int8,teste,inverno,ponte,verão,inverno,3,0.53487939,True,True,False
+minilm-multilingue-int8,teste,inverno,ponte,inverno,frio,3,0.85595965,True,True,True
+minilm-multilingue-int8,teste,inverno,ponte,frio,casaco,3,0.64476866,True,True,True
+minilm-multilingue-int8,teste,inverno,extra,verão,verbo,1,0.48858625,True,True,False
+minilm-multilingue-int8,teste,inverno,extra,inverno,inferno,1,0.28326085,True,False,False
+minilm-multilingue-int8,teste,inverno,extra,casaco,cartório,0,0.50071865,True,True,False
+minilm-multilingue-int8,teste,leitura e silêncio,ponte,escritor,livro,3,0.84793085,True,True,True
+minilm-multilingue-int8,teste,leitura e silêncio,ponte,livro,biblioteca,3,0.67799044,True,True,True
+minilm-multilingue-int8,teste,leitura e silêncio,ponte,biblioteca,silêncio,2,0.27138993,True,False,False
+minilm-multilingue-int8,teste,leitura e silêncio,extra,livro,livre,1,0.91102409,True,True,True
+minilm-multilingue-int8,teste,leitura e silêncio,extra,silêncio,tranquilidade,2,0.78124583,True,True,True
+minilm-multilingue-int8,teste,leitura e silêncio,extra,biblioteca,parafuso,0,0.32165489,True,False,False
+minilm-multilingue-int8,teste,apresentação musical,ponte,violão,corda,3,0.55266732,True,True,False
+minilm-multilingue-int8,teste,apresentação musical,ponte,corda,música,2,0.58193731,True,True,False
+minilm-multilingue-int8,teste,apresentação musical,ponte,música,show,2,0.51881838,True,True,False
+minilm-multilingue-int8,teste,apresentação musical,extra,violão,viola,3,0.48547888,True,True,False
+minilm-multilingue-int8,teste,apresentação musical,extra,corda,cor,1,0.47450781,True,True,False
+minilm-multilingue-int8,teste,apresentação musical,extra,show,repolho,0,0.35778937,True,False,False
+minilm-multilingue-int8,teste,cozinha e café,ponte,café,filtro,3,0.43609041,True,True,False
+minilm-multilingue-int8,teste,cozinha e café,ponte,filtro,coador,3,0.54126030,True,True,False
+minilm-multilingue-int8,teste,cozinha e café,ponte,coador,pano,2,0.79757023,True,True,True
+minilm-multilingue-int8,teste,cozinha e café,extra,filtro,filhote,1,0.43106025,True,True,False
+minilm-multilingue-int8,teste,cozinha e café,extra,pano,panela,1,0.73842615,True,True,True
+minilm-multilingue-int8,teste,cozinha e café,extra,café,interruptor,0,0.24302457,True,False,False
+minilm-multilingue-int8,teste,prevenção em saúde,ponte,vírus,vacina,3,0.49904037,True,True,False
+minilm-multilingue-int8,teste,prevenção em saúde,ponte,vacina,imunidade,3,0.75582498,True,True,True
+minilm-multilingue-int8,teste,prevenção em saúde,ponte,imunidade,proteção,2,0.50584215,True,True,False
+minilm-multilingue-int8,teste,prevenção em saúde,extra,vírus,virada,1,0.43973309,True,True,False
+minilm-multilingue-int8,teste,prevenção em saúde,extra,vacina,vaca,1,0.28245056,True,False,False
+minilm-multilingue-int8,teste,prevenção em saúde,extra,imunidade,calçada,0,0.15961438,True,False,False
+minilm-multilingue-int8,teste,medição do calor,ponte,sol,calor,3,0.56549764,True,True,False
+minilm-multilingue-int8,teste,medição do calor,ponte,calor,temperatura,3,0.81044781,True,True,True
+minilm-multilingue-int8,teste,medição do calor,ponte,temperatura,termômetro,3,0.87587863,True,True,True
+minilm-multilingue-int8,teste,medição do calor,extra,sol,solidão,1,0.38820827,True,False,False
+minilm-multilingue-int8,teste,medição do calor,extra,temperatura,temperamento,1,0.28013405,True,False,False
+minilm-multilingue-int8,teste,medição do calor,extra,termômetro,sanfona,0,0.30111954,True,False,False
+minilm-multilingue-int8,teste,navegação costeira,ponte,navio,porto,3,0.65573502,True,True,True
+minilm-multilingue-int8,teste,navegação costeira,ponte,porto,farol,2,0.53058445,True,True,False
+minilm-multilingue-int8,teste,navegação costeira,ponte,farol,luz,3,0.39836490,True,False,False
+minilm-multilingue-int8,teste,navegação costeira,extra,navio,navalha,1,0.41013435,True,True,False
+minilm-multilingue-int8,teste,navegação costeira,extra,porto,portão,1,0.53817874,True,True,False
+minilm-multilingue-int8,teste,navegação costeira,extra,luz,macarrão,0,0.30897325,True,False,False
+minilm-multilingue-int8,teste,pagamentos e consumo,ponte,banco,cartão,2,0.51004934,True,True,False
+minilm-multilingue-int8,teste,pagamentos e consumo,ponte,cartão,compra,2,0.43846241,True,True,False
+minilm-multilingue-int8,teste,pagamentos e consumo,ponte,compra,loja,3,0.76218271,True,True,True
+minilm-multilingue-int8,teste,pagamentos e consumo,extra,banco,branco,1,0.37899363,True,False,False
+minilm-multilingue-int8,teste,pagamentos e consumo,extra,banco,assento,3,0.33534464,True,False,False
+minilm-multilingue-int8,teste,pagamentos e consumo,extra,loja,centopeia,0,0.44700009,True,True,False
+minilm-multilingue-int8,teste,projeção de filme,ponte,cinema,filme,3,0.85534418,True,True,True
+minilm-multilingue-int8,teste,projeção de filme,ponte,filme,projetor,2,0.73401070,True,True,True
+minilm-multilingue-int8,teste,projeção de filme,ponte,projetor,tela,3,0.68835568,True,True,True
+minilm-multilingue-int8,teste,projeção de filme,extra,cinema,cinemática,1,0.80806589,True,True,True
+minilm-multilingue-int8,teste,projeção de filme,extra,tela,telha,1,0.77715731,True,True,True
+minilm-multilingue-int8,teste,projeção de filme,extra,projetor,lentilha,0,0.45999017,True,True,False
+minilm-multilingue-int8,teste,fotebol e celebração,ponte,futebol,gol,3,0.70384198,True,True,True
+minilm-multilingue-int8,teste,fotebol e celebração,ponte,gol,torcida,2,0.46772197,True,True,False
+minilm-multilingue-int8,teste,fotebol e celebração,ponte,torcida,festa,2,0.28265685,True,False,False
+minilm-multilingue-int8,teste,fotebol e celebração,extra,futebol,futuro,1,0.41999778,True,True,False
+minilm-multilingue-int8,teste,fotebol e celebração,extra,gol,gola,1,0.63918030,True,True,True
+minilm-multilingue-int8,teste,fotebol e celebração,extra,torcida,compasso,0,0.70431852,True,True,True
+minilm-multilingue-int8,teste,educação formal,ponte,professor,aula,3,0.62069452,True,True,True
+minilm-multilingue-int8,teste,educação formal,ponte,aula,prova,2,0.65523297,True,True,True
+minilm-multilingue-int8,teste,educação formal,ponte,prova,nota,3,0.77887285,True,True,True
+minilm-multilingue-int8,teste,educação formal,extra,professor,catraca,1,0.31109804,True,False,False
+minilm-multilingue-int8,teste,educação formal,extra,aula,jaula,1,0.72133100,True,True,True
+minilm-multilingue-int8,teste,educação formal,extra,nota,vassoura,0,0.62538296,True,True,True
+minilm-multilingue-int8,teste,tecelagem e vestuário,ponte,algodão,tecido,3,0.46277326,True,True,False
+minilm-multilingue-int8,teste,tecelagem e vestuário,ponte,tecido,camisa,3,0.56935459,True,True,False
+minilm-multilingue-int8,teste,tecelagem e vestuário,ponte,camisa,botão,2,0.44334233,True,True,False
+minilm-multilingue-int8,teste,tecelagem e vestuário,extra,algodão,algarismo,1,0.33781528,True,False,False
+minilm-multilingue-int8,teste,tecelagem e vestuário,extra,tecido,papelão,1,0.65232253,True,True,True
+minilm-multilingue-int8,teste,tecelagem e vestuário,extra,botão,gengibre,0,0.48083621,True,True,False
+minilm-multilingue-int8,teste,tratamento dentário,ponte,dentista,dente,3,0.82539070,True,True,True
+minilm-multilingue-int8,teste,tratamento dentário,ponte,dente,cárie,3,0.39962989,True,False,False
+minilm-multilingue-int8,teste,tratamento dentário,ponte,cárie,dor,2,0.56595516,True,True,False
+minilm-multilingue-int8,teste,tratamento dentário,extra,dentista,dentadura,3,0.83055848,True,True,True
+minilm-multilingue-int8,teste,tratamento dentário,extra,cárie,carícia,1,0.82333684,True,True,True
+minilm-multilingue-int8,teste,tratamento dentário,extra,dor,octógono,0,0.62342924,True,True,True
+minilm-multilingue-int8,teste,transporte ferroviário,ponte,trem,trilho,3,0.65417045,True,True,True
+minilm-multilingue-int8,teste,transporte ferroviário,ponte,trilho,ferro,2,0.44293791,True,True,False
+minilm-multilingue-int8,teste,transporte ferroviário,ponte,ferro,metal,3,0.66897976,True,True,True
+minilm-multilingue-int8,teste,transporte ferroviário,extra,trem,tremor,1,0.31804314,True,False,False
+minilm-multilingue-int8,teste,transporte ferroviário,extra,trilho,trincheira,1,0.93101770,True,True,True
+minilm-multilingue-int8,teste,transporte ferroviário,extra,metal,borboleta,0,0.07055922,True,False,False
+minilm-multilingue-int8,teste,criação de abelhas,ponte,abelha,colmeia,3,0.59547126,True,True,True
+minilm-multilingue-int8,teste,criação de abelhas,ponte,colmeia,mel,3,0.66181129,True,True,True
+minilm-multilingue-int8,teste,criação de abelhas,ponte,mel,doce,3,0.82878149,True,True,True
+minilm-multilingue-int8,teste,criação de abelhas,extra,abelha,vespa,3,0.73887044,True,True,True
+minilm-multilingue-int8,teste,criação de abelhas,extra,colmeia,coluna,1,0.65169716,True,True,True
+minilm-multilingue-int8,teste,criação de abelhas,extra,doce,capacete,0,0.18298000,True,False,False
+minilm-multilingue-int8,teste,móveis e madeira,ponte,árvore,madeira,3,0.54326421,True,True,False
+minilm-multilingue-int8,teste,móveis e madeira,ponte,madeira,marceneiro,3,0.40236497,True,True,False
+minilm-multilingue-int8,teste,móveis e madeira,ponte,marceneiro,mesa,2,0.57818341,True,True,False
+minilm-multilingue-int8,teste,móveis e madeira,extra,madeira,madrinha,1,0.43209141,True,True,False
+minilm-multilingue-int8,teste,móveis e madeira,extra,mesa,mesada,1,0.75526297,True,True,True
+minilm-multilingue-int8,teste,móveis e madeira,extra,marceneiro,gelatina,0,0.61764193,True,True,True
+minilm-multilingue-int8,teste,astronomia observacional,ponte,planeta,universo,3,0.76191700,True,True,True
+minilm-multilingue-int8,teste,astronomia observacional,ponte,universo,estrela,3,0.44765607,True,True,False
+minilm-multilingue-int8,teste,astronomia observacional,ponte,estrela,telescópio,3,0.52026916,True,True,False
+minilm-multilingue-int8,teste,astronomia observacional,extra,planeta,planilha,1,0.63879329,True,True,True
+minilm-multilingue-int8,teste,astronomia observacional,extra,telescópio,telefone,1,0.15661147,True,False,False
+minilm-multilingue-int8,teste,astronomia observacional,extra,universo,ralador,0,0.44932309,True,True,False
+minilm-multilingue-int8,teste,paisagem vulcânica,ponte,vulcão,lava,3,0.67563748,True,True,True
+minilm-multilingue-int8,teste,paisagem vulcânica,ponte,lava,rocha,3,0.60710019,True,True,True
+minilm-multilingue-int8,teste,paisagem vulcânica,ponte,rocha,montanha,2,0.63650030,True,True,True
+minilm-multilingue-int8,teste,paisagem vulcânica,extra,vulcão,vulto,1,0.39314193,True,False,False
+minilm-multilingue-int8,teste,paisagem vulcânica,extra,lava,lavanda,1,0.41348463,True,True,False
+minilm-multilingue-int8,teste,paisagem vulcânica,extra,montanha,refrigerante,0,0.37570173,True,False,False
+minilm-multilingue-int8,teste,comércio de peixe,ponte,anzol,pesca,3,0.42724884,True,True,False
+minilm-multilingue-int8,teste,comércio de peixe,ponte,pesca,peixe,3,0.88131535,True,True,True
+minilm-multilingue-int8,teste,comércio de peixe,ponte,peixe,mercado,2,0.39624381,True,False,False
+minilm-multilingue-int8,teste,comércio de peixe,extra,pesca,pescaria,3,0.97307050,True,True,True
+minilm-multilingue-int8,teste,comércio de peixe,extra,peixe,queixo,1,0.61039716,True,True,True
+minilm-multilingue-int8,teste,comércio de peixe,extra,mercado,ribanceira,0,0.42600241,True,True,False
+minilm-multilingue-int8,teste,solidariedade,ponte,empatia,solidariedade,3,0.53557849,True,True,False
+minilm-multilingue-int8,teste,solidariedade,ponte,solidariedade,doação,2,0.64213991,True,True,True
+minilm-multilingue-int8,teste,solidariedade,ponte,doação,sangue,2,0.36639103,True,False,False
+minilm-multilingue-int8,teste,solidariedade,extra,empatia,empate,1,0.39127398,True,False,False
+minilm-multilingue-int8,teste,solidariedade,extra,doação,adoção,1,0.50369954,True,True,False
+minilm-multilingue-int8,teste,solidariedade,extra,sangue,grampeador,0,0.22036089,True,False,False
+minilm-multilingue-int8,teste,preparo de compostagem,ponte,casca,resíduo,2,0.51543564,True,True,False
+minilm-multilingue-int8,teste,preparo de compostagem,ponte,resíduo,compostagem,3,0.39325547,True,False,False
+minilm-multilingue-int8,teste,preparo de compostagem,ponte,compostagem,adubo,3,0.28370151,True,False,False
+minilm-multilingue-int8,teste,preparo de compostagem,ponte,adubo,solo,3,0.66329312,True,True,True
+minilm-multilingue-int8,teste,preparo de compostagem,extra,casca,cascata,1,0.61518812,True,True,True
+minilm-multilingue-int8,teste,preparo de compostagem,extra,adubo,adultério,1,0.40300936,True,True,False
+minilm-multilingue-int8,teste,preparo de compostagem,extra,solo,zíper,0,0.73008841,True,True,True
+minilm-multilingue-int8,teste,sinalização e travessia,ponte,semáforo,trânsito,3,0.44834942,True,True,False
+minilm-multilingue-int8,teste,sinalização e travessia,ponte,trânsito,pedestre,3,0.50877470,True,True,False
+minilm-multilingue-int8,teste,sinalização e travessia,ponte,pedestre,faixa,3,0.53731978,True,True,False
+minilm-multilingue-int8,teste,sinalização e travessia,extra,semáforo,metáfora,1,0.23888199,True,False,False
+minilm-multilingue-int8,teste,sinalização e travessia,extra,pedestre,pedestal,1,0.47908002,True,True,False
+minilm-multilingue-int8,teste,sinalização e travessia,extra,trânsito,abacate,0,0.36976433,True,False,False
+minilm-multilingue-int8,teste,cultura de rua brasileira,ponte,capoeira,berimbau,3,0.52543730,True,True,False
+minilm-multilingue-int8,teste,cultura de rua brasileira,ponte,berimbau,roda,3,0.60104299,True,True,True
+minilm-multilingue-int8,teste,cultura de rua brasileira,ponte,roda,dança,2,0.59296691,True,True,True
+minilm-multilingue-int8,teste,cultura de rua brasileira,extra,capoeira,capô,1,0.64152145,True,True,True
+minilm-multilingue-int8,teste,cultura de rua brasileira,extra,roda,rodo,1,0.59213579,True,True,True
+minilm-multilingue-int8,teste,cultura de rua brasileira,extra,berimbau,cloro,0,0.48508686,True,True,False
+minilm-multilingue-int8,teste,gírias e economia,ponte,grana,troco,2,0.57888466,True,True,False
+minilm-multilingue-int8,teste,gírias e economia,ponte,troco,moeda,3,0.39422622,True,False,False
+minilm-multilingue-int8,teste,gírias e economia,ponte,moeda,cofre,2,0.61989683,True,True,True
+minilm-multilingue-int8,teste,gírias e economia,extra,grana,grama,1,0.72052157,True,True,True
+minilm-multilingue-int8,teste,gírias e economia,extra,moeda,moenda,1,0.46823338,True,True,False
+minilm-multilingue-int8,teste,gírias e economia,extra,cofre,baleia,0,0.36440116,True,False,False
+minilm-multilingue-int8,teste,período de repouso,ponte,noite,sono,3,0.61994743,True,True,True
+minilm-multilingue-int8,teste,período de repouso,ponte,sono,sonho,3,0.68646181,True,True,True
+minilm-multilingue-int8,teste,período de repouso,ponte,sonho,pesadelo,3,0.85066748,True,True,True
+minilm-multilingue-int8,teste,período de repouso,extra,sono,sino,1,0.92783570,True,True,True
+minilm-multilingue-int8,teste,período de repouso,extra,pesadelo,pesado,1,0.47261626,True,True,False
+minilm-multilingue-int8,teste,período de repouso,extra,noite,açafrão,0,0.45556575,True,True,False
+minilm-multilingue-int8,teste,aviso de incêndio,ponte,fumaça,fogo,3,0.61827284,True,True,True
+minilm-multilingue-int8,teste,aviso de incêndio,ponte,fogo,bombeiro,3,0.78914523,True,True,True
+minilm-multilingue-int8,teste,aviso de incêndio,ponte,bombeiro,sirene,2,0.37028065,True,False,False
+minilm-multilingue-int8,teste,aviso de incêndio,extra,fumaça,fumaçar,3,0.97961426,True,True,True
+minilm-multilingue-int8,teste,aviso de incêndio,extra,fogo,jogo,1,0.39798826,True,False,False
+minilm-multilingue-int8,teste,aviso de incêndio,extra,bombeiro,porcelana,0,0.25121331,True,False,False
+minilm-multilingue-int8,teste,tecnologia doméstica,ponte,teclado,computador,3,0.53505290,True,True,False
+minilm-multilingue-int8,teste,tecnologia doméstica,ponte,computador,internet,2,0.65227950,True,True,True
+minilm-multilingue-int8,teste,tecnologia doméstica,ponte,internet,senha,2,0.38379377,True,False,False
+minilm-multilingue-int8,teste,tecnologia doméstica,extra,teclado,telhado,1,0.10068832,True,False,False
+minilm-multilingue-int8,teste,tecnologia doméstica,extra,senha,resenha,1,0.67395592,True,True,True
+minilm-multilingue-int8,teste,tecnologia doméstica,extra,computador,cogumelo,0,0.16668679,True,False,False
+minilm-multilingue-int8,teste,lugar de moradia,ponte,quarto,casa,3,0.70340151,True,True,True
+minilm-multilingue-int8,teste,lugar de moradia,ponte,casa,bairro,2,0.71332949,True,True,True
+minilm-multilingue-int8,teste,lugar de moradia,ponte,bairro,cidade,3,0.76266897,True,True,True
+minilm-multilingue-int8,teste,lugar de moradia,extra,quarto,quarteto,1,0.35126823,True,False,False
+minilm-multilingue-int8,teste,lugar de moradia,extra,bairro,barreira,1,0.51418757,True,True,False
+minilm-multilingue-int8,teste,lugar de moradia,extra,cidade,pilha,0,0.68608111,True,True,True
+minilm-multilingue-int8,teste,argila e artesanato,ponte,barro,cerâmica,3,0.51843470,True,True,False
+minilm-multilingue-int8,teste,argila e artesanato,ponte,cerâmica,vaso,3,0.51095372,True,True,False
+minilm-multilingue-int8,teste,argila e artesanato,ponte,vaso,flor,3,0.62742108,True,True,True
+minilm-multilingue-int8,teste,argila e artesanato,extra,cerâmica,cera,1,0.79683810,True,True,True
+minilm-multilingue-int8,teste,argila e artesanato,extra,vaso,vazio,1,0.65339333,True,True,True
+minilm-multilingue-int8,teste,argila e artesanato,extra,flor,serrote,0,0.60860217,True,True,True
+minilm-multilingue-int8,teste,alimentação e acidez,ponte,laranja,fruta,3,0.63605726,True,True,True
+minilm-multilingue-int8,teste,alimentação e acidez,ponte,fruta,limão,3,0.70816195,True,True,True
+minilm-multilingue-int8,teste,alimentação e acidez,ponte,limão,azedo,3,0.55154854,True,True,False
+minilm-multilingue-int8,teste,alimentação e acidez,extra,laranja,tangerina,3,0.67739964,True,True,True
+minilm-multilingue-int8,teste,alimentação e acidez,extra,limão,limo,1,0.60798693,True,True,True
+minilm-multilingue-int8,teste,alimentação e acidez,extra,azedo,peneira,0,0.68414479,True,True,True
+minilm-multilingue-int8,teste,ensino superior e pesquisa,ponte,universidade,diploma,3,0.71744680,True,True,True
+minilm-multilingue-int8,teste,ensino superior e pesquisa,ponte,diploma,formatura,3,0.69536042,True,True,True
+minilm-multilingue-int8,teste,ensino superior e pesquisa,ponte,formatura,cerimônia,3,0.64096868,True,True,True
+minilm-multilingue-int8,teste,ensino superior e pesquisa,extra,universidade,universal,1,0.49807343,True,True,False
+minilm-multilingue-int8,teste,ensino superior e pesquisa,extra,diploma,diplomacia,1,0.29605007,True,False,False
+minilm-multilingue-int8,teste,ensino superior e pesquisa,extra,cerimônia,milho,0,0.53176260,True,True,False
+minilm-multilingue-int8,teste,recreação ao ar livre,ponte,pipa,vento,3,0.21879013,True,False,False
+minilm-multilingue-int8,teste,recreação ao ar livre,ponte,vento,brisa,3,0.42305014,True,True,False
+minilm-multilingue-int8,teste,recreação ao ar livre,ponte,brisa,praia,2,0.60731822,True,True,True
+minilm-multilingue-int8,teste,recreação ao ar livre,extra,pipa,pipeta,1,0.87566781,True,True,True
+minilm-multilingue-int8,teste,recreação ao ar livre,extra,vento,veludo,0,0.39105299,True,False,False
+minilm-multilingue-int8,teste,recreação ao ar livre,extra,praia,dobradiça,0,0.68391585,True,True,True

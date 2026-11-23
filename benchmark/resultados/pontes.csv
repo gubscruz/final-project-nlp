@@ -1,0 +1,481 @@
+﻿modelo,divisao,cenario,tema,referencia,cossenos_referencia,referencia_valida,caminho_no_jogo,venceu
+word2vec-300d,calibracao,notebook,panificação,trigo → farinha → massa → pão,0.668457 | 0.314925 | 0.172427,False,trigo → farinha → pão,True
+word2vec-300d,calibracao,notebook,esportes de raquete,badminton → raquete → tênis → quadra,0.340995 | 0.435324 | 0.356618,False,,False
+word2vec-300d,calibracao,notebook,geografia,mapa → fronteira → país → bandeira,0.031037 | 0.062056 | 0.001739,False,,False
+word2vec-300d,calibracao,notebook,plantio,semente → germinação → broto → horta,0.439358 | 0.346299 | 0.057375,False,,False
+word2vec-300d,calibracao,notebook,cozinha,frigideira → fritura → batata → purê,0.602288 | 0.581854 | 0.680434,True,frigideira → fritura → purê,True
+word2vec-300d,calibracao,notebook,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.481869 | 0.323470 | 0.364888,False,,False
+word2vec-300d,calibracao,notebook,cidadania,eleição → voto → urna → sigilo,0.385072 | 0.256212 | 0.055926,False,,False
+word2vec-300d,calibracao,notebook,exploração espacial,astronauta → foguete → lançamento → contagem,0.331348 | 0.289491 | 0.168191,False,,False
+word2vec-300d,calibracao,notebook,apoio emocional,medo → coragem → confiança → amizade,0.494969 | 0.475787 | 0.354708,False,,False
+word2vec-300d,calibracao,notebook,bordado,agulha → linha → bordado → enfeite,0.265972 | 0.060558 | 0.505022,False,,False
+word2vec-300d,calibracao,notebook,fotografia,fotógrafo → câmera → retrato → moldura,0.204810 | 0.095195 | 0.228079,False,,False
+word2vec-300d,calibracao,notebook,viagem de carro,motorista → carro → estrada → pedágio,0.677418 | 0.248469 | 0.409046,False,,False
+word2vec-300d,teste,notebook,fases da vida,criança → adulto → idoso,0.380214 | 0.429567,False,,False
+word2vec-300d,teste,notebook,separação e finanças,amor → casamento → divórcio → pensão → dinheiro,0.391714 | 0.689188 | 0.190340 | 0.238950,False,,False
+word2vec-300d,teste,notebook,animais domésticos,cachorro → animal → gato → felino,0.387143 | 0.316818 | 0.523305,False,cachorro → gato → felino,True
+word2vec-300d,teste,notebook,ciclo da água,oceano → evaporação → nuvem → chuva → enchente,0.233439 | 0.359258 | 0.374536 | 0.542582,False,,False
+word2vec-300d,teste,notebook,inverno,verão → inverno → frio → casaco,0.805491 | 0.446758 | 0.167413,False,,False
+word2vec-300d,teste,notebook,leitura e silêncio,escritor → livro → biblioteca → silêncio,0.362055 | 0.190922 | -0.026573,False,,False
+word2vec-300d,teste,notebook,apresentação musical,violão → corda → música → show,0.357578 | 0.206355 | 0.338968,False,,False
+word2vec-300d,teste,notebook,cozinha e café,café → filtro → coador → pano,0.145089 | 0.442222 | 0.478928,False,,False
+word2vec-300d,teste,notebook,prevenção em saúde,vírus → vacina → imunidade → proteção,0.595686 | 0.245170 | 0.299077,False,,False
+word2vec-300d,teste,notebook,medição do calor,sol → calor → temperatura → termômetro,0.394208 | 0.482555 | 0.333682,False,,False
+word2vec-300d,teste,notebook,navegação costeira,navio → porto → farol → luz,0.244386 | 0.199180 | 0.312478,False,,False
+word2vec-300d,teste,notebook,pagamentos e consumo,banco → cartão → compra → loja,0.193906 | 0.194109 | 0.276496,False,,False
+word2vec-300d,teste,notebook,projeção de filme,cinema → filme → projetor → tela,0.564504 | 0.253565 | 0.470842,False,,False
+word2vec-300d,teste,notebook,fotebol e celebração,futebol → gol → torcida → festa,0.149973 | 0.289585 | 0.312908,False,,False
+word2vec-300d,teste,notebook,educação formal,professor → aula → prova → nota,0.251794 | 0.152593 | 0.055863,False,,False
+word2vec-300d,teste,notebook,tecelagem e vestuário,algodão → tecido → camisa → botão,0.417733 | 0.082579 | 0.137109,False,,False
+word2vec-300d,teste,notebook,tratamento dentário,dentista → dente → cárie → dor,0.184190 | 0.253367 | 0.423597,False,,False
+word2vec-300d,teste,notebook,transporte ferroviário,trem → trilho → ferro → metal,0.537690 | 0.350618 | 0.237369,False,,False
+word2vec-300d,teste,notebook,criação de abelhas,abelha → colmeia → mel → doce,0.358639 | 0.221484 | 0.337861,False,,False
+word2vec-300d,teste,notebook,móveis e madeira,árvore → madeira → marceneiro → mesa,0.322407 | 0.154963 | 0.006217,False,,False
+word2vec-300d,teste,notebook,astronomia observacional,planeta → universo → estrela → telescópio,0.471036 | 0.140459 | 0.184409,False,,False
+word2vec-300d,teste,notebook,paisagem vulcânica,vulcão → lava → rocha → montanha,0.226458 | 0.155653 | 0.190967,False,,False
+word2vec-300d,teste,notebook,comércio de peixe,anzol → pesca → peixe → mercado,0.282492 | 0.249989 | 0.121679,False,,False
+word2vec-300d,teste,notebook,solidariedade,empatia → solidariedade → doação → sangue,0.402747 | 0.218733 | 0.303259,False,,False
+word2vec-300d,teste,notebook,preparo de compostagem,casca → resíduo → compostagem → adubo → solo,0.231477 | 0.409438 | 0.376760 | 0.309590,False,,False
+word2vec-300d,teste,notebook,sinalização e travessia,semáforo → trânsito → pedestre → faixa,0.371273 | 0.375739 | 0.370233,False,,False
+word2vec-300d,teste,notebook,cultura de rua brasileira,capoeira → berimbau → roda → dança,0.237793 | 0.310615 | 0.370292,False,,False
+word2vec-300d,teste,notebook,gírias e economia,grana → troco → moeda → cofre,0.382879 | 0.187482 | 0.124779,False,,False
+word2vec-300d,teste,notebook,período de repouso,noite → sono → sonho → pesadelo,0.179394 | 0.204194 | 0.580274,False,,False
+word2vec-300d,teste,notebook,aviso de incêndio,fumaça → fogo → bombeiro → sirene,0.505734 | 0.190624 | 0.116249,False,,False
+word2vec-300d,teste,notebook,tecnologia doméstica,teclado → computador → internet → senha,0.544146 | 0.452074 | 0.345516,False,,False
+word2vec-300d,teste,notebook,lugar de moradia,quarto → casa → bairro → cidade,0.169821 | 0.264250 | 0.459424,False,,False
+word2vec-300d,teste,notebook,argila e artesanato,barro → cerâmica → vaso → flor,0.583807 | 0.299729 | 0.179943,False,,False
+word2vec-300d,teste,notebook,alimentação e acidez,laranja → fruta → limão → azedo,0.518686 | 0.660940 | 0.642588,True,laranja → fruta → azedo,True
+word2vec-300d,teste,notebook,ensino superior e pesquisa,universidade → diploma → formatura → cerimônia,0.271108 | 0.150488 | 0.362944,False,,False
+word2vec-300d,teste,notebook,recreação ao ar livre,pipa → vento → brisa → praia,0.257044 | 0.374091 | 0.237143,False,,False
+word2vec-300d,calibracao,calibrado,panificação,trigo → farinha → massa → pão,0.668457 | 0.314925 | 0.172427,True,trigo → farinha → pão,True
+word2vec-300d,calibracao,calibrado,esportes de raquete,badminton → raquete → tênis → quadra,0.340995 | 0.435324 | 0.356618,True,badminton → raquete → quadra,True
+word2vec-300d,calibracao,calibrado,geografia,mapa → fronteira → país → bandeira,0.031037 | 0.062056 | 0.001739,False,,False
+word2vec-300d,calibracao,calibrado,plantio,semente → germinação → broto → horta,0.439358 | 0.346299 | 0.057375,False,,False
+word2vec-300d,calibracao,calibrado,cozinha,frigideira → fritura → batata → purê,0.602288 | 0.581854 | 0.680434,True,frigideira → fritura → purê,True
+word2vec-300d,calibracao,calibrado,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.481869 | 0.323470 | 0.364888,True,aeroporto → embarque → bagagem,True
+word2vec-300d,calibracao,calibrado,cidadania,eleição → voto → urna → sigilo,0.385072 | 0.256212 | 0.055926,False,,False
+word2vec-300d,calibracao,calibrado,exploração espacial,astronauta → foguete → lançamento → contagem,0.331348 | 0.289491 | 0.168191,True,astronauta → foguete → lançamento → contagem,True
+word2vec-300d,calibracao,calibrado,apoio emocional,medo → coragem → confiança → amizade,0.494969 | 0.475787 | 0.354708,True,medo → coragem → amizade,True
+word2vec-300d,calibracao,calibrado,bordado,agulha → linha → bordado → enfeite,0.265972 | 0.060558 | 0.505022,False,agulha → bordado → enfeite,True
+word2vec-300d,calibracao,calibrado,fotografia,fotógrafo → câmera → retrato → moldura,0.204810 | 0.095195 | 0.228079,False,fotógrafo → câmera → moldura,True
+word2vec-300d,calibracao,calibrado,viagem de carro,motorista → carro → estrada → pedágio,0.677418 | 0.248469 | 0.409046,True,motorista → carro → pedágio,True
+word2vec-300d,teste,calibrado,fases da vida,criança → adulto → idoso,0.380214 | 0.429567,True,criança → adulto → idoso,True
+word2vec-300d,teste,calibrado,separação e finanças,amor → casamento → divórcio → pensão → dinheiro,0.391714 | 0.689188 | 0.190340 | 0.238950,True,amor → casamento → divórcio → pensão → dinheiro,True
+word2vec-300d,teste,calibrado,animais domésticos,cachorro → animal → gato → felino,0.387143 | 0.316818 | 0.523305,True,cachorro → animal → felino,True
+word2vec-300d,teste,calibrado,ciclo da água,oceano → evaporação → nuvem → chuva → enchente,0.233439 | 0.359258 | 0.374536 | 0.542582,True,oceano → evaporação → enchente,True
+word2vec-300d,teste,calibrado,inverno,verão → inverno → frio → casaco,0.805491 | 0.446758 | 0.167413,True,verão → inverno → frio → casaco,True
+word2vec-300d,teste,calibrado,leitura e silêncio,escritor → livro → biblioteca → silêncio,0.362055 | 0.190922 | -0.026573,False,escritor → livro → silêncio,True
+word2vec-300d,teste,calibrado,apresentação musical,violão → corda → música → show,0.357578 | 0.206355 | 0.338968,True,violão → música → show,True
+word2vec-300d,teste,calibrado,cozinha e café,café → filtro → coador → pano,0.145089 | 0.442222 | 0.478928,False,café → coador → pano,True
+word2vec-300d,teste,calibrado,prevenção em saúde,vírus → vacina → imunidade → proteção,0.595686 | 0.245170 | 0.299077,True,vírus → vacina → proteção,True
+word2vec-300d,teste,calibrado,medição do calor,sol → calor → temperatura → termômetro,0.394208 | 0.482555 | 0.333682,True,sol → calor → termômetro,True
+word2vec-300d,teste,calibrado,navegação costeira,navio → porto → farol → luz,0.244386 | 0.199180 | 0.312478,True,navio → farol → luz,True
+word2vec-300d,teste,calibrado,pagamentos e consumo,banco → cartão → compra → loja,0.193906 | 0.194109 | 0.276496,True,banco → cartão → loja,True
+word2vec-300d,teste,calibrado,projeção de filme,cinema → filme → projetor → tela,0.564504 | 0.253565 | 0.470842,True,cinema → projetor → tela,True
+word2vec-300d,teste,calibrado,fotebol e celebração,futebol → gol → torcida → festa,0.149973 | 0.289585 | 0.312908,False,futebol → torcida → festa,True
+word2vec-300d,teste,calibrado,educação formal,professor → aula → prova → nota,0.251794 | 0.152593 | 0.055863,False,,False
+word2vec-300d,teste,calibrado,tecelagem e vestuário,algodão → tecido → camisa → botão,0.417733 | 0.082579 | 0.137109,False,algodão → tecido → botão,True
+word2vec-300d,teste,calibrado,tratamento dentário,dentista → dente → cárie → dor,0.184190 | 0.253367 | 0.423597,True,dentista → dente → dor,True
+word2vec-300d,teste,calibrado,transporte ferroviário,trem → trilho → ferro → metal,0.537690 | 0.350618 | 0.237369,True,trem → trilho → ferro → metal,True
+word2vec-300d,teste,calibrado,criação de abelhas,abelha → colmeia → mel → doce,0.358639 | 0.221484 | 0.337861,True,abelha → mel → doce,True
+word2vec-300d,teste,calibrado,móveis e madeira,árvore → madeira → marceneiro → mesa,0.322407 | 0.154963 | 0.006217,False,árvore → madeira → mesa,True
+word2vec-300d,teste,calibrado,astronomia observacional,planeta → universo → estrela → telescópio,0.471036 | 0.140459 | 0.184409,False,planeta → estrela → telescópio,True
+word2vec-300d,teste,calibrado,paisagem vulcânica,vulcão → lava → rocha → montanha,0.226458 | 0.155653 | 0.190967,False,vulcão → rocha → montanha,True
+word2vec-300d,teste,calibrado,comércio de peixe,anzol → pesca → peixe → mercado,0.282492 | 0.249989 | 0.121679,False,,False
+word2vec-300d,teste,calibrado,solidariedade,empatia → solidariedade → doação → sangue,0.402747 | 0.218733 | 0.303259,True,empatia → solidariedade → doação → sangue,True
+word2vec-300d,teste,calibrado,preparo de compostagem,casca → resíduo → compostagem → adubo → solo,0.231477 | 0.409438 | 0.376760 | 0.309590,True,casca → resíduo → solo,True
+word2vec-300d,teste,calibrado,sinalização e travessia,semáforo → trânsito → pedestre → faixa,0.371273 | 0.375739 | 0.370233,True,semáforo → trânsito → faixa,True
+word2vec-300d,teste,calibrado,cultura de rua brasileira,capoeira → berimbau → roda → dança,0.237793 | 0.310615 | 0.370292,True,capoeira → berimbau → dança,True
+word2vec-300d,teste,calibrado,gírias e economia,grana → troco → moeda → cofre,0.382879 | 0.187482 | 0.124779,False,grana → troco → cofre,True
+word2vec-300d,teste,calibrado,período de repouso,noite → sono → sonho → pesadelo,0.179394 | 0.204194 | 0.580274,True,noite → sono → pesadelo,True
+word2vec-300d,teste,calibrado,aviso de incêndio,fumaça → fogo → bombeiro → sirene,0.505734 | 0.190624 | 0.116249,False,,False
+word2vec-300d,teste,calibrado,tecnologia doméstica,teclado → computador → internet → senha,0.544146 | 0.452074 | 0.345516,True,teclado → computador → senha,True
+word2vec-300d,teste,calibrado,lugar de moradia,quarto → casa → bairro → cidade,0.169821 | 0.264250 | 0.459424,True,quarto → casa → cidade,True
+word2vec-300d,teste,calibrado,argila e artesanato,barro → cerâmica → vaso → flor,0.583807 | 0.299729 | 0.179943,True,barro → vaso → flor,True
+word2vec-300d,teste,calibrado,alimentação e acidez,laranja → fruta → limão → azedo,0.518686 | 0.660940 | 0.642588,True,laranja → fruta → azedo,True
+word2vec-300d,teste,calibrado,ensino superior e pesquisa,universidade → diploma → formatura → cerimônia,0.271108 | 0.150488 | 0.362944,False,universidade → formatura → cerimônia,True
+word2vec-300d,teste,calibrado,recreação ao ar livre,pipa → vento → brisa → praia,0.257044 | 0.374091 | 0.237143,True,pipa → vento → praia,True
+word2vec-50d,calibracao,notebook,panificação,trigo → farinha → massa → pão,0.879677 | 0.446739 | 0.194006,False,trigo → farinha → pão,True
+word2vec-50d,calibracao,notebook,esportes de raquete,badminton → raquete → tênis → quadra,0.274250 | 0.448882 | 0.475922,False,badminton → tênis → quadra,True
+word2vec-50d,calibracao,notebook,geografia,mapa → fronteira → país → bandeira,0.115030 | 0.245162 | 0.142998,False,,False
+word2vec-50d,calibracao,notebook,plantio,semente → germinação → broto → horta,0.599282 | 0.491324 | 0.094943,False,,False
+word2vec-50d,calibracao,notebook,cozinha,frigideira → fritura → batata → purê,0.794856 | 0.803926 | 0.780988,True,frigideira → fritura → purê,True
+word2vec-50d,calibracao,notebook,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.636906 | 0.563684 | 0.502788,True,aeroporto → embarque → bagagem,True
+word2vec-50d,calibracao,notebook,cidadania,eleição → voto → urna → sigilo,0.491152 | 0.310856 | 0.182405,False,eleição → voto → sigilo,True
+word2vec-50d,calibracao,notebook,exploração espacial,astronauta → foguete → lançamento → contagem,0.528731 | 0.555089 | 0.269525,False,,False
+word2vec-50d,calibracao,notebook,apoio emocional,medo → coragem → confiança → amizade,0.710478 | 0.726909 | 0.463610,True,medo → coragem → amizade,True
+word2vec-50d,calibracao,notebook,bordado,agulha → linha → bordado → enfeite,0.590387 | 0.191226 | 0.773998,False,agulha → bordado → enfeite,True
+word2vec-50d,calibracao,notebook,fotografia,fotógrafo → câmera → retrato → moldura,0.187455 | 0.124016 | 0.220984,False,,False
+word2vec-50d,calibracao,notebook,viagem de carro,motorista → carro → estrada → pedágio,0.848222 | 0.383824 | 0.472237,False,motorista → carro → pedágio,True
+word2vec-50d,teste,notebook,fases da vida,criança → adulto → idoso,0.506422 | 0.574838,True,criança → adulto → idoso,True
+word2vec-50d,teste,notebook,separação e finanças,amor → casamento → divórcio → pensão → dinheiro,0.578210 | 0.815285 | 0.285811 | 0.459944,False,,False
+word2vec-50d,teste,notebook,animais domésticos,cachorro → animal → gato → felino,0.447921 | 0.474754 | 0.814746,True,cachorro → animal → felino,True
+word2vec-50d,teste,notebook,ciclo da água,oceano → evaporação → nuvem → chuva → enchente,0.433047 | 0.612041 | 0.592393 | 0.784341,True,oceano → evaporação → enchente,True
+word2vec-50d,teste,notebook,inverno,verão → inverno → frio → casaco,0.835697 | 0.597567 | 0.414011,True,verão → inverno → frio → casaco,True
+word2vec-50d,teste,notebook,leitura e silêncio,escritor → livro → biblioteca → silêncio,0.575070 | 0.245862 | -0.115316,False,,False
+word2vec-50d,teste,notebook,apresentação musical,violão → corda → música → show,0.431682 | 0.324759 | 0.563693,False,violão → música → show,True
+word2vec-50d,teste,notebook,cozinha e café,café → filtro → coador → pano,0.267827 | 0.629083 | 0.686611,False,café → coador → pano,True
+word2vec-50d,teste,notebook,prevenção em saúde,vírus → vacina → imunidade → proteção,0.704352 | 0.505362 | 0.522157,True,vírus → vacina → imunidade → proteção,True
+word2vec-50d,teste,notebook,medição do calor,sol → calor → temperatura → termômetro,0.547633 | 0.696156 | 0.455659,True,sol → calor → termômetro,True
+word2vec-50d,teste,notebook,navegação costeira,navio → porto → farol → luz,0.370454 | 0.528066 | 0.478962,False,navio → farol → luz,True
+word2vec-50d,teste,notebook,pagamentos e consumo,banco → cartão → compra → loja,0.376466 | 0.562877 | 0.573865,False,banco → compra → loja,True
+word2vec-50d,teste,notebook,projeção de filme,cinema → filme → projetor → tela,0.672022 | 0.382584 | 0.651842,False,,False
+word2vec-50d,teste,notebook,fotebol e celebração,futebol → gol → torcida → festa,0.369028 | 0.523994 | 0.446641,False,futebol → torcida → festa,True
+word2vec-50d,teste,notebook,educação formal,professor → aula → prova → nota,0.294423 | 0.147037 | 0.133964,False,,False
+word2vec-50d,teste,notebook,tecelagem e vestuário,algodão → tecido → camisa → botão,0.604994 | 0.062159 | 0.324866,False,algodão → tecido → botão,True
+word2vec-50d,teste,notebook,tratamento dentário,dentista → dente → cárie → dor,0.259692 | 0.438375 | 0.742222,False,,False
+word2vec-50d,teste,notebook,transporte ferroviário,trem → trilho → ferro → metal,0.770655 | 0.440234 | 0.500911,True,trem → ferro → metal,True
+word2vec-50d,teste,notebook,criação de abelhas,abelha → colmeia → mel → doce,0.802946 | 0.565022 | 0.619392,True,abelha → colmeia → doce,True
+word2vec-50d,teste,notebook,móveis e madeira,árvore → madeira → marceneiro → mesa,0.592523 | 0.183525 | 0.091488,False,árvore → madeira → mesa,True
+word2vec-50d,teste,notebook,astronomia observacional,planeta → universo → estrela → telescópio,0.727879 | 0.279071 | 0.397997,False,,False
+word2vec-50d,teste,notebook,paisagem vulcânica,vulcão → lava → rocha → montanha,0.111375 | 0.300103 | 0.199277,False,,False
+word2vec-50d,teste,notebook,comércio de peixe,anzol → pesca → peixe → mercado,0.161063 | 0.292314 | 0.035559,False,,False
+word2vec-50d,teste,notebook,solidariedade,empatia → solidariedade → doação → sangue,0.586102 | 0.291292 | 0.384427,False,,False
+word2vec-50d,teste,notebook,preparo de compostagem,casca → resíduo → compostagem → adubo → solo,0.570979 | 0.599733 | 0.636514 | 0.485091,True,casca → resíduo → solo,True
+word2vec-50d,teste,notebook,sinalização e travessia,semáforo → trânsito → pedestre → faixa,0.634257 | 0.616417 | 0.275438,False,,False
+word2vec-50d,teste,notebook,cultura de rua brasileira,capoeira → berimbau → roda → dança,0.395372 | 0.437023 | 0.539775,False,,False
+word2vec-50d,teste,notebook,gírias e economia,grana → troco → moeda → cofre,0.532799 | 0.334665 | 0.155713,False,,False
+word2vec-50d,teste,notebook,período de repouso,noite → sono → sonho → pesadelo,0.167404 | 0.391414 | 0.812067,False,,False
+word2vec-50d,teste,notebook,aviso de incêndio,fumaça → fogo → bombeiro → sirene,0.689408 | 0.465843 | 0.319720,False,,False
+word2vec-50d,teste,notebook,tecnologia doméstica,teclado → computador → internet → senha,0.724409 | 0.660260 | 0.698941,True,teclado → computador → senha,True
+word2vec-50d,teste,notebook,lugar de moradia,quarto → casa → bairro → cidade,0.234983 | 0.299825 | 0.613452,False,,False
+word2vec-50d,teste,notebook,argila e artesanato,barro → cerâmica → vaso → flor,0.784118 | 0.414155 | 0.266405,False,,False
+word2vec-50d,teste,notebook,alimentação e acidez,laranja → fruta → limão → azedo,0.722737 | 0.758960 | 0.805923,True,laranja → fruta → azedo,True
+word2vec-50d,teste,notebook,ensino superior e pesquisa,universidade → diploma → formatura → cerimônia,0.358317 | 0.258246 | 0.680871,False,,False
+word2vec-50d,teste,notebook,recreação ao ar livre,pipa → vento → brisa → praia,0.424396 | 0.446576 | 0.457143,True,pipa → brisa → praia,True
+word2vec-50d,calibracao,calibrado,panificação,trigo → farinha → massa → pão,0.879677 | 0.446739 | 0.194006,False,trigo → farinha → pão,True
+word2vec-50d,calibracao,calibrado,esportes de raquete,badminton → raquete → tênis → quadra,0.274250 | 0.448882 | 0.475922,False,badminton → tênis → quadra,True
+word2vec-50d,calibracao,calibrado,geografia,mapa → fronteira → país → bandeira,0.115030 | 0.245162 | 0.142998,False,,False
+word2vec-50d,calibracao,calibrado,plantio,semente → germinação → broto → horta,0.599282 | 0.491324 | 0.094943,False,,False
+word2vec-50d,calibracao,calibrado,cozinha,frigideira → fritura → batata → purê,0.794856 | 0.803926 | 0.780988,True,frigideira → fritura → purê,True
+word2vec-50d,calibracao,calibrado,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.636906 | 0.563684 | 0.502788,True,aeroporto → embarque → bagagem,True
+word2vec-50d,calibracao,calibrado,cidadania,eleição → voto → urna → sigilo,0.491152 | 0.310856 | 0.182405,False,eleição → voto → sigilo,True
+word2vec-50d,calibracao,calibrado,exploração espacial,astronauta → foguete → lançamento → contagem,0.528731 | 0.555089 | 0.269525,False,,False
+word2vec-50d,calibracao,calibrado,apoio emocional,medo → coragem → confiança → amizade,0.710478 | 0.726909 | 0.463610,True,medo → coragem → amizade,True
+word2vec-50d,calibracao,calibrado,bordado,agulha → linha → bordado → enfeite,0.590387 | 0.191226 | 0.773998,False,agulha → bordado → enfeite,True
+word2vec-50d,calibracao,calibrado,fotografia,fotógrafo → câmera → retrato → moldura,0.187455 | 0.124016 | 0.220984,False,,False
+word2vec-50d,calibracao,calibrado,viagem de carro,motorista → carro → estrada → pedágio,0.848222 | 0.383824 | 0.472237,False,motorista → carro → pedágio,True
+word2vec-50d,teste,calibrado,fases da vida,criança → adulto → idoso,0.506422 | 0.574838,True,criança → adulto → idoso,True
+word2vec-50d,teste,calibrado,separação e finanças,amor → casamento → divórcio → pensão → dinheiro,0.578210 | 0.815285 | 0.285811 | 0.459944,False,,False
+word2vec-50d,teste,calibrado,animais domésticos,cachorro → animal → gato → felino,0.447921 | 0.474754 | 0.814746,True,cachorro → animal → felino,True
+word2vec-50d,teste,calibrado,ciclo da água,oceano → evaporação → nuvem → chuva → enchente,0.433047 | 0.612041 | 0.592393 | 0.784341,False,oceano → chuva → enchente,True
+word2vec-50d,teste,calibrado,inverno,verão → inverno → frio → casaco,0.835697 | 0.597567 | 0.414011,False,,False
+word2vec-50d,teste,calibrado,leitura e silêncio,escritor → livro → biblioteca → silêncio,0.575070 | 0.245862 | -0.115316,False,,False
+word2vec-50d,teste,calibrado,apresentação musical,violão → corda → música → show,0.431682 | 0.324759 | 0.563693,False,violão → música → show,True
+word2vec-50d,teste,calibrado,cozinha e café,café → filtro → coador → pano,0.267827 | 0.629083 | 0.686611,False,café → coador → pano,True
+word2vec-50d,teste,calibrado,prevenção em saúde,vírus → vacina → imunidade → proteção,0.704352 | 0.505362 | 0.522157,True,vírus → vacina → imunidade → proteção,True
+word2vec-50d,teste,calibrado,medição do calor,sol → calor → temperatura → termômetro,0.547633 | 0.696156 | 0.455659,True,sol → calor → termômetro,True
+word2vec-50d,teste,calibrado,navegação costeira,navio → porto → farol → luz,0.370454 | 0.528066 | 0.478962,False,navio → farol → luz,True
+word2vec-50d,teste,calibrado,pagamentos e consumo,banco → cartão → compra → loja,0.376466 | 0.562877 | 0.573865,False,banco → compra → loja,True
+word2vec-50d,teste,calibrado,projeção de filme,cinema → filme → projetor → tela,0.672022 | 0.382584 | 0.651842,False,,False
+word2vec-50d,teste,calibrado,fotebol e celebração,futebol → gol → torcida → festa,0.369028 | 0.523994 | 0.446641,False,,False
+word2vec-50d,teste,calibrado,educação formal,professor → aula → prova → nota,0.294423 | 0.147037 | 0.133964,False,,False
+word2vec-50d,teste,calibrado,tecelagem e vestuário,algodão → tecido → camisa → botão,0.604994 | 0.062159 | 0.324866,False,algodão → tecido → botão,True
+word2vec-50d,teste,calibrado,tratamento dentário,dentista → dente → cárie → dor,0.259692 | 0.438375 | 0.742222,False,,False
+word2vec-50d,teste,calibrado,transporte ferroviário,trem → trilho → ferro → metal,0.770655 | 0.440234 | 0.500911,True,trem → ferro → metal,True
+word2vec-50d,teste,calibrado,criação de abelhas,abelha → colmeia → mel → doce,0.802946 | 0.565022 | 0.619392,True,abelha → colmeia → doce,True
+word2vec-50d,teste,calibrado,móveis e madeira,árvore → madeira → marceneiro → mesa,0.592523 | 0.183525 | 0.091488,False,árvore → madeira → mesa,True
+word2vec-50d,teste,calibrado,astronomia observacional,planeta → universo → estrela → telescópio,0.727879 | 0.279071 | 0.397997,False,,False
+word2vec-50d,teste,calibrado,paisagem vulcânica,vulcão → lava → rocha → montanha,0.111375 | 0.300103 | 0.199277,False,,False
+word2vec-50d,teste,calibrado,comércio de peixe,anzol → pesca → peixe → mercado,0.161063 | 0.292314 | 0.035559,False,,False
+word2vec-50d,teste,calibrado,solidariedade,empatia → solidariedade → doação → sangue,0.586102 | 0.291292 | 0.384427,False,,False
+word2vec-50d,teste,calibrado,preparo de compostagem,casca → resíduo → compostagem → adubo → solo,0.570979 | 0.599733 | 0.636514 | 0.485091,True,casca → resíduo → solo,True
+word2vec-50d,teste,calibrado,sinalização e travessia,semáforo → trânsito → pedestre → faixa,0.634257 | 0.616417 | 0.275438,False,,False
+word2vec-50d,teste,calibrado,cultura de rua brasileira,capoeira → berimbau → roda → dança,0.395372 | 0.437023 | 0.539775,False,,False
+word2vec-50d,teste,calibrado,gírias e economia,grana → troco → moeda → cofre,0.532799 | 0.334665 | 0.155713,False,,False
+word2vec-50d,teste,calibrado,período de repouso,noite → sono → sonho → pesadelo,0.167404 | 0.391414 | 0.812067,False,,False
+word2vec-50d,teste,calibrado,aviso de incêndio,fumaça → fogo → bombeiro → sirene,0.689408 | 0.465843 | 0.319720,False,,False
+word2vec-50d,teste,calibrado,tecnologia doméstica,teclado → computador → internet → senha,0.724409 | 0.660260 | 0.698941,True,teclado → computador → senha,True
+word2vec-50d,teste,calibrado,lugar de moradia,quarto → casa → bairro → cidade,0.234983 | 0.299825 | 0.613452,False,,False
+word2vec-50d,teste,calibrado,argila e artesanato,barro → cerâmica → vaso → flor,0.784118 | 0.414155 | 0.266405,False,,False
+word2vec-50d,teste,calibrado,alimentação e acidez,laranja → fruta → limão → azedo,0.722737 | 0.758960 | 0.805923,True,laranja → fruta → azedo,True
+word2vec-50d,teste,calibrado,ensino superior e pesquisa,universidade → diploma → formatura → cerimônia,0.358317 | 0.258246 | 0.680871,False,,False
+word2vec-50d,teste,calibrado,recreação ao ar livre,pipa → vento → brisa → praia,0.424396 | 0.446576 | 0.457143,False,pipa → brisa → praia,True
+fasttext-50d,calibracao,notebook,panificação,trigo → farinha → massa → pão,0.925326 | 0.618978 | 0.608932,True,trigo → farinha → pão,True
+fasttext-50d,calibracao,notebook,esportes de raquete,badminton → raquete → tênis → quadra,0.601638 | 0.779253 | 0.773184,True,badminton → raquete → quadra,True
+fasttext-50d,calibracao,notebook,geografia,mapa → fronteira → país → bandeira,0.508821 | 0.569119 | 0.418654,True,mapa → fronteira → bandeira,True
+fasttext-50d,calibracao,notebook,plantio,semente → germinação → broto → horta,0.774004 | 0.654720 | 0.558129,True,semente → broto → horta,True
+fasttext-50d,calibracao,notebook,cozinha,frigideira → fritura → batata → purê,0.815136 | 0.774842 | 0.883830,True,frigideira → fritura → purê,True
+fasttext-50d,calibracao,notebook,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.803701 | 0.697128 | 0.709929,True,aeroporto → embarque → bagagem,True
+fasttext-50d,calibracao,notebook,cidadania,eleição → voto → urna → sigilo,0.764273 | 0.588253 | 0.299983,False,eleição → voto → sigilo,True
+fasttext-50d,calibracao,notebook,exploração espacial,astronauta → foguete → lançamento → contagem,0.745640 | 0.696107 | 0.482667,True,astronauta → foguete → lançamento → contagem,True
+fasttext-50d,calibracao,notebook,apoio emocional,medo → coragem → confiança → amizade,0.769054 | 0.779090 | 0.658410,True,medo → coragem → amizade,True
+fasttext-50d,calibracao,notebook,bordado,agulha → linha → bordado → enfeite,0.584084 | 0.466147 | 0.854470,True,agulha → bordado → enfeite,True
+fasttext-50d,calibracao,notebook,fotografia,fotógrafo → câmera → retrato → moldura,0.536985 | 0.456947 | 0.597964,True,fotógrafo → câmera → moldura,True
+fasttext-50d,calibracao,notebook,viagem de carro,motorista → carro → estrada → pedágio,0.855200 | 0.690798 | 0.679810,True,motorista → carro → pedágio,True
+fasttext-50d,teste,notebook,fases da vida,criança → adulto → idoso,0.756867 | 0.662838,True,criança → adulto → idoso,True
+fasttext-50d,teste,notebook,separação e finanças,amor → casamento → divórcio → pensão → dinheiro,0.735774 | 0.849982 | 0.576422 | 0.589834,True,amor → casamento → dinheiro,True
+fasttext-50d,teste,notebook,animais domésticos,cachorro → animal → gato → felino,0.738146 | 0.779234 | 0.774456,True,cachorro → animal → felino,True
+fasttext-50d,teste,notebook,ciclo da água,oceano → evaporação → nuvem → chuva → enchente,0.525683 | 0.596784 | 0.623509 | 0.792417,True,oceano → evaporação → enchente,True
+fasttext-50d,teste,notebook,inverno,verão → inverno → frio → casaco,0.915300 | 0.690232 | 0.641077,True,verão → inverno → frio → casaco,True
+fasttext-50d,teste,notebook,leitura e silêncio,escritor → livro → biblioteca → silêncio,0.753134 | 0.639400 | 0.354420,False,escritor → livro → silêncio,True
+fasttext-50d,teste,notebook,apresentação musical,violão → corda → música → show,0.723301 | 0.537758 | 0.641525,True,violão → música → show,True
+fasttext-50d,teste,notebook,cozinha e café,café → filtro → coador → pano,0.534863 | 0.754058 | 0.700557,True,café → filtro → pano,True
+fasttext-50d,teste,notebook,prevenção em saúde,vírus → vacina → imunidade → proteção,0.798585 | 0.507733 | 0.555888,True,vírus → vacina → proteção,True
+fasttext-50d,teste,notebook,medição do calor,sol → calor → temperatura → termômetro,0.752859 | 0.795346 | 0.697206,True,sol → calor → termômetro,True
+fasttext-50d,teste,notebook,navegação costeira,navio → porto → farol → luz,0.454743 | 0.524951 | 0.620332,True,navio → porto → luz,True
+fasttext-50d,teste,notebook,pagamentos e consumo,banco → cartão → compra → loja,0.574719 | 0.569073 | 0.629915,True,banco → cartão → loja,True
+fasttext-50d,teste,notebook,projeção de filme,cinema → filme → projetor → tela,0.819212 | 0.531982 | 0.853880,True,cinema → filme → tela,True
+fasttext-50d,teste,notebook,fotebol e celebração,futebol → gol → torcida → festa,0.527542 | 0.604355 | 0.593697,True,futebol → torcida → festa,True
+fasttext-50d,teste,notebook,educação formal,professor → aula → prova → nota,0.687727 | 0.527452 | 0.475478,True,professor → aula → nota,True
+fasttext-50d,teste,notebook,tecelagem e vestuário,algodão → tecido → camisa → botão,0.633919 | 0.440935 | 0.594945,True,algodão → tecido → botão,True
+fasttext-50d,teste,notebook,tratamento dentário,dentista → dente → cárie → dor,0.623445 | 0.598510 | 0.671912,True,dentista → dente → dor,True
+fasttext-50d,teste,notebook,transporte ferroviário,trem → trilho → ferro → metal,0.801902 | 0.595883 | 0.515686,True,trem → trilho → metal,True
+fasttext-50d,teste,notebook,criação de abelhas,abelha → colmeia → mel → doce,0.772786 | 0.681978 | 0.803146,True,abelha → colmeia → doce,True
+fasttext-50d,teste,notebook,móveis e madeira,árvore → madeira → marceneiro → mesa,0.575007 | 0.481583 | 0.508018,True,árvore → madeira → mesa,True
+fasttext-50d,teste,notebook,astronomia observacional,planeta → universo → estrela → telescópio,0.802727 | 0.639482 | 0.535210,True,planeta → universo → telescópio,True
+fasttext-50d,teste,notebook,paisagem vulcânica,vulcão → lava → rocha → montanha,0.535862 | 0.583737 | 0.410447,True,vulcão → lava → rocha → montanha,True
+fasttext-50d,teste,notebook,comércio de peixe,anzol → pesca → peixe → mercado,0.679764 | 0.666834 | 0.432033,True,anzol → peixe → mercado,True
+fasttext-50d,teste,notebook,solidariedade,empatia → solidariedade → doação → sangue,0.646986 | 0.450201 | 0.521357,True,empatia → solidariedade → doação → sangue,True
+fasttext-50d,teste,notebook,preparo de compostagem,casca → resíduo → compostagem → adubo → solo,0.675230 | 0.743876 | 0.716014 | 0.510169,True,casca → resíduo → solo,True
+fasttext-50d,teste,notebook,sinalização e travessia,semáforo → trânsito → pedestre → faixa,0.766956 | 0.696717 | 0.471979,True,semáforo → pedestre → faixa,True
+fasttext-50d,teste,notebook,cultura de rua brasileira,capoeira → berimbau → roda → dança,0.596140 | 0.558049 | 0.711675,True,capoeira → berimbau → dança,True
+fasttext-50d,teste,notebook,gírias e economia,grana → troco → moeda → cofre,0.748374 | 0.546162 | 0.516342,True,grana → troco → cofre,True
+fasttext-50d,teste,notebook,período de repouso,noite → sono → sonho → pesadelo,0.656962 | 0.596435 | 0.839824,True,noite → sono → pesadelo,True
+fasttext-50d,teste,notebook,aviso de incêndio,fumaça → fogo → bombeiro → sirene,0.774755 | 0.657153 | 0.550865,True,fumaça → fogo → sirene,True
+fasttext-50d,teste,notebook,tecnologia doméstica,teclado → computador → internet → senha,0.703143 | 0.768827 | 0.682728,True,teclado → computador → senha,True
+fasttext-50d,teste,notebook,lugar de moradia,quarto → casa → bairro → cidade,0.719262 | 0.590585 | 0.760264,True,quarto → casa → cidade,True
+fasttext-50d,teste,notebook,argila e artesanato,barro → cerâmica → vaso → flor,0.744207 | 0.532701 | 0.514280,True,barro → cerâmica → flor,True
+fasttext-50d,teste,notebook,alimentação e acidez,laranja → fruta → limão → azedo,0.731666 | 0.858102 | 0.816820,True,laranja → fruta → azedo,True
+fasttext-50d,teste,notebook,ensino superior e pesquisa,universidade → diploma → formatura → cerimônia,0.573766 | 0.507763 | 0.723127,True,universidade → formatura → cerimônia,True
+fasttext-50d,teste,notebook,recreação ao ar livre,pipa → vento → brisa → praia,0.626385 | 0.750241 | 0.645006,True,pipa → vento → praia,True
+fasttext-50d,calibracao,calibrado,panificação,trigo → farinha → massa → pão,0.925326 | 0.618978 | 0.608932,True,trigo → farinha → pão,True
+fasttext-50d,calibracao,calibrado,esportes de raquete,badminton → raquete → tênis → quadra,0.601638 | 0.779253 | 0.773184,True,badminton → raquete → quadra,True
+fasttext-50d,calibracao,calibrado,geografia,mapa → fronteira → país → bandeira,0.508821 | 0.569119 | 0.418654,False,,False
+fasttext-50d,calibracao,calibrado,plantio,semente → germinação → broto → horta,0.774004 | 0.654720 | 0.558129,False,,False
+fasttext-50d,calibracao,calibrado,cozinha,frigideira → fritura → batata → purê,0.815136 | 0.774842 | 0.883830,True,frigideira → fritura → purê,True
+fasttext-50d,calibracao,calibrado,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.803701 | 0.697128 | 0.709929,True,aeroporto → embarque → bagagem,True
+fasttext-50d,calibracao,calibrado,cidadania,eleição → voto → urna → sigilo,0.764273 | 0.588253 | 0.299983,False,,False
+fasttext-50d,calibracao,calibrado,exploração espacial,astronauta → foguete → lançamento → contagem,0.745640 | 0.696107 | 0.482667,False,,False
+fasttext-50d,calibracao,calibrado,apoio emocional,medo → coragem → confiança → amizade,0.769054 | 0.779090 | 0.658410,True,medo → coragem → amizade,True
+fasttext-50d,calibracao,calibrado,bordado,agulha → linha → bordado → enfeite,0.584084 | 0.466147 | 0.854470,False,agulha → bordado → enfeite,True
+fasttext-50d,calibracao,calibrado,fotografia,fotógrafo → câmera → retrato → moldura,0.536985 | 0.456947 | 0.597964,False,fotógrafo → retrato → moldura,True
+fasttext-50d,calibracao,calibrado,viagem de carro,motorista → carro → estrada → pedágio,0.855200 | 0.690798 | 0.679810,True,motorista → carro → pedágio,True
+fasttext-50d,teste,calibrado,fases da vida,criança → adulto → idoso,0.756867 | 0.662838,True,criança → adulto → idoso,True
+fasttext-50d,teste,calibrado,separação e finanças,amor → casamento → divórcio → pensão → dinheiro,0.735774 | 0.849982 | 0.576422 | 0.589834,False,amor → casamento → dinheiro,True
+fasttext-50d,teste,calibrado,animais domésticos,cachorro → animal → gato → felino,0.738146 | 0.779234 | 0.774456,True,cachorro → animal → felino,True
+fasttext-50d,teste,calibrado,ciclo da água,oceano → evaporação → nuvem → chuva → enchente,0.525683 | 0.596784 | 0.623509 | 0.792417,False,oceano → nuvem → chuva → enchente,True
+fasttext-50d,teste,calibrado,inverno,verão → inverno → frio → casaco,0.915300 | 0.690232 | 0.641077,True,verão → inverno → frio → casaco,True
+fasttext-50d,teste,calibrado,leitura e silêncio,escritor → livro → biblioteca → silêncio,0.753134 | 0.639400 | 0.354420,False,,False
+fasttext-50d,teste,calibrado,apresentação musical,violão → corda → música → show,0.723301 | 0.537758 | 0.641525,False,violão → música → show,True
+fasttext-50d,teste,calibrado,cozinha e café,café → filtro → coador → pano,0.534863 | 0.754058 | 0.700557,False,café → coador → pano,True
+fasttext-50d,teste,calibrado,prevenção em saúde,vírus → vacina → imunidade → proteção,0.798585 | 0.507733 | 0.555888,False,,False
+fasttext-50d,teste,calibrado,medição do calor,sol → calor → temperatura → termômetro,0.752859 | 0.795346 | 0.697206,True,sol → calor → termômetro,True
+fasttext-50d,teste,calibrado,navegação costeira,navio → porto → farol → luz,0.454743 | 0.524951 | 0.620332,False,navio → farol → luz,True
+fasttext-50d,teste,calibrado,pagamentos e consumo,banco → cartão → compra → loja,0.574719 | 0.569073 | 0.629915,False,banco → compra → loja,True
+fasttext-50d,teste,calibrado,projeção de filme,cinema → filme → projetor → tela,0.819212 | 0.531982 | 0.853880,False,,False
+fasttext-50d,teste,calibrado,fotebol e celebração,futebol → gol → torcida → festa,0.527542 | 0.604355 | 0.593697,False,futebol → torcida → festa,True
+fasttext-50d,teste,calibrado,educação formal,professor → aula → prova → nota,0.687727 | 0.527452 | 0.475478,False,,False
+fasttext-50d,teste,calibrado,tecelagem e vestuário,algodão → tecido → camisa → botão,0.633919 | 0.440935 | 0.594945,False,,False
+fasttext-50d,teste,calibrado,tratamento dentário,dentista → dente → cárie → dor,0.623445 | 0.598510 | 0.671912,True,dentista → dente → dor,True
+fasttext-50d,teste,calibrado,transporte ferroviário,trem → trilho → ferro → metal,0.801902 | 0.595883 | 0.515686,False,,False
+fasttext-50d,teste,calibrado,criação de abelhas,abelha → colmeia → mel → doce,0.772786 | 0.681978 | 0.803146,True,abelha → mel → doce,True
+fasttext-50d,teste,calibrado,móveis e madeira,árvore → madeira → marceneiro → mesa,0.575007 | 0.481583 | 0.508018,False,,False
+fasttext-50d,teste,calibrado,astronomia observacional,planeta → universo → estrela → telescópio,0.802727 | 0.639482 | 0.535210,False,,False
+fasttext-50d,teste,calibrado,paisagem vulcânica,vulcão → lava → rocha → montanha,0.535862 | 0.583737 | 0.410447,False,,False
+fasttext-50d,teste,calibrado,comércio de peixe,anzol → pesca → peixe → mercado,0.679764 | 0.666834 | 0.432033,False,,False
+fasttext-50d,teste,calibrado,solidariedade,empatia → solidariedade → doação → sangue,0.646986 | 0.450201 | 0.521357,False,,False
+fasttext-50d,teste,calibrado,preparo de compostagem,casca → resíduo → compostagem → adubo → solo,0.675230 | 0.743876 | 0.716014 | 0.510169,False,,False
+fasttext-50d,teste,calibrado,sinalização e travessia,semáforo → trânsito → pedestre → faixa,0.766956 | 0.696717 | 0.471979,False,,False
+fasttext-50d,teste,calibrado,cultura de rua brasileira,capoeira → berimbau → roda → dança,0.596140 | 0.558049 | 0.711675,False,capoeira → berimbau → dança,True
+fasttext-50d,teste,calibrado,gírias e economia,grana → troco → moeda → cofre,0.748374 | 0.546162 | 0.516342,False,grana → troco → cofre,True
+fasttext-50d,teste,calibrado,período de repouso,noite → sono → sonho → pesadelo,0.656962 | 0.596435 | 0.839824,True,noite → sono → pesadelo,True
+fasttext-50d,teste,calibrado,aviso de incêndio,fumaça → fogo → bombeiro → sirene,0.774755 | 0.657153 | 0.550865,False,,False
+fasttext-50d,teste,calibrado,tecnologia doméstica,teclado → computador → internet → senha,0.703143 | 0.768827 | 0.682728,True,teclado → computador → senha,True
+fasttext-50d,teste,calibrado,lugar de moradia,quarto → casa → bairro → cidade,0.719262 | 0.590585 | 0.760264,True,quarto → casa → cidade,True
+fasttext-50d,teste,calibrado,argila e artesanato,barro → cerâmica → vaso → flor,0.744207 | 0.532701 | 0.514280,False,,False
+fasttext-50d,teste,calibrado,alimentação e acidez,laranja → fruta → limão → azedo,0.731666 | 0.858102 | 0.816820,True,laranja → fruta → azedo,True
+fasttext-50d,teste,calibrado,ensino superior e pesquisa,universidade → diploma → formatura → cerimônia,0.573766 | 0.507763 | 0.723127,False,,False
+fasttext-50d,teste,calibrado,recreação ao ar livre,pipa → vento → brisa → praia,0.626385 | 0.750241 | 0.645006,True,pipa → vento → praia,True
+glove-50d,calibracao,notebook,panificação,trigo → farinha → massa → pão,0.840165 | 0.483173 | 0.410319,True,trigo → farinha → pão,True
+glove-50d,calibracao,notebook,esportes de raquete,badminton → raquete → tênis → quadra,0.471310 | 0.541849 | 0.679477,True,badminton → raquete → quadra,True
+glove-50d,calibracao,notebook,geografia,mapa → fronteira → país → bandeira,0.385321 | 0.534328 | 0.502550,False,mapa → país → fronteira → bandeira,True
+glove-50d,calibracao,notebook,plantio,semente → germinação → broto → horta,0.544342 | 0.305640 | 0.085281,False,,False
+glove-50d,calibracao,notebook,cozinha,frigideira → fritura → batata → purê,0.586721 | 0.464756 | 0.695977,True,frigideira → fritura → purê,True
+glove-50d,calibracao,notebook,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.711405 | 0.559470 | 0.541465,True,aeroporto → embarque → bagagem,True
+glove-50d,calibracao,notebook,cidadania,eleição → voto → urna → sigilo,0.810435 | 0.440148 | 0.314658,False,,False
+glove-50d,calibracao,notebook,exploração espacial,astronauta → foguete → lançamento → contagem,0.465044 | 0.531001 | 0.445180,True,astronauta → foguete → lançamento → contagem,True
+glove-50d,calibracao,notebook,apoio emocional,medo → coragem → confiança → amizade,0.636350 | 0.709204 | 0.552589,True,medo → coragem → amizade,True
+glove-50d,calibracao,notebook,bordado,agulha → linha → bordado → enfeite,0.340875 | 0.034482 | 0.666076,False,agulha → bordado → enfeite,True
+glove-50d,calibracao,notebook,fotografia,fotógrafo → câmera → retrato → moldura,0.350062 | 0.309154 | 0.413318,False,fotógrafo → retrato → moldura,True
+glove-50d,calibracao,notebook,viagem de carro,motorista → carro → estrada → pedágio,0.831288 | 0.642905 | 0.445667,True,motorista → carro → estrada → pedágio,True
+glove-50d,teste,notebook,fases da vida,criança → adulto → idoso,0.615878 | 0.559850,True,criança → adulto → idoso,True
+glove-50d,teste,notebook,separação e finanças,amor → casamento → divórcio → pensão → dinheiro,0.640153 | 0.831266 | 0.491055 | 0.484065,True,amor → casamento → dinheiro,True
+glove-50d,teste,notebook,animais domésticos,cachorro → animal → gato → felino,0.616844 | 0.609285 | 0.549148,True,cachorro → animal → felino,True
+glove-50d,teste,notebook,ciclo da água,oceano → evaporação → nuvem → chuva → enchente,0.324938 | 0.449071 | 0.521567 | 0.645460,False,oceano → nuvem → evaporação → enchente,True
+glove-50d,teste,notebook,inverno,verão → inverno → frio → casaco,0.926930 | 0.703470 | 0.404220,True,verão → inverno → frio → casaco,True
+glove-50d,teste,notebook,leitura e silêncio,escritor → livro → biblioteca → silêncio,0.709672 | 0.505238 | 0.118316,False,escritor → livro → silêncio,True
+glove-50d,teste,notebook,apresentação musical,violão → corda → música → show,0.547999 | 0.354211 | 0.702769,False,violão → música → show,True
+glove-50d,teste,notebook,cozinha e café,café → filtro → coador → pano,0.260226 | 0.366767 | 0.501713,False,,False
+glove-50d,teste,notebook,prevenção em saúde,vírus → vacina → imunidade → proteção,0.697343 | 0.366738 | 0.525719,False,vírus → vacina → proteção,True
+glove-50d,teste,notebook,medição do calor,sol → calor → temperatura → termômetro,0.714661 | 0.818493 | 0.518358,True,sol → calor → termômetro,True
+glove-50d,teste,notebook,navegação costeira,navio → porto → farol → luz,0.435976 | 0.417054 | 0.486421,True,navio → porto → luz,True
+glove-50d,teste,notebook,pagamentos e consumo,banco → cartão → compra → loja,0.537156 | 0.619390 | 0.643128,True,banco → cartão → loja,True
+glove-50d,teste,notebook,projeção de filme,cinema → filme → projetor → tela,0.791136 | 0.313980 | 0.564778,False,cinema → filme → tela,True
+glove-50d,teste,notebook,fotebol e celebração,futebol → gol → torcida → festa,0.520321 | 0.612761 | 0.577531,True,futebol → gol → torcida → festa,True
+glove-50d,teste,notebook,educação formal,professor → aula → prova → nota,0.572261 | 0.447767 | 0.564190,True,professor → aula → prova → nota,True
+glove-50d,teste,notebook,tecelagem e vestuário,algodão → tecido → camisa → botão,0.568257 | 0.240510 | 0.371195,False,,False
+glove-50d,teste,notebook,tratamento dentário,dentista → dente → cárie → dor,0.268810 | 0.496501 | 0.391922,False,,False
+glove-50d,teste,notebook,transporte ferroviário,trem → trilho → ferro → metal,0.697379 | 0.212611 | 0.551927,False,trem → ferro → metal,True
+glove-50d,teste,notebook,criação de abelhas,abelha → colmeia → mel → doce,0.636004 | 0.385409 | 0.728814,False,abelha → mel → doce,True
+glove-50d,teste,notebook,móveis e madeira,árvore → madeira → marceneiro → mesa,0.608057 | 0.019065 | -0.072121,False,árvore → madeira → mesa,True
+glove-50d,teste,notebook,astronomia observacional,planeta → universo → estrela → telescópio,0.762283 | 0.560761 | 0.326651,False,,False
+glove-50d,teste,notebook,paisagem vulcânica,vulcão → lava → rocha → montanha,0.359526 | 0.541686 | 0.353545,False,,False
+glove-50d,teste,notebook,comércio de peixe,anzol → pesca → peixe → mercado,0.296376 | 0.567419 | 0.359911,False,anzol → peixe → pesca → mercado,True
+glove-50d,teste,notebook,solidariedade,empatia → solidariedade → doação → sangue,0.493220 | 0.349062 | 0.466056,False,,False
+glove-50d,teste,notebook,preparo de compostagem,casca → resíduo → compostagem → adubo → solo,0.393370 | 0.448949 | 0.348594 | 0.221350,False,,False
+glove-50d,teste,notebook,sinalização e travessia,semáforo → trânsito → pedestre → faixa,0.565507 | 0.584737 | 0.305949,False,,False
+glove-50d,teste,notebook,cultura de rua brasileira,capoeira → berimbau → roda → dança,0.499671 | 0.155729 | 0.572517,False,,False
+glove-50d,teste,notebook,gírias e economia,grana → troco → moeda → cofre,0.625927 | 0.414735 | 0.278373,False,grana → troco → cofre,True
+glove-50d,teste,notebook,período de repouso,noite → sono → sonho → pesadelo,0.455860 | 0.466463 | 0.703486,True,noite → sono → pesadelo,True
+glove-50d,teste,notebook,aviso de incêndio,fumaça → fogo → bombeiro → sirene,0.727679 | 0.372464 | 0.129636,False,,False
+glove-50d,teste,notebook,tecnologia doméstica,teclado → computador → internet → senha,0.631782 | 0.707733 | 0.452264,True,teclado → computador → senha,True
+glove-50d,teste,notebook,lugar de moradia,quarto → casa → bairro → cidade,0.710732 | 0.636350 | 0.763681,True,quarto → casa → cidade,True
+glove-50d,teste,notebook,argila e artesanato,barro → cerâmica → vaso → flor,0.737768 | 0.467736 | 0.420593,True,barro → cerâmica → flor,True
+glove-50d,teste,notebook,alimentação e acidez,laranja → fruta → limão → azedo,0.667147 | 0.716681 | 0.700411,True,laranja → fruta → azedo,True
+glove-50d,teste,notebook,ensino superior e pesquisa,universidade → diploma → formatura → cerimônia,0.532122 | 0.406573 | 0.657370,True,universidade → formatura → cerimônia,True
+glove-50d,teste,notebook,recreação ao ar livre,pipa → vento → brisa → praia,0.348001 | 0.520821 | 0.423485,False,pipa → brisa → vento → praia,True
+glove-50d,calibracao,calibrado,panificação,trigo → farinha → massa → pão,0.840165 | 0.483173 | 0.410319,True,trigo → farinha → pão,True
+glove-50d,calibracao,calibrado,esportes de raquete,badminton → raquete → tênis → quadra,0.471310 | 0.541849 | 0.679477,True,badminton → raquete → quadra,True
+glove-50d,calibracao,calibrado,geografia,mapa → fronteira → país → bandeira,0.385321 | 0.534328 | 0.502550,True,mapa → fronteira → bandeira,True
+glove-50d,calibracao,calibrado,plantio,semente → germinação → broto → horta,0.544342 | 0.305640 | 0.085281,False,,False
+glove-50d,calibracao,calibrado,cozinha,frigideira → fritura → batata → purê,0.586721 | 0.464756 | 0.695977,True,frigideira → fritura → purê,True
+glove-50d,calibracao,calibrado,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.711405 | 0.559470 | 0.541465,True,aeroporto → embarque → bagagem,True
+glove-50d,calibracao,calibrado,cidadania,eleição → voto → urna → sigilo,0.810435 | 0.440148 | 0.314658,True,eleição → voto → sigilo,True
+glove-50d,calibracao,calibrado,exploração espacial,astronauta → foguete → lançamento → contagem,0.465044 | 0.531001 | 0.445180,True,astronauta → foguete → lançamento → contagem,True
+glove-50d,calibracao,calibrado,apoio emocional,medo → coragem → confiança → amizade,0.636350 | 0.709204 | 0.552589,True,medo → coragem → amizade,True
+glove-50d,calibracao,calibrado,bordado,agulha → linha → bordado → enfeite,0.340875 | 0.034482 | 0.666076,False,agulha → bordado → enfeite,True
+glove-50d,calibracao,calibrado,fotografia,fotógrafo → câmera → retrato → moldura,0.350062 | 0.309154 | 0.413318,True,fotógrafo → câmera → moldura,True
+glove-50d,calibracao,calibrado,viagem de carro,motorista → carro → estrada → pedágio,0.831288 | 0.642905 | 0.445667,True,motorista → carro → pedágio,True
+glove-50d,teste,calibrado,fases da vida,criança → adulto → idoso,0.615878 | 0.559850,True,criança → adulto → idoso,True
+glove-50d,teste,calibrado,separação e finanças,amor → casamento → divórcio → pensão → dinheiro,0.640153 | 0.831266 | 0.491055 | 0.484065,True,amor → casamento → dinheiro,True
+glove-50d,teste,calibrado,animais domésticos,cachorro → animal → gato → felino,0.616844 | 0.609285 | 0.549148,True,cachorro → animal → felino,True
+glove-50d,teste,calibrado,ciclo da água,oceano → evaporação → nuvem → chuva → enchente,0.324938 | 0.449071 | 0.521567 | 0.645460,True,oceano → evaporação → enchente,True
+glove-50d,teste,calibrado,inverno,verão → inverno → frio → casaco,0.926930 | 0.703470 | 0.404220,True,verão → inverno → frio → casaco,True
+glove-50d,teste,calibrado,leitura e silêncio,escritor → livro → biblioteca → silêncio,0.709672 | 0.505238 | 0.118316,False,escritor → livro → silêncio,True
+glove-50d,teste,calibrado,apresentação musical,violão → corda → música → show,0.547999 | 0.354211 | 0.702769,True,violão → música → show,True
+glove-50d,teste,calibrado,cozinha e café,café → filtro → coador → pano,0.260226 | 0.366767 | 0.501713,False,,False
+glove-50d,teste,calibrado,prevenção em saúde,vírus → vacina → imunidade → proteção,0.697343 | 0.366738 | 0.525719,True,vírus → vacina → proteção,True
+glove-50d,teste,calibrado,medição do calor,sol → calor → temperatura → termômetro,0.714661 | 0.818493 | 0.518358,True,sol → calor → termômetro,True
+glove-50d,teste,calibrado,navegação costeira,navio → porto → farol → luz,0.435976 | 0.417054 | 0.486421,True,navio → porto → luz,True
+glove-50d,teste,calibrado,pagamentos e consumo,banco → cartão → compra → loja,0.537156 | 0.619390 | 0.643128,True,banco → cartão → loja,True
+glove-50d,teste,calibrado,projeção de filme,cinema → filme → projetor → tela,0.791136 | 0.313980 | 0.564778,True,cinema → filme → tela,True
+glove-50d,teste,calibrado,fotebol e celebração,futebol → gol → torcida → festa,0.520321 | 0.612761 | 0.577531,True,futebol → gol → torcida → festa,True
+glove-50d,teste,calibrado,educação formal,professor → aula → prova → nota,0.572261 | 0.447767 | 0.564190,True,professor → aula → nota,True
+glove-50d,teste,calibrado,tecelagem e vestuário,algodão → tecido → camisa → botão,0.568257 | 0.240510 | 0.371195,False,algodão → tecido → botão,True
+glove-50d,teste,calibrado,tratamento dentário,dentista → dente → cárie → dor,0.268810 | 0.496501 | 0.391922,False,,False
+glove-50d,teste,calibrado,transporte ferroviário,trem → trilho → ferro → metal,0.697379 | 0.212611 | 0.551927,False,trem → ferro → metal,True
+glove-50d,teste,calibrado,criação de abelhas,abelha → colmeia → mel → doce,0.636004 | 0.385409 | 0.728814,True,abelha → mel → doce,True
+glove-50d,teste,calibrado,móveis e madeira,árvore → madeira → marceneiro → mesa,0.608057 | 0.019065 | -0.072121,False,árvore → madeira → mesa,True
+glove-50d,teste,calibrado,astronomia observacional,planeta → universo → estrela → telescópio,0.762283 | 0.560761 | 0.326651,True,planeta → estrela → telescópio,True
+glove-50d,teste,calibrado,paisagem vulcânica,vulcão → lava → rocha → montanha,0.359526 | 0.541686 | 0.353545,True,vulcão → lava → rocha → montanha,True
+glove-50d,teste,calibrado,comércio de peixe,anzol → pesca → peixe → mercado,0.296376 | 0.567419 | 0.359911,False,anzol → peixe → pesca → mercado,True
+glove-50d,teste,calibrado,solidariedade,empatia → solidariedade → doação → sangue,0.493220 | 0.349062 | 0.466056,True,empatia → solidariedade → doação → sangue,True
+glove-50d,teste,calibrado,preparo de compostagem,casca → resíduo → compostagem → adubo → solo,0.393370 | 0.448949 | 0.348594 | 0.221350,False,,False
+glove-50d,teste,calibrado,sinalização e travessia,semáforo → trânsito → pedestre → faixa,0.565507 | 0.584737 | 0.305949,False,semáforo → trânsito → faixa,True
+glove-50d,teste,calibrado,cultura de rua brasileira,capoeira → berimbau → roda → dança,0.499671 | 0.155729 | 0.572517,False,,False
+glove-50d,teste,calibrado,gírias e economia,grana → troco → moeda → cofre,0.625927 | 0.414735 | 0.278373,False,grana → troco → cofre,True
+glove-50d,teste,calibrado,período de repouso,noite → sono → sonho → pesadelo,0.455860 | 0.466463 | 0.703486,True,noite → sono → pesadelo,True
+glove-50d,teste,calibrado,aviso de incêndio,fumaça → fogo → bombeiro → sirene,0.727679 | 0.372464 | 0.129636,False,,False
+glove-50d,teste,calibrado,tecnologia doméstica,teclado → computador → internet → senha,0.631782 | 0.707733 | 0.452264,True,teclado → computador → senha,True
+glove-50d,teste,calibrado,lugar de moradia,quarto → casa → bairro → cidade,0.710732 | 0.636350 | 0.763681,True,quarto → casa → cidade,True
+glove-50d,teste,calibrado,argila e artesanato,barro → cerâmica → vaso → flor,0.737768 | 0.467736 | 0.420593,True,barro → cerâmica → flor,True
+glove-50d,teste,calibrado,alimentação e acidez,laranja → fruta → limão → azedo,0.667147 | 0.716681 | 0.700411,True,laranja → fruta → azedo,True
+glove-50d,teste,calibrado,ensino superior e pesquisa,universidade → diploma → formatura → cerimônia,0.532122 | 0.406573 | 0.657370,True,universidade → formatura → cerimônia,True
+glove-50d,teste,calibrado,recreação ao ar livre,pipa → vento → brisa → praia,0.348001 | 0.520821 | 0.423485,True,pipa → vento → praia,True
+minilm-multilingue-int8,calibracao,notebook,panificação,trigo → farinha → massa → pão,0.629534 | 0.529040 | 0.368345,False,trigo → farinha → pão,True
+minilm-multilingue-int8,calibracao,notebook,esportes de raquete,badminton → raquete → tênis → quadra,0.718823 | 0.834132 | 0.398436,False,badminton → raquete → quadra,True
+minilm-multilingue-int8,calibracao,notebook,geografia,mapa → fronteira → país → bandeira,0.477482 | 0.616889 | 0.498972,True,mapa → fronteira → bandeira,True
+minilm-multilingue-int8,calibracao,notebook,plantio,semente → germinação → broto → horta,0.839564 | 0.429706 | 0.625800,True,semente → germinação → horta,True
+minilm-multilingue-int8,calibracao,notebook,cozinha,frigideira → fritura → batata → purê,0.546834 | 0.656655 | 0.249523,False,frigideira → fritura → purê,True
+minilm-multilingue-int8,calibracao,notebook,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.684896 | 0.662784 | 0.474577,True,aeroporto → embarque → bagagem,True
+minilm-multilingue-int8,calibracao,notebook,cidadania,eleição → voto → urna → sigilo,0.892413 | 0.506052 | 0.743638,True,eleição → voto → urna → sigilo,True
+minilm-multilingue-int8,calibracao,notebook,exploração espacial,astronauta → foguete → lançamento → contagem,0.411256 | 0.707778 | 0.647546,True,astronauta → foguete → contagem,True
+minilm-multilingue-int8,calibracao,notebook,apoio emocional,medo → coragem → confiança → amizade,0.590000 | 0.602715 | 0.435406,True,medo → coragem → confiança → amizade,True
+minilm-multilingue-int8,calibracao,notebook,bordado,agulha → linha → bordado → enfeite,0.605437 | 0.663655 | 0.765313,True,agulha → linha → enfeite,True
+minilm-multilingue-int8,calibracao,notebook,fotografia,fotógrafo → câmera → retrato → moldura,0.932977 | 0.780664 | 0.508521,True,fotógrafo → retrato → moldura,True
+minilm-multilingue-int8,calibracao,notebook,viagem de carro,motorista → carro → estrada → pedágio,0.759537 | 0.710005 | 0.671235,True,motorista → carro → pedágio,True
+minilm-multilingue-int8,teste,notebook,fases da vida,criança → adulto → idoso,0.625793 | 0.736092,True,criança → adulto → idoso,True
+minilm-multilingue-int8,teste,notebook,separação e finanças,amor → casamento → divórcio → pensão → dinheiro,0.491116 | 0.687131 | 0.310876 | 0.550149,False,amor → casamento → pensão → dinheiro,True
+minilm-multilingue-int8,teste,notebook,animais domésticos,cachorro → animal → gato → felino,0.789578 | 0.479946 | 0.522398,True,cachorro → animal → felino,True
+minilm-multilingue-int8,teste,notebook,ciclo da água,oceano → evaporação → nuvem → chuva → enchente,0.359032 | 0.480499 | 0.565088 | 0.350068,False,oceano → nuvem → enchente,True
+minilm-multilingue-int8,teste,notebook,inverno,verão → inverno → frio → casaco,0.534879 | 0.855960 | 0.644769,True,verão → inverno → casaco,True
+minilm-multilingue-int8,teste,notebook,leitura e silêncio,escritor → livro → biblioteca → silêncio,0.847931 | 0.677990 | 0.271390,False,escritor → livro → silêncio,True
+minilm-multilingue-int8,teste,notebook,apresentação musical,violão → corda → música → show,0.552667 | 0.581937 | 0.518818,True,violão → música → show,True
+minilm-multilingue-int8,teste,notebook,cozinha e café,café → filtro → coador → pano,0.436090 | 0.541260 | 0.797570,True,café → filtro → pano,True
+minilm-multilingue-int8,teste,notebook,prevenção em saúde,vírus → vacina → imunidade → proteção,0.499040 | 0.755825 | 0.505842,True,vírus → vacina → imunidade → proteção,True
+minilm-multilingue-int8,teste,notebook,medição do calor,sol → calor → temperatura → termômetro,0.565498 | 0.810448 | 0.875879,True,sol → calor → termômetro,True
+minilm-multilingue-int8,teste,notebook,navegação costeira,navio → porto → farol → luz,0.655735 | 0.530584 | 0.398365,False,,False
+minilm-multilingue-int8,teste,notebook,pagamentos e consumo,banco → cartão → compra → loja,0.510049 | 0.438462 | 0.762183,True,banco → cartão → loja,True
+minilm-multilingue-int8,teste,notebook,projeção de filme,cinema → filme → projetor → tela,0.855344 | 0.734011 | 0.688356,True,cinema → filme → tela,True
+minilm-multilingue-int8,teste,notebook,fotebol e celebração,futebol → gol → torcida → festa,0.703842 | 0.467722 | 0.282657,False,,False
+minilm-multilingue-int8,teste,notebook,educação formal,professor → aula → prova → nota,0.620695 | 0.655233 | 0.778873,True,professor → aula → nota,True
+minilm-multilingue-int8,teste,notebook,tecelagem e vestuário,algodão → tecido → camisa → botão,0.462773 | 0.569355 | 0.443342,True,algodão → tecido → camisa → botão,True
+minilm-multilingue-int8,teste,notebook,tratamento dentário,dentista → dente → cárie → dor,0.825391 | 0.399630 | 0.565955,False,dentista → dente → dor,True
+minilm-multilingue-int8,teste,notebook,transporte ferroviário,trem → trilho → ferro → metal,0.654170 | 0.442938 | 0.668980,True,trem → trilho → metal,True
+minilm-multilingue-int8,teste,notebook,criação de abelhas,abelha → colmeia → mel → doce,0.595471 | 0.661811 | 0.828781,True,abelha → colmeia → doce,True
+minilm-multilingue-int8,teste,notebook,móveis e madeira,árvore → madeira → marceneiro → mesa,0.543264 | 0.402365 | 0.578183,True,árvore → madeira → mesa,True
+minilm-multilingue-int8,teste,notebook,astronomia observacional,planeta → universo → estrela → telescópio,0.761917 | 0.447656 | 0.520269,True,planeta → universo → telescópio,True
+minilm-multilingue-int8,teste,notebook,paisagem vulcânica,vulcão → lava → rocha → montanha,0.675637 | 0.607100 | 0.636500,True,vulcão → lava → montanha,True
+minilm-multilingue-int8,teste,notebook,comércio de peixe,anzol → pesca → peixe → mercado,0.427249 | 0.881315 | 0.396244,False,,False
+minilm-multilingue-int8,teste,notebook,solidariedade,empatia → solidariedade → doação → sangue,0.535578 | 0.642140 | 0.366391,False,,False
+minilm-multilingue-int8,teste,notebook,preparo de compostagem,casca → resíduo → compostagem → adubo → solo,0.515436 | 0.393255 | 0.283702 | 0.663293,False,casca → resíduo → solo,True
+minilm-multilingue-int8,teste,notebook,sinalização e travessia,semáforo → trânsito → pedestre → faixa,0.448349 | 0.508775 | 0.537320,True,semáforo → trânsito → faixa,True
+minilm-multilingue-int8,teste,notebook,cultura de rua brasileira,capoeira → berimbau → roda → dança,0.525437 | 0.601043 | 0.592967,True,capoeira → berimbau → dança,True
+minilm-multilingue-int8,teste,notebook,gírias e economia,grana → troco → moeda → cofre,0.578885 | 0.394226 | 0.619897,False,grana → troco → cofre,True
+minilm-multilingue-int8,teste,notebook,período de repouso,noite → sono → sonho → pesadelo,0.619947 | 0.686462 | 0.850667,True,noite → sono → pesadelo,True
+minilm-multilingue-int8,teste,notebook,aviso de incêndio,fumaça → fogo → bombeiro → sirene,0.618273 | 0.789145 | 0.370281,False,,False
+minilm-multilingue-int8,teste,notebook,tecnologia doméstica,teclado → computador → internet → senha,0.535053 | 0.652279 | 0.383794,False,,False
+minilm-multilingue-int8,teste,notebook,lugar de moradia,quarto → casa → bairro → cidade,0.703402 | 0.713329 | 0.762669,True,quarto → casa → cidade,True
+minilm-multilingue-int8,teste,notebook,argila e artesanato,barro → cerâmica → vaso → flor,0.518435 | 0.510954 | 0.627421,True,barro → cerâmica → flor,True
+minilm-multilingue-int8,teste,notebook,alimentação e acidez,laranja → fruta → limão → azedo,0.636057 | 0.708162 | 0.551549,True,laranja → fruta → azedo,True
+minilm-multilingue-int8,teste,notebook,ensino superior e pesquisa,universidade → diploma → formatura → cerimônia,0.717447 | 0.695360 | 0.640969,True,universidade → diploma → cerimônia,True
+minilm-multilingue-int8,teste,notebook,recreação ao ar livre,pipa → vento → brisa → praia,0.218790 | 0.423050 | 0.607318,False,pipa → brisa → praia,True
+minilm-multilingue-int8,calibracao,calibrado,panificação,trigo → farinha → massa → pão,0.629534 | 0.529040 | 0.368345,False,trigo → farinha → pão,True
+minilm-multilingue-int8,calibracao,calibrado,esportes de raquete,badminton → raquete → tênis → quadra,0.718823 | 0.834132 | 0.398436,False,,False
+minilm-multilingue-int8,calibracao,calibrado,geografia,mapa → fronteira → país → bandeira,0.477482 | 0.616889 | 0.498972,False,,False
+minilm-multilingue-int8,calibracao,calibrado,plantio,semente → germinação → broto → horta,0.839564 | 0.429706 | 0.625800,False,semente → germinação → horta,True
+minilm-multilingue-int8,calibracao,calibrado,cozinha,frigideira → fritura → batata → purê,0.546834 | 0.656655 | 0.249523,False,,False
+minilm-multilingue-int8,calibracao,calibrado,transporte aéreo,aeroporto → embarque → passageiro → bagagem,0.684896 | 0.662784 | 0.474577,False,,False
+minilm-multilingue-int8,calibracao,calibrado,cidadania,eleição → voto → urna → sigilo,0.892413 | 0.506052 | 0.743638,False,,False
+minilm-multilingue-int8,calibracao,calibrado,exploração espacial,astronauta → foguete → lançamento → contagem,0.411256 | 0.707778 | 0.647546,False,,False
+minilm-multilingue-int8,calibracao,calibrado,apoio emocional,medo → coragem → confiança → amizade,0.590000 | 0.602715 | 0.435406,False,,False
+minilm-multilingue-int8,calibracao,calibrado,bordado,agulha → linha → bordado → enfeite,0.605437 | 0.663655 | 0.765313,True,agulha → linha → enfeite,True
+minilm-multilingue-int8,calibracao,calibrado,fotografia,fotógrafo → câmera → retrato → moldura,0.932977 | 0.780664 | 0.508521,False,,False
+minilm-multilingue-int8,calibracao,calibrado,viagem de carro,motorista → carro → estrada → pedágio,0.759537 | 0.710005 | 0.671235,True,motorista → carro → pedágio,True
+minilm-multilingue-int8,teste,calibrado,fases da vida,criança → adulto → idoso,0.625793 | 0.736092,True,criança → adulto → idoso,True
+minilm-multilingue-int8,teste,calibrado,separação e finanças,amor → casamento → divórcio → pensão → dinheiro,0.491116 | 0.687131 | 0.310876 | 0.550149,False,,False
+minilm-multilingue-int8,teste,calibrado,animais domésticos,cachorro → animal → gato → felino,0.789578 | 0.479946 | 0.522398,False,,False
+minilm-multilingue-int8,teste,calibrado,ciclo da água,oceano → evaporação → nuvem → chuva → enchente,0.359032 | 0.480499 | 0.565088 | 0.350068,False,,False
+minilm-multilingue-int8,teste,calibrado,inverno,verão → inverno → frio → casaco,0.534879 | 0.855960 | 0.644769,False,,False
+minilm-multilingue-int8,teste,calibrado,leitura e silêncio,escritor → livro → biblioteca → silêncio,0.847931 | 0.677990 | 0.271390,False,,False
+minilm-multilingue-int8,teste,calibrado,apresentação musical,violão → corda → música → show,0.552667 | 0.581937 | 0.518818,False,,False
+minilm-multilingue-int8,teste,calibrado,cozinha e café,café → filtro → coador → pano,0.436090 | 0.541260 | 0.797570,False,café → coador → pano,True
+minilm-multilingue-int8,teste,calibrado,prevenção em saúde,vírus → vacina → imunidade → proteção,0.499040 | 0.755825 | 0.505842,False,,False
+minilm-multilingue-int8,teste,calibrado,medição do calor,sol → calor → temperatura → termômetro,0.565498 | 0.810448 | 0.875879,False,,False
+minilm-multilingue-int8,teste,calibrado,navegação costeira,navio → porto → farol → luz,0.655735 | 0.530584 | 0.398365,False,,False
+minilm-multilingue-int8,teste,calibrado,pagamentos e consumo,banco → cartão → compra → loja,0.510049 | 0.438462 | 0.762183,False,,False
+minilm-multilingue-int8,teste,calibrado,projeção de filme,cinema → filme → projetor → tela,0.855344 | 0.734011 | 0.688356,True,cinema → filme → tela,True
+minilm-multilingue-int8,teste,calibrado,fotebol e celebração,futebol → gol → torcida → festa,0.703842 | 0.467722 | 0.282657,False,,False
+minilm-multilingue-int8,teste,calibrado,educação formal,professor → aula → prova → nota,0.620695 | 0.655233 | 0.778873,True,professor → aula → nota,True
+minilm-multilingue-int8,teste,calibrado,tecelagem e vestuário,algodão → tecido → camisa → botão,0.462773 | 0.569355 | 0.443342,False,,False
+minilm-multilingue-int8,teste,calibrado,tratamento dentário,dentista → dente → cárie → dor,0.825391 | 0.399630 | 0.565955,False,,False
+minilm-multilingue-int8,teste,calibrado,transporte ferroviário,trem → trilho → ferro → metal,0.654170 | 0.442938 | 0.668980,False,,False
+minilm-multilingue-int8,teste,calibrado,criação de abelhas,abelha → colmeia → mel → doce,0.595471 | 0.661811 | 0.828781,True,abelha → mel → doce,True
+minilm-multilingue-int8,teste,calibrado,móveis e madeira,árvore → madeira → marceneiro → mesa,0.543264 | 0.402365 | 0.578183,False,,False
+minilm-multilingue-int8,teste,calibrado,astronomia observacional,planeta → universo → estrela → telescópio,0.761917 | 0.447656 | 0.520269,False,,False
+minilm-multilingue-int8,teste,calibrado,paisagem vulcânica,vulcão → lava → rocha → montanha,0.675637 | 0.607100 | 0.636500,True,vulcão → lava → rocha → montanha,True
+minilm-multilingue-int8,teste,calibrado,comércio de peixe,anzol → pesca → peixe → mercado,0.427249 | 0.881315 | 0.396244,False,,False
+minilm-multilingue-int8,teste,calibrado,solidariedade,empatia → solidariedade → doação → sangue,0.535578 | 0.642140 | 0.366391,False,,False
+minilm-multilingue-int8,teste,calibrado,preparo de compostagem,casca → resíduo → compostagem → adubo → solo,0.515436 | 0.393255 | 0.283702 | 0.663293,False,casca → adubo → solo,True
+minilm-multilingue-int8,teste,calibrado,sinalização e travessia,semáforo → trânsito → pedestre → faixa,0.448349 | 0.508775 | 0.537320,False,,False
+minilm-multilingue-int8,teste,calibrado,cultura de rua brasileira,capoeira → berimbau → roda → dança,0.525437 | 0.601043 | 0.592967,False,,False
+minilm-multilingue-int8,teste,calibrado,gírias e economia,grana → troco → moeda → cofre,0.578885 | 0.394226 | 0.619897,False,,False
+minilm-multilingue-int8,teste,calibrado,período de repouso,noite → sono → sonho → pesadelo,0.619947 | 0.686462 | 0.850667,True,noite → sono → sonho → pesadelo,True
+minilm-multilingue-int8,teste,calibrado,aviso de incêndio,fumaça → fogo → bombeiro → sirene,0.618273 | 0.789145 | 0.370281,False,,False
+minilm-multilingue-int8,teste,calibrado,tecnologia doméstica,teclado → computador → internet → senha,0.535053 | 0.652279 | 0.383794,False,,False
+minilm-multilingue-int8,teste,calibrado,lugar de moradia,quarto → casa → bairro → cidade,0.703402 | 0.713329 | 0.762669,True,quarto → casa → cidade,True
+minilm-multilingue-int8,teste,calibrado,argila e artesanato,barro → cerâmica → vaso → flor,0.518435 | 0.510954 | 0.627421,False,barro → vaso → flor,True
+minilm-multilingue-int8,teste,calibrado,alimentação e acidez,laranja → fruta → limão → azedo,0.636057 | 0.708162 | 0.551549,False,,False
+minilm-multilingue-int8,teste,calibrado,ensino superior e pesquisa,universidade → diploma → formatura → cerimônia,0.717447 | 0.695360 | 0.640969,True,universidade → formatura → cerimônia,True
+minilm-multilingue-int8,teste,calibrado,recreação ao ar livre,pipa → vento → brisa → praia,0.218790 | 0.423050 | 0.607318,False,pipa → brisa → praia,True

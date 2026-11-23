@@ -1,0 +1,98 @@
+[
+  {
+    "tema": "criação de ovelhas", "caminho": ["lã", "ovelha", "pastor", "rebanho", "campo"], "notas": [3, 3, 3, 2],
+    "controles": [["lã", "lá", 1], ["pastor", "espantalho", 1], ["rebanho", "dobro", 0]]
+  },
+  {
+    "tema": "preparo de pizza", "caminho": ["tomate", "molho", "pizza", "forno"], "notas": [3, 2, 3],
+    "controles": [["tomate", "tomada", 1], ["pizza", "esfiha", 3], ["forno", "pavão", 0]]
+  },
+  {
+    "tema": "equitação", "caminho": ["cavalo", "rédea", "cavaleiro", "sela"], "notas": [3, 3, 3],
+    "controles": [["sela", "sala", 1], ["cavalo", "cavala", 1], ["rédea", "garoa", 0]]
+  },
+  {
+    "tema": "controle de horário", "caminho": ["prazo", "atraso", "relógio", "ponteiro"], "notas": [3, 2, 3],
+    "controles": [["prazo", "prado", 1], ["atraso", "reunião", 2], ["ponteiro", "amêndoa", 0]]
+  },
+  {
+    "tema": "respiração", "caminho": ["asma", "respiração", "pulmão", "oxigênio"], "notas": [3, 3, 3],
+    "controles": [["asma", "alma", 1], ["pulmão", "estômago", 2], ["respiração", "empilhadeira", 0]]
+  },
+  {
+    "tema": "pintura de paredes", "caminho": ["tinta", "pincel", "parede", "reboco"], "notas": [3, 2, 3],
+    "controles": [["pincel", "pinça", 1], ["tinta", "tinteiro", 3], ["reboco", "formiga", 0]]
+  },
+  {
+    "tema": "segurança pública", "caminho": ["guarda", "polícia", "crime", "prisão"], "notas": [2, 3, 3],
+    "controles": [["crime", "creme", 1], ["polícia", "enfermeiro", 1], ["prisão", "lantejoula", 0]]
+  },
+  {
+    "tema": "partida no estádio", "caminho": ["gramado", "estádio", "arquibancada", "ingresso"], "notas": [3, 3, 2],
+    "controles": [["gramado", "gravado", 1], ["arquibancada", "balcão", 1], ["ingresso", "ouriço", 0]]
+  },
+  {
+    "tema": "tempestade", "caminho": ["relâmpago", "trovão", "tempestade", "granizo"], "notas": [3, 3, 3],
+    "controles": [["trovão", "trono", 1], ["granizo", "grafite", 1], ["tempestade", "almofada", 0]]
+  },
+  {
+    "tema": "publicidade impressa", "caminho": ["cartaz", "publicidade", "anúncio", "jornal"], "notas": [2, 3, 3],
+    "controles": [["cartaz", "cartada", 1], ["jornal", "notícia", 3], ["anúncio", "escorpião", 0]]
+  },
+  {
+    "tema": "higiene pessoal", "caminho": ["sabão", "espuma", "banho", "toalha"], "notas": [3, 2, 3],
+    "controles": [["sabão", "sabedoria", 1], ["banho", "banheiro", 3], ["toalha", "hélice", 0]]
+  },
+  {
+    "tema": "paisagem desértica", "caminho": ["areia", "duna", "deserto", "oásis"], "notas": [3, 3, 3],
+    "controles": [["areia", "aveia", 1], ["areia", "peneirar", 2], ["oásis", "brinco", 0]]
+  },
+  {
+    "tema": "derivados de petróleo", "caminho": ["petróleo", "gasolina", "combustível", "combustão"], "notas": [3, 3, 3],
+    "controles": [["gasolina", "gazela", 1], ["petróleo", "reserva", 2], ["combustão", "lousa", 0]]
+  },
+  {
+    "tema": "espetáculo de balé", "caminho": ["balé", "sapatilha", "palco", "plateia"], "notas": [3, 2, 3],
+    "controles": [["balé", "balsa", 1], ["palco", "bastidor", 3], ["plateia", "caqui", 0]]
+  },
+  {
+    "tema": "anatomia do polvo", "caminho": ["polvo", "tentáculo", "ventosa", "sucção"], "notas": [3, 3, 3],
+    "controles": [["polvo", "pólvora", 1], ["tentáculo", "tentativa", 1], ["sucção", "binóculo", 0]]
+  },
+  {
+    "tema": "obra de construção", "caminho": ["arquiteto", "projeto", "construção", "andaime"], "notas": [3, 2, 3],
+    "controles": [["arquiteto", "arqueiro", 1], ["projeto", "planificação", 3], ["andaime", "salsicha", 0]]
+  },
+  {
+    "tema": "canto em grupo", "caminho": ["microfone", "voz", "canto", "coral"], "notas": [3, 3, 3],
+    "controles": [["canto", "encanto", 1], ["coral", "recife", 3], ["voz", "escova", 0]]
+  },
+  {
+    "tema": "laticínios", "caminho": ["manteiga", "leite", "queijo", "coalho"], "notas": [3, 3, 3],
+    "controles": [["manteiga", "manteve", 1], ["queijo", "goiabada", 3], ["coalho", "lacre", 0]]
+  },
+  {
+    "tema": "estofamento", "caminho": ["sofá", "estofado", "couro", "curtume"], "notas": [3, 2, 3],
+    "controles": [["couro", "coro", 1], ["sofá", "poltrona", 3], ["curtume", "copo", 0]]
+  },
+  {
+    "tema": "mãos e impressão digital", "caminho": ["esmalte", "unha", "dedo", "impressão"], "notas": [3, 3, 2],
+    "controles": [["esmalte", "esmola", 1], ["dedo", "punho", 2], ["impressão", "berinjela", 0]]
+  },
+  {
+    "tema": "trabalho remunerado", "caminho": ["currículo", "emprego", "salário", "renda"], "notas": [3, 3, 3],
+    "controles": [["currículo", "crepúsculo", 1], ["emprego", "elogio", 1], ["salário", "lagartixa", 0]]
+  },
+  {
+    "tema": "degelo", "caminho": ["geleira", "gelo", "degelo", "aquecimento"], "notas": [3, 3, 2],
+    "controles": [["geleira", "geada", 2], ["gelo", "gel", 1], ["aquecimento", "tambor", 0]]
+  },
+  {
+    "tema": "prescrição médica", "caminho": ["médico", "consulta", "receita", "remédio"], "notas": [3, 3, 3],
+    "controles": [["consulta", "consulado", 1], ["receita", "ingrediente", 3], ["médico", "tapete", 0]]
+  },
+  {
+    "tema": "instrumento de sopro e ar", "caminho": ["flauta", "sopro", "ar", "oxidação"], "notas": [3, 3, 2],
+    "controles": [["sopro", "sogro", 1], ["flauta", "clarinete", 3], ["oxidação", "cadarço", 0]]
+  }
+]
