@@ -1,0 +1,198 @@
+{
+  "calibracao": [
+    {
+      "tema": "baking", "caminho": ["wheat", "flour", "dough", "bread"], "notas": [3, 2, 3],
+      "controles": [["wheat", "wheel", 1], ["flour", "compass", 0], ["bread", "comet", 0]]
+    },
+    {
+      "tema": "racket sports", "caminho": ["badminton", "racket", "tennis", "court"], "notas": [3, 3, 3],
+      "controles": [["racket", "rocket", 1], ["badminton", "horn", 0], ["court", "cinnamon", 0]]
+    },
+    {
+      "tema": "geography", "caminho": ["map", "border", "country", "flag"], "notas": [2, 3, 2],
+      "controles": [["map", "mop", 1], ["border", "boarder", 1], ["flag", "yogurt", 0]]
+    },
+    {
+      "tema": "planting", "caminho": ["seed", "germination", "sprout", "garden"], "notas": [3, 3, 2],
+      "controles": [["seed", "seek", 1], ["garden", "gardenia", 2], ["sprout", "customs", 0]]
+    },
+    {
+      "tema": "kitchen", "caminho": ["pan", "frying", "potato", "mash"], "notas": [3, 2, 3],
+      "controles": [["potato", "potion", 1], ["mash", "mask", 1], ["frying", "baton", 0]]
+    },
+    {
+      "tema": "air travel", "caminho": ["airport", "boarding", "passenger", "luggage"], "notas": [3, 3, 2],
+      "controles": [["boarding", "hoarding", 1], ["passenger", "passage", 1], ["luggage", "dew", 0]]
+    },
+    {
+      "tema": "citizenship", "caminho": ["election", "vote", "ballot", "secrecy"], "notas": [3, 3, 2],
+      "controles": [["election", "elevation", 1], ["ballot", "penguin", 0], ["vote", "voltage", 0]]
+    },
+    {
+      "tema": "space exploration", "caminho": ["astronaut", "rocket", "launch", "countdown"], "notas": [3, 3, 2],
+      "controles": [["astronaut", "astrologer", 1], ["rocket", "pocket", 1], ["countdown", "planter", 0]]
+    },
+    {
+      "tema": "emotional support", "caminho": ["fear", "courage", "confidence", "friendship"], "notas": [2, 2, 2],
+      "controles": [["fear", "feat", 1], ["confidence", "condiment", 0], ["friendship", "rust", 0]]
+    },
+    {
+      "tema": "embroidery", "caminho": ["needle", "thread", "embroidery", "ornament"], "notas": [3, 3, 2],
+      "controles": [["needle", "needlework", 3], ["thread", "threat", 1], ["ornament", "asphalt", 0]]
+    },
+    {
+      "tema": "photography", "caminho": ["photographer", "camera", "portrait", "frame"], "notas": [3, 3, 2],
+      "controles": [["photographer", "photosynthesis", 1], ["portrait", "report", 1], ["frame", "bean", 0]]
+    },
+    {
+      "tema": "road trip", "caminho": ["driver", "car", "road", "toll"], "notas": [3, 2, 3],
+      "controles": [["driver", "rider", 2], ["car", "cart", 1], ["toll", "ladle", 0]]
+    }
+  ],
+  "teste": [
+    {
+      "tema": "life stages", "caminho": ["child", "adult", "elderly"], "notas": [3, 3],
+      "controles": [["child", "chill", 1], ["adult", "fertilizer", 0], ["elderly", "teenager", 3]]
+    },
+    {
+      "tema": "separation and finances", "caminho": ["love", "marriage", "divorce", "alimony", "money"], "notas": [2, 3, 2, 2],
+      "controles": [["love", "glove", 1], ["divorce", "diversion", 1], ["money", "beetle", 0]]
+    },
+    {
+      "tema": "pets", "caminho": ["dog", "animal", "cat", "feline"], "notas": [3, 3, 3],
+      "controles": [["dog", "hound", 3], ["cat", "cast", 1], ["feline", "latch", 0]]
+    },
+    {
+      "tema": "water cycle", "caminho": ["ocean", "evaporation", "cloud", "rain", "flood"], "notas": [2, 3, 3, 3],
+      "controles": [["rain", "raisin", 1], ["flood", "floor", 1], ["ocean", "stamp", 0]]
+    },
+    {
+      "tema": "winter", "caminho": ["summer", "winter", "cold", "coat"], "notas": [3, 3, 3],
+      "controles": [["summer", "summary", 1], ["winter", "winner", 1], ["coat", "notary", 0]]
+    },
+    {
+      "tema": "reading and silence", "caminho": ["writer", "book", "library", "silence"], "notas": [3, 3, 2],
+      "controles": [["book", "brook", 1], ["silence", "tranquility", 2], ["library", "screw", 0]]
+    },
+    {
+      "tema": "musical performance", "caminho": ["guitar", "string", "music", "concert"], "notas": [3, 2, 2],
+      "controles": [["guitar", "ukulele", 3], ["string", "strong", 1], ["concert", "cabbage", 0]]
+    },
+    {
+      "tema": "kitchen and coffee", "caminho": ["coffee", "filter", "strainer", "cloth"], "notas": [3, 3, 2],
+      "controles": [["filter", "filler", 1], ["cloth", "moth", 1], ["coffee", "switch", 0]]
+    },
+    {
+      "tema": "health prevention", "caminho": ["virus", "vaccine", "immunity", "protection"], "notas": [3, 3, 2],
+      "controles": [["virus", "virtue", 1], ["vaccine", "vacuum", 1], ["immunity", "sidewalk", 0]]
+    },
+    {
+      "tema": "measuring heat", "caminho": ["sun", "heat", "temperature", "thermometer"], "notas": [3, 3, 3],
+      "controles": [["sun", "sum", 1], ["temperature", "temperament", 1], ["thermometer", "accordion", 0]]
+    },
+    {
+      "tema": "coastal navigation", "caminho": ["ship", "harbor", "lighthouse", "light"], "notas": [3, 2, 3],
+      "controles": [["ship", "shin", 1], ["harbor", "harvest", 1], ["light", "noodle", 0]]
+    },
+    {
+      "tema": "payments and shopping", "caminho": ["bank", "card", "purchase", "store"], "notas": [2, 2, 3],
+      "controles": [["bank", "blank", 1], ["bank", "riverbank", 3], ["store", "centipede", 0]]
+    },
+    {
+      "tema": "film projection", "caminho": ["cinema", "film", "projector", "screen"], "notas": [3, 2, 3],
+      "controles": [["cinema", "cinematics", 1], ["screen", "scream", 1], ["projector", "lentil", 0]]
+    },
+    {
+      "tema": "football and celebration", "caminho": ["football", "goal", "fans", "party"], "notas": [3, 2, 2],
+      "controles": [["football", "foothill", 1], ["goal", "goat", 1], ["fans", "protractor", 0]]
+    },
+    {
+      "tema": "formal education", "caminho": ["teacher", "class", "exam", "grade"], "notas": [3, 2, 3],
+      "controles": [["teacher", "teaser", 1], ["class", "glass", 1], ["grade", "broom", 0]]
+    },
+    {
+      "tema": "textiles and clothing", "caminho": ["cotton", "fabric", "shirt", "button"], "notas": [3, 3, 2],
+      "controles": [["cotton", "cottage", 1], ["fabric", "cardboard", 1], ["button", "ginger", 0]]
+    },
+    {
+      "tema": "dental treatment", "caminho": ["dentist", "tooth", "cavity", "pain"], "notas": [3, 3, 2],
+      "controles": [["dentist", "dentures", 3], ["cavity", "cavalry", 1], ["pain", "octagon", 0]]
+    },
+    {
+      "tema": "rail transport", "caminho": ["train", "rail", "iron", "metal"], "notas": [3, 2, 3],
+      "controles": [["train", "trait", 1], ["rail", "trail", 1], ["metal", "butterfly", 0]]
+    },
+    {
+      "tema": "beekeeping", "caminho": ["bee", "hive", "honey", "sweet"], "notas": [3, 3, 3],
+      "controles": [["bee", "wasp", 3], ["hive", "hike", 1], ["sweet", "helmet", 0]]
+    },
+    {
+      "tema": "furniture and wood", "caminho": ["tree", "wood", "carpenter", "table"], "notas": [3, 3, 2],
+      "controles": [["wood", "hood", 1], ["table", "tablet", 1], ["carpenter", "gelatin", 0]]
+    },
+    {
+      "tema": "observational astronomy", "caminho": ["planet", "universe", "star", "telescope"], "notas": [3, 3, 3],
+      "controles": [["planet", "plane", 1], ["telescope", "telephone", 1], ["universe", "grater", 0]]
+    },
+    {
+      "tema": "volcanic landscape", "caminho": ["volcano", "lava", "rock", "mountain"], "notas": [3, 3, 2],
+      "controles": [["volcano", "vulture", 1], ["lava", "lavender", 1], ["mountain", "soda", 0]]
+    },
+    {
+      "tema": "fish trade", "caminho": ["hook", "fishing", "fish", "market"], "notas": [3, 3, 2],
+      "controles": [["fishing", "angling", 3], ["fish", "fist", 1], ["market", "ravine", 0]]
+    },
+    {
+      "tema": "solidarity", "caminho": ["empathy", "solidarity", "donation", "blood"], "notas": [3, 2, 2],
+      "controles": [["empathy", "emphasis", 1], ["donation", "adoption", 1], ["blood", "stapler", 0]]
+    },
+    {
+      "tema": "composting", "caminho": ["peel", "waste", "compost", "fertilizer", "soil"], "notas": [2, 3, 3, 3],
+      "controles": [["peel", "peek", 1], ["fertilizer", "fertility", 1], ["soil", "zipper", 0]]
+    },
+    {
+      "tema": "traffic signals and crossing", "caminho": ["signal", "traffic", "pedestrian", "crosswalk"], "notas": [3, 3, 3],
+      "controles": [["signal", "single", 1], ["pedestrian", "pedestal", 1], ["traffic", "avocado", 0]]
+    },
+    {
+      "tema": "street art", "caminho": ["graffiti", "spray", "mural", "artist"], "notas": [3, 3, 3],
+      "controles": [["graffiti", "gravity", 1], ["mural", "moral", 1], ["spray", "chlorine", 0]]
+    },
+    {
+      "tema": "slang and economy", "caminho": ["cash", "change", "coin", "safe"], "notas": [2, 3, 2],
+      "controles": [["cash", "clash", 1], ["coin", "coil", 1], ["safe", "whale", 0]]
+    },
+    {
+      "tema": "rest period", "caminho": ["night", "sleep", "dream", "nightmare"], "notas": [3, 3, 3],
+      "controles": [["sleep", "sleet", 1], ["nightmare", "nightingale", 1], ["night", "saffron", 0]]
+    },
+    {
+      "tema": "fire alarm", "caminho": ["smoke", "fire", "firefighter", "siren"], "notas": [3, 3, 2],
+      "controles": [["smoke", "smoky", 3], ["fire", "hire", 1], ["firefighter", "porcelain", 0]]
+    },
+    {
+      "tema": "home technology", "caminho": ["keyboard", "computer", "internet", "password"], "notas": [3, 2, 2],
+      "controles": [["keyboard", "keyhole", 1], ["password", "passport", 1], ["computer", "mushroom", 0]]
+    },
+    {
+      "tema": "place of residence", "caminho": ["bedroom", "house", "neighborhood", "city"], "notas": [3, 2, 3],
+      "controles": [["bedroom", "bedrock", 1], ["neighborhood", "livelihood", 1], ["city", "battery", 0]]
+    },
+    {
+      "tema": "clay and crafts", "caminho": ["clay", "ceramics", "vase", "flower"], "notas": [3, 3, 3],
+      "controles": [["ceramics", "ceremony", 1], ["vase", "vast", 1], ["flower", "saw", 0]]
+    },
+    {
+      "tema": "food and acidity", "caminho": ["orange", "fruit", "lemon", "sour"], "notas": [3, 3, 3],
+      "controles": [["orange", "tangerine", 3], ["lemon", "lemur", 1], ["sour", "sieve", 0]]
+    },
+    {
+      "tema": "higher education", "caminho": ["university", "diploma", "graduation", "ceremony"], "notas": [3, 3, 3],
+      "controles": [["university", "universal", 1], ["diploma", "diplomacy", 1], ["ceremony", "corn", 0]]
+    },
+    {
+      "tema": "outdoor recreation", "caminho": ["kite", "wind", "breeze", "beach"], "notas": [3, 3, 2],
+      "controles": [["kite", "kit", 1], ["wind", "velvet", 0], ["beach", "hinge", 0]]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "tema": "sheep farming", "caminho": ["wool", "sheep", "shepherd", "flock", "field"], "notas": [3, 3, 3, 2],
+    "controles": [["wool", "wolf", 1], ["shepherd", "scarecrow", 1], ["flock", "double", 0]]
+  },
+  {
+    "tema": "making pizza", "caminho": ["tomato", "sauce", "pizza", "oven"], "notas": [3, 2, 3],
+    "controles": [["tomato", "tomb", 1], ["pizza", "calzone", 3], ["oven", "peacock", 0]]
+  },
+  {
+    "tema": "horse riding", "caminho": ["horse", "rein", "horseman", "saddle"], "notas": [3, 3, 3],
+    "controles": [["saddle", "sadly", 1], ["horse", "hoarse", 1], ["rein", "drizzle", 0]]
+  },
+  {
+    "tema": "keeping time", "caminho": ["deadline", "delay", "clock", "pendulum"], "notas": [3, 2, 3],
+    "controles": [["deadline", "headline", 1], ["delay", "meeting", 2], ["pendulum", "almond", 0]]
+  },
+  {
+    "tema": "breathing", "caminho": ["asthma", "breathing", "lung", "oxygen"], "notas": [3, 3, 3],
+    "controles": [["asthma", "plasma", 1], ["lung", "stomach", 2], ["breathing", "forklift", 0]]
+  },
+  {
+    "tema": "wall painting", "caminho": ["paint", "brush", "wall", "plaster"], "notas": [3, 2, 3],
+    "controles": [["brush", "brunch", 1], ["paint", "painter", 3], ["plaster", "ant", 0]]
+  },
+  {
+    "tema": "public safety", "caminho": ["guard", "police", "crime", "prison"], "notas": [2, 3, 3],
+    "controles": [["crime", "cream", 1], ["police", "nurse", 1], ["prison", "sequin", 0]]
+  },
+  {
+    "tema": "match at the stadium", "caminho": ["pitch", "stadium", "bleachers", "ticket"], "notas": [3, 3, 2],
+    "controles": [["pitch", "pinch", 1], ["bleachers", "counter", 1], ["ticket", "hedgehog", 0]]
+  },
+  {
+    "tema": "storm", "caminho": ["lightning", "thunder", "storm", "hail"], "notas": [3, 3, 3],
+    "controles": [["thunder", "tundra", 1], ["hail", "hair", 1], ["storm", "pillow", 0]]
+  },
+  {
+    "tema": "print advertising", "caminho": ["poster", "advertising", "announcement", "newspaper"], "notas": [2, 3, 2],
+    "controles": [["poster", "postcard", 1], ["newspaper", "news", 3], ["announcement", "scorpion", 0]]
+  },
+  {
+    "tema": "personal hygiene", "caminho": ["soap", "foam", "bath", "towel"], "notas": [3, 2, 3],
+    "controles": [["soap", "soar", 1], ["bath", "bathroom", 3], ["towel", "propeller", 0]]
+  },
+  {
+    "tema": "desert landscape", "caminho": ["sand", "dune", "desert", "oasis"], "notas": [3, 3, 3],
+    "controles": [["sand", "sandal", 1], ["sand", "sift", 2], ["oasis", "earring", 0]]
+  },
+  {
+    "tema": "petroleum products", "caminho": ["petroleum", "gasoline", "fuel", "combustion"], "notas": [3, 3, 3],
+    "controles": [["gasoline", "gazelle", 1], ["petroleum", "reserve", 2], ["combustion", "blackboard", 0]]
+  },
+  {
+    "tema": "ballet show", "caminho": ["ballet", "slipper", "stage", "audience"], "notas": [3, 2, 3],
+    "controles": [["ballet", "ballast", 1], ["stage", "backstage", 3], ["audience", "persimmon", 0]]
+  },
+  {
+    "tema": "octopus anatomy", "caminho": ["octopus", "tentacle", "sucker", "suction"], "notas": [3, 3, 3],
+    "controles": [["octopus", "optics", 1], ["tentacle", "tentative", 1], ["suction", "binoculars", 0]]
+  },
+  {
+    "tema": "construction site", "caminho": ["architect", "project", "construction", "scaffold"], "notas": [3, 2, 3],
+    "controles": [["architect", "archer", 1], ["project", "planning", 3], ["scaffold", "sausage", 0]]
+  },
+  {
+    "tema": "group singing", "caminho": ["microphone", "voice", "singing", "choir"], "notas": [3, 3, 3],
+    "controles": [["singing", "stinging", 1], ["choir", "chorus", 3], ["voice", "vice", 1]]
+  },
+  {
+    "tema": "dairy", "caminho": ["butter", "milk", "cheese", "rennet"], "notas": [3, 3, 3],
+    "controles": [["butter", "butler", 1], ["cheese", "crackers", 3], ["rennet", "wax", 0]]
+  },
+  {
+    "tema": "upholstery", "caminho": ["sofa", "upholstery", "leather", "tannery"], "notas": [3, 2, 3],
+    "controles": [["leather", "lather", 1], ["sofa", "armchair", 3], ["tannery", "cup", 0]]
+  },
+  {
+    "tema": "hands and fingerprints", "caminho": ["polish", "nail", "finger", "fingerprint"], "notas": [3, 3, 2],
+    "controles": [["polish", "polite", 1], ["finger", "wrist", 2], ["fingerprint", "eggplant", 0]]
+  },
+  {
+    "tema": "paid work", "caminho": ["resume", "job", "salary", "income"], "notas": [3, 3, 3],
+    "controles": [["resume", "residue", 1], ["job", "jab", 1], ["salary", "gecko", 0]]
+  },
+  {
+    "tema": "thaw", "caminho": ["glacier", "ice", "thaw", "warming"], "notas": [3, 3, 2],
+    "controles": [["glacier", "frost", 2], ["ice", "dice", 1], ["warming", "drum", 0]]
+  },
+  {
+    "tema": "medical prescription", "caminho": ["doctor", "appointment", "prescription", "medicine"], "notas": [3, 3, 3],
+    "controles": [["appointment", "apportionment", 1], ["prescription", "pharmacy", 3], ["doctor", "carpet", 0]]
+  },
+  {
+    "tema": "wind instrument and air", "caminho": ["flute", "blow", "air", "oxidation"], "notas": [3, 3, 2],
+    "controles": [["blow", "bow", 1], ["flute", "clarinet", 3], ["oxidation", "shoelace", 0]]
+  }
+]

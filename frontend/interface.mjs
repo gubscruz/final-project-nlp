@@ -1,32 +1,37 @@
 import { hoje } from "./desafios.mjs";
+import { idiomaValido, idiomas } from "./idiomas.mjs";
 import { gerarCaminhos, sortearCaminho } from "./infinito.mjs";
+import { criarGrafo } from "./grafo.mjs";
 import { criarModelo, criarPartida, jogar, maiorCaminho } from "./jogo.mjs";
 
 const porId = id => document.getElementById(id);
-const maiuscula = palavra => palavra[0].toLocaleUpperCase("pt-BR") + palavra.slice(1);
 const quantidade = (n, singular, plural) => `${n} ${n === 1 ? singular : plural}`;
-const chaveDiario = "travessia.progresso.v1";
-const chaveInfinito = "travessia.infinito.v1";
+const chaveIdioma = "travessia.idioma.v1";
 const formulario = porId("formulario");
 const campo = porId("palpite");
 const retorno = porId("retorno");
 const dica = porId("dica");
 const botaoDica = porId("alternar-dica");
 const dicaRotulo = botaoDica.querySelector("span");
-const listaTentativas = porId("lista-tentativas");
-const listaConexoes = porId("lista-conexoes");
 const botoesModo = [...document.querySelectorAll("[data-modo]")];
+const botoesIdioma = [...document.querySelectorAll("[data-idioma]")];
 const novaPonte = porId("nova-ponte");
 const cronometro = porId("cronometro");
 const tabuleiro = porId("tabuleiro");
-const travessia = tabuleiro.querySelector(".crossing");
-const palavrasTabuleiro = [porId("palavra-inicio"), porId("palavra-fim")];
 
 let modelo;
+let grafo;
 let desafio;
 let partida;
 let termos;
 let caminhos;
+let idioma;
+let chaveDiario;
+let chaveInfinito;
+let progressoDiario;
+let progressoInfinito;
+let modo;
+const modelosCarregados = new Map();
 
 function lerProgresso(chave) {
   try {
@@ -37,9 +42,29 @@ function lerProgresso(chave) {
   }
 }
 
-const progressoDiario = lerProgresso(chaveDiario);
-const progressoInfinito = lerProgresso(chaveInfinito);
-let modo = progressoInfinito.modo === "diario" ? "diario" : "infinito";
+function lerIdioma() {
+  try {
+    return idiomaValido(localStorage.getItem(chaveIdioma));
+  } catch {
+    return idiomaValido();
+  }
+}
+
+const maiuscula = palavra => palavra[0].toLocaleUpperCase(idiomas[idioma].locale) + palavra.slice(1);
+
+// O progresso de cada idioma fica em chaves separadas; o português mantém as chaves originais.
+function carregarProgresso(codigo) {
+  idioma = codigo;
+  const sufixo = codigo === "pt" ? "" : `.${codigo}`;
+  chaveDiario = `travessia.progresso.v1${sufixo}`;
+  chaveInfinito = `travessia.infinito.v1${sufixo}`;
+  progressoDiario = lerProgresso(chaveDiario);
+  progressoInfinito = lerProgresso(chaveInfinito);
+  modo = progressoInfinito.modo === "diario" ? "diario" : "infinito";
+  caminhos = undefined;
+  for (const botao of botoesIdioma) botao.setAttribute("aria-pressed", String(botao.dataset.idioma === codigo));
+  document.documentElement.dataset.idioma = codigo;
+}
 
 function gravarProgresso(chave, dados) {
   try {
@@ -71,31 +96,6 @@ function mostrarDica(aberta) {
   dica.hidden = !aberta;
 }
 
-function medirPalavra(texto) {
-  const caixa = texto.parentElement;
-  const estiloCaixa = getComputedStyle(caixa);
-  const espaco = caixa.clientWidth - parseFloat(estiloCaixa.paddingLeft) - parseFloat(estiloCaixa.paddingRight) - 1;
-  const largura = texto.getBoundingClientRect().width;
-  const tamanho = parseFloat(getComputedStyle(texto).fontSize);
-  const ajuste = largura > espaco ? tamanho * espaco / largura : tamanho;
-  return { texto, tamanho, ajuste };
-}
-
-function ajustarPalavrasTabuleiro() {
-  travessia.classList.remove("crossing--stacked");
-  for (const texto of palavrasTabuleiro) texto.style.removeProperty("font-size");
-
-  let medidas = palavrasTabuleiro.map(medirPalavra);
-  const minimo = parseFloat(getComputedStyle(document.documentElement).fontSize) * .9375;
-  if (medidas.some(({ ajuste }) => ajuste < minimo)) {
-    travessia.classList.add("crossing--stacked");
-    medidas = palavrasTabuleiro.map(medirPalavra);
-  }
-  for (const { texto, tamanho, ajuste } of medidas) {
-    if (ajuste < tamanho) texto.style.fontSize = `${Math.floor(ajuste * 100) / 100}px`;
-  }
-}
-
 function mensagemDaTentativa({ palavra, tipo, conexoes }) {
   switch (tipo) {
     case "invalida": return "Uma palavra por vez, só com letras.";
@@ -108,41 +108,11 @@ function mensagemDaTentativa({ palavra, tipo, conexoes }) {
   }
 }
 
-function renderizarCaminho() {
-  const trilha = porId("caminho-atual");
-  const lados = partida.lados.map(maiorCaminho);
-  trilha.hidden = !partida.ponte && lados.every(lado => lado.length === 1);
-  if (trilha.hidden) return;
-
-  const palavras = partida.ponte ?? [...lados[0], null, ...[...lados[1]].reverse()];
-  trilha.replaceChildren(...palavras.map((palavra, i) => {
-    const passo = document.createElement("li");
-    passo.textContent = palavra ? maiuscula(palavra) : "···";
-    if (palavra === null) {
-      passo.className = "gap";
-      passo.setAttribute("aria-label", "Trecho em aberto");
-    }
-    if (i === 0) passo.className = "edge-start";
-    if (i === palavras.length - 1) passo.className = "edge-end";
-    return passo;
-  }));
-}
-
-function atualizarListas() {
-  for (const tentativa of partida.tentativas.slice(listaTentativas.children.length)) {
-    const linha = document.createElement("li");
-    linha.textContent = mensagemDaTentativa(tentativa);
-    linha.classList.toggle("accepted", tentativa.tipo !== "distante");
-    listaTentativas.append(linha);
-    for (const vizinha of tentativa.conexoes) {
-      const par = document.createElement("li");
-      par.textContent = `${maiuscula(vizinha)} → ${maiuscula(tentativa.palavra)}`;
-      listaConexoes.append(par);
-    }
-  }
-  const total = listaConexoes.children.length;
-  porId("conexoes").hidden = total === 0;
-  porId("total-conexoes").textContent = quantidade(total, "conexão", "conexões");
+function descreverConexoes() {
+  if (partida.ponte) return `Ponte completa: ${partida.ponte.map(maiuscula).join(" → ")}.`;
+  const [saida, chegada] = partida.lados.map(maiorCaminho);
+  if (saida.length === 1 && chegada.length === 1) return "Mapa das conexões vazio.";
+  return `Lado da saída: ${saida.map(maiuscula).join(" → ")}. Lado da chegada: ${chegada.map(maiuscula).reverse().join(" → ")}.`;
 }
 
 function renderizarPartida() {
@@ -151,7 +121,6 @@ function renderizarPartida() {
   const palpites = quantidade(total, "palpite", "palpites");
   porId("total-tentativas").textContent = palpites;
   tabuleiro.classList.toggle("is-complete", completa);
-  porId("historico").hidden = total === 0;
   formulario.hidden = completa && modo === "diario";
   porId("vitoria").hidden = !completa;
   botaoDica.hidden = completa;
@@ -161,15 +130,14 @@ function renderizarPartida() {
     porId("resumo-vitoria").textContent = `Você atravessou em ${placar}.${convite}`;
     mostrarDica(false);
   }
-  renderizarCaminho();
-  atualizarListas();
+  grafo.sincronizar(partida, descreverConexoes());
 }
 
 function restaurarPartida() {
   const palpites = modo === "infinito" ? progressoInfinito.palpites : progressoDiario[desafio.chave]?.palpites;
   if (!Array.isArray(palpites)) return;
   for (const palavra of palpites) {
-    if (typeof palavra === "string") jogar(partida, palavra, modelo);
+    if (typeof palavra === "string") jogar(partida, palavra, modelo, idiomas[idioma].locale);
   }
 }
 
@@ -185,15 +153,9 @@ function iniciarDesafio(novo) {
     data.dateTime = desafio.chave;
     data.textContent = desafio.data;
   }
-  palavrasTabuleiro[0].textContent = maiuscula(desafio.inicio);
-  palavrasTabuleiro[1].textContent = maiuscula(desafio.fim);
-  ajustarPalavrasTabuleiro();
   dica.textContent = desafio.dica;
   campo.value = "";
-  listaTentativas.replaceChildren();
-  listaConexoes.replaceChildren();
-  porId("historico").open = false;
-  porId("conexoes").open = true;
+  grafo.reiniciar();
   mostrarDica(false);
   avisar();
   restaurarPartida();
@@ -231,7 +193,7 @@ function selecionarModo(novo) {
   if (infinito) {
     iniciarInfinito();
   } else {
-    const diario = hoje();
+    const diario = hoje(idioma);
     cronometro.textContent = diario.tempo;
     iniciarDesafio(diario);
     gravarProgresso(chaveInfinito, progressoInfinito);
@@ -240,7 +202,7 @@ function selecionarModo(novo) {
 
 function atualizarRelogio() {
   if (modo !== "diario" || !partida) return;
-  const atual = hoje();
+  const atual = hoje(idioma);
   if (desafio?.chave !== atual.chave) iniciarDesafio(atual);
   cronometro.textContent = atual.tempo;
 }
@@ -276,17 +238,43 @@ async function baixarDados(caminho, formato) {
   return resposta[formato]();
 }
 
-async function preparar() {
+async function carregarModelo(codigo) {
+  if (!modelosCarregados.has(codigo)) {
+    const { pasta, limiar } = idiomas[codigo];
+    const [vocabulario, binario] = await Promise.all([
+      baixarDados(`${pasta}vocabulario.json`, "json"),
+      baixarDados(`${pasta}vetores.f32`, "arrayBuffer"),
+    ]);
+    modelosCarregados.set(codigo, {
+      modelo: criarModelo(vocabulario.palavras, vocabulario.dimensoes, new Float32Array(binario), limiar),
+      termos: vocabulario.termos,
+    });
+  }
+  return modelosCarregados.get(codigo);
+}
+
+function habilitarControles(ativos) {
+  for (const controle of [...botoesModo, ...botoesIdioma, novaPonte, botaoDica, campo, porId("conectar")]) {
+    controle.disabled = !ativos;
+  }
+}
+
+async function preparar(codigo = lerIdioma()) {
+  habilitarControles(false);
   avisar("Preparando o tabuleiro…");
   try {
-    const [vocabulario, binario] = await Promise.all([
-      baixarDados("./data/vocabulario.json", "json"),
-      baixarDados("./data/vetores.f32", "arrayBuffer"),
-    ]);
-    modelo = criarModelo(vocabulario.palavras, vocabulario.dimensoes, new Float32Array(binario));
-    termos = vocabulario.termos;
+    ({ modelo, termos } = await carregarModelo(codigo));
+    carregarProgresso(codigo);
+    grafo ??= criarGrafo(porId("grafo"), {
+      similaridade: (a, b) => modelo.similaridade(a, b), limiar: () => modelo.limiar, maiuscula,
+    });
     selecionarModo(modo);
-    for (const controle of [...botoesModo, novaPonte, botaoDica, campo, porId("conectar")]) controle.disabled = false;
+    habilitarControles(true);
+    try {
+      localStorage.setItem(chaveIdioma, codigo);
+    } catch {
+      // Sem armazenamento, o idioma vale só para esta aba.
+    }
   } catch (erro) {
     avisar("O vocabulário está indisponível. Recarregue a página para jogar.");
     console.error(erro);
@@ -297,12 +285,13 @@ formulario.addEventListener("submit", evento => {
   evento.preventDefault();
   if (!modelo) return;
   const totalAnterior = partida.tentativas.length;
-  const tentativa = jogar(partida, campo.value, modelo);
+  const tentativa = jogar(partida, campo.value, modelo, idiomas[idioma].locale);
   if (!tentativa) return;
   if (partida.tentativas.length > totalAnterior) {
     campo.value = "";
     salvarProgresso();
     renderizarPartida();
+    if (tentativa.tipo === "distante") grafo.rejeitar(tentativa.palavra);
   }
   const conectou = tentativa.tipo === "conectada" || tentativa.tipo === "ponte";
   avisar(mensagemDaTentativa(tentativa), conectou ? "positive" : "neutro");
@@ -324,6 +313,11 @@ for (const botao of botoesModo) {
     if (botao.dataset.modo !== modo) selecionarModo(botao.dataset.modo);
   });
 }
+for (const botao of botoesIdioma) {
+  botao.addEventListener("click", () => {
+    if (botao.dataset.idioma !== idioma) preparar(botao.dataset.idioma);
+  });
+}
 porId("compartilhar").addEventListener("click", compartilhar);
 for (const botao of document.querySelectorAll("[data-dialog]")) {
   botao.addEventListener("click", () => {
@@ -333,11 +327,4 @@ for (const botao of document.querySelectorAll("[data-dialog]")) {
 }
 
 setInterval(atualizarRelogio, 1_000);
-let larguraTabuleiro;
-new ResizeObserver(([{ contentRect }]) => {
-  if (larguraTabuleiro === contentRect.width) return;
-  larguraTabuleiro = contentRect.width;
-  ajustarPalavrasTabuleiro();
-}).observe(tabuleiro);
-document.fonts.ready.then(ajustarPalavrasTabuleiro);
 preparar();

@@ -9,9 +9,19 @@ Artigo: https://arxiv.org/abs/1708.06025
 Licença: Creative Commons Atribuição 4.0 Internacional.
 https://creativecommons.org/licenses/by/4.0/
 
-Os arquivos em data/ contêm um recorte dos vetores originais. Foram
-selecionadas palavras frequentes e palavras do benchmark. Cada vetor
-foi normalizado e exportado como float32 por preparar_modelo.py.
+Vetores de palavras em inglês
+GloVe 100D treinado em Wikipedia 2014 + Gigaword 5 (glove-wiki-gigaword-100).
+Jeffrey Pennington, Richard Socher e Christopher D. Manning.
+Origem: https://huggingface.co/fse/glove-wiki-gigaword-100 (cópia do gensim-data)
+Projeto: https://nlp.stanford.edu/projects/glove/
+Artigo: https://aclanthology.org/D14-1162/
+Licença: Open Data Commons Public Domain Dedication and License (PDDL) 1.0.
+https://opendatacommons.org/licenses/pddl/1-0/
+
+Os arquivos em data/pt/ e data/en/ contêm recortes dos vetores originais.
+Foram selecionadas palavras frequentes e palavras do benchmark de cada
+idioma. Cada vetor foi normalizado e exportado como float32 por
+preparar_modelo.py.
 
 Fontes
 Pixelify Sans, Bricolage Grotesque e DM Sans, distribuídas sob a SIL Open Font License 1.1.

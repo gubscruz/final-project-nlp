@@ -1,6 +1,5 @@
-export const LIMIAR = 0.5802609920501709;
-
-export function criarModelo(palavras, dimensoes, vetores) {
+export function criarModelo(palavras, dimensoes, vetores, limiar) {
+  if (!(limiar > 0 && limiar < 1)) throw new Error("O limiar precisa estar entre 0 e 1.");
   if (!dimensoes || vetores.length !== palavras.length * dimensoes) {
     throw new Error("O vocabulário e os vetores precisam estar alinhados.");
   }
@@ -12,6 +11,7 @@ export function criarModelo(palavras, dimensoes, vetores) {
     if (alias !== palavra) apelidos.set(alias, apelidos.has(alias) ? null : palavra);
   }
   return {
+    limiar,
     buscar: palavra => indice.has(palavra) ? palavra : apelidos.get(palavra),
     similaridade(a, b) {
       const posicaoA = indice.get(a);
@@ -56,9 +56,9 @@ function caminhoAte(no) {
   return palavras.reverse();
 }
 
-export function jogar(partida, entrada, modelo) {
+export function jogar(partida, entrada, modelo, locale = "pt-BR") {
   if (partida.ponte && !partida.continua) return null;
-  const palpite = entrada.trim().toLocaleLowerCase("pt-BR").normalize("NFC");
+  const palpite = entrada.trim().toLocaleLowerCase(locale).normalize("NFC");
   if (!/^\p{L}+$/u.test(palpite)) return { tipo: "invalida" };
   const palavra = modelo.buscar(palpite);
   if (!palavra) return { tipo: "desconhecida", palavra: palpite };
@@ -66,7 +66,7 @@ export function jogar(partida, entrada, modelo) {
 
   const conexoes = new Set();
   const proximos = partida.lados.map(lado => maisProximo(lado, palavra, modelo));
-  const ligacaoValida = proximos.map(({ cosseno }) => cosseno >= LIMIAR);
+  const ligacaoValida = proximos.map(({ cosseno }) => cosseno >= modelo.limiar);
   const venceu = !partida.ponte && ligacaoValida.every(Boolean);
   if (venceu) {
     partida.ponte = [...caminhoAte(proximos[0].no), palavra, ...caminhoAte(proximos[1].no).reverse()];

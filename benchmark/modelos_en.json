@@ -1,0 +1,62 @@
+[
+  {
+    "id": "glove-50d",
+    "repositorio": "fse/glove-wiki-gigaword-50",
+    "revisao": "6d69f9a584e4268937f8b8e9ae5810fbb22c0cc9",
+    "tipo": "gensim",
+    "arquivos": [
+      "glove-wiki-gigaword-50.model",
+      "glove-wiki-gigaword-50.model.vectors.npy"
+    ]
+  },
+  {
+    "id": "glove-100d",
+    "repositorio": "fse/glove-wiki-gigaword-100",
+    "revisao": "a98c01641f3c8fd0360c00ae8a2f8f77196d8c18",
+    "tipo": "gensim",
+    "arquivos": [
+      "glove-wiki-gigaword-100.model",
+      "glove-wiki-gigaword-100.model.vectors.npy"
+    ]
+  },
+  {
+    "id": "glove-300d",
+    "repositorio": "fse/glove-wiki-gigaword-300",
+    "revisao": "8646658897b406d9ebe5cac186d4d9546dd82e3d",
+    "tipo": "gensim",
+    "arquivos": [
+      "glove-wiki-gigaword-300.model",
+      "glove-wiki-gigaword-300.model.vectors.npy"
+    ]
+  },
+  {
+    "id": "fasttext-300d",
+    "repositorio": "fse/fasttext-wiki-news-subwords-300",
+    "revisao": "e6c81b97e52e6c217969e0d2b922dcad2f149a16",
+    "tipo": "gensim",
+    "arquivos": [
+      "fasttext-wiki-news-subwords-300.model",
+      "fasttext-wiki-news-subwords-300.model.vectors.npy"
+    ]
+  },
+  {
+    "id": "word2vec-300d",
+    "repositorio": "fse/word2vec-google-news-300",
+    "revisao": "43c1496af2ed523549226fa3046eb9f7df197901",
+    "tipo": "gensim",
+    "arquivos": [
+      "word2vec-google-news-300.model",
+      "word2vec-google-news-300.model.vectors.npy"
+    ]
+  },
+  {
+    "id": "minilm-multilingue-int8",
+    "repositorio": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "revisao": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "tipo": "onnx",
+    "arquivos": [
+      "tokenizer.json",
+      "onnx/model_quint8_avx2.onnx"
+    ]
+  }
+]

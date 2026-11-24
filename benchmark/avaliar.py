@@ -1,5 +1,6 @@
 import csv
 import json
+import pickle
 from argparse import ArgumentParser
 from collections import Counter
 from itertools import combinations, pairwise
@@ -12,13 +13,20 @@ from baixar_modelos import DIRETORIO, carregar_modelos, pasta_modelo
 
 
 LIMIAR_NOTEBOOK = 0.40
-TETO_FALSOS_POSITIVOS = 11 / 98  # Taxa obtida pelo FastText 50D no teste da primeira rodada.
+TETO_FALSOS_POSITIVOS = 11 / 98  # Taxa obtida pelo FastText 50D no teste da primeira rodada em português.
+# Modelo de referência do bootstrap e primeiro membro da combinação, por idioma.
+REFERENCIA = {"pt": "fasttext-50d", "en": "glove-50d"}
+COMBINACAO = {"pt": ("fasttext-50d", "glove-50d"), "en": ("glove-50d", "fasttext-300d")}
 
 
-def carregar_base(extensao=False):
-    base = json.loads((DIRETORIO / "avaliacoes.json").read_text(encoding="utf-8"))
+def sufixo(idioma):
+    return "" if idioma == "pt" else f"_{idioma}"
+
+
+def carregar_base(extensao=False, idioma="pt"):
+    base = json.loads((DIRETORIO / f"avaliacoes{sufixo(idioma)}.json").read_text(encoding="utf-8"))
     if extensao:
-        base["confirmacao"] = json.loads((DIRETORIO / "confirmacao.json").read_text(encoding="utf-8"))
+        base["confirmacao"] = json.loads((DIRETORIO / f"confirmacao{sufixo(idioma)}.json").read_text(encoding="utf-8"))
     pares, palavras_por_divisao, vistos = [], {}, set()
     for divisao, pontes in base.items():
         palavras = set()
@@ -66,6 +74,35 @@ def carregar_estatico(pasta, palavras):
     return vetores, dimensoes
 
 
+class _Generico:
+    """Substitui as classes do gensim ao desserializar, já que só o vocabulário interessa."""
+
+    def __init__(self, *args, **kwargs):
+        pass
+
+    def __setstate__(self, estado):
+        self.__dict__.update(estado if isinstance(estado, dict) else {"estado": estado})
+
+
+class _LeitorGensim(pickle.Unpickler):
+    def find_class(self, modulo, nome):
+        if modulo.startswith("gensim") or modulo == "numpy.core.multiarray" and nome == "_reconstruct":
+            return super().find_class(modulo, nome) if modulo.startswith("numpy") else _Generico
+        return super().find_class(modulo, nome)
+
+
+def carregar_gensim(pasta, palavras):
+    # Lê o vocabulário do .model (pickle do gensim) sem depender do gensim; os vetores ficam no .npy.
+    arquivo_modelo = next(pasta.glob("*.model"))
+    with arquivo_modelo.open("rb") as arquivo:
+        objeto = _LeitorGensim(arquivo).load()
+    chaves = objeto.__dict__.get("index_to_key") or objeto.__dict__.get("index2word")
+    indices = {palavra: indice for indice, palavra in enumerate(chaves) if palavra in palavras}
+    matriz = np.load(arquivo_modelo.with_suffix(".model.vectors.npy"), mmap_mode="r")
+    vetores = {palavra: np.array(matriz[indice], dtype=np.float32) for palavra, indice in indices.items()}
+    return vetores, matriz.shape[1]
+
+
 def codificar_minilm(pasta, palavras):
     import onnxruntime as ort
     from tokenizers import Tokenizer
@@ -96,6 +133,8 @@ def calcular_cossenos(modelo, palavras):
     pasta = pasta_modelo(modelo)
     if modelo["tipo"] == "estatico":
         vetores, dimensoes = carregar_estatico(pasta, set(palavras))
+    elif modelo["tipo"] == "gensim":
+        vetores, dimensoes = carregar_gensim(pasta, set(palavras))
     else:
         vetores, dimensoes = codificar_minilm(pasta, palavras)
     matriz = np.full((len(palavras), dimensoes), np.nan, dtype=np.float32)
@@ -121,7 +160,7 @@ def spearman(notas, escores):
     return float(np.corrcoef(postos(notas), postos(escores))[0, 1])
 
 
-def intervalos_delta_spearman(pares, selecao, notas, escores_pares):
+def intervalos_delta_spearman(pares, selecao, notas, escores_pares, referencia):
     por_tema = {}
     for indice in np.flatnonzero(selecao):
         tema = pares[indice][1]
@@ -133,11 +172,11 @@ def intervalos_delta_spearman(pares, selecao, notas, escores_pares):
     def correlacoes(escores):
         return np.array([spearman(notas[amostra], escores[amostra]) for amostra in amostras])
 
-    base = correlacoes(escores_pares["fasttext-50d"])
+    base = correlacoes(escores_pares[referencia])
     return {
         nome: np.quantile(correlacoes(escores) - base, [0.025, 0.975]).tolist()
         for nome, escores in escores_pares.items()
-        if nome != "fasttext-50d"
+        if nome != referencia
     }
 
 
@@ -238,8 +277,9 @@ def escrever_csv(destino, linhas):
         escritor.writerows(linhas)
 
 
-def main(extensao=False):
-    base, pares, palavras = carregar_base(extensao)
+def main(extensao=False, idioma="pt"):
+    base, pares, palavras = carregar_base(extensao, idioma)
+    referencia = REFERENCIA[idioma]
     divisao_teste = "confirmacao" if extensao else "teste"
     indice = {palavra: i for i, palavra in enumerate(palavras)}
     indices_a = [indice[a] for _, _, _, a, _, _ in pares]
@@ -248,23 +288,22 @@ def main(extensao=False):
     calibracao = np.array([divisao == "calibracao" for divisao, *_ in pares])
     teste = ~calibracao
     resultados = {}
-    for modelo in carregar_modelos(extensao):
+    for modelo in carregar_modelos(extensao, idioma):
         nome = modelo["id"]
         print(f"Calculando cossenos para {nome}", flush=True)
         resultados[nome] = calcular_cossenos(modelo, palavras)
     if extensao:
-        fasttext, dim_fasttext, bytes_fasttext = resultados["fasttext-50d"]
-        glove, dim_glove, bytes_glove = resultados["glove-50d"]
-        resultados["fasttext-50d-e-glove-50d"] = (
-            (fasttext + glove) / 2, dim_fasttext + dim_glove, bytes_fasttext + bytes_glove,
-        )
+        primeiro, segundo = COMBINACAO[idioma]
+        matriz_a, dim_a, bytes_a = resultados[primeiro]
+        matriz_b, dim_b, bytes_b = resultados[segundo]
+        resultados[f"{primeiro}-e-{segundo}"] = ((matriz_a + matriz_b) / 2, dim_a + dim_b, bytes_a + bytes_b)
 
     escores_pares = {nome: matriz[indices_a, indices_b] for nome, (matriz, *_) in resultados.items()}
     comuns = np.logical_and.reduce([np.isfinite(escores) for escores in escores_pares.values()])
     pares_teste = teste & comuns
     pares_teste_sem_zeros = pares_teste & (notas > 0)
     pares_calibracao = calibracao & comuns
-    intervalos = intervalos_delta_spearman(pares, pares_teste, notas, escores_pares) if extensao else {}
+    intervalos = intervalos_delta_spearman(pares, pares_teste, notas, escores_pares, referencia) if extensao else {}
     resumo = {
         "base": {
             "palavras": len(palavras),
@@ -292,7 +331,7 @@ def main(extensao=False):
             "spearman_teste_sem_nota_zero": spearman(notas[pares_teste_sem_zeros], escores[pares_teste_sem_zeros]),
         }
         if nome in intervalos:
-            resultados_modelo["intervalo_bootstrap_95_delta_spearman_vs_fasttext_50d"] = intervalos[nome]
+            resultados_modelo[f"intervalo_bootstrap_95_delta_spearman_vs_{referencia.replace('-', '_')}"] = intervalos[nome]
 
         def similaridade(a, b):
             return float(matriz[indice[a], indice[b]])
@@ -313,7 +352,7 @@ def main(extensao=False):
             })
         resumo["modelos"][nome] = resultados_modelo
 
-    destino = DIRETORIO / ("resultados_extensao" if extensao else "resultados")
+    destino = DIRETORIO / (("resultados_extensao" if extensao else "resultados") + sufixo(idioma))
     destino.mkdir(exist_ok=True)
     (destino / "resumo.json").write_text(
         json.dumps(resumo, ensure_ascii=False, indent=2, allow_nan=False) + "\n", encoding="utf-8"
@@ -326,5 +365,6 @@ def main(extensao=False):
 if __name__ == "__main__":
     parser = ArgumentParser(description="Compara embeddings para o jogo de palavras.")
     parser.add_argument("--extensao", action="store_true", help="Avalia todos os candidatos nas pontes novas.")
+    parser.add_argument("--idioma", default="pt", choices=["pt", "en"], help="Base e modelos a avaliar.")
     args = parser.parse_args()
-    main(args.extensao)
+    main(args.extensao, args.idioma)

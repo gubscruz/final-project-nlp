@@ -1,10 +1,8 @@
-import { LIMIAR } from "./jogo.mjs";
-
 export function gerarCaminhos(termos, modelo) {
   const vizinhos = termos.map(() => []);
   for (let origem = 0; origem < termos.length; origem++) {
     for (let destino = origem + 1; destino < termos.length; destino++) {
-      if (modelo.similaridade(termos[origem], termos[destino]) >= LIMIAR) {
+      if (modelo.similaridade(termos[origem], termos[destino]) >= modelo.limiar) {
         vizinhos[origem].push(destino);
         vizinhos[destino].push(origem);
       }

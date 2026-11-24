@@ -32,6 +32,16 @@
         <span class="brand-mark"><svg class="icon" aria-hidden="true"><use href="#i-bridge"/></svg></span>
         <span>travessia<span class="brand-period">.</span></span>
       </div>
+      <div class="lang-picker" role="group" aria-label="Idioma das palavras">
+        <button class="button lang-button" type="button" data-idioma="pt" aria-pressed="true" title="Palavras em português" disabled>
+          <svg class="flag" viewBox="0 0 28 20" aria-hidden="true"><rect width="28" height="20" rx="2" fill="#2f9e44"/><path d="M14 2.5 25 10 14 17.5 3 10Z" fill="#ffd43b"/><circle cx="14" cy="10" r="4.3" fill="#1c4f9c"/><path d="M10 9.3c2.9-1 5.4-.6 8 1" fill="none" stroke="#fff" stroke-width=".9"/></svg>
+          <span>PT</span>
+        </button>
+        <button class="button lang-button" type="button" data-idioma="en" aria-pressed="false" title="Words in English" disabled>
+          <svg class="flag" viewBox="0 0 28 20" aria-hidden="true"><rect width="28" height="20" rx="2" fill="#1d3b8b"/><path d="m0 0 28 20M28 0 0 20" stroke="#fff" stroke-width="4"/><path d="m0 0 28 20M28 0 0 20" stroke="#d12b2b" stroke-width="1.6"/><path d="M14 0v20M0 10h28" stroke="#fff" stroke-width="6"/><path d="M14 0v20M0 10h28" stroke="#d12b2b" stroke-width="3.2"/></svg>
+          <span>EN</span>
+        </button>
+      </div>
       <nav aria-label="Sobre o jogo">
         <button class="button button-quiet" type="button" data-dialog="ajuda" aria-label="Como jogar"><svg class="icon" aria-hidden="true"><use href="#i-info"/></svg><span class="help-label">Como jogar</span></button>
         <button class="button button-square" type="button" data-dialog="estatisticas" aria-label="Estatísticas" title="Estatísticas"><svg class="icon" aria-hidden="true"><use href="#i-stats"/></svg></button>
@@ -50,21 +60,8 @@
       <p class="edition"><span id="numero-desafio">Modo Infinito</span><span class="edition-dot" id="separador-data" aria-hidden="true" hidden></span><time id="data-desafio" hidden></time></p>
     </div>
 
-    <section class="board" id="tabuleiro" aria-label="Tabuleiro da travessia">
-      <img class="board-art" src="./assets/travessia-dia.webp" width="2172" height="724" alt="" fetchpriority="high">
-      <div class="crossing">
-        <div class="bank bank-start">
-          <span class="bank-label">Saída</span>
-          <span class="bank-word"><span class="bank-word-text" id="palavra-inicio">—</span></span>
-        </div>
-        <div class="span" aria-hidden="true">
-          <span class="span-mid"><svg class="icon" aria-hidden="true"><use href="#i-bridge"/></svg></span>
-        </div>
-        <div class="bank bank-end">
-          <span class="bank-label">Chegada</span>
-          <span class="bank-word"><span class="bank-word-text" id="palavra-fim">—</span></span>
-        </div>
-      </div>
+    <section class="graph" id="tabuleiro" aria-label="Mapa das conexões">
+      <svg class="graph-canvas" id="grafo" role="img" aria-label="Mapa das conexões vazio"></svg>
     </section>
 
     <section class="controls" aria-label="Palpites">
@@ -87,15 +84,7 @@
         </div>
       </div>
       <p class="hint" id="dica" hidden></p>
-      <details class="connections" id="conexoes" open hidden>
-        <summary id="total-conexoes">Conexões</summary>
-        <ol class="trail" id="caminho-atual" aria-label="Palavras da ponte"></ol>
-        <ul class="link-list" id="lista-conexoes" aria-label="Todas as conexões aceitas"></ul>
-      </details>
-      <details class="history" id="historico" hidden>
-        <summary>Histórico de palpites</summary>
-        <ol id="lista-tentativas"></ol>
-      </details>
+      <p class="graph-legend">Cada palavra se pendura em quem ela encaixou. Linha mais grossa, palavras mais parecidas. Dá para arrastar.</p>
       <noscript><p>Ative o JavaScript para jogar Travessia.</p></noscript>
     </section>
   </main>
@@ -116,7 +105,8 @@
     </div>
     <p>Um palpite que liga os dois lados fecha a ponte. Em quantos palpites você consegue atravessar?</p>
     <p>No modo Infinito, pode continuar ligando palavras após atravessar ou pedir uma nova ponte a qualquer hora.</p>
-    <small>Similaridade calculada com vetores de FastText do NILC. <a href="./CREDITOS.txt" target="_blank" rel="noopener">Créditos e licenças</a></small>
+    <p>Troque o idioma das palavras pelas bandeiras no topo. Cada idioma tem seu próprio vocabulário e progresso.</p>
+    <small>Similaridade calculada com vetores de FastText do NILC (português) e GloVe (inglês). <a href="./CREDITOS.txt" target="_blank" rel="noopener">Créditos e licenças</a></small>
   </dialog>
 
   <dialog id="estatisticas" aria-labelledby="titulo-estatisticas">

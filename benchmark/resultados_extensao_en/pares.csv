@@ -1,0 +1,1520 @@
+﻿modelo,divisao,tema,origem,palavra_a,palavra_b,nota,cosseno,par_comum,aceito_notebook,aceito_calibrado,aceito_teto_falsos_positivos
+glove-50d,calibracao,baking,ponte,wheat,flour,3,0.71815765,True,True,True,True
+glove-50d,calibracao,baking,ponte,flour,dough,2,0.72433406,True,True,True,True
+glove-50d,calibracao,baking,ponte,dough,bread,3,0.74260730,True,True,True,True
+glove-50d,calibracao,baking,extra,wheat,wheel,1,0.08020943,True,False,False,False
+glove-50d,calibracao,baking,extra,flour,compass,0,0.09914704,True,False,False,False
+glove-50d,calibracao,baking,extra,bread,comet,0,-0.06359577,True,False,False,False
+glove-50d,calibracao,racket sports,ponte,badminton,racket,3,0.31146741,True,False,True,False
+glove-50d,calibracao,racket sports,ponte,racket,tennis,3,0.40974647,True,True,True,True
+glove-50d,calibracao,racket sports,ponte,tennis,court,3,0.41449276,True,True,True,True
+glove-50d,calibracao,racket sports,extra,racket,rocket,1,0.09403118,True,False,False,False
+glove-50d,calibracao,racket sports,extra,badminton,horn,0,-0.00081283,True,False,False,False
+glove-50d,calibracao,racket sports,extra,court,cinnamon,0,-0.08692385,True,False,False,False
+glove-50d,calibracao,geography,ponte,map,border,2,0.46192449,True,True,True,True
+glove-50d,calibracao,geography,ponte,border,country,3,0.65009636,True,True,True,True
+glove-50d,calibracao,geography,ponte,country,flag,2,0.43454865,True,True,True,True
+glove-50d,calibracao,geography,extra,map,mop,1,-0.10638003,True,False,False,False
+glove-50d,calibracao,geography,extra,border,boarder,1,0.10822479,True,False,False,False
+glove-50d,calibracao,geography,extra,flag,yogurt,0,-0.03443610,True,False,False,False
+glove-50d,calibracao,planting,ponte,seed,germination,3,0.48223710,True,True,True,True
+glove-50d,calibracao,planting,ponte,germination,sprout,3,0.35352182,True,False,True,True
+glove-50d,calibracao,planting,ponte,sprout,garden,2,0.38701746,True,False,True,True
+glove-50d,calibracao,planting,extra,seed,seek,1,0.21768050,True,False,False,False
+glove-50d,calibracao,planting,extra,garden,gardenia,2,0.20729537,True,False,False,False
+glove-50d,calibracao,planting,extra,sprout,customs,0,-0.20220056,True,False,False,False
+glove-50d,calibracao,kitchen,ponte,pan,frying,3,0.65181071,True,True,True,True
+glove-50d,calibracao,kitchen,ponte,frying,potato,2,0.60279143,True,True,True,True
+glove-50d,calibracao,kitchen,ponte,potato,mash,3,0.62745476,True,True,True,True
+glove-50d,calibracao,kitchen,extra,potato,potion,1,0.33062267,True,False,True,True
+glove-50d,calibracao,kitchen,extra,mash,mask,1,0.18594025,True,False,False,False
+glove-50d,calibracao,kitchen,extra,frying,baton,0,0.22623606,True,False,False,False
+glove-50d,calibracao,air travel,ponte,airport,boarding,3,0.51066715,True,True,True,True
+glove-50d,calibracao,air travel,ponte,boarding,passenger,3,0.61205947,True,True,True,True
+glove-50d,calibracao,air travel,ponte,passenger,luggage,2,0.62739289,True,True,True,True
+glove-50d,calibracao,air travel,extra,boarding,hoarding,1,-0.02170642,True,False,False,False
+glove-50d,calibracao,air travel,extra,passenger,passage,1,0.37137178,True,False,True,True
+glove-50d,calibracao,air travel,extra,luggage,dew,0,0.09033066,True,False,False,False
+glove-50d,calibracao,citizenship,ponte,election,vote,3,0.87882239,True,True,True,True
+glove-50d,calibracao,citizenship,ponte,vote,ballot,3,0.83672488,True,True,True,True
+glove-50d,calibracao,citizenship,ponte,ballot,secrecy,2,0.27449587,True,False,True,False
+glove-50d,calibracao,citizenship,extra,election,elevation,1,0.20138483,True,False,False,False
+glove-50d,calibracao,citizenship,extra,ballot,penguin,0,-0.17704679,True,False,False,False
+glove-50d,calibracao,citizenship,extra,vote,voltage,0,0.13662758,True,False,False,False
+glove-50d,calibracao,space exploration,ponte,astronaut,rocket,3,0.27613357,True,False,True,False
+glove-50d,calibracao,space exploration,ponte,rocket,launch,3,0.72940791,True,True,True,True
+glove-50d,calibracao,space exploration,ponte,launch,countdown,2,0.46968752,True,True,True,True
+glove-50d,calibracao,space exploration,extra,astronaut,astrologer,1,0.31829342,True,False,True,False
+glove-50d,calibracao,space exploration,extra,rocket,pocket,1,0.26691681,True,False,False,False
+glove-50d,calibracao,space exploration,extra,countdown,planter,0,-0.36041790,True,False,False,False
+glove-50d,calibracao,emotional support,ponte,fear,courage,2,0.44509709,True,True,True,True
+glove-50d,calibracao,emotional support,ponte,courage,confidence,2,0.55806506,True,True,True,True
+glove-50d,calibracao,emotional support,ponte,confidence,friendship,2,0.47042817,True,True,True,True
+glove-50d,calibracao,emotional support,extra,fear,feat,1,0.16550958,True,False,False,False
+glove-50d,calibracao,emotional support,extra,confidence,condiment,0,-0.11170159,True,False,False,False
+glove-50d,calibracao,emotional support,extra,friendship,rust,0,-0.00952250,True,False,False,False
+glove-50d,calibracao,embroidery,ponte,needle,thread,3,0.66051650,True,True,True,True
+glove-50d,calibracao,embroidery,ponte,thread,embroidery,3,0.61989164,True,True,True,True
+glove-50d,calibracao,embroidery,ponte,embroidery,ornament,2,0.59979552,True,True,True,True
+glove-50d,calibracao,embroidery,extra,needle,needlework,3,0.31866711,True,False,True,True
+glove-50d,calibracao,embroidery,extra,thread,threat,1,0.10629757,True,False,False,False
+glove-50d,calibracao,embroidery,extra,ornament,asphalt,0,0.30482975,True,False,True,False
+glove-50d,calibracao,photography,ponte,photographer,camera,3,0.49073282,True,True,True,True
+glove-50d,calibracao,photography,ponte,camera,portrait,3,0.46383184,True,True,True,True
+glove-50d,calibracao,photography,ponte,portrait,frame,2,0.44708940,True,True,True,True
+glove-50d,calibracao,photography,extra,photographer,photosynthesis,1,-0.21942775,True,False,False,False
+glove-50d,calibracao,photography,extra,portrait,report,1,0.25508526,True,False,False,False
+glove-50d,calibracao,photography,extra,frame,bean,0,0.16298671,True,False,False,False
+glove-50d,calibracao,road trip,ponte,driver,car,3,0.84640193,True,True,True,True
+glove-50d,calibracao,road trip,ponte,car,road,2,0.58452982,True,True,True,True
+glove-50d,calibracao,road trip,ponte,road,toll,3,0.46966445,True,True,True,True
+glove-50d,calibracao,road trip,extra,driver,rider,2,0.69421166,True,True,True,True
+glove-50d,calibracao,road trip,extra,car,cart,1,0.72371352,True,True,True,True
+glove-50d,calibracao,road trip,extra,toll,ladle,0,-0.25881171,True,False,False,False
+glove-50d,confirmacao,sheep farming,ponte,wool,sheep,3,0.48957238,True,True,True,True
+glove-50d,confirmacao,sheep farming,ponte,sheep,shepherd,3,0.41685724,True,True,True,True
+glove-50d,confirmacao,sheep farming,ponte,shepherd,flock,3,0.33932301,True,False,True,True
+glove-50d,confirmacao,sheep farming,ponte,flock,field,2,0.13176495,True,False,False,False
+glove-50d,confirmacao,sheep farming,extra,wool,wolf,1,0.16908592,True,False,False,False
+glove-50d,confirmacao,sheep farming,extra,shepherd,scarecrow,1,0.11633655,True,False,False,False
+glove-50d,confirmacao,sheep farming,extra,flock,double,0,0.09808442,True,False,False,False
+glove-50d,confirmacao,making pizza,ponte,tomato,sauce,3,0.85968691,True,True,True,True
+glove-50d,confirmacao,making pizza,ponte,sauce,pizza,2,0.63969147,True,True,True,True
+glove-50d,confirmacao,making pizza,ponte,pizza,oven,3,0.47147298,True,True,True,True
+glove-50d,confirmacao,making pizza,extra,tomato,tomb,1,-0.03517035,True,False,False,False
+glove-50d,confirmacao,making pizza,extra,pizza,calzone,3,0.45807567,True,True,True,True
+glove-50d,confirmacao,making pizza,extra,oven,peacock,0,-0.08752506,True,False,False,False
+glove-50d,confirmacao,horse riding,ponte,horse,rein,3,0.03751181,True,False,False,False
+glove-50d,confirmacao,horse riding,ponte,rein,horseman,3,-0.14616992,True,False,False,False
+glove-50d,confirmacao,horse riding,ponte,horseman,saddle,3,0.31340054,True,False,True,False
+glove-50d,confirmacao,horse riding,extra,saddle,sadly,1,0.09640399,True,False,False,False
+glove-50d,confirmacao,horse riding,extra,horse,hoarse,1,0.04496311,True,False,False,False
+glove-50d,confirmacao,horse riding,extra,rein,drizzle,0,-0.04950826,True,False,False,False
+glove-50d,confirmacao,keeping time,ponte,deadline,delay,3,0.77397293,True,True,True,True
+glove-50d,confirmacao,keeping time,ponte,delay,clock,2,0.44734970,True,True,True,True
+glove-50d,confirmacao,keeping time,ponte,clock,pendulum,3,0.57808262,True,True,True,True
+glove-50d,confirmacao,keeping time,extra,deadline,headline,1,0.29718980,True,False,True,False
+glove-50d,confirmacao,keeping time,extra,delay,meeting,2,0.56525427,True,True,True,True
+glove-50d,confirmacao,keeping time,extra,pendulum,almond,0,-0.04059734,True,False,False,False
+glove-50d,confirmacao,breathing,ponte,asthma,breathing,3,0.59103143,True,True,True,True
+glove-50d,confirmacao,breathing,ponte,breathing,lung,3,0.61337370,True,True,True,True
+glove-50d,confirmacao,breathing,ponte,lung,oxygen,3,0.48280296,True,True,True,True
+glove-50d,confirmacao,breathing,extra,asthma,plasma,1,0.37614113,True,False,True,True
+glove-50d,confirmacao,breathing,extra,lung,stomach,2,0.67581582,True,True,True,True
+glove-50d,confirmacao,breathing,extra,breathing,forklift,0,0.11697201,True,False,False,False
+glove-50d,confirmacao,wall painting,ponte,paint,brush,3,0.75637794,True,True,True,True
+glove-50d,confirmacao,wall painting,ponte,brush,wall,2,0.45907393,True,True,True,True
+glove-50d,confirmacao,wall painting,ponte,wall,plaster,3,0.49188945,True,True,True,True
+glove-50d,confirmacao,wall painting,extra,brush,brunch,1,0.03088911,True,False,False,False
+glove-50d,confirmacao,wall painting,extra,paint,painter,3,0.37743950,True,False,True,True
+glove-50d,confirmacao,wall painting,extra,plaster,ant,0,0.06094988,True,False,False,False
+glove-50d,confirmacao,public safety,ponte,guard,police,2,0.67702812,True,True,True,True
+glove-50d,confirmacao,public safety,ponte,police,crime,3,0.62654674,True,True,True,True
+glove-50d,confirmacao,public safety,ponte,crime,prison,3,0.60706848,True,True,True,True
+glove-50d,confirmacao,public safety,extra,crime,cream,1,0.02674232,True,False,False,False
+glove-50d,confirmacao,public safety,extra,police,nurse,1,0.44268557,True,True,True,True
+glove-50d,confirmacao,public safety,extra,prison,sequin,0,-0.07408058,True,False,False,False
+glove-50d,confirmacao,match at the stadium,ponte,pitch,stadium,3,0.52659076,True,True,True,True
+glove-50d,confirmacao,match at the stadium,ponte,stadium,bleachers,3,0.58078027,True,True,True,True
+glove-50d,confirmacao,match at the stadium,ponte,bleachers,ticket,2,0.35503086,True,False,True,True
+glove-50d,confirmacao,match at the stadium,extra,pitch,pinch,1,0.68527341,True,True,True,True
+glove-50d,confirmacao,match at the stadium,extra,bleachers,counter,1,-0.01055437,True,False,False,False
+glove-50d,confirmacao,match at the stadium,extra,ticket,hedgehog,0,-0.24609354,True,False,False,False
+glove-50d,confirmacao,storm,ponte,lightning,thunder,3,0.71450788,True,True,True,True
+glove-50d,confirmacao,storm,ponte,thunder,storm,3,0.52641612,True,True,True,True
+glove-50d,confirmacao,storm,ponte,storm,hail,3,0.62611204,True,True,True,True
+glove-50d,confirmacao,storm,extra,thunder,tundra,1,0.27504811,True,False,True,False
+glove-50d,confirmacao,storm,extra,hail,hair,1,0.16070260,True,False,False,False
+glove-50d,confirmacao,storm,extra,storm,pillow,0,0.10558096,True,False,False,False
+glove-50d,confirmacao,print advertising,ponte,poster,advertising,2,0.53781170,True,True,True,True
+glove-50d,confirmacao,print advertising,ponte,advertising,announcement,3,0.40719664,True,True,True,True
+glove-50d,confirmacao,print advertising,ponte,announcement,newspaper,2,0.52941149,True,True,True,True
+glove-50d,confirmacao,print advertising,extra,poster,postcard,1,0.53554738,True,True,True,True
+glove-50d,confirmacao,print advertising,extra,newspaper,news,3,0.83418232,True,True,True,True
+glove-50d,confirmacao,print advertising,extra,announcement,scorpion,0,-0.05599155,True,False,False,False
+glove-50d,confirmacao,personal hygiene,ponte,soap,foam,3,0.34052753,True,False,True,True
+glove-50d,confirmacao,personal hygiene,ponte,foam,bath,2,0.34197760,True,False,True,True
+glove-50d,confirmacao,personal hygiene,ponte,bath,towel,3,0.48663059,True,True,True,True
+glove-50d,confirmacao,personal hygiene,extra,soap,soar,1,0.07349028,True,False,False,False
+glove-50d,confirmacao,personal hygiene,extra,bath,bathroom,3,0.60333204,True,True,True,True
+glove-50d,confirmacao,personal hygiene,extra,towel,propeller,0,0.12035002,True,False,False,False
+glove-50d,confirmacao,desert landscape,ponte,sand,dune,3,0.45037881,True,True,True,True
+glove-50d,confirmacao,desert landscape,ponte,dune,desert,3,0.39113429,True,False,True,True
+glove-50d,confirmacao,desert landscape,ponte,desert,oasis,3,0.57301265,True,True,True,True
+glove-50d,confirmacao,desert landscape,extra,sand,sandal,1,0.22753316,True,False,False,False
+glove-50d,confirmacao,desert landscape,extra,sand,sift,2,0.36072949,True,False,True,True
+glove-50d,confirmacao,desert landscape,extra,oasis,earring,0,0.12519298,True,False,False,False
+glove-50d,confirmacao,petroleum products,ponte,petroleum,gasoline,3,0.62836379,True,True,True,True
+glove-50d,confirmacao,petroleum products,ponte,gasoline,fuel,3,0.84886700,True,True,True,True
+glove-50d,confirmacao,petroleum products,ponte,fuel,combustion,3,0.66731203,True,True,True,True
+glove-50d,confirmacao,petroleum products,extra,gasoline,gazelle,1,-0.05886919,True,False,False,False
+glove-50d,confirmacao,petroleum products,extra,petroleum,reserve,2,0.50336397,True,True,True,True
+glove-50d,confirmacao,petroleum products,extra,combustion,blackboard,0,-0.04965635,True,False,False,False
+glove-50d,confirmacao,ballet show,ponte,ballet,slipper,3,0.15929607,True,False,False,False
+glove-50d,confirmacao,ballet show,ponte,slipper,stage,2,0.11121435,True,False,False,False
+glove-50d,confirmacao,ballet show,ponte,stage,audience,3,0.57799208,True,True,True,True
+glove-50d,confirmacao,ballet show,extra,ballet,ballast,1,-0.02911549,True,False,False,False
+glove-50d,confirmacao,ballet show,extra,stage,backstage,3,0.44283140,True,True,True,True
+glove-50d,confirmacao,ballet show,extra,audience,persimmon,0,-0.13946837,True,False,False,False
+glove-50d,confirmacao,octopus anatomy,ponte,octopus,tentacle,3,0.58374149,True,True,True,True
+glove-50d,confirmacao,octopus anatomy,ponte,tentacle,sucker,3,0.44428101,True,True,True,True
+glove-50d,confirmacao,octopus anatomy,ponte,sucker,suction,3,0.35956031,True,False,True,True
+glove-50d,confirmacao,octopus anatomy,extra,octopus,optics,1,0.04191627,True,False,False,False
+glove-50d,confirmacao,octopus anatomy,extra,tentacle,tentative,1,-0.04943937,True,False,False,False
+glove-50d,confirmacao,octopus anatomy,extra,suction,binoculars,0,0.27534956,True,False,True,False
+glove-50d,confirmacao,construction site,ponte,architect,project,3,0.46974534,True,True,True,True
+glove-50d,confirmacao,construction site,ponte,project,construction,2,0.73493963,True,True,True,True
+glove-50d,confirmacao,construction site,ponte,construction,scaffold,3,0.27956185,True,False,True,False
+glove-50d,confirmacao,construction site,extra,architect,archer,1,0.36960113,True,False,True,True
+glove-50d,confirmacao,construction site,extra,project,planning,3,0.72494864,True,True,True,True
+glove-50d,confirmacao,construction site,extra,scaffold,sausage,0,0.13614847,True,False,False,False
+glove-50d,confirmacao,group singing,ponte,microphone,voice,3,0.65456682,True,True,True,True
+glove-50d,confirmacao,group singing,ponte,voice,singing,3,0.71012789,True,True,True,True
+glove-50d,confirmacao,group singing,ponte,singing,choir,3,0.77527672,True,True,True,True
+glove-50d,confirmacao,group singing,extra,singing,stinging,1,0.15299894,True,False,False,False
+glove-50d,confirmacao,group singing,extra,choir,chorus,3,0.80847293,True,True,True,True
+glove-50d,confirmacao,group singing,extra,voice,vice,1,0.35848394,True,False,True,True
+glove-50d,confirmacao,dairy,ponte,butter,milk,3,0.78975207,True,True,True,True
+glove-50d,confirmacao,dairy,ponte,milk,cheese,3,0.74221218,True,True,True,True
+glove-50d,confirmacao,dairy,ponte,cheese,rennet,3,0.37335467,True,False,True,True
+glove-50d,confirmacao,dairy,extra,butter,butler,1,0.12850240,True,False,False,False
+glove-50d,confirmacao,dairy,extra,cheese,crackers,3,0.68750727,True,True,True,True
+glove-50d,confirmacao,dairy,extra,rennet,wax,0,0.22263713,True,False,False,False
+glove-50d,confirmacao,upholstery,ponte,sofa,upholstery,3,0.64851201,True,True,True,True
+glove-50d,confirmacao,upholstery,ponte,upholstery,leather,2,0.80890304,True,True,True,True
+glove-50d,confirmacao,upholstery,ponte,leather,tannery,3,0.43173701,True,True,True,True
+glove-50d,confirmacao,upholstery,extra,leather,lather,1,0.16909507,True,False,False,False
+glove-50d,confirmacao,upholstery,extra,sofa,armchair,3,0.44835591,True,True,True,True
+glove-50d,confirmacao,upholstery,extra,tannery,cup,0,-0.10942677,True,False,False,False
+glove-50d,confirmacao,hands and fingerprints,ponte,polish,nail,3,0.16721496,True,False,False,False
+glove-50d,confirmacao,hands and fingerprints,ponte,nail,finger,3,0.59279877,True,True,True,True
+glove-50d,confirmacao,hands and fingerprints,ponte,finger,fingerprint,2,0.29413599,True,False,True,False
+glove-50d,confirmacao,hands and fingerprints,extra,polish,polite,1,0.04225558,True,False,False,False
+glove-50d,confirmacao,hands and fingerprints,extra,finger,wrist,2,0.70234501,True,True,True,True
+glove-50d,confirmacao,hands and fingerprints,extra,fingerprint,eggplant,0,-0.02922549,True,False,False,False
+glove-50d,confirmacao,paid work,ponte,resume,job,3,0.55247164,True,True,True,True
+glove-50d,confirmacao,paid work,ponte,job,salary,3,0.68049431,True,True,True,True
+glove-50d,confirmacao,paid work,ponte,salary,income,3,0.71718878,True,True,True,True
+glove-50d,confirmacao,paid work,extra,resume,residue,1,0.06175687,True,False,False,False
+glove-50d,confirmacao,paid work,extra,job,jab,1,0.08412746,True,False,False,False
+glove-50d,confirmacao,paid work,extra,salary,gecko,0,-0.21329217,True,False,False,False
+glove-50d,confirmacao,thaw,ponte,glacier,ice,3,0.40480104,True,True,True,True
+glove-50d,confirmacao,thaw,ponte,ice,thaw,3,0.33534864,True,False,True,True
+glove-50d,confirmacao,thaw,ponte,thaw,warming,2,0.47164822,True,True,True,True
+glove-50d,confirmacao,thaw,extra,glacier,frost,2,0.37387785,True,False,True,True
+glove-50d,confirmacao,thaw,extra,ice,dice,1,0.27424955,True,False,True,False
+glove-50d,confirmacao,thaw,extra,warming,drum,0,0.08297049,True,False,False,False
+glove-50d,confirmacao,medical prescription,ponte,doctor,appointment,3,0.50448310,True,True,True,True
+glove-50d,confirmacao,medical prescription,ponte,appointment,prescription,3,0.28389612,True,False,True,False
+glove-50d,confirmacao,medical prescription,ponte,prescription,medicine,3,0.60856378,True,True,True,True
+glove-50d,confirmacao,medical prescription,extra,appointment,apportionment,1,0.10606013,True,False,False,False
+glove-50d,confirmacao,medical prescription,extra,prescription,pharmacy,3,0.57721901,True,True,True,True
+glove-50d,confirmacao,medical prescription,extra,doctor,carpet,0,0.06485508,True,False,False,False
+glove-50d,confirmacao,wind instrument and air,ponte,flute,blow,3,0.07413860,True,False,False,False
+glove-50d,confirmacao,wind instrument and air,ponte,blow,air,3,0.53360647,True,True,True,True
+glove-50d,confirmacao,wind instrument and air,ponte,air,oxidation,2,0.13258874,True,False,False,False
+glove-50d,confirmacao,wind instrument and air,extra,blow,bow,1,0.53877026,True,True,True,True
+glove-50d,confirmacao,wind instrument and air,extra,flute,clarinet,3,0.91067356,True,True,True,True
+glove-50d,confirmacao,wind instrument and air,extra,oxidation,shoelace,0,-0.11672050,True,False,False,False
+glove-100d,calibracao,baking,ponte,wheat,flour,3,0.63733113,True,True,True,True
+glove-100d,calibracao,baking,ponte,flour,dough,2,0.71051824,True,True,True,True
+glove-100d,calibracao,baking,ponte,dough,bread,3,0.67131305,True,True,True,True
+glove-100d,calibracao,baking,extra,wheat,wheel,1,0.01122781,True,False,False,False
+glove-100d,calibracao,baking,extra,flour,compass,0,0.10622603,True,False,False,False
+glove-100d,calibracao,baking,extra,bread,comet,0,-0.10340399,True,False,False,False
+glove-100d,calibracao,racket sports,ponte,badminton,racket,3,0.28967792,True,False,False,True
+glove-100d,calibracao,racket sports,ponte,racket,tennis,3,0.42176244,True,True,True,True
+glove-100d,calibracao,racket sports,ponte,tennis,court,3,0.39545298,True,False,True,True
+glove-100d,calibracao,racket sports,extra,racket,rocket,1,0.15854235,True,False,False,False
+glove-100d,calibracao,racket sports,extra,badminton,horn,0,-0.01630799,True,False,False,False
+glove-100d,calibracao,racket sports,extra,court,cinnamon,0,-0.11307847,True,False,False,False
+glove-100d,calibracao,geography,ponte,map,border,2,0.46288916,True,True,True,True
+glove-100d,calibracao,geography,ponte,border,country,3,0.55961007,True,True,True,True
+glove-100d,calibracao,geography,ponte,country,flag,2,0.38168645,True,False,True,True
+glove-100d,calibracao,geography,extra,map,mop,1,-0.00858022,True,False,False,False
+glove-100d,calibracao,geography,extra,border,boarder,1,0.20637399,True,False,False,False
+glove-100d,calibracao,geography,extra,flag,yogurt,0,-0.00413122,True,False,False,False
+glove-100d,calibracao,planting,ponte,seed,germination,3,0.48776034,True,True,True,True
+glove-100d,calibracao,planting,ponte,germination,sprout,3,0.31521210,True,False,True,True
+glove-100d,calibracao,planting,ponte,sprout,garden,2,0.33530009,True,False,True,True
+glove-100d,calibracao,planting,extra,seed,seek,1,0.15292160,True,False,False,False
+glove-100d,calibracao,planting,extra,garden,gardenia,2,0.12807931,True,False,False,False
+glove-100d,calibracao,planting,extra,sprout,customs,0,-0.14440943,True,False,False,False
+glove-100d,calibracao,kitchen,ponte,pan,frying,3,0.59520650,True,True,True,True
+glove-100d,calibracao,kitchen,ponte,frying,potato,2,0.46114224,True,True,True,True
+glove-100d,calibracao,kitchen,ponte,potato,mash,3,0.49644926,True,True,True,True
+glove-100d,calibracao,kitchen,extra,potato,potion,1,0.19357528,True,False,False,False
+glove-100d,calibracao,kitchen,extra,mash,mask,1,0.12213962,True,False,False,False
+glove-100d,calibracao,kitchen,extra,frying,baton,0,0.15133114,True,False,False,False
+glove-100d,calibracao,air travel,ponte,airport,boarding,3,0.42697573,True,True,True,True
+glove-100d,calibracao,air travel,ponte,boarding,passenger,3,0.51350820,True,True,True,True
+glove-100d,calibracao,air travel,ponte,passenger,luggage,2,0.59066260,True,True,True,True
+glove-100d,calibracao,air travel,extra,boarding,hoarding,1,0.00398691,True,False,False,False
+glove-100d,calibracao,air travel,extra,passenger,passage,1,0.31086278,True,False,False,True
+glove-100d,calibracao,air travel,extra,luggage,dew,0,0.00479122,True,False,False,False
+glove-100d,calibracao,citizenship,ponte,election,vote,3,0.84653103,True,True,True,True
+glove-100d,calibracao,citizenship,ponte,vote,ballot,3,0.80317169,True,True,True,True
+glove-100d,calibracao,citizenship,ponte,ballot,secrecy,2,0.21805830,True,False,False,False
+glove-100d,calibracao,citizenship,extra,election,elevation,1,0.11701131,True,False,False,False
+glove-100d,calibracao,citizenship,extra,ballot,penguin,0,-0.09078199,True,False,False,False
+glove-100d,calibracao,citizenship,extra,vote,voltage,0,0.05165643,True,False,False,False
+glove-100d,calibracao,space exploration,ponte,astronaut,rocket,3,0.37035778,True,False,True,True
+glove-100d,calibracao,space exploration,ponte,rocket,launch,3,0.68644595,True,True,True,True
+glove-100d,calibracao,space exploration,ponte,launch,countdown,2,0.49447942,True,True,True,True
+glove-100d,calibracao,space exploration,extra,astronaut,astrologer,1,0.23719662,True,False,False,False
+glove-100d,calibracao,space exploration,extra,rocket,pocket,1,0.28255501,True,False,False,True
+glove-100d,calibracao,space exploration,extra,countdown,planter,0,-0.21106596,True,False,False,False
+glove-100d,calibracao,emotional support,ponte,fear,courage,2,0.36880213,True,False,True,True
+glove-100d,calibracao,emotional support,ponte,courage,confidence,2,0.50641078,True,True,True,True
+glove-100d,calibracao,emotional support,ponte,confidence,friendship,2,0.42808247,True,True,True,True
+glove-100d,calibracao,emotional support,extra,fear,feat,1,0.09195796,True,False,False,False
+glove-100d,calibracao,emotional support,extra,confidence,condiment,0,-0.11560278,True,False,False,False
+glove-100d,calibracao,emotional support,extra,friendship,rust,0,0.06394275,True,False,False,False
+glove-100d,calibracao,embroidery,ponte,needle,thread,3,0.62875533,True,True,True,True
+glove-100d,calibracao,embroidery,ponte,thread,embroidery,3,0.54458958,True,True,True,True
+glove-100d,calibracao,embroidery,ponte,embroidery,ornament,2,0.52688217,True,True,True,True
+glove-100d,calibracao,embroidery,extra,needle,needlework,3,0.21134305,True,False,False,False
+glove-100d,calibracao,embroidery,extra,thread,threat,1,0.10973399,True,False,False,False
+glove-100d,calibracao,embroidery,extra,ornament,asphalt,0,0.19367163,True,False,False,False
+glove-100d,calibracao,photography,ponte,photographer,camera,3,0.48943064,True,True,True,True
+glove-100d,calibracao,photography,ponte,camera,portrait,3,0.40287438,True,True,True,True
+glove-100d,calibracao,photography,ponte,portrait,frame,2,0.42093170,True,True,True,True
+glove-100d,calibracao,photography,extra,photographer,photosynthesis,1,-0.20244758,True,False,False,False
+glove-100d,calibracao,photography,extra,portrait,report,1,0.20182100,True,False,False,False
+glove-100d,calibracao,photography,extra,frame,bean,0,0.13577281,True,False,False,False
+glove-100d,calibracao,road trip,ponte,driver,car,3,0.81859100,True,True,True,True
+glove-100d,calibracao,road trip,ponte,car,road,2,0.53735423,True,True,True,True
+glove-100d,calibracao,road trip,ponte,road,toll,3,0.51068193,True,True,True,True
+glove-100d,calibracao,road trip,extra,driver,rider,2,0.59121841,True,True,True,True
+glove-100d,calibracao,road trip,extra,car,cart,1,0.61573565,True,True,True,True
+glove-100d,calibracao,road trip,extra,toll,ladle,0,-0.20641403,True,False,False,False
+glove-100d,confirmacao,sheep farming,ponte,wool,sheep,3,0.51401979,True,True,True,True
+glove-100d,confirmacao,sheep farming,ponte,sheep,shepherd,3,0.42140287,True,True,True,True
+glove-100d,confirmacao,sheep farming,ponte,shepherd,flock,3,0.35479665,True,False,True,True
+glove-100d,confirmacao,sheep farming,ponte,flock,field,2,0.13167475,True,False,False,False
+glove-100d,confirmacao,sheep farming,extra,wool,wolf,1,0.13798036,True,False,False,False
+glove-100d,confirmacao,sheep farming,extra,shepherd,scarecrow,1,0.08360953,True,False,False,False
+glove-100d,confirmacao,sheep farming,extra,flock,double,0,0.05463764,True,False,False,False
+glove-100d,confirmacao,making pizza,ponte,tomato,sauce,3,0.79733890,True,True,True,True
+glove-100d,confirmacao,making pizza,ponte,sauce,pizza,2,0.51427376,True,True,True,True
+glove-100d,confirmacao,making pizza,ponte,pizza,oven,3,0.48994210,True,True,True,True
+glove-100d,confirmacao,making pizza,extra,tomato,tomb,1,-0.01170548,True,False,False,False
+glove-100d,confirmacao,making pizza,extra,pizza,calzone,3,0.38577062,True,False,True,True
+glove-100d,confirmacao,making pizza,extra,oven,peacock,0,0.04146599,True,False,False,False
+glove-100d,confirmacao,horse riding,ponte,horse,rein,3,0.08283802,True,False,False,False
+glove-100d,confirmacao,horse riding,ponte,rein,horseman,3,-0.05951139,True,False,False,False
+glove-100d,confirmacao,horse riding,ponte,horseman,saddle,3,0.26767659,True,False,False,True
+glove-100d,confirmacao,horse riding,extra,saddle,sadly,1,0.03996740,True,False,False,False
+glove-100d,confirmacao,horse riding,extra,horse,hoarse,1,-0.04064597,True,False,False,False
+glove-100d,confirmacao,horse riding,extra,rein,drizzle,0,-0.08871854,True,False,False,False
+glove-100d,confirmacao,keeping time,ponte,deadline,delay,3,0.58507943,True,True,True,True
+glove-100d,confirmacao,keeping time,ponte,delay,clock,2,0.31257373,True,False,False,True
+glove-100d,confirmacao,keeping time,ponte,clock,pendulum,3,0.47646606,True,True,True,True
+glove-100d,confirmacao,keeping time,extra,deadline,headline,1,0.17759997,True,False,False,False
+glove-100d,confirmacao,keeping time,extra,delay,meeting,2,0.52338886,True,True,True,True
+glove-100d,confirmacao,keeping time,extra,pendulum,almond,0,-0.07264902,True,False,False,False
+glove-100d,confirmacao,breathing,ponte,asthma,breathing,3,0.43858835,True,True,True,True
+glove-100d,confirmacao,breathing,ponte,breathing,lung,3,0.46917236,True,True,True,True
+glove-100d,confirmacao,breathing,ponte,lung,oxygen,3,0.31414106,True,False,True,True
+glove-100d,confirmacao,breathing,extra,asthma,plasma,1,0.19006890,True,False,False,False
+glove-100d,confirmacao,breathing,extra,lung,stomach,2,0.55809277,True,True,True,True
+glove-100d,confirmacao,breathing,extra,breathing,forklift,0,0.07754686,True,False,False,False
+glove-100d,confirmacao,wall painting,ponte,paint,brush,3,0.63048983,True,True,True,True
+glove-100d,confirmacao,wall painting,ponte,brush,wall,2,0.34467441,True,False,True,True
+glove-100d,confirmacao,wall painting,ponte,wall,plaster,3,0.44812065,True,True,True,True
+glove-100d,confirmacao,wall painting,extra,brush,brunch,1,0.05994852,True,False,False,False
+glove-100d,confirmacao,wall painting,extra,paint,painter,3,0.36222956,True,False,True,True
+glove-100d,confirmacao,wall painting,extra,plaster,ant,0,0.04294808,True,False,False,False
+glove-100d,confirmacao,public safety,ponte,guard,police,2,0.60990775,True,True,True,True
+glove-100d,confirmacao,public safety,ponte,police,crime,3,0.59926242,True,True,True,True
+glove-100d,confirmacao,public safety,ponte,crime,prison,3,0.54823124,True,True,True,True
+glove-100d,confirmacao,public safety,extra,crime,cream,1,0.07163220,True,False,False,False
+glove-100d,confirmacao,public safety,extra,police,nurse,1,0.36090615,True,False,True,True
+glove-100d,confirmacao,public safety,extra,prison,sequin,0,-0.12673190,True,False,False,False
+glove-100d,confirmacao,match at the stadium,ponte,pitch,stadium,3,0.52838844,True,True,True,True
+glove-100d,confirmacao,match at the stadium,ponte,stadium,bleachers,3,0.54349083,True,True,True,True
+glove-100d,confirmacao,match at the stadium,ponte,bleachers,ticket,2,0.21829961,True,False,False,False
+glove-100d,confirmacao,match at the stadium,extra,pitch,pinch,1,0.53131765,True,True,True,True
+glove-100d,confirmacao,match at the stadium,extra,bleachers,counter,1,0.04865040,True,False,False,False
+glove-100d,confirmacao,match at the stadium,extra,ticket,hedgehog,0,-0.15849651,True,False,False,False
+glove-100d,confirmacao,storm,ponte,lightning,thunder,3,0.64624786,True,True,True,True
+glove-100d,confirmacao,storm,ponte,thunder,storm,3,0.43685603,True,True,True,True
+glove-100d,confirmacao,storm,ponte,storm,hail,3,0.50275016,True,True,True,True
+glove-100d,confirmacao,storm,extra,thunder,tundra,1,0.30370122,True,False,False,True
+glove-100d,confirmacao,storm,extra,hail,hair,1,0.17034326,True,False,False,False
+glove-100d,confirmacao,storm,extra,storm,pillow,0,0.08279293,True,False,False,False
+glove-100d,confirmacao,print advertising,ponte,poster,advertising,2,0.51067197,True,True,True,True
+glove-100d,confirmacao,print advertising,ponte,advertising,announcement,3,0.35055462,True,False,True,True
+glove-100d,confirmacao,print advertising,ponte,announcement,newspaper,2,0.41643280,True,True,True,True
+glove-100d,confirmacao,print advertising,extra,poster,postcard,1,0.52682298,True,True,True,True
+glove-100d,confirmacao,print advertising,extra,newspaper,news,3,0.77338815,True,True,True,True
+glove-100d,confirmacao,print advertising,extra,announcement,scorpion,0,-0.02274587,True,False,False,False
+glove-100d,confirmacao,personal hygiene,ponte,soap,foam,3,0.23103458,True,False,False,False
+glove-100d,confirmacao,personal hygiene,ponte,foam,bath,2,0.27015322,True,False,False,True
+glove-100d,confirmacao,personal hygiene,ponte,bath,towel,3,0.38027555,True,False,True,True
+glove-100d,confirmacao,personal hygiene,extra,soap,soar,1,0.06672048,True,False,False,False
+glove-100d,confirmacao,personal hygiene,extra,bath,bathroom,3,0.54943699,True,True,True,True
+glove-100d,confirmacao,personal hygiene,extra,towel,propeller,0,0.08765297,True,False,False,False
+glove-100d,confirmacao,desert landscape,ponte,sand,dune,3,0.46444008,True,True,True,True
+glove-100d,confirmacao,desert landscape,ponte,dune,desert,3,0.35463414,True,False,True,True
+glove-100d,confirmacao,desert landscape,ponte,desert,oasis,3,0.47614872,True,True,True,True
+glove-100d,confirmacao,desert landscape,extra,sand,sandal,1,0.16392575,True,False,False,False
+glove-100d,confirmacao,desert landscape,extra,sand,sift,2,0.23954774,True,False,False,False
+glove-100d,confirmacao,desert landscape,extra,oasis,earring,0,0.16346569,True,False,False,False
+glove-100d,confirmacao,petroleum products,ponte,petroleum,gasoline,3,0.61683834,True,True,True,True
+glove-100d,confirmacao,petroleum products,ponte,gasoline,fuel,3,0.80576372,True,True,True,True
+glove-100d,confirmacao,petroleum products,ponte,fuel,combustion,3,0.56461120,True,True,True,True
+glove-100d,confirmacao,petroleum products,extra,gasoline,gazelle,1,-0.02945129,True,False,False,False
+glove-100d,confirmacao,petroleum products,extra,petroleum,reserve,2,0.42728370,True,True,True,True
+glove-100d,confirmacao,petroleum products,extra,combustion,blackboard,0,-0.11068095,True,False,False,False
+glove-100d,confirmacao,ballet show,ponte,ballet,slipper,3,0.10925794,True,False,False,False
+glove-100d,confirmacao,ballet show,ponte,slipper,stage,2,0.03206163,True,False,False,False
+glove-100d,confirmacao,ballet show,ponte,stage,audience,3,0.54814208,True,True,True,True
+glove-100d,confirmacao,ballet show,extra,ballet,ballast,1,-0.02704165,True,False,False,False
+glove-100d,confirmacao,ballet show,extra,stage,backstage,3,0.45191351,True,True,True,True
+glove-100d,confirmacao,ballet show,extra,audience,persimmon,0,-0.19359080,True,False,False,False
+glove-100d,confirmacao,octopus anatomy,ponte,octopus,tentacle,3,0.42621869,True,True,True,True
+glove-100d,confirmacao,octopus anatomy,ponte,tentacle,sucker,3,0.29963595,True,False,False,True
+glove-100d,confirmacao,octopus anatomy,ponte,sucker,suction,3,0.24124841,True,False,False,False
+glove-100d,confirmacao,octopus anatomy,extra,octopus,optics,1,0.11513104,True,False,False,False
+glove-100d,confirmacao,octopus anatomy,extra,tentacle,tentative,1,0.00872286,True,False,False,False
+glove-100d,confirmacao,octopus anatomy,extra,suction,binoculars,0,0.27711877,True,False,False,True
+glove-100d,confirmacao,construction site,ponte,architect,project,3,0.43246230,True,True,True,True
+glove-100d,confirmacao,construction site,ponte,project,construction,2,0.70390052,True,True,True,True
+glove-100d,confirmacao,construction site,ponte,construction,scaffold,3,0.24343787,True,False,False,False
+glove-100d,confirmacao,construction site,extra,architect,archer,1,0.31152189,True,False,False,True
+glove-100d,confirmacao,construction site,extra,project,planning,3,0.64384109,True,True,True,True
+glove-100d,confirmacao,construction site,extra,scaffold,sausage,0,0.00776096,True,False,False,False
+glove-100d,confirmacao,group singing,ponte,microphone,voice,3,0.58033991,True,True,True,True
+glove-100d,confirmacao,group singing,ponte,voice,singing,3,0.64153594,True,True,True,True
+glove-100d,confirmacao,group singing,ponte,singing,choir,3,0.67811424,True,True,True,True
+glove-100d,confirmacao,group singing,extra,singing,stinging,1,0.03630904,True,False,False,False
+glove-100d,confirmacao,group singing,extra,choir,chorus,3,0.73184526,True,True,True,True
+glove-100d,confirmacao,group singing,extra,voice,vice,1,0.30328253,True,False,False,True
+glove-100d,confirmacao,dairy,ponte,butter,milk,3,0.67013115,True,True,True,True
+glove-100d,confirmacao,dairy,ponte,milk,cheese,3,0.65330291,True,True,True,True
+glove-100d,confirmacao,dairy,ponte,cheese,rennet,3,0.30343395,True,False,False,True
+glove-100d,confirmacao,dairy,extra,butter,butler,1,-0.02214051,True,False,False,False
+glove-100d,confirmacao,dairy,extra,cheese,crackers,3,0.61056209,True,True,True,True
+glove-100d,confirmacao,dairy,extra,rennet,wax,0,0.15721831,True,False,False,False
+glove-100d,confirmacao,upholstery,ponte,sofa,upholstery,3,0.52094316,True,True,True,True
+glove-100d,confirmacao,upholstery,ponte,upholstery,leather,2,0.72777063,True,True,True,True
+glove-100d,confirmacao,upholstery,ponte,leather,tannery,3,0.38843295,True,False,True,True
+glove-100d,confirmacao,upholstery,extra,leather,lather,1,0.02969221,True,False,False,False
+glove-100d,confirmacao,upholstery,extra,sofa,armchair,3,0.47146451,True,True,True,True
+glove-100d,confirmacao,upholstery,extra,tannery,cup,0,-0.12290271,True,False,False,False
+glove-100d,confirmacao,hands and fingerprints,ponte,polish,nail,3,0.16492848,True,False,False,False
+glove-100d,confirmacao,hands and fingerprints,ponte,nail,finger,3,0.49224657,True,True,True,True
+glove-100d,confirmacao,hands and fingerprints,ponte,finger,fingerprint,2,0.26010597,True,False,False,True
+glove-100d,confirmacao,hands and fingerprints,extra,polish,polite,1,0.05013674,True,False,False,False
+glove-100d,confirmacao,hands and fingerprints,extra,finger,wrist,2,0.66782963,True,True,True,True
+glove-100d,confirmacao,hands and fingerprints,extra,fingerprint,eggplant,0,0.04160926,True,False,False,False
+glove-100d,confirmacao,paid work,ponte,resume,job,3,0.47251472,True,True,True,True
+glove-100d,confirmacao,paid work,ponte,job,salary,3,0.59037256,True,True,True,True
+glove-100d,confirmacao,paid work,ponte,salary,income,3,0.63725996,True,True,True,True
+glove-100d,confirmacao,paid work,extra,resume,residue,1,-0.02092845,True,False,False,False
+glove-100d,confirmacao,paid work,extra,job,jab,1,0.09836496,True,False,False,False
+glove-100d,confirmacao,paid work,extra,salary,gecko,0,-0.18969688,True,False,False,False
+glove-100d,confirmacao,thaw,ponte,glacier,ice,3,0.49298406,True,True,True,True
+glove-100d,confirmacao,thaw,ponte,ice,thaw,3,0.31495255,True,False,True,True
+glove-100d,confirmacao,thaw,ponte,thaw,warming,2,0.28743684,True,False,False,True
+glove-100d,confirmacao,thaw,extra,glacier,frost,2,0.28009582,True,False,False,True
+glove-100d,confirmacao,thaw,extra,ice,dice,1,0.12586051,True,False,False,False
+glove-100d,confirmacao,thaw,extra,warming,drum,0,0.13824940,True,False,False,False
+glove-100d,confirmacao,medical prescription,ponte,doctor,appointment,3,0.43051386,True,True,True,True
+glove-100d,confirmacao,medical prescription,ponte,appointment,prescription,3,0.20506553,True,False,False,False
+glove-100d,confirmacao,medical prescription,ponte,prescription,medicine,3,0.53355473,True,True,True,True
+glove-100d,confirmacao,medical prescription,extra,appointment,apportionment,1,0.13243733,True,False,False,False
+glove-100d,confirmacao,medical prescription,extra,prescription,pharmacy,3,0.55157739,True,True,True,True
+glove-100d,confirmacao,medical prescription,extra,doctor,carpet,0,0.13340299,True,False,False,False
+glove-100d,confirmacao,wind instrument and air,ponte,flute,blow,3,0.08313244,True,False,False,False
+glove-100d,confirmacao,wind instrument and air,ponte,blow,air,3,0.45718312,True,True,True,True
+glove-100d,confirmacao,wind instrument and air,ponte,air,oxidation,2,0.07423227,True,False,False,False
+glove-100d,confirmacao,wind instrument and air,extra,blow,bow,1,0.44980654,True,True,True,True
+glove-100d,confirmacao,wind instrument and air,extra,flute,clarinet,3,0.87924188,True,True,True,True
+glove-100d,confirmacao,wind instrument and air,extra,oxidation,shoelace,0,0.01867026,True,False,False,False
+glove-300d,calibracao,baking,ponte,wheat,flour,3,0.54480821,True,True,True,True
+glove-300d,calibracao,baking,ponte,flour,dough,2,0.57561028,True,True,True,True
+glove-300d,calibracao,baking,ponte,dough,bread,3,0.55146062,True,True,True,True
+glove-300d,calibracao,baking,extra,wheat,wheel,1,0.08175410,True,False,False,False
+glove-300d,calibracao,baking,extra,flour,compass,0,0.07875971,True,False,False,False
+glove-300d,calibracao,baking,extra,bread,comet,0,0.00852300,True,False,False,False
+glove-300d,calibracao,racket sports,ponte,badminton,racket,3,0.17433786,True,False,True,True
+glove-300d,calibracao,racket sports,ponte,racket,tennis,3,0.34321177,True,False,True,True
+glove-300d,calibracao,racket sports,ponte,tennis,court,3,0.32782087,True,False,True,True
+glove-300d,calibracao,racket sports,extra,racket,rocket,1,0.09266536,True,False,False,False
+glove-300d,calibracao,racket sports,extra,badminton,horn,0,-0.08461042,True,False,False,False
+glove-300d,calibracao,racket sports,extra,court,cinnamon,0,-0.07034530,True,False,False,False
+glove-300d,calibracao,geography,ponte,map,border,2,0.21717443,True,False,True,True
+glove-300d,calibracao,geography,ponte,border,country,3,0.39061546,True,False,True,True
+glove-300d,calibracao,geography,ponte,country,flag,2,0.19381472,True,False,True,True
+glove-300d,calibracao,geography,extra,map,mop,1,-0.10257438,True,False,False,False
+glove-300d,calibracao,geography,extra,border,boarder,1,0.22607297,True,False,True,True
+glove-300d,calibracao,geography,extra,flag,yogurt,0,-0.11702795,True,False,False,False
+glove-300d,calibracao,planting,ponte,seed,germination,3,0.35437632,True,False,True,True
+glove-300d,calibracao,planting,ponte,germination,sprout,3,0.30367583,True,False,True,True
+glove-300d,calibracao,planting,ponte,sprout,garden,2,0.21864605,True,False,True,True
+glove-300d,calibracao,planting,extra,seed,seek,1,0.08297085,True,False,False,False
+glove-300d,calibracao,planting,extra,garden,gardenia,2,0.10964757,True,False,False,False
+glove-300d,calibracao,planting,extra,sprout,customs,0,-0.09715544,True,False,False,False
+glove-300d,calibracao,kitchen,ponte,pan,frying,3,0.48348230,True,True,True,True
+glove-300d,calibracao,kitchen,ponte,frying,potato,2,0.36635405,True,False,True,True
+glove-300d,calibracao,kitchen,ponte,potato,mash,3,0.35940257,True,False,True,True
+glove-300d,calibracao,kitchen,extra,potato,potion,1,0.12864828,True,False,False,False
+glove-300d,calibracao,kitchen,extra,mash,mask,1,-0.00256442,True,False,False,False
+glove-300d,calibracao,kitchen,extra,frying,baton,0,0.02658308,True,False,False,False
+glove-300d,calibracao,air travel,ponte,airport,boarding,3,0.33739072,True,False,True,True
+glove-300d,calibracao,air travel,ponte,boarding,passenger,3,0.38353857,True,False,True,True
+glove-300d,calibracao,air travel,ponte,passenger,luggage,2,0.49395642,True,True,True,True
+glove-300d,calibracao,air travel,extra,boarding,hoarding,1,0.02195940,True,False,False,False
+glove-300d,calibracao,air travel,extra,passenger,passage,1,0.19050197,True,False,True,True
+glove-300d,calibracao,air travel,extra,luggage,dew,0,0.05981312,True,False,False,False
+glove-300d,calibracao,citizenship,ponte,election,vote,3,0.75435781,True,True,True,True
+glove-300d,calibracao,citizenship,ponte,vote,ballot,3,0.68911058,True,True,True,True
+glove-300d,calibracao,citizenship,ponte,ballot,secrecy,2,0.13600785,True,False,False,False
+glove-300d,calibracao,citizenship,extra,election,elevation,1,0.02964414,True,False,False,False
+glove-300d,calibracao,citizenship,extra,ballot,penguin,0,-0.08021481,True,False,False,False
+glove-300d,calibracao,citizenship,extra,vote,voltage,0,-0.07520683,True,False,False,False
+glove-300d,calibracao,space exploration,ponte,astronaut,rocket,3,0.25983617,True,False,True,True
+glove-300d,calibracao,space exploration,ponte,rocket,launch,3,0.61482263,True,True,True,True
+glove-300d,calibracao,space exploration,ponte,launch,countdown,2,0.35841507,True,False,True,True
+glove-300d,calibracao,space exploration,extra,astronaut,astrologer,1,0.12552041,True,False,False,False
+glove-300d,calibracao,space exploration,extra,rocket,pocket,1,0.16621101,True,False,False,False
+glove-300d,calibracao,space exploration,extra,countdown,planter,0,-0.13128480,True,False,False,False
+glove-300d,calibracao,emotional support,ponte,fear,courage,2,0.24146008,True,False,True,True
+glove-300d,calibracao,emotional support,ponte,courage,confidence,2,0.37111187,True,False,True,True
+glove-300d,calibracao,emotional support,ponte,confidence,friendship,2,0.25807145,True,False,True,True
+glove-300d,calibracao,emotional support,extra,fear,feat,1,-0.00064807,True,False,False,False
+glove-300d,calibracao,emotional support,extra,confidence,condiment,0,-0.09851632,True,False,False,False
+glove-300d,calibracao,emotional support,extra,friendship,rust,0,-0.02947220,True,False,False,False
+glove-300d,calibracao,embroidery,ponte,needle,thread,3,0.47811469,True,True,True,True
+glove-300d,calibracao,embroidery,ponte,thread,embroidery,3,0.45975217,True,True,True,True
+glove-300d,calibracao,embroidery,ponte,embroidery,ornament,2,0.38320357,True,False,True,True
+glove-300d,calibracao,embroidery,extra,needle,needlework,3,0.12863931,True,False,False,False
+glove-300d,calibracao,embroidery,extra,thread,threat,1,0.07230890,True,False,False,False
+glove-300d,calibracao,embroidery,extra,ornament,asphalt,0,0.08205617,True,False,False,False
+glove-300d,calibracao,photography,ponte,photographer,camera,3,0.39274848,True,False,True,True
+glove-300d,calibracao,photography,ponte,camera,portrait,3,0.25371847,True,False,True,True
+glove-300d,calibracao,photography,ponte,portrait,frame,2,0.19013418,True,False,True,True
+glove-300d,calibracao,photography,extra,photographer,photosynthesis,1,-0.17403719,True,False,False,False
+glove-300d,calibracao,photography,extra,portrait,report,1,0.08038575,True,False,False,False
+glove-300d,calibracao,photography,extra,frame,bean,0,0.07481059,True,False,False,False
+glove-300d,calibracao,road trip,ponte,driver,car,3,0.71147853,True,True,True,True
+glove-300d,calibracao,road trip,ponte,car,road,2,0.39768419,True,False,True,True
+glove-300d,calibracao,road trip,ponte,road,toll,3,0.34206420,True,False,True,True
+glove-300d,calibracao,road trip,extra,driver,rider,2,0.41971248,True,True,True,True
+glove-300d,calibracao,road trip,extra,car,cart,1,0.43787187,True,True,True,True
+glove-300d,calibracao,road trip,extra,toll,ladle,0,-0.11316853,True,False,False,False
+glove-300d,confirmacao,sheep farming,ponte,wool,sheep,3,0.43726894,True,True,True,True
+glove-300d,confirmacao,sheep farming,ponte,sheep,shepherd,3,0.38660353,True,False,True,True
+glove-300d,confirmacao,sheep farming,ponte,shepherd,flock,3,0.28873193,True,False,True,True
+glove-300d,confirmacao,sheep farming,ponte,flock,field,2,0.06283557,True,False,False,False
+glove-300d,confirmacao,sheep farming,extra,wool,wolf,1,0.11570083,True,False,False,False
+glove-300d,confirmacao,sheep farming,extra,shepherd,scarecrow,1,0.08521115,True,False,False,False
+glove-300d,confirmacao,sheep farming,extra,flock,double,0,0.00747566,True,False,False,False
+glove-300d,confirmacao,making pizza,ponte,tomato,sauce,3,0.65363336,True,True,True,True
+glove-300d,confirmacao,making pizza,ponte,sauce,pizza,2,0.40781069,True,True,True,True
+glove-300d,confirmacao,making pizza,ponte,pizza,oven,3,0.40971887,True,True,True,True
+glove-300d,confirmacao,making pizza,extra,tomato,tomb,1,-0.07034742,True,False,False,False
+glove-300d,confirmacao,making pizza,extra,pizza,calzone,3,0.32867554,True,False,True,True
+glove-300d,confirmacao,making pizza,extra,oven,peacock,0,0.01614309,True,False,False,False
+glove-300d,confirmacao,horse riding,ponte,horse,rein,3,0.07896864,True,False,False,False
+glove-300d,confirmacao,horse riding,ponte,rein,horseman,3,-0.01579346,True,False,False,False
+glove-300d,confirmacao,horse riding,ponte,horseman,saddle,3,0.23650263,True,False,True,True
+glove-300d,confirmacao,horse riding,extra,saddle,sadly,1,0.03344445,True,False,False,False
+glove-300d,confirmacao,horse riding,extra,horse,hoarse,1,-0.02255436,True,False,False,False
+glove-300d,confirmacao,horse riding,extra,rein,drizzle,0,-0.12772036,True,False,False,False
+glove-300d,confirmacao,keeping time,ponte,deadline,delay,3,0.45326859,True,True,True,True
+glove-300d,confirmacao,keeping time,ponte,delay,clock,2,0.23251840,True,False,True,True
+glove-300d,confirmacao,keeping time,ponte,clock,pendulum,3,0.41128591,True,True,True,True
+glove-300d,confirmacao,keeping time,extra,deadline,headline,1,0.08652221,True,False,False,False
+glove-300d,confirmacao,keeping time,extra,delay,meeting,2,0.32626408,True,False,True,True
+glove-300d,confirmacao,keeping time,extra,pendulum,almond,0,-0.08327961,True,False,False,False
+glove-300d,confirmacao,breathing,ponte,asthma,breathing,3,0.40022916,True,True,True,True
+glove-300d,confirmacao,breathing,ponte,breathing,lung,3,0.42220223,True,True,True,True
+glove-300d,confirmacao,breathing,ponte,lung,oxygen,3,0.26002577,True,False,True,True
+glove-300d,confirmacao,breathing,extra,asthma,plasma,1,0.17641360,True,False,True,True
+glove-300d,confirmacao,breathing,extra,lung,stomach,2,0.43721262,True,True,True,True
+glove-300d,confirmacao,breathing,extra,breathing,forklift,0,0.01974230,True,False,False,False
+glove-300d,confirmacao,wall painting,ponte,paint,brush,3,0.44783583,True,True,True,True
+glove-300d,confirmacao,wall painting,ponte,brush,wall,2,0.16806419,True,False,False,False
+glove-300d,confirmacao,wall painting,ponte,wall,plaster,3,0.29928252,True,False,True,True
+glove-300d,confirmacao,wall painting,extra,brush,brunch,1,-0.01422919,True,False,False,False
+glove-300d,confirmacao,wall painting,extra,paint,painter,3,0.33421180,True,False,True,True
+glove-300d,confirmacao,wall painting,extra,plaster,ant,0,0.05351410,True,False,False,False
+glove-300d,confirmacao,public safety,ponte,guard,police,2,0.44212261,True,True,True,True
+glove-300d,confirmacao,public safety,ponte,police,crime,3,0.45362657,True,True,True,True
+glove-300d,confirmacao,public safety,ponte,crime,prison,3,0.36242381,True,False,True,True
+glove-300d,confirmacao,public safety,extra,crime,cream,1,0.00755010,True,False,False,False
+glove-300d,confirmacao,public safety,extra,police,nurse,1,0.18846066,True,False,True,True
+glove-300d,confirmacao,public safety,extra,prison,sequin,0,-0.08640856,True,False,False,False
+glove-300d,confirmacao,match at the stadium,ponte,pitch,stadium,3,0.40975404,True,True,True,True
+glove-300d,confirmacao,match at the stadium,ponte,stadium,bleachers,3,0.42638412,True,True,True,True
+glove-300d,confirmacao,match at the stadium,ponte,bleachers,ticket,2,0.18695189,True,False,True,True
+glove-300d,confirmacao,match at the stadium,extra,pitch,pinch,1,0.44474429,True,True,True,True
+glove-300d,confirmacao,match at the stadium,extra,bleachers,counter,1,-0.02922798,True,False,False,False
+glove-300d,confirmacao,match at the stadium,extra,ticket,hedgehog,0,-0.12398798,True,False,False,False
+glove-300d,confirmacao,storm,ponte,lightning,thunder,3,0.50431520,True,True,True,True
+glove-300d,confirmacao,storm,ponte,thunder,storm,3,0.27122658,True,False,True,True
+glove-300d,confirmacao,storm,ponte,storm,hail,3,0.37677455,True,False,True,True
+glove-300d,confirmacao,storm,extra,thunder,tundra,1,0.16357422,True,False,False,False
+glove-300d,confirmacao,storm,extra,hail,hair,1,-0.04414307,True,False,False,False
+glove-300d,confirmacao,storm,extra,storm,pillow,0,-0.03357589,True,False,False,False
+glove-300d,confirmacao,print advertising,ponte,poster,advertising,2,0.38622037,True,False,True,True
+glove-300d,confirmacao,print advertising,ponte,advertising,announcement,3,0.17967510,True,False,True,True
+glove-300d,confirmacao,print advertising,ponte,announcement,newspaper,2,0.26282126,True,False,True,True
+glove-300d,confirmacao,print advertising,extra,poster,postcard,1,0.38063729,True,False,True,True
+glove-300d,confirmacao,print advertising,extra,newspaper,news,3,0.57660460,True,True,True,True
+glove-300d,confirmacao,print advertising,extra,announcement,scorpion,0,-0.11246865,True,False,False,False
+glove-300d,confirmacao,personal hygiene,ponte,soap,foam,3,0.15871251,True,False,False,False
+glove-300d,confirmacao,personal hygiene,ponte,foam,bath,2,0.20653771,True,False,True,True
+glove-300d,confirmacao,personal hygiene,ponte,bath,towel,3,0.36826766,True,False,True,True
+glove-300d,confirmacao,personal hygiene,extra,soap,soar,1,0.07091709,True,False,False,False
+glove-300d,confirmacao,personal hygiene,extra,bath,bathroom,3,0.42830738,True,True,True,True
+glove-300d,confirmacao,personal hygiene,extra,towel,propeller,0,0.00247461,True,False,False,False
+glove-300d,confirmacao,desert landscape,ponte,sand,dune,3,0.44988510,True,True,True,True
+glove-300d,confirmacao,desert landscape,ponte,dune,desert,3,0.30536503,True,False,True,True
+glove-300d,confirmacao,desert landscape,ponte,desert,oasis,3,0.42229620,True,True,True,True
+glove-300d,confirmacao,desert landscape,extra,sand,sandal,1,0.05825890,True,False,False,False
+glove-300d,confirmacao,desert landscape,extra,sand,sift,2,0.19192602,True,False,True,True
+glove-300d,confirmacao,desert landscape,extra,oasis,earring,0,0.07212118,True,False,False,False
+glove-300d,confirmacao,petroleum products,ponte,petroleum,gasoline,3,0.52852070,True,True,True,True
+glove-300d,confirmacao,petroleum products,ponte,gasoline,fuel,3,0.70854300,True,True,True,True
+glove-300d,confirmacao,petroleum products,ponte,fuel,combustion,3,0.43947303,True,True,True,True
+glove-300d,confirmacao,petroleum products,extra,gasoline,gazelle,1,-0.02763774,True,False,False,False
+glove-300d,confirmacao,petroleum products,extra,petroleum,reserve,2,0.33593670,True,False,True,True
+glove-300d,confirmacao,petroleum products,extra,combustion,blackboard,0,-0.05426793,True,False,False,False
+glove-300d,confirmacao,ballet show,ponte,ballet,slipper,3,0.16685390,True,False,False,False
+glove-300d,confirmacao,ballet show,ponte,slipper,stage,2,-0.02605969,True,False,False,False
+glove-300d,confirmacao,ballet show,ponte,stage,audience,3,0.35157743,True,False,True,True
+glove-300d,confirmacao,ballet show,extra,ballet,ballast,1,0.03392101,True,False,False,False
+glove-300d,confirmacao,ballet show,extra,stage,backstage,3,0.34570920,True,False,True,True
+glove-300d,confirmacao,ballet show,extra,audience,persimmon,0,-0.14642739,True,False,False,False
+glove-300d,confirmacao,octopus anatomy,ponte,octopus,tentacle,3,0.33028504,True,False,True,True
+glove-300d,confirmacao,octopus anatomy,ponte,tentacle,sucker,3,0.18647660,True,False,True,True
+glove-300d,confirmacao,octopus anatomy,ponte,sucker,suction,3,0.18899219,True,False,True,True
+glove-300d,confirmacao,octopus anatomy,extra,octopus,optics,1,0.05864365,True,False,False,False
+glove-300d,confirmacao,octopus anatomy,extra,tentacle,tentative,1,-0.03022553,True,False,False,False
+glove-300d,confirmacao,octopus anatomy,extra,suction,binoculars,0,0.19505136,True,False,True,True
+glove-300d,confirmacao,construction site,ponte,architect,project,3,0.27648401,True,False,True,True
+glove-300d,confirmacao,construction site,ponte,project,construction,2,0.59988731,True,True,True,True
+glove-300d,confirmacao,construction site,ponte,construction,scaffold,3,0.17104751,True,False,True,True
+glove-300d,confirmacao,construction site,extra,architect,archer,1,0.13824314,True,False,False,False
+glove-300d,confirmacao,construction site,extra,project,planning,3,0.48882523,True,True,True,True
+glove-300d,confirmacao,construction site,extra,scaffold,sausage,0,0.10280381,True,False,False,False
+glove-300d,confirmacao,group singing,ponte,microphone,voice,3,0.40849686,True,True,True,True
+glove-300d,confirmacao,group singing,ponte,voice,singing,3,0.54273593,True,True,True,True
+glove-300d,confirmacao,group singing,ponte,singing,choir,3,0.55177957,True,True,True,True
+glove-300d,confirmacao,group singing,extra,singing,stinging,1,0.00339940,True,False,False,False
+glove-300d,confirmacao,group singing,extra,choir,chorus,3,0.61355799,True,True,True,True
+glove-300d,confirmacao,group singing,extra,voice,vice,1,0.10176587,True,False,False,False
+glove-300d,confirmacao,dairy,ponte,butter,milk,3,0.59229046,True,True,True,True
+glove-300d,confirmacao,dairy,ponte,milk,cheese,3,0.56202120,True,True,True,True
+glove-300d,confirmacao,dairy,ponte,cheese,rennet,3,0.18581723,True,False,True,True
+glove-300d,confirmacao,dairy,extra,butter,butler,1,-0.04058580,True,False,False,False
+glove-300d,confirmacao,dairy,extra,cheese,crackers,3,0.49845281,True,True,True,True
+glove-300d,confirmacao,dairy,extra,rennet,wax,0,0.17940728,True,False,True,True
+glove-300d,confirmacao,upholstery,ponte,sofa,upholstery,3,0.37410089,True,False,True,True
+glove-300d,confirmacao,upholstery,ponte,upholstery,leather,2,0.59286755,True,True,True,True
+glove-300d,confirmacao,upholstery,ponte,leather,tannery,3,0.31978545,True,False,True,True
+glove-300d,confirmacao,upholstery,extra,leather,lather,1,0.08125300,True,False,False,False
+glove-300d,confirmacao,upholstery,extra,sofa,armchair,3,0.41395268,True,True,True,True
+glove-300d,confirmacao,upholstery,extra,tannery,cup,0,-0.12399700,True,False,False,False
+glove-300d,confirmacao,hands and fingerprints,ponte,polish,nail,3,0.21728007,True,False,True,True
+glove-300d,confirmacao,hands and fingerprints,ponte,nail,finger,3,0.31705365,True,False,True,True
+glove-300d,confirmacao,hands and fingerprints,ponte,finger,fingerprint,2,0.25961977,True,False,True,True
+glove-300d,confirmacao,hands and fingerprints,extra,polish,polite,1,-0.03385656,True,False,False,False
+glove-300d,confirmacao,hands and fingerprints,extra,finger,wrist,2,0.54188937,True,True,True,True
+glove-300d,confirmacao,hands and fingerprints,extra,fingerprint,eggplant,0,-0.06668054,True,False,False,False
+glove-300d,confirmacao,paid work,ponte,resume,job,3,0.31874770,True,False,True,True
+glove-300d,confirmacao,paid work,ponte,job,salary,3,0.46224838,True,True,True,True
+glove-300d,confirmacao,paid work,ponte,salary,income,3,0.46646500,True,True,True,True
+glove-300d,confirmacao,paid work,extra,resume,residue,1,-0.03803612,True,False,False,False
+glove-300d,confirmacao,paid work,extra,job,jab,1,0.06401354,True,False,False,False
+glove-300d,confirmacao,paid work,extra,salary,gecko,0,-0.09580638,True,False,False,False
+glove-300d,confirmacao,thaw,ponte,glacier,ice,3,0.39108431,True,False,True,True
+glove-300d,confirmacao,thaw,ponte,ice,thaw,3,0.22608002,True,False,True,True
+glove-300d,confirmacao,thaw,ponte,thaw,warming,2,0.25636354,True,False,True,True
+glove-300d,confirmacao,thaw,extra,glacier,frost,2,0.05134999,True,False,False,False
+glove-300d,confirmacao,thaw,extra,ice,dice,1,0.07591041,True,False,False,False
+glove-300d,confirmacao,thaw,extra,warming,drum,0,0.08104546,True,False,False,False
+glove-300d,confirmacao,medical prescription,ponte,doctor,appointment,3,0.30117750,True,False,True,True
+glove-300d,confirmacao,medical prescription,ponte,appointment,prescription,3,0.12723760,True,False,False,False
+glove-300d,confirmacao,medical prescription,ponte,prescription,medicine,3,0.41026390,True,True,True,True
+glove-300d,confirmacao,medical prescription,extra,appointment,apportionment,1,0.03275516,True,False,False,False
+glove-300d,confirmacao,medical prescription,extra,prescription,pharmacy,3,0.47985038,True,True,True,True
+glove-300d,confirmacao,medical prescription,extra,doctor,carpet,0,0.03678590,True,False,False,False
+glove-300d,confirmacao,wind instrument and air,ponte,flute,blow,3,0.01303053,True,False,False,False
+glove-300d,confirmacao,wind instrument and air,ponte,blow,air,3,0.27451503,True,False,True,True
+glove-300d,confirmacao,wind instrument and air,ponte,air,oxidation,2,0.09980774,True,False,False,False
+glove-300d,confirmacao,wind instrument and air,extra,blow,bow,1,0.22731493,True,False,True,True
+glove-300d,confirmacao,wind instrument and air,extra,flute,clarinet,3,0.77336234,True,True,True,True
+glove-300d,confirmacao,wind instrument and air,extra,oxidation,shoelace,0,0.10564470,True,False,False,False
+fasttext-300d,calibracao,baking,ponte,wheat,flour,3,0.61310613,True,True,True,True
+fasttext-300d,calibracao,baking,ponte,flour,dough,2,0.63662678,True,True,True,True
+fasttext-300d,calibracao,baking,ponte,dough,bread,3,0.61526352,True,True,True,True
+fasttext-300d,calibracao,baking,extra,wheat,wheel,1,0.35312682,True,False,False,False
+fasttext-300d,calibracao,baking,extra,flour,compass,0,0.28727752,True,False,False,False
+fasttext-300d,calibracao,baking,extra,bread,comet,0,0.29609969,True,False,False,False
+fasttext-300d,calibracao,racket sports,ponte,badminton,racket,3,0.49941826,True,True,True,True
+fasttext-300d,calibracao,racket sports,ponte,racket,tennis,3,0.56413895,True,True,True,True
+fasttext-300d,calibracao,racket sports,ponte,tennis,court,3,0.47947374,True,True,True,True
+fasttext-300d,calibracao,racket sports,extra,racket,rocket,1,0.39584118,True,False,False,False
+fasttext-300d,calibracao,racket sports,extra,badminton,horn,0,0.24825986,True,False,False,False
+fasttext-300d,calibracao,racket sports,extra,court,cinnamon,0,0.22142032,True,False,False,False
+fasttext-300d,calibracao,geography,ponte,map,border,2,0.45930061,True,True,True,True
+fasttext-300d,calibracao,geography,ponte,border,country,3,0.52208352,True,True,True,True
+fasttext-300d,calibracao,geography,ponte,country,flag,2,0.42279187,True,True,True,True
+fasttext-300d,calibracao,geography,extra,map,mop,1,0.13547540,True,False,False,False
+fasttext-300d,calibracao,geography,extra,border,boarder,1,0.65912050,True,True,True,True
+fasttext-300d,calibracao,geography,extra,flag,yogurt,0,0.18551379,True,False,False,False
+fasttext-300d,calibracao,planting,ponte,seed,germination,3,0.56916112,True,True,True,True
+fasttext-300d,calibracao,planting,ponte,germination,sprout,3,0.45614970,True,True,True,True
+fasttext-300d,calibracao,planting,ponte,sprout,garden,2,0.42280784,True,True,True,True
+fasttext-300d,calibracao,planting,extra,seed,seek,1,0.33595189,True,False,False,False
+fasttext-300d,calibracao,planting,extra,garden,gardenia,2,0.69703192,True,True,True,True
+fasttext-300d,calibracao,planting,extra,sprout,customs,0,0.22603734,True,False,False,False
+fasttext-300d,calibracao,kitchen,ponte,pan,frying,3,0.63432211,True,True,True,True
+fasttext-300d,calibracao,kitchen,ponte,frying,potato,2,0.44650865,True,True,True,True
+fasttext-300d,calibracao,kitchen,ponte,potato,mash,3,0.51357412,True,True,True,True
+fasttext-300d,calibracao,kitchen,extra,potato,potion,1,0.28965077,True,False,False,False
+fasttext-300d,calibracao,kitchen,extra,mash,mask,1,0.35295752,True,False,False,False
+fasttext-300d,calibracao,kitchen,extra,frying,baton,0,0.23170331,True,False,False,False
+fasttext-300d,calibracao,air travel,ponte,airport,boarding,3,0.45240206,True,True,True,True
+fasttext-300d,calibracao,air travel,ponte,boarding,passenger,3,0.51253748,True,True,True,True
+fasttext-300d,calibracao,air travel,ponte,passenger,luggage,2,0.60956013,True,True,True,True
+fasttext-300d,calibracao,air travel,extra,boarding,hoarding,1,0.36510834,True,False,False,False
+fasttext-300d,calibracao,air travel,extra,passenger,passage,1,0.36080739,True,False,False,False
+fasttext-300d,calibracao,air travel,extra,luggage,dew,0,0.14220814,True,False,False,False
+fasttext-300d,calibracao,citizenship,ponte,election,vote,3,0.63913792,True,True,True,True
+fasttext-300d,calibracao,citizenship,ponte,vote,ballot,3,0.66974121,True,True,True,True
+fasttext-300d,calibracao,citizenship,ponte,ballot,secrecy,2,0.33774832,True,False,False,False
+fasttext-300d,calibracao,citizenship,extra,election,elevation,1,0.37406340,True,False,False,False
+fasttext-300d,calibracao,citizenship,extra,ballot,penguin,0,0.27840185,True,False,False,False
+fasttext-300d,calibracao,citizenship,extra,vote,voltage,0,0.20072083,True,False,False,False
+fasttext-300d,calibracao,space exploration,ponte,astronaut,rocket,3,0.46452114,True,True,True,True
+fasttext-300d,calibracao,space exploration,ponte,rocket,launch,3,0.59400636,True,True,True,True
+fasttext-300d,calibracao,space exploration,ponte,launch,countdown,2,0.55749011,True,True,True,True
+fasttext-300d,calibracao,space exploration,extra,astronaut,astrologer,1,0.40581724,True,True,False,False
+fasttext-300d,calibracao,space exploration,extra,rocket,pocket,1,0.38292527,True,False,False,False
+fasttext-300d,calibracao,space exploration,extra,countdown,planter,0,0.16369346,True,False,False,False
+fasttext-300d,calibracao,emotional support,ponte,fear,courage,2,0.50250781,True,True,True,True
+fasttext-300d,calibracao,emotional support,ponte,courage,confidence,2,0.60613483,True,True,True,True
+fasttext-300d,calibracao,emotional support,ponte,confidence,friendship,2,0.54400212,True,True,True,True
+fasttext-300d,calibracao,emotional support,extra,fear,feat,1,0.27710164,True,False,False,False
+fasttext-300d,calibracao,emotional support,extra,confidence,condiment,0,0.25410265,True,False,False,False
+fasttext-300d,calibracao,emotional support,extra,friendship,rust,0,0.27230656,True,False,False,False
+fasttext-300d,calibracao,embroidery,ponte,needle,thread,3,0.56730682,True,True,True,True
+fasttext-300d,calibracao,embroidery,ponte,thread,embroidery,3,0.44396675,True,True,True,True
+fasttext-300d,calibracao,embroidery,ponte,embroidery,ornament,2,0.55110389,True,True,True,True
+fasttext-300d,calibracao,embroidery,extra,needle,needlework,3,0.48875374,True,True,True,True
+fasttext-300d,calibracao,embroidery,extra,thread,threat,1,0.46051812,True,True,True,True
+fasttext-300d,calibracao,embroidery,extra,ornament,asphalt,0,0.26666653,True,False,False,False
+fasttext-300d,calibracao,photography,ponte,photographer,camera,3,0.62132466,True,True,True,True
+fasttext-300d,calibracao,photography,ponte,camera,portrait,3,0.49627784,True,True,True,True
+fasttext-300d,calibracao,photography,ponte,portrait,frame,2,0.50789797,True,True,True,True
+fasttext-300d,calibracao,photography,extra,photographer,photosynthesis,1,0.23759173,True,False,False,False
+fasttext-300d,calibracao,photography,extra,portrait,report,1,0.38256323,True,False,False,False
+fasttext-300d,calibracao,photography,extra,frame,bean,0,0.38676709,True,False,False,False
+fasttext-300d,calibracao,road trip,ponte,driver,car,3,0.68510258,True,True,True,True
+fasttext-300d,calibracao,road trip,ponte,car,road,2,0.62696487,True,True,True,True
+fasttext-300d,calibracao,road trip,ponte,road,toll,3,0.53225946,True,True,True,True
+fasttext-300d,calibracao,road trip,extra,driver,rider,2,0.59697354,True,True,True,True
+fasttext-300d,calibracao,road trip,extra,car,cart,1,0.54787904,True,True,True,True
+fasttext-300d,calibracao,road trip,extra,toll,ladle,0,0.22787467,True,False,False,False
+fasttext-300d,confirmacao,sheep farming,ponte,wool,sheep,3,0.65518910,True,True,True,True
+fasttext-300d,confirmacao,sheep farming,ponte,sheep,shepherd,3,0.66270363,True,True,True,True
+fasttext-300d,confirmacao,sheep farming,ponte,shepherd,flock,3,0.59234172,True,True,True,True
+fasttext-300d,confirmacao,sheep farming,ponte,flock,field,2,0.41556200,True,True,True,True
+fasttext-300d,confirmacao,sheep farming,extra,wool,wolf,1,0.39298213,True,False,False,False
+fasttext-300d,confirmacao,sheep farming,extra,shepherd,scarecrow,1,0.39697775,True,False,False,False
+fasttext-300d,confirmacao,sheep farming,extra,flock,double,0,0.33844808,True,False,False,False
+fasttext-300d,confirmacao,making pizza,ponte,tomato,sauce,3,0.55320090,True,True,True,True
+fasttext-300d,confirmacao,making pizza,ponte,sauce,pizza,2,0.51567245,True,True,True,True
+fasttext-300d,confirmacao,making pizza,ponte,pizza,oven,3,0.37935010,True,False,False,False
+fasttext-300d,confirmacao,making pizza,extra,tomato,tomb,1,0.27158424,True,False,False,False
+fasttext-300d,confirmacao,making pizza,extra,pizza,calzone,3,0.68372011,True,True,True,True
+fasttext-300d,confirmacao,making pizza,extra,oven,peacock,0,0.22680213,True,False,False,False
+fasttext-300d,confirmacao,horse riding,ponte,horse,rein,3,0.43595278,True,True,True,True
+fasttext-300d,confirmacao,horse riding,ponte,rein,horseman,3,0.30811149,True,False,False,False
+fasttext-300d,confirmacao,horse riding,ponte,horseman,saddle,3,0.48794380,True,True,True,True
+fasttext-300d,confirmacao,horse riding,extra,saddle,sadly,1,0.32962090,True,False,False,False
+fasttext-300d,confirmacao,horse riding,extra,horse,hoarse,1,0.42472312,True,True,True,True
+fasttext-300d,confirmacao,horse riding,extra,rein,drizzle,0,0.22845714,True,False,False,False
+fasttext-300d,confirmacao,keeping time,ponte,deadline,delay,3,0.51016229,True,True,True,True
+fasttext-300d,confirmacao,keeping time,ponte,delay,clock,2,0.45487243,True,True,True,True
+fasttext-300d,confirmacao,keeping time,ponte,clock,pendulum,3,0.51932013,True,True,True,True
+fasttext-300d,confirmacao,keeping time,extra,deadline,headline,1,0.41423205,True,True,False,False
+fasttext-300d,confirmacao,keeping time,extra,delay,meeting,2,0.37172163,True,False,False,False
+fasttext-300d,confirmacao,keeping time,extra,pendulum,almond,0,0.23744789,True,False,False,False
+fasttext-300d,confirmacao,breathing,ponte,asthma,breathing,3,0.44488716,True,True,True,True
+fasttext-300d,confirmacao,breathing,ponte,breathing,lung,3,0.58589458,True,True,True,True
+fasttext-300d,confirmacao,breathing,ponte,lung,oxygen,3,0.47097382,True,True,True,True
+fasttext-300d,confirmacao,breathing,extra,asthma,plasma,1,0.24198738,True,False,False,False
+fasttext-300d,confirmacao,breathing,extra,lung,stomach,2,0.51243865,True,True,True,True
+fasttext-300d,confirmacao,breathing,extra,breathing,forklift,0,0.30558667,True,False,False,False
+fasttext-300d,confirmacao,wall painting,ponte,paint,brush,3,0.63999569,True,True,True,True
+fasttext-300d,confirmacao,wall painting,ponte,brush,wall,2,0.44195279,True,True,True,True
+fasttext-300d,confirmacao,wall painting,ponte,wall,plaster,3,0.58107817,True,True,True,True
+fasttext-300d,confirmacao,wall painting,extra,brush,brunch,1,0.30839753,True,False,False,False
+fasttext-300d,confirmacao,wall painting,extra,paint,painter,3,0.57226342,True,True,True,True
+fasttext-300d,confirmacao,wall painting,extra,plaster,ant,0,0.29549092,True,False,False,False
+fasttext-300d,confirmacao,public safety,ponte,guard,police,2,0.55234349,True,True,True,True
+fasttext-300d,confirmacao,public safety,ponte,police,crime,3,0.54196209,True,True,True,True
+fasttext-300d,confirmacao,public safety,ponte,crime,prison,3,0.48127687,True,True,True,True
+fasttext-300d,confirmacao,public safety,extra,crime,cream,1,0.20960994,True,False,False,False
+fasttext-300d,confirmacao,public safety,extra,police,nurse,1,0.42603001,True,True,True,True
+fasttext-300d,confirmacao,public safety,extra,prison,sequin,0,0.22835530,True,False,False,False
+fasttext-300d,confirmacao,match at the stadium,ponte,pitch,stadium,3,0.49555206,True,True,True,True
+fasttext-300d,confirmacao,match at the stadium,ponte,stadium,bleachers,3,0.57788330,True,True,True,True
+fasttext-300d,confirmacao,match at the stadium,ponte,bleachers,ticket,2,0.38594827,True,False,False,False
+fasttext-300d,confirmacao,match at the stadium,extra,pitch,pinch,1,0.45258850,True,True,True,True
+fasttext-300d,confirmacao,match at the stadium,extra,bleachers,counter,1,0.29758441,True,False,False,False
+fasttext-300d,confirmacao,match at the stadium,extra,ticket,hedgehog,0,0.15152137,True,False,False,False
+fasttext-300d,confirmacao,storm,ponte,lightning,thunder,3,0.67315519,True,True,True,True
+fasttext-300d,confirmacao,storm,ponte,thunder,storm,3,0.48960215,True,True,True,True
+fasttext-300d,confirmacao,storm,ponte,storm,hail,3,0.52521211,True,True,True,True
+fasttext-300d,confirmacao,storm,extra,thunder,tundra,1,0.21362783,True,False,False,False
+fasttext-300d,confirmacao,storm,extra,hail,hair,1,0.32893398,True,False,False,False
+fasttext-300d,confirmacao,storm,extra,storm,pillow,0,0.29980984,True,False,False,False
+fasttext-300d,confirmacao,print advertising,ponte,poster,advertising,2,0.45529968,True,True,True,True
+fasttext-300d,confirmacao,print advertising,ponte,advertising,announcement,3,0.36152640,True,False,False,False
+fasttext-300d,confirmacao,print advertising,ponte,announcement,newspaper,2,0.39471006,True,False,False,False
+fasttext-300d,confirmacao,print advertising,extra,poster,postcard,1,0.63279927,True,True,True,True
+fasttext-300d,confirmacao,print advertising,extra,newspaper,news,3,0.63365126,True,True,True,True
+fasttext-300d,confirmacao,print advertising,extra,announcement,scorpion,0,0.23261401,True,False,False,False
+fasttext-300d,confirmacao,personal hygiene,ponte,soap,foam,3,0.39216962,True,False,False,False
+fasttext-300d,confirmacao,personal hygiene,ponte,foam,bath,2,0.40783027,True,True,False,False
+fasttext-300d,confirmacao,personal hygiene,ponte,bath,towel,3,0.56782132,True,True,True,True
+fasttext-300d,confirmacao,personal hygiene,extra,soap,soar,1,0.14791040,True,False,False,False
+fasttext-300d,confirmacao,personal hygiene,extra,bath,bathroom,3,0.66079688,True,True,True,True
+fasttext-300d,confirmacao,personal hygiene,extra,towel,propeller,0,0.28994852,True,False,False,False
+fasttext-300d,confirmacao,desert landscape,ponte,sand,dune,3,0.68341857,True,True,True,True
+fasttext-300d,confirmacao,desert landscape,ponte,dune,desert,3,0.50950903,True,True,True,True
+fasttext-300d,confirmacao,desert landscape,ponte,desert,oasis,3,0.61882234,True,True,True,True
+fasttext-300d,confirmacao,desert landscape,extra,sand,sandal,1,0.51177168,True,True,True,True
+fasttext-300d,confirmacao,desert landscape,extra,sand,sift,2,0.39012811,True,False,False,False
+fasttext-300d,confirmacao,desert landscape,extra,oasis,earring,0,0.17493120,True,False,False,False
+fasttext-300d,confirmacao,petroleum products,ponte,petroleum,gasoline,3,0.69394219,True,True,True,True
+fasttext-300d,confirmacao,petroleum products,ponte,gasoline,fuel,3,0.72394091,True,True,True,True
+fasttext-300d,confirmacao,petroleum products,ponte,fuel,combustion,3,0.59973353,True,True,True,True
+fasttext-300d,confirmacao,petroleum products,extra,gasoline,gazelle,1,0.11806157,True,False,False,False
+fasttext-300d,confirmacao,petroleum products,extra,petroleum,reserve,2,0.39558426,True,False,False,False
+fasttext-300d,confirmacao,petroleum products,extra,combustion,blackboard,0,0.20108028,True,False,False,False
+fasttext-300d,confirmacao,ballet show,ponte,ballet,slipper,3,0.42600670,True,True,True,True
+fasttext-300d,confirmacao,ballet show,ponte,slipper,stage,2,0.31131792,True,False,False,False
+fasttext-300d,confirmacao,ballet show,ponte,stage,audience,3,0.48551875,True,True,True,True
+fasttext-300d,confirmacao,ballet show,extra,ballet,ballast,1,0.31170049,True,False,False,False
+fasttext-300d,confirmacao,ballet show,extra,stage,backstage,3,0.62316006,True,True,True,True
+fasttext-300d,confirmacao,ballet show,extra,audience,persimmon,0,0.22120388,True,False,False,False
+fasttext-300d,confirmacao,octopus anatomy,ponte,octopus,tentacle,3,0.62161118,True,True,True,True
+fasttext-300d,confirmacao,octopus anatomy,ponte,tentacle,sucker,3,0.43082157,True,True,True,True
+fasttext-300d,confirmacao,octopus anatomy,ponte,sucker,suction,3,0.45706439,True,True,True,True
+fasttext-300d,confirmacao,octopus anatomy,extra,octopus,optics,1,0.27499792,True,False,False,False
+fasttext-300d,confirmacao,octopus anatomy,extra,tentacle,tentative,1,0.37174574,True,False,False,False
+fasttext-300d,confirmacao,octopus anatomy,extra,suction,binoculars,0,0.27466044,True,False,False,False
+fasttext-300d,confirmacao,construction site,ponte,architect,project,3,0.47079504,True,True,True,True
+fasttext-300d,confirmacao,construction site,ponte,project,construction,2,0.61908042,True,True,True,True
+fasttext-300d,confirmacao,construction site,ponte,construction,scaffold,3,0.46888810,True,True,True,True
+fasttext-300d,confirmacao,construction site,extra,architect,archer,1,0.39674345,True,False,False,False
+fasttext-300d,confirmacao,construction site,extra,project,planning,3,0.60428643,True,True,True,True
+fasttext-300d,confirmacao,construction site,extra,scaffold,sausage,0,0.29257864,True,False,False,False
+fasttext-300d,confirmacao,group singing,ponte,microphone,voice,3,0.55768746,True,True,True,True
+fasttext-300d,confirmacao,group singing,ponte,voice,singing,3,0.55023378,True,True,True,True
+fasttext-300d,confirmacao,group singing,ponte,singing,choir,3,0.62605071,True,True,True,True
+fasttext-300d,confirmacao,group singing,extra,singing,stinging,1,0.40577084,True,True,False,False
+fasttext-300d,confirmacao,group singing,extra,choir,chorus,3,0.70161706,True,True,True,True
+fasttext-300d,confirmacao,group singing,extra,voice,vice,1,0.28947985,True,False,False,False
+fasttext-300d,confirmacao,dairy,ponte,butter,milk,3,0.61365265,True,True,True,True
+fasttext-300d,confirmacao,dairy,ponte,milk,cheese,3,0.64162320,True,True,True,True
+fasttext-300d,confirmacao,dairy,ponte,cheese,rennet,3,0.62123638,True,True,True,True
+fasttext-300d,confirmacao,dairy,extra,butter,butler,1,0.23583952,True,False,False,False
+fasttext-300d,confirmacao,dairy,extra,cheese,crackers,3,0.53700459,True,True,True,True
+fasttext-300d,confirmacao,dairy,extra,rennet,wax,0,0.29372966,True,False,False,False
+fasttext-300d,confirmacao,upholstery,ponte,sofa,upholstery,3,0.50199175,True,True,True,True
+fasttext-300d,confirmacao,upholstery,ponte,upholstery,leather,2,0.61124486,True,True,True,True
+fasttext-300d,confirmacao,upholstery,ponte,leather,tannery,3,0.60801154,True,True,True,True
+fasttext-300d,confirmacao,upholstery,extra,leather,lather,1,0.34009889,True,False,False,False
+fasttext-300d,confirmacao,upholstery,extra,sofa,armchair,3,0.57846302,True,True,True,True
+fasttext-300d,confirmacao,upholstery,extra,tannery,cup,0,0.15704195,True,False,False,False
+fasttext-300d,confirmacao,hands and fingerprints,ponte,polish,nail,3,0.52929133,True,True,True,True
+fasttext-300d,confirmacao,hands and fingerprints,ponte,nail,finger,3,0.51083130,True,True,True,True
+fasttext-300d,confirmacao,hands and fingerprints,ponte,finger,fingerprint,2,0.51660311,True,True,True,True
+fasttext-300d,confirmacao,hands and fingerprints,extra,polish,polite,1,0.34492648,True,False,False,False
+fasttext-300d,confirmacao,hands and fingerprints,extra,finger,wrist,2,0.65387392,True,True,True,True
+fasttext-300d,confirmacao,hands and fingerprints,extra,fingerprint,eggplant,0,0.25001553,True,False,False,False
+fasttext-300d,confirmacao,paid work,ponte,resume,job,3,0.58266830,True,True,True,True
+fasttext-300d,confirmacao,paid work,ponte,job,salary,3,0.53133404,True,True,True,True
+fasttext-300d,confirmacao,paid work,ponte,salary,income,3,0.57288599,True,True,True,True
+fasttext-300d,confirmacao,paid work,extra,resume,residue,1,0.31794855,True,False,False,False
+fasttext-300d,confirmacao,paid work,extra,job,jab,1,0.22586748,True,False,False,False
+fasttext-300d,confirmacao,paid work,extra,salary,gecko,0,0.07512568,True,False,False,False
+fasttext-300d,confirmacao,thaw,ponte,glacier,ice,3,0.64333886,True,True,True,True
+fasttext-300d,confirmacao,thaw,ponte,ice,thaw,3,0.46452448,True,True,True,True
+fasttext-300d,confirmacao,thaw,ponte,thaw,warming,2,0.45702949,True,True,True,True
+fasttext-300d,confirmacao,thaw,extra,glacier,frost,2,0.43417421,True,True,True,True
+fasttext-300d,confirmacao,thaw,extra,ice,dice,1,0.29261166,True,False,False,False
+fasttext-300d,confirmacao,thaw,extra,warming,drum,0,0.23823602,True,False,False,False
+fasttext-300d,confirmacao,medical prescription,ponte,doctor,appointment,3,0.50984085,True,True,True,True
+fasttext-300d,confirmacao,medical prescription,ponte,appointment,prescription,3,0.47285733,True,True,True,True
+fasttext-300d,confirmacao,medical prescription,ponte,prescription,medicine,3,0.54706079,True,True,True,True
+fasttext-300d,confirmacao,medical prescription,extra,appointment,apportionment,1,0.39007407,True,False,False,False
+fasttext-300d,confirmacao,medical prescription,extra,prescription,pharmacy,3,0.61689037,True,True,True,True
+fasttext-300d,confirmacao,medical prescription,extra,doctor,carpet,0,0.25959104,True,False,False,False
+fasttext-300d,confirmacao,wind instrument and air,ponte,flute,blow,3,0.37905064,True,False,False,False
+fasttext-300d,confirmacao,wind instrument and air,ponte,blow,air,3,0.47613111,True,True,True,True
+fasttext-300d,confirmacao,wind instrument and air,ponte,air,oxidation,2,0.35081726,True,False,False,False
+fasttext-300d,confirmacao,wind instrument and air,extra,blow,bow,1,0.50026685,True,True,True,True
+fasttext-300d,confirmacao,wind instrument and air,extra,flute,clarinet,3,0.73094749,True,True,True,True
+fasttext-300d,confirmacao,wind instrument and air,extra,oxidation,shoelace,0,0.20057669,True,False,False,False
+word2vec-300d,calibracao,baking,ponte,wheat,flour,3,0.55566168,True,True,True,True
+word2vec-300d,calibracao,baking,ponte,flour,dough,2,0.54458708,True,True,True,True
+word2vec-300d,calibracao,baking,ponte,dough,bread,3,0.49096450,True,True,True,True
+word2vec-300d,calibracao,baking,extra,wheat,wheel,1,0.09652735,True,False,False,False
+word2vec-300d,calibracao,baking,extra,flour,compass,0,0.10586714,True,False,False,False
+word2vec-300d,calibracao,baking,extra,bread,comet,0,0.06929688,True,False,False,False
+word2vec-300d,calibracao,racket sports,ponte,badminton,racket,3,0.32954255,True,False,True,True
+word2vec-300d,calibracao,racket sports,ponte,racket,tennis,3,0.39200807,True,False,True,True
+word2vec-300d,calibracao,racket sports,ponte,tennis,court,3,0.23361263,True,False,True,True
+word2vec-300d,calibracao,racket sports,extra,racket,rocket,1,0.06964175,True,False,False,False
+word2vec-300d,calibracao,racket sports,extra,badminton,horn,0,0.08368830,True,False,False,False
+word2vec-300d,calibracao,racket sports,extra,court,cinnamon,0,0.01933029,True,False,False,False
+word2vec-300d,calibracao,geography,ponte,map,border,2,0.08717949,True,False,False,False
+word2vec-300d,calibracao,geography,ponte,border,country,3,0.31818613,True,False,True,True
+word2vec-300d,calibracao,geography,ponte,country,flag,2,0.10593349,True,False,False,False
+word2vec-300d,calibracao,geography,extra,map,mop,1,-0.03741454,True,False,False,False
+word2vec-300d,calibracao,geography,extra,border,boarder,1,0.52264863,True,True,True,True
+word2vec-300d,calibracao,geography,extra,flag,yogurt,0,0.00280871,True,False,False,False
+word2vec-300d,calibracao,planting,ponte,seed,germination,3,0.26903221,True,False,True,True
+word2vec-300d,calibracao,planting,ponte,germination,sprout,3,0.40646586,True,True,True,True
+word2vec-300d,calibracao,planting,ponte,sprout,garden,2,0.32158273,True,False,True,True
+word2vec-300d,calibracao,planting,extra,seed,seek,1,0.04449235,True,False,False,False
+word2vec-300d,calibracao,planting,extra,garden,gardenia,2,0.42685562,True,True,True,True
+word2vec-300d,calibracao,planting,extra,sprout,customs,0,0.01100475,True,False,False,False
+word2vec-300d,calibracao,kitchen,ponte,pan,frying,3,0.38718066,True,False,True,True
+word2vec-300d,calibracao,kitchen,ponte,frying,potato,2,0.30499971,True,False,True,True
+word2vec-300d,calibracao,kitchen,ponte,potato,mash,3,0.23293039,True,False,True,True
+word2vec-300d,calibracao,kitchen,extra,potato,potion,1,0.15947364,True,False,False,False
+word2vec-300d,calibracao,kitchen,extra,mash,mask,1,0.10690966,True,False,False,False
+word2vec-300d,calibracao,kitchen,extra,frying,baton,0,0.06038301,True,False,False,False
+word2vec-300d,calibracao,air travel,ponte,airport,boarding,3,0.34900492,True,False,True,True
+word2vec-300d,calibracao,air travel,ponte,boarding,passenger,3,0.26666513,True,False,True,True
+word2vec-300d,calibracao,air travel,ponte,passenger,luggage,2,0.43813780,True,True,True,True
+word2vec-300d,calibracao,air travel,extra,boarding,hoarding,1,0.05896539,True,False,False,False
+word2vec-300d,calibracao,air travel,extra,passenger,passage,1,0.05562169,True,False,False,False
+word2vec-300d,calibracao,air travel,extra,luggage,dew,0,0.11249579,True,False,False,False
+word2vec-300d,calibracao,citizenship,ponte,election,vote,3,0.60267210,True,True,True,True
+word2vec-300d,calibracao,citizenship,ponte,vote,ballot,3,0.62158245,True,True,True,True
+word2vec-300d,calibracao,citizenship,ponte,ballot,secrecy,2,0.09971718,True,False,False,False
+word2vec-300d,calibracao,citizenship,extra,election,elevation,1,0.08988848,True,False,False,False
+word2vec-300d,calibracao,citizenship,extra,ballot,penguin,0,0.14848234,True,False,False,False
+word2vec-300d,calibracao,citizenship,extra,vote,voltage,0,0.03465411,True,False,False,False
+word2vec-300d,calibracao,space exploration,ponte,astronaut,rocket,3,0.38319305,True,False,True,True
+word2vec-300d,calibracao,space exploration,ponte,rocket,launch,3,0.28142020,True,False,True,True
+word2vec-300d,calibracao,space exploration,ponte,launch,countdown,2,0.31077990,True,False,True,True
+word2vec-300d,calibracao,space exploration,extra,astronaut,astrologer,1,0.25548756,True,False,True,True
+word2vec-300d,calibracao,space exploration,extra,rocket,pocket,1,0.08018401,True,False,False,False
+word2vec-300d,calibracao,space exploration,extra,countdown,planter,0,-0.06782718,True,False,False,False
+word2vec-300d,calibracao,emotional support,ponte,fear,courage,2,0.20929629,True,False,True,True
+word2vec-300d,calibracao,emotional support,ponte,courage,confidence,2,0.33866370,True,False,True,True
+word2vec-300d,calibracao,emotional support,ponte,confidence,friendship,2,0.20617060,True,False,True,True
+word2vec-300d,calibracao,emotional support,extra,fear,feat,1,0.00016377,True,False,False,False
+word2vec-300d,calibracao,emotional support,extra,confidence,condiment,0,-0.05986062,True,False,False,False
+word2vec-300d,calibracao,emotional support,extra,friendship,rust,0,0.06592394,True,False,False,False
+word2vec-300d,calibracao,embroidery,ponte,needle,thread,3,0.31513736,True,False,True,True
+word2vec-300d,calibracao,embroidery,ponte,thread,embroidery,3,0.23677033,True,False,True,True
+word2vec-300d,calibracao,embroidery,ponte,embroidery,ornament,2,0.34491324,True,False,True,True
+word2vec-300d,calibracao,embroidery,extra,needle,needlework,3,0.15672524,True,False,False,False
+word2vec-300d,calibracao,embroidery,extra,thread,threat,1,0.10091088,True,False,False,False
+word2vec-300d,calibracao,embroidery,extra,ornament,asphalt,0,0.11601578,True,False,False,False
+word2vec-300d,calibracao,photography,ponte,photographer,camera,3,0.45725337,True,True,True,True
+word2vec-300d,calibracao,photography,ponte,camera,portrait,3,0.32281306,True,False,True,True
+word2vec-300d,calibracao,photography,ponte,portrait,frame,2,0.24611735,True,False,True,True
+word2vec-300d,calibracao,photography,extra,photographer,photosynthesis,1,0.03588822,True,False,False,False
+word2vec-300d,calibracao,photography,extra,portrait,report,1,0.15196809,True,False,False,False
+word2vec-300d,calibracao,photography,extra,frame,bean,0,0.06238964,True,False,False,False
+word2vec-300d,calibracao,road trip,ponte,driver,car,3,0.57793939,True,True,True,True
+word2vec-300d,calibracao,road trip,ponte,car,road,2,0.30077901,True,False,True,True
+word2vec-300d,calibracao,road trip,ponte,road,toll,3,0.25610599,True,False,True,True
+word2vec-300d,calibracao,road trip,extra,driver,rider,2,0.45560700,True,True,True,True
+word2vec-300d,calibracao,road trip,extra,car,cart,1,0.33737624,True,False,True,True
+word2vec-300d,calibracao,road trip,extra,toll,ladle,0,0.00630278,True,False,False,False
+word2vec-300d,confirmacao,sheep farming,ponte,wool,sheep,3,0.49258181,True,True,True,True
+word2vec-300d,confirmacao,sheep farming,ponte,sheep,shepherd,3,0.46294847,True,True,True,True
+word2vec-300d,confirmacao,sheep farming,ponte,shepherd,flock,3,0.31097811,True,False,True,True
+word2vec-300d,confirmacao,sheep farming,ponte,flock,field,2,0.09147004,True,False,False,False
+word2vec-300d,confirmacao,sheep farming,extra,wool,wolf,1,0.18400763,True,False,True,True
+word2vec-300d,confirmacao,sheep farming,extra,shepherd,scarecrow,1,0.21246329,True,False,True,True
+word2vec-300d,confirmacao,sheep farming,extra,flock,double,0,0.02724334,True,False,False,False
+word2vec-300d,confirmacao,making pizza,ponte,tomato,sauce,3,0.42934346,True,True,True,True
+word2vec-300d,confirmacao,making pizza,ponte,sauce,pizza,2,0.36959878,True,False,True,True
+word2vec-300d,confirmacao,making pizza,ponte,pizza,oven,3,0.32863125,True,False,True,True
+word2vec-300d,confirmacao,making pizza,extra,tomato,tomb,1,0.10489254,True,False,False,False
+word2vec-300d,confirmacao,making pizza,extra,pizza,calzone,3,0.60563749,True,True,True,True
+word2vec-300d,confirmacao,making pizza,extra,oven,peacock,0,0.06150891,True,False,False,False
+word2vec-300d,confirmacao,horse riding,ponte,horse,rein,3,0.14261575,True,False,False,False
+word2vec-300d,confirmacao,horse riding,ponte,rein,horseman,3,0.06470083,True,False,False,False
+word2vec-300d,confirmacao,horse riding,ponte,horseman,saddle,3,0.46439233,True,True,True,True
+word2vec-300d,confirmacao,horse riding,extra,saddle,sadly,1,0.11715268,True,False,False,False
+word2vec-300d,confirmacao,horse riding,extra,horse,hoarse,1,0.09016690,True,False,False,False
+word2vec-300d,confirmacao,horse riding,extra,rein,drizzle,0,-0.07419629,True,False,False,False
+word2vec-300d,confirmacao,keeping time,ponte,deadline,delay,3,0.33881819,True,False,True,True
+word2vec-300d,confirmacao,keeping time,ponte,delay,clock,2,0.15910795,True,False,False,False
+word2vec-300d,confirmacao,keeping time,ponte,clock,pendulum,3,0.24932998,True,False,True,True
+word2vec-300d,confirmacao,keeping time,extra,deadline,headline,1,0.02530438,True,False,False,False
+word2vec-300d,confirmacao,keeping time,extra,delay,meeting,2,0.10557135,True,False,False,False
+word2vec-300d,confirmacao,keeping time,extra,pendulum,almond,0,-0.00255684,True,False,False,False
+word2vec-300d,confirmacao,breathing,ponte,asthma,breathing,3,0.39135936,True,False,True,True
+word2vec-300d,confirmacao,breathing,ponte,breathing,lung,3,0.39043832,True,False,True,True
+word2vec-300d,confirmacao,breathing,ponte,lung,oxygen,3,0.38996285,True,False,True,True
+word2vec-300d,confirmacao,breathing,extra,asthma,plasma,1,0.08023898,True,False,False,False
+word2vec-300d,confirmacao,breathing,extra,lung,stomach,2,0.43525124,True,True,True,True
+word2vec-300d,confirmacao,breathing,extra,breathing,forklift,0,0.08094572,True,False,False,False
+word2vec-300d,confirmacao,wall painting,ponte,paint,brush,3,0.34161890,True,False,True,True
+word2vec-300d,confirmacao,wall painting,ponte,brush,wall,2,0.14853621,True,False,False,False
+word2vec-300d,confirmacao,wall painting,ponte,wall,plaster,3,0.38115877,True,False,True,True
+word2vec-300d,confirmacao,wall painting,extra,brush,brunch,1,0.06817292,True,False,False,False
+word2vec-300d,confirmacao,wall painting,extra,paint,painter,3,0.36331496,True,False,True,True
+word2vec-300d,confirmacao,wall painting,extra,plaster,ant,0,0.14437325,True,False,False,False
+word2vec-300d,confirmacao,public safety,ponte,guard,police,2,0.25953862,True,False,True,True
+word2vec-300d,confirmacao,public safety,ponte,police,crime,3,0.42466304,True,True,True,True
+word2vec-300d,confirmacao,public safety,ponte,crime,prison,3,0.26925975,True,False,True,True
+word2vec-300d,confirmacao,public safety,extra,crime,cream,1,0.05657998,True,False,False,False
+word2vec-300d,confirmacao,public safety,extra,police,nurse,1,0.24505457,True,False,True,True
+word2vec-300d,confirmacao,public safety,extra,prison,sequin,0,0.05543287,True,False,False,False
+word2vec-300d,confirmacao,match at the stadium,ponte,pitch,stadium,3,0.35053110,True,False,True,True
+word2vec-300d,confirmacao,match at the stadium,ponte,stadium,bleachers,3,0.50068527,True,True,True,True
+word2vec-300d,confirmacao,match at the stadium,ponte,bleachers,ticket,2,0.16889407,True,False,False,False
+word2vec-300d,confirmacao,match at the stadium,extra,pitch,pinch,1,0.29861405,True,False,True,True
+word2vec-300d,confirmacao,match at the stadium,extra,bleachers,counter,1,0.11288317,True,False,False,False
+word2vec-300d,confirmacao,match at the stadium,extra,ticket,hedgehog,0,-0.04933556,True,False,False,False
+word2vec-300d,confirmacao,storm,ponte,lightning,thunder,3,0.41863427,True,True,True,True
+word2vec-300d,confirmacao,storm,ponte,thunder,storm,3,0.24453343,True,False,True,True
+word2vec-300d,confirmacao,storm,ponte,storm,hail,3,0.35902354,True,False,True,True
+word2vec-300d,confirmacao,storm,extra,thunder,tundra,1,0.11505125,True,False,False,False
+word2vec-300d,confirmacao,storm,extra,hail,hair,1,0.07910705,True,False,False,False
+word2vec-300d,confirmacao,storm,extra,storm,pillow,0,0.03936888,True,False,False,False
+word2vec-300d,confirmacao,print advertising,ponte,poster,advertising,2,0.21721488,True,False,True,True
+word2vec-300d,confirmacao,print advertising,ponte,advertising,announcement,3,0.08070401,True,False,False,False
+word2vec-300d,confirmacao,print advertising,ponte,announcement,newspaper,2,0.12598869,True,False,False,False
+word2vec-300d,confirmacao,print advertising,extra,poster,postcard,1,0.44406575,True,True,True,True
+word2vec-300d,confirmacao,print advertising,extra,newspaper,news,3,0.36537585,True,False,True,True
+word2vec-300d,confirmacao,print advertising,extra,announcement,scorpion,0,0.01596347,True,False,False,False
+word2vec-300d,confirmacao,personal hygiene,ponte,soap,foam,3,0.24609289,True,False,True,True
+word2vec-300d,confirmacao,personal hygiene,ponte,foam,bath,2,0.12169269,True,False,False,False
+word2vec-300d,confirmacao,personal hygiene,ponte,bath,towel,3,0.41717601,True,True,True,True
+word2vec-300d,confirmacao,personal hygiene,extra,soap,soar,1,-0.01044878,True,False,False,False
+word2vec-300d,confirmacao,personal hygiene,extra,bath,bathroom,3,0.52589786,True,True,True,True
+word2vec-300d,confirmacao,personal hygiene,extra,towel,propeller,0,0.08524803,True,False,False,False
+word2vec-300d,confirmacao,desert landscape,ponte,sand,dune,3,0.50397223,True,True,True,True
+word2vec-300d,confirmacao,desert landscape,ponte,dune,desert,3,0.35463777,True,False,True,True
+word2vec-300d,confirmacao,desert landscape,ponte,desert,oasis,3,0.38962066,True,False,True,True
+word2vec-300d,confirmacao,desert landscape,extra,sand,sandal,1,0.31538722,True,False,True,True
+word2vec-300d,confirmacao,desert landscape,extra,sand,sift,2,0.12310282,True,False,False,False
+word2vec-300d,confirmacao,desert landscape,extra,oasis,earring,0,0.15456311,True,False,False,False
+word2vec-300d,confirmacao,petroleum products,ponte,petroleum,gasoline,3,0.62404984,True,True,True,True
+word2vec-300d,confirmacao,petroleum products,ponte,gasoline,fuel,3,0.70660806,True,True,True,True
+word2vec-300d,confirmacao,petroleum products,ponte,fuel,combustion,3,0.39550978,True,False,True,True
+word2vec-300d,confirmacao,petroleum products,extra,gasoline,gazelle,1,-0.02432653,True,False,False,False
+word2vec-300d,confirmacao,petroleum products,extra,petroleum,reserve,2,0.17571270,True,False,False,False
+word2vec-300d,confirmacao,petroleum products,extra,combustion,blackboard,0,-0.03932535,True,False,False,False
+word2vec-300d,confirmacao,ballet show,ponte,ballet,slipper,3,0.24547301,True,False,True,True
+word2vec-300d,confirmacao,ballet show,ponte,slipper,stage,2,0.07200006,True,False,False,False
+word2vec-300d,confirmacao,ballet show,ponte,stage,audience,3,0.29912278,True,False,True,True
+word2vec-300d,confirmacao,ballet show,extra,ballet,ballast,1,0.04533749,True,False,False,False
+word2vec-300d,confirmacao,ballet show,extra,stage,backstage,3,0.39822167,True,False,True,True
+word2vec-300d,confirmacao,ballet show,extra,audience,persimmon,0,-0.00413680,True,False,False,False
+word2vec-300d,confirmacao,octopus anatomy,ponte,octopus,tentacle,3,0.51350814,True,True,True,True
+word2vec-300d,confirmacao,octopus anatomy,ponte,tentacle,sucker,3,0.24183661,True,False,True,True
+word2vec-300d,confirmacao,octopus anatomy,ponte,sucker,suction,3,0.19929980,True,False,True,True
+word2vec-300d,confirmacao,octopus anatomy,extra,octopus,optics,1,0.04335399,True,False,False,False
+word2vec-300d,confirmacao,octopus anatomy,extra,tentacle,tentative,1,0.00995399,True,False,False,False
+word2vec-300d,confirmacao,octopus anatomy,extra,suction,binoculars,0,0.11071099,True,False,False,False
+word2vec-300d,confirmacao,construction site,ponte,architect,project,3,0.30374846,True,False,True,True
+word2vec-300d,confirmacao,construction site,ponte,project,construction,2,0.59402359,True,True,True,True
+word2vec-300d,confirmacao,construction site,ponte,construction,scaffold,3,0.25487873,True,False,True,True
+word2vec-300d,confirmacao,construction site,extra,architect,archer,1,0.23116012,True,False,True,True
+word2vec-300d,confirmacao,construction site,extra,project,planning,3,0.30220962,True,False,True,True
+word2vec-300d,confirmacao,construction site,extra,scaffold,sausage,0,0.08549509,True,False,False,False
+word2vec-300d,confirmacao,group singing,ponte,microphone,voice,3,0.44557530,True,True,True,True
+word2vec-300d,confirmacao,group singing,ponte,voice,singing,3,0.34707758,True,False,True,True
+word2vec-300d,confirmacao,group singing,ponte,singing,choir,3,0.58356798,True,True,True,True
+word2vec-300d,confirmacao,group singing,extra,singing,stinging,1,0.04943430,True,False,False,False
+word2vec-300d,confirmacao,group singing,extra,choir,chorus,3,0.57695854,True,True,True,True
+word2vec-300d,confirmacao,group singing,extra,voice,vice,1,0.01482734,True,False,False,False
+word2vec-300d,confirmacao,dairy,ponte,butter,milk,3,0.37167898,True,False,True,True
+word2vec-300d,confirmacao,dairy,ponte,milk,cheese,3,0.50146592,True,True,True,True
+word2vec-300d,confirmacao,dairy,ponte,cheese,rennet,3,0.48638791,True,True,True,True
+word2vec-300d,confirmacao,dairy,extra,butter,butler,1,0.04739366,True,False,False,False
+word2vec-300d,confirmacao,dairy,extra,cheese,crackers,3,0.43688315,True,True,True,True
+word2vec-300d,confirmacao,dairy,extra,rennet,wax,0,0.27799168,True,False,True,True
+word2vec-300d,confirmacao,upholstery,ponte,sofa,upholstery,3,0.42661944,True,True,True,True
+word2vec-300d,confirmacao,upholstery,ponte,upholstery,leather,2,0.57792532,True,True,True,True
+word2vec-300d,confirmacao,upholstery,ponte,leather,tannery,3,0.36426184,True,False,True,True
+word2vec-300d,confirmacao,upholstery,extra,leather,lather,1,0.16876130,True,False,False,False
+word2vec-300d,confirmacao,upholstery,extra,sofa,armchair,3,0.51852208,True,True,True,True
+word2vec-300d,confirmacao,upholstery,extra,tannery,cup,0,0.04245529,True,False,False,False
+word2vec-300d,confirmacao,hands and fingerprints,ponte,polish,nail,3,0.32266992,True,False,True,True
+word2vec-300d,confirmacao,hands and fingerprints,ponte,nail,finger,3,0.22142294,True,False,True,True
+word2vec-300d,confirmacao,hands and fingerprints,ponte,finger,fingerprint,2,0.27648172,True,False,True,True
+word2vec-300d,confirmacao,hands and fingerprints,extra,polish,polite,1,0.18722944,True,False,True,True
+word2vec-300d,confirmacao,hands and fingerprints,extra,finger,wrist,2,0.58432609,True,True,True,True
+word2vec-300d,confirmacao,hands and fingerprints,extra,fingerprint,eggplant,0,0.04566047,True,False,False,False
+word2vec-300d,confirmacao,paid work,ponte,resume,job,3,0.24164937,True,False,True,True
+word2vec-300d,confirmacao,paid work,ponte,job,salary,3,0.44814074,True,True,True,True
+word2vec-300d,confirmacao,paid work,ponte,salary,income,3,0.29253131,True,False,True,True
+word2vec-300d,confirmacao,paid work,extra,resume,residue,1,0.02307027,True,False,False,False
+word2vec-300d,confirmacao,paid work,extra,job,jab,1,0.15458216,True,False,False,False
+word2vec-300d,confirmacao,paid work,extra,salary,gecko,0,0.05011210,True,False,False,False
+word2vec-300d,confirmacao,thaw,ponte,glacier,ice,3,0.50694478,True,True,True,True
+word2vec-300d,confirmacao,thaw,ponte,ice,thaw,3,0.33064598,True,False,True,True
+word2vec-300d,confirmacao,thaw,ponte,thaw,warming,2,0.44578686,True,True,True,True
+word2vec-300d,confirmacao,thaw,extra,glacier,frost,2,0.22596292,True,False,True,True
+word2vec-300d,confirmacao,thaw,extra,ice,dice,1,0.13971525,True,False,False,False
+word2vec-300d,confirmacao,thaw,extra,warming,drum,0,0.05755120,True,False,False,False
+word2vec-300d,confirmacao,medical prescription,ponte,doctor,appointment,3,0.23425621,True,False,True,True
+word2vec-300d,confirmacao,medical prescription,ponte,appointment,prescription,3,0.17989187,True,False,False,False
+word2vec-300d,confirmacao,medical prescription,ponte,prescription,medicine,3,0.44501257,True,True,True,True
+word2vec-300d,confirmacao,medical prescription,extra,appointment,apportionment,1,0.13538986,True,False,False,False
+word2vec-300d,confirmacao,medical prescription,extra,prescription,pharmacy,3,0.62536269,True,True,True,True
+word2vec-300d,confirmacao,medical prescription,extra,doctor,carpet,0,0.07825459,True,False,False,False
+word2vec-300d,confirmacao,wind instrument and air,ponte,flute,blow,3,0.05662493,True,False,False,False
+word2vec-300d,confirmacao,wind instrument and air,ponte,blow,air,3,0.16312876,True,False,False,False
+word2vec-300d,confirmacao,wind instrument and air,ponte,air,oxidation,2,0.15474063,True,False,False,False
+word2vec-300d,confirmacao,wind instrument and air,extra,blow,bow,1,0.16536966,True,False,False,False
+word2vec-300d,confirmacao,wind instrument and air,extra,flute,clarinet,3,0.77529573,True,True,True,True
+word2vec-300d,confirmacao,wind instrument and air,extra,oxidation,shoelace,0,0.12273782,True,False,False,False
+minilm-multilingue-int8,calibracao,baking,ponte,wheat,flour,3,0.51044405,True,True,True,True
+minilm-multilingue-int8,calibracao,baking,ponte,flour,dough,2,0.79662687,True,True,True,True
+minilm-multilingue-int8,calibracao,baking,ponte,dough,bread,3,0.71745229,True,True,True,True
+minilm-multilingue-int8,calibracao,baking,extra,wheat,wheel,1,0.11643481,True,False,False,False
+minilm-multilingue-int8,calibracao,baking,extra,flour,compass,0,0.06704322,True,False,False,False
+minilm-multilingue-int8,calibracao,baking,extra,bread,comet,0,0.16317636,True,False,False,False
+minilm-multilingue-int8,calibracao,racket sports,ponte,badminton,racket,3,0.80836642,True,True,True,True
+minilm-multilingue-int8,calibracao,racket sports,ponte,racket,tennis,3,0.88543546,True,True,True,True
+minilm-multilingue-int8,calibracao,racket sports,ponte,tennis,court,3,0.55818623,True,True,True,True
+minilm-multilingue-int8,calibracao,racket sports,extra,racket,rocket,1,0.33118272,True,False,False,False
+minilm-multilingue-int8,calibracao,racket sports,extra,badminton,horn,0,0.11953221,True,False,False,False
+minilm-multilingue-int8,calibracao,racket sports,extra,court,cinnamon,0,0.03574492,True,False,False,False
+minilm-multilingue-int8,calibracao,geography,ponte,map,border,2,0.33383560,True,False,True,False
+minilm-multilingue-int8,calibracao,geography,ponte,border,country,3,0.44442791,True,True,True,False
+minilm-multilingue-int8,calibracao,geography,ponte,country,flag,2,0.42193452,True,True,True,False
+minilm-multilingue-int8,calibracao,geography,extra,map,mop,1,0.15844674,True,False,False,False
+minilm-multilingue-int8,calibracao,geography,extra,border,boarder,1,0.19093432,True,False,False,False
+minilm-multilingue-int8,calibracao,geography,extra,flag,yogurt,0,0.08249882,True,False,False,False
+minilm-multilingue-int8,calibracao,planting,ponte,seed,germination,3,0.78812170,True,True,True,True
+minilm-multilingue-int8,calibracao,planting,ponte,germination,sprout,3,0.46697104,True,True,True,True
+minilm-multilingue-int8,calibracao,planting,ponte,sprout,garden,2,0.44110626,True,True,True,False
+minilm-multilingue-int8,calibracao,planting,extra,seed,seek,1,0.45107406,True,True,True,False
+minilm-multilingue-int8,calibracao,planting,extra,garden,gardenia,2,0.83192885,True,True,True,True
+minilm-multilingue-int8,calibracao,planting,extra,sprout,customs,0,0.42124403,True,True,True,False
+minilm-multilingue-int8,calibracao,kitchen,ponte,pan,frying,3,0.36466363,True,False,True,False
+minilm-multilingue-int8,calibracao,kitchen,ponte,frying,potato,2,0.51143187,True,True,True,True
+minilm-multilingue-int8,calibracao,kitchen,ponte,potato,mash,3,0.26832670,True,False,False,False
+minilm-multilingue-int8,calibracao,kitchen,extra,potato,potion,1,0.22855121,True,False,False,False
+minilm-multilingue-int8,calibracao,kitchen,extra,mash,mask,1,0.38647655,True,False,True,False
+minilm-multilingue-int8,calibracao,kitchen,extra,frying,baton,0,0.22795525,True,False,False,False
+minilm-multilingue-int8,calibracao,air travel,ponte,airport,boarding,3,0.31464100,True,False,False,False
+minilm-multilingue-int8,calibracao,air travel,ponte,boarding,passenger,3,0.51220214,True,True,True,True
+minilm-multilingue-int8,calibracao,air travel,ponte,passenger,luggage,2,0.52218282,True,True,True,True
+minilm-multilingue-int8,calibracao,air travel,extra,boarding,hoarding,1,0.26760304,True,False,False,False
+minilm-multilingue-int8,calibracao,air travel,extra,passenger,passage,1,0.44683376,True,True,True,False
+minilm-multilingue-int8,calibracao,air travel,extra,luggage,dew,0,0.22107361,True,False,False,False
+minilm-multilingue-int8,calibracao,citizenship,ponte,election,vote,3,0.84850979,True,True,True,True
+minilm-multilingue-int8,calibracao,citizenship,ponte,vote,ballot,3,0.94901514,True,True,True,True
+minilm-multilingue-int8,calibracao,citizenship,ponte,ballot,secrecy,2,0.28158239,True,False,False,False
+minilm-multilingue-int8,calibracao,citizenship,extra,election,elevation,1,0.17216709,True,False,False,False
+minilm-multilingue-int8,calibracao,citizenship,extra,ballot,penguin,0,0.15067369,True,False,False,False
+minilm-multilingue-int8,calibracao,citizenship,extra,vote,voltage,0,0.16191351,True,False,False,False
+minilm-multilingue-int8,calibracao,space exploration,ponte,astronaut,rocket,3,0.50098914,True,True,True,True
+minilm-multilingue-int8,calibracao,space exploration,ponte,rocket,launch,3,0.34612972,True,False,True,False
+minilm-multilingue-int8,calibracao,space exploration,ponte,launch,countdown,2,0.45139429,True,True,True,True
+minilm-multilingue-int8,calibracao,space exploration,extra,astronaut,astrologer,1,0.44633371,True,True,True,False
+minilm-multilingue-int8,calibracao,space exploration,extra,rocket,pocket,1,0.13433908,True,False,False,False
+minilm-multilingue-int8,calibracao,space exploration,extra,countdown,planter,0,0.20618780,True,False,False,False
+minilm-multilingue-int8,calibracao,emotional support,ponte,fear,courage,2,0.54701030,True,True,True,True
+minilm-multilingue-int8,calibracao,emotional support,ponte,courage,confidence,2,0.64965320,True,True,True,True
+minilm-multilingue-int8,calibracao,emotional support,ponte,confidence,friendship,2,0.35713854,True,False,True,False
+minilm-multilingue-int8,calibracao,emotional support,extra,fear,feat,1,0.30658406,True,False,False,False
+minilm-multilingue-int8,calibracao,emotional support,extra,confidence,condiment,0,0.30501950,True,False,False,False
+minilm-multilingue-int8,calibracao,emotional support,extra,friendship,rust,0,0.35291016,True,False,True,False
+minilm-multilingue-int8,calibracao,embroidery,ponte,needle,thread,3,0.39572641,True,False,True,False
+minilm-multilingue-int8,calibracao,embroidery,ponte,thread,embroidery,3,0.38121286,True,False,True,False
+minilm-multilingue-int8,calibracao,embroidery,ponte,embroidery,ornament,2,0.43978658,True,True,True,False
+minilm-multilingue-int8,calibracao,embroidery,extra,needle,needlework,3,0.93946028,True,True,True,True
+minilm-multilingue-int8,calibracao,embroidery,extra,thread,threat,1,0.27840567,True,False,False,False
+minilm-multilingue-int8,calibracao,embroidery,extra,ornament,asphalt,0,0.23322040,True,False,False,False
+minilm-multilingue-int8,calibracao,photography,ponte,photographer,camera,3,0.92546058,True,True,True,True
+minilm-multilingue-int8,calibracao,photography,ponte,camera,portrait,3,0.74386871,True,True,True,True
+minilm-multilingue-int8,calibracao,photography,ponte,portrait,frame,2,0.57994443,True,True,True,True
+minilm-multilingue-int8,calibracao,photography,extra,photographer,photosynthesis,1,0.43698153,True,True,True,False
+minilm-multilingue-int8,calibracao,photography,extra,portrait,report,1,0.50339282,True,True,True,True
+minilm-multilingue-int8,calibracao,photography,extra,frame,bean,0,0.19855021,True,False,False,False
+minilm-multilingue-int8,calibracao,road trip,ponte,driver,car,3,0.67503560,True,True,True,True
+minilm-multilingue-int8,calibracao,road trip,ponte,car,road,2,0.56833541,True,True,True,True
+minilm-multilingue-int8,calibracao,road trip,ponte,road,toll,3,0.41065341,True,True,True,False
+minilm-multilingue-int8,calibracao,road trip,extra,driver,rider,2,0.50766367,True,True,True,True
+minilm-multilingue-int8,calibracao,road trip,extra,car,cart,1,0.52226436,True,True,True,True
+minilm-multilingue-int8,calibracao,road trip,extra,toll,ladle,0,0.55389309,True,True,True,True
+minilm-multilingue-int8,confirmacao,sheep farming,ponte,wool,sheep,3,0.70063788,True,True,True,True
+minilm-multilingue-int8,confirmacao,sheep farming,ponte,sheep,shepherd,3,0.67138731,True,True,True,True
+minilm-multilingue-int8,confirmacao,sheep farming,ponte,shepherd,flock,3,0.43735266,True,True,True,False
+minilm-multilingue-int8,confirmacao,sheep farming,ponte,flock,field,2,0.44154841,True,True,True,False
+minilm-multilingue-int8,confirmacao,sheep farming,extra,wool,wolf,1,0.52274776,True,True,True,True
+minilm-multilingue-int8,confirmacao,sheep farming,extra,shepherd,scarecrow,1,0.21158361,True,False,False,False
+minilm-multilingue-int8,confirmacao,sheep farming,extra,flock,double,0,0.36510980,True,False,True,False
+minilm-multilingue-int8,confirmacao,making pizza,ponte,tomato,sauce,3,0.31031710,True,False,False,False
+minilm-multilingue-int8,confirmacao,making pizza,ponte,sauce,pizza,2,0.52264607,True,True,True,True
+minilm-multilingue-int8,confirmacao,making pizza,ponte,pizza,oven,3,0.30114421,True,False,False,False
+minilm-multilingue-int8,confirmacao,making pizza,extra,tomato,tomb,1,0.04542597,True,False,False,False
+minilm-multilingue-int8,confirmacao,making pizza,extra,pizza,calzone,3,0.39407641,True,False,True,False
+minilm-multilingue-int8,confirmacao,making pizza,extra,oven,peacock,0,0.20710962,True,False,False,False
+minilm-multilingue-int8,confirmacao,horse riding,ponte,horse,rein,3,0.32272714,True,False,False,False
+minilm-multilingue-int8,confirmacao,horse riding,ponte,rein,horseman,3,0.28046593,True,False,False,False
+minilm-multilingue-int8,confirmacao,horse riding,ponte,horseman,saddle,3,0.74208140,True,True,True,True
+minilm-multilingue-int8,confirmacao,horse riding,extra,saddle,sadly,1,0.27842754,True,False,False,False
+minilm-multilingue-int8,confirmacao,horse riding,extra,horse,hoarse,1,0.24506955,True,False,False,False
+minilm-multilingue-int8,confirmacao,horse riding,extra,rein,drizzle,0,0.39365605,True,False,True,False
+minilm-multilingue-int8,confirmacao,keeping time,ponte,deadline,delay,3,0.65422547,True,True,True,True
+minilm-multilingue-int8,confirmacao,keeping time,ponte,delay,clock,2,0.52056146,True,True,True,True
+minilm-multilingue-int8,confirmacao,keeping time,ponte,clock,pendulum,3,0.45284754,True,True,True,True
+minilm-multilingue-int8,confirmacao,keeping time,extra,deadline,headline,1,0.31296265,True,False,False,False
+minilm-multilingue-int8,confirmacao,keeping time,extra,delay,meeting,2,0.35248199,True,False,True,False
+minilm-multilingue-int8,confirmacao,keeping time,extra,pendulum,almond,0,0.10417056,True,False,False,False
+minilm-multilingue-int8,confirmacao,breathing,ponte,asthma,breathing,3,0.56976116,True,True,True,True
+minilm-multilingue-int8,confirmacao,breathing,ponte,breathing,lung,3,0.70038223,True,True,True,True
+minilm-multilingue-int8,confirmacao,breathing,ponte,lung,oxygen,3,0.49351811,True,True,True,True
+minilm-multilingue-int8,confirmacao,breathing,extra,asthma,plasma,1,0.25283495,True,False,False,False
+minilm-multilingue-int8,confirmacao,breathing,extra,lung,stomach,2,0.44120300,True,True,True,False
+minilm-multilingue-int8,confirmacao,breathing,extra,breathing,forklift,0,0.03643668,True,False,False,False
+minilm-multilingue-int8,confirmacao,wall painting,ponte,paint,brush,3,0.50315940,True,True,True,True
+minilm-multilingue-int8,confirmacao,wall painting,ponte,brush,wall,2,0.32888258,True,False,False,False
+minilm-multilingue-int8,confirmacao,wall painting,ponte,wall,plaster,3,0.63623118,True,True,True,True
+minilm-multilingue-int8,confirmacao,wall painting,extra,brush,brunch,1,0.18414463,True,False,False,False
+minilm-multilingue-int8,confirmacao,wall painting,extra,paint,painter,3,0.87532836,True,True,True,True
+minilm-multilingue-int8,confirmacao,wall painting,extra,plaster,ant,0,0.26634634,True,False,False,False
+minilm-multilingue-int8,confirmacao,public safety,ponte,guard,police,2,0.60179436,True,True,True,True
+minilm-multilingue-int8,confirmacao,public safety,ponte,police,crime,3,0.69585472,True,True,True,True
+minilm-multilingue-int8,confirmacao,public safety,ponte,crime,prison,3,0.63659251,True,True,True,True
+minilm-multilingue-int8,confirmacao,public safety,extra,crime,cream,1,0.09632319,True,False,False,False
+minilm-multilingue-int8,confirmacao,public safety,extra,police,nurse,1,0.17126596,True,False,False,False
+minilm-multilingue-int8,confirmacao,public safety,extra,prison,sequin,0,0.34120926,True,False,True,False
+minilm-multilingue-int8,confirmacao,match at the stadium,ponte,pitch,stadium,3,0.40404317,True,True,True,False
+minilm-multilingue-int8,confirmacao,match at the stadium,ponte,stadium,bleachers,3,0.15352176,True,False,False,False
+minilm-multilingue-int8,confirmacao,match at the stadium,ponte,bleachers,ticket,2,0.10393861,True,False,False,False
+minilm-multilingue-int8,confirmacao,match at the stadium,extra,pitch,pinch,1,0.31284648,True,False,False,False
+minilm-multilingue-int8,confirmacao,match at the stadium,extra,bleachers,counter,1,0.19178323,True,False,False,False
+minilm-multilingue-int8,confirmacao,match at the stadium,extra,ticket,hedgehog,0,0.21468881,True,False,False,False
+minilm-multilingue-int8,confirmacao,storm,ponte,lightning,thunder,3,0.76454699,True,True,True,True
+minilm-multilingue-int8,confirmacao,storm,ponte,thunder,storm,3,0.65104824,True,True,True,True
+minilm-multilingue-int8,confirmacao,storm,ponte,storm,hail,3,0.45710498,True,True,True,True
+minilm-multilingue-int8,confirmacao,storm,extra,thunder,tundra,1,0.43724573,True,True,True,False
+minilm-multilingue-int8,confirmacao,storm,extra,hail,hair,1,0.25261655,True,False,False,False
+minilm-multilingue-int8,confirmacao,storm,extra,storm,pillow,0,0.09869876,True,False,False,False
+minilm-multilingue-int8,confirmacao,print advertising,ponte,poster,advertising,2,0.68832326,True,True,True,True
+minilm-multilingue-int8,confirmacao,print advertising,ponte,advertising,announcement,3,0.54389983,True,True,True,True
+minilm-multilingue-int8,confirmacao,print advertising,ponte,announcement,newspaper,2,0.43805474,True,True,True,False
+minilm-multilingue-int8,confirmacao,print advertising,extra,poster,postcard,1,0.52868676,True,True,True,True
+minilm-multilingue-int8,confirmacao,print advertising,extra,newspaper,news,3,0.77490109,True,True,True,True
+minilm-multilingue-int8,confirmacao,print advertising,extra,announcement,scorpion,0,0.22452351,True,False,False,False
+minilm-multilingue-int8,confirmacao,personal hygiene,ponte,soap,foam,3,0.37070242,True,False,True,False
+minilm-multilingue-int8,confirmacao,personal hygiene,ponte,foam,bath,2,0.42516375,True,True,True,False
+minilm-multilingue-int8,confirmacao,personal hygiene,ponte,bath,towel,3,0.70322418,True,True,True,True
+minilm-multilingue-int8,confirmacao,personal hygiene,extra,soap,soar,1,0.29724693,True,False,False,False
+minilm-multilingue-int8,confirmacao,personal hygiene,extra,bath,bathroom,3,0.83209109,True,True,True,True
+minilm-multilingue-int8,confirmacao,personal hygiene,extra,towel,propeller,0,0.14216390,True,False,False,False
+minilm-multilingue-int8,confirmacao,desert landscape,ponte,sand,dune,3,0.88189960,True,True,True,True
+minilm-multilingue-int8,confirmacao,desert landscape,ponte,dune,desert,3,0.79511762,True,True,True,True
+minilm-multilingue-int8,confirmacao,desert landscape,ponte,desert,oasis,3,0.49130040,True,True,True,True
+minilm-multilingue-int8,confirmacao,desert landscape,extra,sand,sandal,1,0.79748678,True,True,True,True
+minilm-multilingue-int8,confirmacao,desert landscape,extra,sand,sift,2,0.58711553,True,True,True,True
+minilm-multilingue-int8,confirmacao,desert landscape,extra,oasis,earring,0,0.31074715,True,False,False,False
+minilm-multilingue-int8,confirmacao,petroleum products,ponte,petroleum,gasoline,3,0.74373078,True,True,True,True
+minilm-multilingue-int8,confirmacao,petroleum products,ponte,gasoline,fuel,3,0.84205341,True,True,True,True
+minilm-multilingue-int8,confirmacao,petroleum products,ponte,fuel,combustion,3,0.60705864,True,True,True,True
+minilm-multilingue-int8,confirmacao,petroleum products,extra,gasoline,gazelle,1,0.25345260,True,False,False,False
+minilm-multilingue-int8,confirmacao,petroleum products,extra,petroleum,reserve,2,0.30659145,True,False,False,False
+minilm-multilingue-int8,confirmacao,petroleum products,extra,combustion,blackboard,0,0.12100299,True,False,False,False
+minilm-multilingue-int8,confirmacao,ballet show,ponte,ballet,slipper,3,0.33764386,True,False,True,False
+minilm-multilingue-int8,confirmacao,ballet show,ponte,slipper,stage,2,0.21864402,True,False,False,False
+minilm-multilingue-int8,confirmacao,ballet show,ponte,stage,audience,3,0.60326612,True,True,True,True
+minilm-multilingue-int8,confirmacao,ballet show,extra,ballet,ballast,1,0.13079485,True,False,False,False
+minilm-multilingue-int8,confirmacao,ballet show,extra,stage,backstage,3,0.74981725,True,True,True,True
+minilm-multilingue-int8,confirmacao,ballet show,extra,audience,persimmon,0,0.45154640,True,True,True,True
+minilm-multilingue-int8,confirmacao,octopus anatomy,ponte,octopus,tentacle,3,0.76722485,True,True,True,True
+minilm-multilingue-int8,confirmacao,octopus anatomy,ponte,tentacle,sucker,3,0.45046139,True,True,True,False
+minilm-multilingue-int8,confirmacao,octopus anatomy,ponte,sucker,suction,3,0.40295255,True,True,True,False
+minilm-multilingue-int8,confirmacao,octopus anatomy,extra,octopus,optics,1,0.24211767,True,False,False,False
+minilm-multilingue-int8,confirmacao,octopus anatomy,extra,tentacle,tentative,1,0.29206535,True,False,False,False
+minilm-multilingue-int8,confirmacao,octopus anatomy,extra,suction,binoculars,0,0.27332294,True,False,False,False
+minilm-multilingue-int8,confirmacao,construction site,ponte,architect,project,3,0.60023224,True,True,True,True
+minilm-multilingue-int8,confirmacao,construction site,ponte,project,construction,2,0.66080153,True,True,True,True
+minilm-multilingue-int8,confirmacao,construction site,ponte,construction,scaffold,3,0.53702736,True,True,True,True
+minilm-multilingue-int8,confirmacao,construction site,extra,architect,archer,1,0.38157529,True,False,True,False
+minilm-multilingue-int8,confirmacao,construction site,extra,project,planning,3,0.68139207,True,True,True,True
+minilm-multilingue-int8,confirmacao,construction site,extra,scaffold,sausage,0,0.09735154,True,False,False,False
+minilm-multilingue-int8,confirmacao,group singing,ponte,microphone,voice,3,0.80542839,True,True,True,True
+minilm-multilingue-int8,confirmacao,group singing,ponte,voice,singing,3,0.81759655,True,True,True,True
+minilm-multilingue-int8,confirmacao,group singing,ponte,singing,choir,3,0.63629097,True,True,True,True
+minilm-multilingue-int8,confirmacao,group singing,extra,singing,stinging,1,0.30351478,True,False,False,False
+minilm-multilingue-int8,confirmacao,group singing,extra,choir,chorus,3,0.91376448,True,True,True,True
+minilm-multilingue-int8,confirmacao,group singing,extra,voice,vice,1,0.41911530,True,True,True,False
+minilm-multilingue-int8,confirmacao,dairy,ponte,butter,milk,3,0.50477755,True,True,True,True
+minilm-multilingue-int8,confirmacao,dairy,ponte,milk,cheese,3,0.50385606,True,True,True,True
+minilm-multilingue-int8,confirmacao,dairy,ponte,cheese,rennet,3,0.27863783,True,False,False,False
+minilm-multilingue-int8,confirmacao,dairy,extra,butter,butler,1,0.21545336,True,False,False,False
+minilm-multilingue-int8,confirmacao,dairy,extra,cheese,crackers,3,0.29129368,True,False,False,False
+minilm-multilingue-int8,confirmacao,dairy,extra,rennet,wax,0,0.22904891,True,False,False,False
+minilm-multilingue-int8,confirmacao,upholstery,ponte,sofa,upholstery,3,0.45074165,True,True,True,False
+minilm-multilingue-int8,confirmacao,upholstery,ponte,upholstery,leather,2,0.41428021,True,True,True,False
+minilm-multilingue-int8,confirmacao,upholstery,ponte,leather,tannery,3,0.43291029,True,True,True,False
+minilm-multilingue-int8,confirmacao,upholstery,extra,leather,lather,1,0.41474485,True,True,True,False
+minilm-multilingue-int8,confirmacao,upholstery,extra,sofa,armchair,3,0.71911442,True,True,True,True
+minilm-multilingue-int8,confirmacao,upholstery,extra,tannery,cup,0,0.36900014,True,False,True,False
+minilm-multilingue-int8,confirmacao,hands and fingerprints,ponte,polish,nail,3,0.42188799,True,True,True,False
+minilm-multilingue-int8,confirmacao,hands and fingerprints,ponte,nail,finger,3,0.71377373,True,True,True,True
+minilm-multilingue-int8,confirmacao,hands and fingerprints,ponte,finger,fingerprint,2,0.67408442,True,True,True,True
+minilm-multilingue-int8,confirmacao,hands and fingerprints,extra,polish,polite,1,0.48525056,True,True,True,True
+minilm-multilingue-int8,confirmacao,hands and fingerprints,extra,finger,wrist,2,0.81274343,True,True,True,True
+minilm-multilingue-int8,confirmacao,hands and fingerprints,extra,fingerprint,eggplant,0,0.18348947,True,False,False,False
+minilm-multilingue-int8,confirmacao,paid work,ponte,resume,job,3,0.68307310,True,True,True,True
+minilm-multilingue-int8,confirmacao,paid work,ponte,job,salary,3,0.61160767,True,True,True,True
+minilm-multilingue-int8,confirmacao,paid work,ponte,salary,income,3,0.74983227,True,True,True,True
+minilm-multilingue-int8,confirmacao,paid work,extra,resume,residue,1,0.27925527,True,False,False,False
+minilm-multilingue-int8,confirmacao,paid work,extra,job,jab,1,0.42253655,True,True,True,False
+minilm-multilingue-int8,confirmacao,paid work,extra,salary,gecko,0,0.06839445,True,False,False,False
+minilm-multilingue-int8,confirmacao,thaw,ponte,glacier,ice,3,0.74052918,True,True,True,True
+minilm-multilingue-int8,confirmacao,thaw,ponte,ice,thaw,3,0.54418045,True,True,True,True
+minilm-multilingue-int8,confirmacao,thaw,ponte,thaw,warming,2,0.49936914,True,True,True,True
+minilm-multilingue-int8,confirmacao,thaw,extra,glacier,frost,2,0.61875534,True,True,True,True
+minilm-multilingue-int8,confirmacao,thaw,extra,ice,dice,1,0.36504352,True,False,True,False
+minilm-multilingue-int8,confirmacao,thaw,extra,warming,drum,0,0.21184450,True,False,False,False
+minilm-multilingue-int8,confirmacao,medical prescription,ponte,doctor,appointment,3,0.78374374,True,True,True,True
+minilm-multilingue-int8,confirmacao,medical prescription,ponte,appointment,prescription,3,0.63630104,True,True,True,True
+minilm-multilingue-int8,confirmacao,medical prescription,ponte,prescription,medicine,3,0.73759496,True,True,True,True
+minilm-multilingue-int8,confirmacao,medical prescription,extra,appointment,apportionment,1,0.43088722,True,True,True,False
+minilm-multilingue-int8,confirmacao,medical prescription,extra,prescription,pharmacy,3,0.83778882,True,True,True,True
+minilm-multilingue-int8,confirmacao,medical prescription,extra,doctor,carpet,0,0.22928566,True,False,False,False
+minilm-multilingue-int8,confirmacao,wind instrument and air,ponte,flute,blow,3,0.24328652,True,False,False,False
+minilm-multilingue-int8,confirmacao,wind instrument and air,ponte,blow,air,3,0.62458897,True,True,True,True
+minilm-multilingue-int8,confirmacao,wind instrument and air,ponte,air,oxidation,2,0.54098833,True,True,True,True
+minilm-multilingue-int8,confirmacao,wind instrument and air,extra,blow,bow,1,0.41469923,True,True,True,False
+minilm-multilingue-int8,confirmacao,wind instrument and air,extra,flute,clarinet,3,0.78362989,True,True,True,True
+minilm-multilingue-int8,confirmacao,wind instrument and air,extra,oxidation,shoelace,0,0.19005764,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,baking,ponte,wheat,flour,3,0.66563189,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,baking,ponte,flour,dough,2,0.68048042,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,baking,ponte,dough,bread,3,0.67893541,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,baking,extra,wheat,wheel,1,0.21666813,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,baking,extra,flour,compass,0,0.19321227,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,baking,extra,bread,comet,0,0.11625196,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,racket sports,ponte,badminton,racket,3,0.40544283,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,racket sports,ponte,racket,tennis,3,0.48694271,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,racket sports,ponte,tennis,court,3,0.44698325,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,racket sports,extra,racket,rocket,1,0.24493618,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,racket sports,extra,badminton,horn,0,0.12372351,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,racket sports,extra,court,cinnamon,0,0.06724823,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,geography,ponte,map,border,2,0.46061254,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,geography,ponte,border,country,3,0.58608997,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,geography,ponte,country,flag,2,0.42867026,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,geography,extra,map,mop,1,0.01454768,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,geography,extra,border,boarder,1,0.38367265,True,False,False,True
+glove-50d-e-fasttext-300d,calibracao,geography,extra,flag,yogurt,0,0.07553885,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,planting,ponte,seed,germination,3,0.52569914,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,planting,ponte,germination,sprout,3,0.40483576,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,planting,ponte,sprout,garden,2,0.40491265,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,planting,extra,seed,seek,1,0.27681619,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,planting,extra,garden,gardenia,2,0.45216364,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,planting,extra,sprout,customs,0,0.01191839,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,kitchen,ponte,pan,frying,3,0.64306641,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,kitchen,ponte,frying,potato,2,0.52465004,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,kitchen,ponte,potato,mash,3,0.57051444,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,kitchen,extra,potato,potion,1,0.31013674,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,kitchen,extra,mash,mask,1,0.26944888,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,kitchen,extra,frying,baton,0,0.22896969,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,air travel,ponte,airport,boarding,3,0.48153460,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,air travel,ponte,boarding,passenger,3,0.56229848,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,air travel,ponte,passenger,luggage,2,0.61847651,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,air travel,extra,boarding,hoarding,1,0.17170097,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,air travel,extra,passenger,passage,1,0.36608958,True,False,False,True
+glove-50d-e-fasttext-300d,calibracao,air travel,extra,luggage,dew,0,0.11626940,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,citizenship,ponte,election,vote,3,0.75898015,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,citizenship,ponte,vote,ballot,3,0.75323308,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,citizenship,ponte,ballot,secrecy,2,0.30612209,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,citizenship,extra,election,elevation,1,0.28772411,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,citizenship,extra,ballot,penguin,0,0.05067753,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,citizenship,extra,vote,voltage,0,0.16867420,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,space exploration,ponte,astronaut,rocket,3,0.37032735,True,False,False,True
+glove-50d-e-fasttext-300d,calibracao,space exploration,ponte,rocket,launch,3,0.66170716,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,space exploration,ponte,launch,countdown,2,0.51358879,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,space exploration,extra,astronaut,astrologer,1,0.36205533,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,space exploration,extra,rocket,pocket,1,0.32492104,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,space exploration,extra,countdown,planter,0,-0.09836222,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,emotional support,ponte,fear,courage,2,0.47380245,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,emotional support,ponte,courage,confidence,2,0.58209991,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,emotional support,ponte,confidence,friendship,2,0.50721514,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,emotional support,extra,fear,feat,1,0.22130561,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,emotional support,extra,confidence,condiment,0,0.07120053,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,emotional support,extra,friendship,rust,0,0.13139203,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,embroidery,ponte,needle,thread,3,0.61391163,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,embroidery,ponte,thread,embroidery,3,0.53192919,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,embroidery,ponte,embroidery,ornament,2,0.57544971,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,embroidery,extra,needle,needlework,3,0.40371042,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,embroidery,extra,thread,threat,1,0.28340784,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,embroidery,extra,ornament,asphalt,0,0.28574812,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,photography,ponte,photographer,camera,3,0.55602872,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,photography,ponte,camera,portrait,3,0.48005486,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,photography,ponte,portrait,frame,2,0.47749370,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,photography,extra,photographer,photosynthesis,1,0.00908199,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,photography,extra,portrait,report,1,0.31882423,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,photography,extra,frame,bean,0,0.27487689,True,False,False,False
+glove-50d-e-fasttext-300d,calibracao,road trip,ponte,driver,car,3,0.76575226,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,road trip,ponte,car,road,2,0.60574734,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,road trip,ponte,road,toll,3,0.50096196,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,road trip,extra,driver,rider,2,0.64559257,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,road trip,extra,car,cart,1,0.63579631,True,True,True,True
+glove-50d-e-fasttext-300d,calibracao,road trip,extra,toll,ladle,0,-0.01546852,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,sheep farming,ponte,wool,sheep,3,0.57238072,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,sheep farming,ponte,sheep,shepherd,3,0.53978044,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,sheep farming,ponte,shepherd,flock,3,0.46583235,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,sheep farming,ponte,flock,field,2,0.27366346,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,sheep farming,extra,wool,wolf,1,0.28103402,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,sheep farming,extra,shepherd,scarecrow,1,0.25665715,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,sheep farming,extra,flock,double,0,0.21826625,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,making pizza,ponte,tomato,sauce,3,0.70644391,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,making pizza,ponte,sauce,pizza,2,0.57768196,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,making pizza,ponte,pizza,oven,3,0.42541152,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,making pizza,extra,tomato,tomb,1,0.11820695,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,making pizza,extra,pizza,calzone,3,0.57089788,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,making pizza,extra,oven,peacock,0,0.06963854,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,horse riding,ponte,horse,rein,3,0.23673230,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,horse riding,ponte,rein,horseman,3,0.08097079,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,horse riding,ponte,horseman,saddle,3,0.40067217,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,horse riding,extra,saddle,sadly,1,0.21301244,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,horse riding,extra,horse,hoarse,1,0.23484311,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,horse riding,extra,rein,drizzle,0,0.08947444,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,keeping time,ponte,deadline,delay,3,0.64206761,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,keeping time,ponte,delay,clock,2,0.45111108,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,keeping time,ponte,clock,pendulum,3,0.54870141,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,keeping time,extra,deadline,headline,1,0.35571092,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,keeping time,extra,delay,meeting,2,0.46848795,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,keeping time,extra,pendulum,almond,0,0.09842527,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,breathing,ponte,asthma,breathing,3,0.51795930,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,breathing,ponte,breathing,lung,3,0.59963417,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,breathing,ponte,lung,oxygen,3,0.47688839,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,breathing,extra,asthma,plasma,1,0.30906427,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,breathing,extra,lung,stomach,2,0.59412724,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,breathing,extra,breathing,forklift,0,0.21127933,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,wall painting,ponte,paint,brush,3,0.69818681,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,wall painting,ponte,brush,wall,2,0.45051336,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,wall painting,ponte,wall,plaster,3,0.53648382,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,wall painting,extra,brush,brunch,1,0.16964331,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,wall painting,extra,paint,painter,3,0.47485146,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,wall painting,extra,plaster,ant,0,0.17822039,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,public safety,ponte,guard,police,2,0.61468577,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,public safety,ponte,police,crime,3,0.58425438,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,public safety,ponte,crime,prison,3,0.54417264,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,public safety,extra,crime,cream,1,0.11817613,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,public safety,extra,police,nurse,1,0.43435779,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,public safety,extra,prison,sequin,0,0.07713737,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,match at the stadium,ponte,pitch,stadium,3,0.51107144,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,match at the stadium,ponte,stadium,bleachers,3,0.57933176,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,match at the stadium,ponte,bleachers,ticket,2,0.37048957,True,False,False,True
+glove-50d-e-fasttext-300d,confirmacao,match at the stadium,extra,pitch,pinch,1,0.56893098,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,match at the stadium,extra,bleachers,counter,1,0.14351502,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,match at the stadium,extra,ticket,hedgehog,0,-0.04728609,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,storm,ponte,lightning,thunder,3,0.69383156,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,storm,ponte,thunder,storm,3,0.50800914,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,storm,ponte,storm,hail,3,0.57566208,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,storm,extra,thunder,tundra,1,0.24433798,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,storm,extra,hail,hair,1,0.24481830,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,storm,extra,storm,pillow,0,0.20269540,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,print advertising,ponte,poster,advertising,2,0.49655569,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,print advertising,ponte,advertising,announcement,3,0.38436151,True,False,False,True
+glove-50d-e-fasttext-300d,confirmacao,print advertising,ponte,announcement,newspaper,2,0.46206078,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,print advertising,extra,poster,postcard,1,0.58417332,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,print advertising,extra,newspaper,news,3,0.73391676,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,print advertising,extra,announcement,scorpion,0,0.08831123,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,personal hygiene,ponte,soap,foam,3,0.36634856,True,False,False,True
+glove-50d-e-fasttext-300d,confirmacao,personal hygiene,ponte,foam,bath,2,0.37490392,True,False,False,True
+glove-50d-e-fasttext-300d,confirmacao,personal hygiene,ponte,bath,towel,3,0.52722597,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,personal hygiene,extra,soap,soar,1,0.11070034,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,personal hygiene,extra,bath,bathroom,3,0.63206446,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,personal hygiene,extra,towel,propeller,0,0.20514926,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,desert landscape,ponte,sand,dune,3,0.56689870,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,desert landscape,ponte,dune,desert,3,0.45032167,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,desert landscape,ponte,desert,oasis,3,0.59591746,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,desert landscape,extra,sand,sandal,1,0.36965242,True,False,False,True
+glove-50d-e-fasttext-300d,confirmacao,desert landscape,extra,sand,sift,2,0.37542880,True,False,False,True
+glove-50d-e-fasttext-300d,confirmacao,desert landscape,extra,oasis,earring,0,0.15006208,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,petroleum products,ponte,petroleum,gasoline,3,0.66115296,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,petroleum products,ponte,gasoline,fuel,3,0.78640395,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,petroleum products,ponte,fuel,combustion,3,0.63352275,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,petroleum products,extra,gasoline,gazelle,1,0.02959619,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,petroleum products,extra,petroleum,reserve,2,0.44947410,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,petroleum products,extra,combustion,blackboard,0,0.07571197,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,ballet show,ponte,ballet,slipper,3,0.29265139,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,ballet show,ponte,slipper,stage,2,0.21126613,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,ballet show,ponte,stage,audience,3,0.53175545,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,ballet show,extra,ballet,ballast,1,0.14129250,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,ballet show,extra,stage,backstage,3,0.53299570,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,ballet show,extra,audience,persimmon,0,0.04086775,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,octopus anatomy,ponte,octopus,tentacle,3,0.60267633,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,octopus anatomy,ponte,tentacle,sucker,3,0.43755129,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,octopus anatomy,ponte,sucker,suction,3,0.40831235,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,octopus anatomy,extra,octopus,optics,1,0.15845710,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,octopus anatomy,extra,tentacle,tentative,1,0.16115318,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,octopus anatomy,extra,suction,binoculars,0,0.27500498,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,construction site,ponte,architect,project,3,0.47027019,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,construction site,ponte,project,construction,2,0.67701006,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,construction site,ponte,construction,scaffold,3,0.37422496,True,False,False,True
+glove-50d-e-fasttext-300d,confirmacao,construction site,extra,architect,archer,1,0.38317227,True,False,False,True
+glove-50d-e-fasttext-300d,confirmacao,construction site,extra,project,planning,3,0.66461754,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,construction site,extra,scaffold,sausage,0,0.21436355,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,group singing,ponte,microphone,voice,3,0.60612714,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,group singing,ponte,voice,singing,3,0.63018084,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,group singing,ponte,singing,choir,3,0.70066369,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,group singing,extra,singing,stinging,1,0.27938488,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,group singing,extra,choir,chorus,3,0.75504500,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,group singing,extra,voice,vice,1,0.32398188,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,dairy,ponte,butter,milk,3,0.70170236,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,dairy,ponte,milk,cheese,3,0.69191766,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,dairy,ponte,cheese,rennet,3,0.49729553,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,dairy,extra,butter,butler,1,0.18217096,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,dairy,extra,cheese,crackers,3,0.61225593,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,dairy,extra,rennet,wax,0,0.25818339,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,upholstery,ponte,sofa,upholstery,3,0.57525188,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,upholstery,ponte,upholstery,leather,2,0.71007395,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,upholstery,ponte,leather,tannery,3,0.51987427,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,upholstery,extra,leather,lather,1,0.25459698,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,upholstery,extra,sofa,armchair,3,0.51340950,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,upholstery,extra,tannery,cup,0,0.02380759,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,hands and fingerprints,ponte,polish,nail,3,0.34825313,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,hands and fingerprints,ponte,nail,finger,3,0.55181503,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,hands and fingerprints,ponte,finger,fingerprint,2,0.40536955,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,hands and fingerprints,extra,polish,polite,1,0.19359103,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,hands and fingerprints,extra,finger,wrist,2,0.67810947,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,hands and fingerprints,extra,fingerprint,eggplant,0,0.11039502,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,paid work,ponte,resume,job,3,0.56756997,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,paid work,ponte,job,salary,3,0.60591418,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,paid work,ponte,salary,income,3,0.64503741,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,paid work,extra,resume,residue,1,0.18985271,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,paid work,extra,job,jab,1,0.15499747,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,paid work,extra,salary,gecko,0,-0.06908324,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,thaw,ponte,glacier,ice,3,0.52406996,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,thaw,ponte,ice,thaw,3,0.39993656,True,False,True,True
+glove-50d-e-fasttext-300d,confirmacao,thaw,ponte,thaw,warming,2,0.46433884,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,thaw,extra,glacier,frost,2,0.40402603,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,thaw,extra,ice,dice,1,0.28343061,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,thaw,extra,warming,drum,0,0.16060326,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,medical prescription,ponte,doctor,appointment,3,0.50716197,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,medical prescription,ponte,appointment,prescription,3,0.37837672,True,False,False,True
+glove-50d-e-fasttext-300d,confirmacao,medical prescription,ponte,prescription,medicine,3,0.57781231,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,medical prescription,extra,appointment,apportionment,1,0.24806711,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,medical prescription,extra,prescription,pharmacy,3,0.59705472,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,medical prescription,extra,doctor,carpet,0,0.16222307,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,wind instrument and air,ponte,flute,blow,3,0.22659463,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,wind instrument and air,ponte,blow,air,3,0.50486881,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,wind instrument and air,ponte,air,oxidation,2,0.24170300,True,False,False,False
+glove-50d-e-fasttext-300d,confirmacao,wind instrument and air,extra,blow,bow,1,0.51951855,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,wind instrument and air,extra,flute,clarinet,3,0.82081056,True,True,True,True
+glove-50d-e-fasttext-300d,confirmacao,wind instrument and air,extra,oxidation,shoelace,0,0.04192810,True,False,False,False
